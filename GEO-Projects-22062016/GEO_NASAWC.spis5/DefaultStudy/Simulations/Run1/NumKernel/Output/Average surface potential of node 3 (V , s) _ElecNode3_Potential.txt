@@ -1,0 +1,3 @@
+Time (s), esn 3 average surface potential (V), esn 3 ground potential (V), esn 3 min surface potential (V), esn 3 max surface potential (V)
+65.86519, 4.814098, 1.2953173, 3.9295516, 6.3676496
+83.34, 0.17480099, -36.78045, -4.0439653, 7.343126

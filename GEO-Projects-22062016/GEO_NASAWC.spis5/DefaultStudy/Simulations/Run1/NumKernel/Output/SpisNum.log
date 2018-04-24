@@ -1,0 +1,2297 @@
+Default output path for SPIS/NUM set to /d/mateo/scr1/SPIS-Projects/NRP-Validations/2016.06.SPIS-SCIENCE-EtoE/GEO-Projects-XXXX2016/GEO_NASAWC.spis5/DefaultStudy/Simulations/Run1/NumKernel/Output/
+Default input path for SPIS/NUM set to /d/mateo/scr1/SPIS-Projects/NRP-Validations/2016.06.SPIS-SCIENCE-EtoE/GEO-Projects-XXXX2016/GEO_NASAWC.spis5/DefaultStudy/Simulations/Run1/NumKernel/Input/
+Serialising object of type [Lspis.Top.Default.GlobalParameter; in file /d/mateo/scr1/SPIS-Projects/NRP-Validations/2016.06.SPIS-SCIENCE-EtoE/GEO-Projects-XXXX2016/GEO_NASAWC.spis5/DefaultStudy/Simulations/Run1/NumKernel/Output/globalParOut.gp
+Serialising object of type [Lspis.Top.Default.LocalParameter; in file /d/mateo/scr1/SPIS-Projects/NRP-Validations/2016.06.SPIS-SCIENCE-EtoE/GEO-Projects-XXXX2016/GEO_NASAWC.spis5/DefaultStudy/Simulations/Run1/NumKernel/Output/localParOut.lp
+Serialising object of type [Lspis.Surf.SurfInteract.GenericParamSet; in file /d/mateo/scr1/SPIS-Projects/NRP-Validations/2016.06.SPIS-SCIENCE-EtoE/GEO-Projects-XXXX2016/GEO_NASAWC.spis5/DefaultStudy/Simulations/Run1/NumKernel/Output/genericParamSetsOut.gps
+Starting building simulation from UI parameters
+Parameter monitorVolInteractions not found in global parameter list = returning default value: 1
+SPIS-GEO Automatic settings will be applied to this simulation
+Parameter maxPotVariations not found in global parameter list = returning default value: -1.0 V
+SPIS-GEO mode > 1 : limitation of maximal potential variations to -1.0 V
+Local parameter Id 0 is BackGroundDens
+Local parameter Id 1 is VolInteracFlag
+Local parameter Id 2 is IncomPart
+Local parameter Id 3 is OutgoPart
+Local parameter Id 4 is BdDiriFlag
+Local parameter Id 5 is BdFourAlpha
+Local parameter Id 6 is BdDiriPot
+Local parameter Id 7 is BdFourValue
+Local parameter Id 8 is BdFourFlag
+Local parameter Id 9 is ElecSecEmisOnWire
+Local parameter Id 10 is ImposedEmittedCurrentFlag
+Local parameter Id 11 is SunFluxOnWire
+Local parameter Id 12 is ImposedCollectedCurrentDensityOnWire
+Local parameter Id 13 is PhotoEmisOnWire
+Local parameter Id 14 is ProtSecEmisOnWire
+Local parameter Id 15 is ImposedCollectedCurrentFlag
+Local parameter Id 16 is SunFlux
+Local parameter Id 17 is ImposedEmittedCurrentDensity
+Local parameter Id 18 is ProtSecEmis
+Local parameter Id 19 is ImposedEmittedCurrentDensityOnWire
+Local parameter Id 20 is ImposedEmittedCurrentFlagOnWire
+Local parameter Id 21 is ElecSecEmis
+Local parameter Id 22 is ImposedCollectedCurrentFlagOnWire
+Local parameter Id 23 is PhotoEmis
+Local parameter Id 24 is ImposedCollectedCurrentDensity
+Local parameter Id 25 is EdgeElecNodeId
+Local parameter Id 26 is ElecNodeId
+Local parameter Id 27 is IndConduct
+Local parameter Id 28 is VolConduct
+Local parameter Id 29 is SurfConduct
+Local parameter Id 30 is SCDiriFlag
+Local parameter Id 31 is SCDiriPot
+Local parameter Id 32 is SCFourAlpha
+Local parameter Id 33 is SCFourValue
+Local parameter Id 34 is SCDiriPotEdge
+Local parameter Id 35 is SCDiriPotSurf
+Local parameter Id 36 is SCFourFlag
+Local parameter Id 37 is Temperature
+Local parameter Id 38 is MatThickness
+Local parameter Id 39 is SurfThicknessS
+Local parameter Id 40 is EdgeRadiusS
+Local parameter Id 41 is SourceMachOnWire
+Local parameter Id 42 is SourceCurrent
+Local parameter Id 43 is SourceCurrentOnWire
+Local parameter Id 44 is SourceId
+Local parameter Id 45 is SourceTempOnWire
+Local parameter Id 46 is SourceMach
+Local parameter Id 47 is SourceIdOnWire
+Local parameter Id 48 is SourceTemp
+Local parameter Id 49 is MatModelId
+Local parameter Id 50 is MatModelIdOnEdge
+Local parameter Id 51 is InstrumentSupport
+Local parameter Id 52 is MatTypeId
+Local parameter Id 53 is MatTypeIdOnEdge
+Local parameter Id 54 is MatTypeId
+Local parameter Id 55 is MatTypeIdOnEdge
+Simulation was built from UI parameters
+spacecraft surface : 180.12268m2
+Parameter MagMomentx not found in global parameter list = returning default value: 0.0 m-3.T
+Parameter MagMomenty not found in global parameter list = returning default value: 0.0 m-3.T
+Parameter MagMomentz not found in global parameter list = returning default value: 0.0 m-3.T
+Parameter Gx not found in global parameter list = returning default value: 0.0 m.s-2
+Parameter Gy not found in global parameter list = returning default value: 0.0 m.s-2
+Parameter Gz not found in global parameter list = returning default value: 0.0 m.s-2
+Parameter SeismicNormalFrequency not found in global parameter list = returning default value: 0.0 s-1
+Parameter SeismicTransverseFrequency1 not found in global parameter list = returning default value: 0.0 s-1
+Parameter SeismicTransverseFrequency2 not found in global parameter list = returning default value: 0.0 s-1
+Parameter SeismicNormalPhase not found in global parameter list = returning default value: 0.0 -
+Parameter SeismicTransversePhase1 not found in global parameter list = returning default value: 0.0 -
+Parameter SeismicTransversePhase2 not found in global parameter list = returning default value: 0.0 -
+Parameter SeismicNormalAmplitude not found in global parameter list = returning default value: 0.0 m
+Parameter SeismicTransverseAmplitude1 not found in global parameter list = returning default value: 0.0 m
+Parameter SeismicTransverseAmplitude2 not found in global parameter list = returning default value: 0.0 m
+Parameter refPot not found in global parameter list = returning default value: 1.0 -
+Parameter ionMagnetized not found in global parameter list = returning default value: 1
+Parameter initPICSample not found in global parameter list = returning default value: 1
+Population ions1 --> spacecraft velocity included in population velocity in SC reference frame
+Number of threads runs in parallel for particle pushing: 4
+Population of ions1 successfully created (type spis.Vol.VolDistrib.BackTrackingVolDistrib)
+Parameter electronMagnetized not found in global parameter list = returning default value: 1
+Population of elec1 (type GlobalMaxwellBoltzmannVolDistrib) could not be created with an EField (electric field with singularity handling close to wires and thin plates),
+ which is not necessarily a problem for some types (e.g. GlobalMaxwellBoltzmannVolDistrib)
+ => Trying now to create it with a basic VolField as electric field (no singularity handling)
+Population elec1 --> spacecraft velocity included in population velocity in SC reference frame
+Population of elec1 successfully created (type spis.Vol.VolDistrib.GlobalMaxwellBoltzmannVolDistrib)
+Parameter ionMagnetized2 not found in global parameter list = returning default value: 1
+Population of ions2 not created because its density was defined as 0
+Parameter electronMagnetized2 not found in global parameter list = returning default value: 1
+Population of elec2 not created because its density was defined as 0
+Missing properties from list :
+  1) SUBE
+GenericParamSet: input Erosion property is missing or inapropriate for ka2k-NASCAP => this parameter is set to the default typical value (5 eV)
+Missing properties from list :
+  1) SUBE
+GenericParamSet: input Erosion property is missing or inapropriate for te2k-NASCAP => this parameter is set to the default typical value (5 eV)
+Missing properties from list :
+  1) SUBE
+GenericParamSet: input Erosion property is missing or inapropriate for osr2k-NASCAP => this parameter is set to the default typical value (5 eV)
+Missing properties from list :
+  1) SUBE
+GenericParamSet: input Erosion property is missing or inapropriate for bk2k-NASCAP => this parameter is set to the default typical value (5 eV)
+Missing properties from list :
+  1) SUBE
+GenericParamSet: input Erosion property is missing or inapropriate for sc2k-NASCAP => this parameter is set to the default typical value (5 eV)
+Missing properties from list :
+  1) SUBE
+GenericParamSet: input Erosion property is missing or inapropriate for np2k-NASCAP => this parameter is set to the default typical value (5 eV)
+Missing properties from list :
+  1) SUBE
+GenericParamSet: input Erosion property is missing or inapropriate for gr2k-NASCAP => this parameter is set to the default typical value (5 eV)
+the Circuit File circuit.txt was read, and was found to have 7 components:
+V between node 0 and node 1, value = 0.0
+V between node 0 and node 2, value = 0.0
+V between node 0 and node 3, value = 0.0
+V between node 0 and node 4, value = 0.0
+V between node 0 and node 5, value = 0.0
+V between node 0 and node 6, value = 0.0
+V between node 0 and node 7, value = 0.0
+Photo-emission is turned on from global sun directionNumber of threads runs in parallel for particle pushing: 4
+Parameter photoElecTailKurtosis not found in global parameter list = returning default value: 1000.0 -
+Parameter photoElecCoreKurtosis not found in global parameter list = returning default value: 0.0 -
+Parameter photoElecSkewness not found in global parameter list = returning default value: 0.0 -
+Parameter photoElecLowVAttenuation not found in global parameter list = returning default value: 0.0 -
+Impossible to create a GenericPhotoEmInteractor a BasicPhotoEmInteractor has been created
+ with photo-electron dynamics simulation (PIC)
+Number of threads runs in parallel for particle pushing: 4
+|----- SPIS-GEO : Integration duration and time step of photoElec automatically set to 1.1922335E-6 s
+|----- SPIS-GEO : Integration duration of plasma automatically set to 1.1922335E-6 s
+|----- SPIS-GEO : Integration time steps of plasma automatically set to 1.1922335E-6 s
+Parameter photoElectronSecondaryEmission not found in global parameter list = returning default value: 0
+Parameter dustEmissionFlag not found in global parameter list = returning default value: 1
+Parameter dustAutoSource not found in global parameter list = returning default value: 1
+Secondary emission from electron impact is turned onImpossible to create a GenericSEEEInteractor a BasicSEEEInteractor has been created
+ secondary-electron dynamics is simulated (PIC) for ambiant electrons
+Number of threads runs in parallel for particle pushing: 4
+Number of threads runs in parallel for particle pushing: 4
+|----- SPIS-GEO : Integration duration and time step of secondElec True from ambiant electrons automatically set to 1.1922335E-6 s
+|----- SPIS-GEO : Integration duration of plasma automatically set to 1.1922335E-6 s
+|----- SPIS-GEO : Integration time steps of plasma automatically set to 1.1922335E-6 s
+|----- SPIS-GEO : Integration duration and time step of secondElec BS from ambiant electrons automatically set to 1.1922335E-6 s
+|----- SPIS-GEO : Integration duration of plasma automatically set to 1.1922335E-6 s
+|----- SPIS-GEO : Integration time steps of plasma automatically set to 1.1922335E-6 s
+ secondary emission from secondary-electrons is not modelled for ambiant electrons
+Secondary emission from proton impact is turned on for the bi-maxwellian environment ("ion1" and "ion2" populations)
+Impossible to create a GenericSEEPInteractor a BasicSEEPInteractor has been created
+ secondary-electron under proton impact dynamics is simulated (PIC) for ambiant protons
+Number of threads runs in parallel for particle pushing: 4
+|----- SPIS-GEO : Integration duration and time step of secondElec from ambiant protons automatically set to 1.1922335E-6 s
+|----- SPIS-GEO : Integration duration of plasma automatically set to 1.1922335E-6 s
+|----- SPIS-GEO : Integration time steps of plasma automatically set to 1.1922335E-6 s
+ secondary emission from secondary-electrons is not modelled for ambiant protons
+FunctionOfDistribFromFuncOfPart.compute: incoming flux had zero summation duration (may be possible at simulation start)
+FunctionOfDistribFromFuncOfPart.compute: incoming flux had zero summation duration (may be possible at simulation start)
+Warning: parameter not found to build volume interactor: Parameter volInteract not found in global parameter list (multiple volume interactors still possible)
+maximal potential induced by the v cross b field on spacecraft surface : 0.0V
+minimal potential induced by the v cross b field on spacecraft surface : 0.0V
+Parameter dustMapsMonitorStep not found in global parameter list = returning default value: 0.0 s
+Parameter dustEmissionFlag not found in global parameter list = returning default value: 1
+Parameter dustAutoSource not found in global parameter list = returning default value: 1
+Parameter vectorMonitoringFlag not found in global parameter list = returning default value: 0
+Parameter momentsMonitoringFlag not found in global parameter list = returning default value: 0
+maximal potential induced by the v cross b field on plasma volume : 0.0V
+minimal potential induced by the v cross b field on plasma volume : 0.0V
+Pop 0 is ions1 type spis.Vol.VolDistrib.BackTrackingVolDistrib particle type H+
+ -> with density 236000.0m-3
+ -> with temperature 29500.0eV
+Pop 1 is elec1 type spis.Vol.VolDistrib.GlobalMaxwellBoltzmannVolDistrib particle type electron
+Pop 2 is photoElec type spis.Vol.VolDistrib.PICVolDistrib particle type electron
+Pop 3 is secondElec True from ambiant electrons type spis.Vol.VolDistrib.PICVolDistrib particle type electron
+Pop 4 is secondElec BS from ambiant electrons type spis.Vol.VolDistrib.PICVolDistrib particle type electron
+Pop 5 is secondElec from ambiant protons type spis.Vol.VolDistrib.PICVolDistrib particle type electron
+Plasma integration duration is : 1.1922335E-6
+Plasma integration time step is : 1.1922335E-6
+Parameter instrumentNb not found in global parameter list = returning default value: 0
+Unit1.parse warning: unit [] not recognized => considered as dimensionless
+FunctionOfDistribFromFuncOfPart.compute: incoming flux had zero summation duration (may be possible at simulation start)
+FunctionOfDistribFromFuncOfPart.compute: incoming flux had zero summation duration (may be possible at simulation start)
+
+Time 0.0 s => POTENTIALS: 
+ 0.0 V on SC ground (node0),	0.0 V on node1 ground,	0.0 V on node2 ground,	0.0 V on node3 ground,	0.0 V on node4 ground,	0.0 V on node5 ground,	0.0 V on node6 ground,	0.0 V on node7 ground,	
+      0.0 V on top of node0,	0.0 V on top of node1,	0.0 V on top of node2,	0.0 V on top of node3,	0.0 V on top of node4,	0.0 V on top of node5,	0.0 V on top of node6,	0.0 V on top of node7,	
+      0.0 Vmin onTopOfNode0,	0.0 Vmin onTopOfNode1,	0.0 Vmin onTopOfNode2,	0.0 Vmin onTopOfNode3,	0.0 Vmin onTopOfNode4,	0.0 Vmin onTopOfNode5,	0.0 Vmin onTopOfNode6,	0.0 Vmin onTopOfNode7,	
+      0.0 Vmax onTopOfNode0,	0.0 Vmax onTopOfNode1,	0.0 Vmax onTopOfNode2,	0.0 Vmax onTopOfNode3,	0.0 Vmax onTopOfNode4,	0.0 Vmax onTopOfNode5,	0.0 Vmax onTopOfNode6,	0.0 Vmax onTopOfNode7,	
+
+Monitoring numerics of simulation at time 0.0
+ ThreeDUnstructVolMesh: 65889 tetrahedra, 133192 triangles, 78987 edges, 11692 nodes
+  Mesh quality (best = 1): min = 0.12714075, max = 0.98582506, average = 0.68080646
+   histogram of mesh quality: number per interval between min = 0.12714075 and max = 0.98582506 (unit -): 15.0, 89.0, 290.0, 1068.0, 7234.0, 15014.0, 19319.0, 15626.0, 6494.0, 740.0 
+ PICVolDistrib photoElec: 0 particles, last numerical time step used = 0.0s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec True from ambiant electrons: 0 particles, last numerical time step used = 0.0s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec BS from ambiant electrons: 0 particles, last numerical time step used = 0.0s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec from ambiant protons: 0 particles, last numerical time step used = 0.0s (max allowed = 1.1922335E-6s)
+ Last local volume potential change: 0.0V maximum change, and 0.0V average change (last plasma time step = 0.0s)
+Parameter didvRelaxationTime not found in global parameter list = returning default value: 1.0E30 s
+
+Time: 0.0, Dt = 1.0E-4 s
+
+ after SC integration TIME: 1.0E-4, dt = 1.0E-4
+Simulation time step control : dt is 9.999999E-4 s
+
+Time: 1.0E-4, Dt = 9.999999E-4 s
+
+ after SC integration TIME: 0.0011, dt = 9.999999E-4
+Simulation time step control : dt is 0.001268739 s
+
+Time: 0.0011, Dt = 0.001268739 s
+
+ after SC integration TIME: 0.0023687389, dt = 0.001268739
+Simulation time step control : dt is 0.0016041263 s
+
+Time: 0.0023687389, Dt = 0.0016041263 s
+
+ after SC integration TIME: 0.003972865, dt = 0.0016041263
+Simulation time step control : dt is 0.0030356876 s
+
+Time: 0.003972865, Dt = 0.0030356876 s
+
+ after SC integration TIME: 0.007008553, dt = 0.0030356876
+Simulation time step control : dt is 0.007609055 s
+
+Time: 0.007008553, Dt = 0.007609055 s
+
+ after SC integration TIME: 0.014617608, dt = 0.007609055
+Simulation time step control : dt is 0.07609055 s
+
+Time: 0.014617608, Dt = 0.07609055 s
+
+ after SC integration TIME: 0.09070816, dt = 0.07609055
+Simulation time step control : dt is 0.7609055 s
+
+Time: 0.09070816, Dt = 0.7609055 s
+
+ after SC integration TIME: 0.095544465, dt = 0.004836311
+Simulation time step control : dt is 0.005095968 s
+
+Time: 0.095544465, Dt = 0.005095968 s
+
+ after SC integration TIME: 0.09777749, dt = 0.002233025
+Simulation time step control : dt is 0.002387716 s
+
+Time: 0.09777749, Dt = 0.002387716 s
+
+ after SC integration TIME: 0.10016521, dt = 0.002387716
+Simulation time step control : dt is 0.0033450914 s
+
+Time: 0.10016521, Dt = 0.0033450914 s
+
+ after SC integration TIME: 0.1035103, dt = 0.0033450914
+Simulation time step control : dt is 0.0054651974 s
+
+Time: 0.1035103, Dt = 0.0054651974 s
+
+ after SC integration TIME: 0.106242895, dt = 0.0027325987
+Simulation time step control : dt is 0.0040414915 s
+
+Time: 0.106242895, Dt = 0.0040414915 s
+
+ after SC integration TIME: 0.10777784, dt = 0.00153494
+Simulation time step control : dt is 0.0016282902 s
+
+Time: 0.10777784, Dt = 0.0016282902 s
+
+ after SC integration TIME: 0.10940613, dt = 0.0016282902
+Simulation time step control : dt is 0.004379536 s
+
+Time: 0.10940613, Dt = 0.004379536 s
+
+ after SC integration TIME: 0.1115959, dt = 0.002189768
+Simulation time step control : dt is 0.0035791239 s
+
+Time: 0.1115959, Dt = 0.0035791239 s
+
+ after SC integration TIME: 0.11517502, dt = 0.0035791239
+Simulation time step control : dt is 0.0058579156 s
+
+Time: 0.11517502, Dt = 0.0058579156 s
+
+ after SC integration TIME: 0.12103294, dt = 0.0058579156
+Simulation time step control : dt is 0.0063180374 s
+
+Time: 0.12103294, Dt = 0.0063180374 s
+
+ after SC integration TIME: 0.124191955, dt = 0.0031590187
+Simulation time step control : dt is 0.0034774388 s
+
+Time: 0.124191955, Dt = 0.0034774388 s
+
+ after SC integration TIME: 0.1276694, dt = 0.0034774388
+Simulation time step control : dt is 0.008440568 s
+
+Time: 0.1276694, Dt = 0.008440568 s
+
+ after SC integration TIME: 0.13610996, dt = 0.008440568
+Simulation time step control : dt is 0.08440568 s
+
+Time: 0.13610996, Dt = 0.08440568 s
+
+ after SC integration TIME: 0.22051564, dt = 0.08440568
+Simulation time step control : dt is 0.84405684 s
+
+Time: 0.22051564, Dt = 0.84405684 s
+
+ after SC integration TIME: 0.22532082, dt = 0.004805165
+Simulation time step control : dt is 0.004905776 s
+
+Time: 0.22532082, Dt = 0.004905776 s
+
+ after SC integration TIME: 0.23022659, dt = 0.004905776
+Simulation time step control : dt is 0.0069929953 s
+
+Time: 0.23022659, Dt = 0.0069929953 s
+
+ after SC integration TIME: 0.23721959, dt = 0.0069929953
+Simulation time step control : dt is 0.011337792 s
+
+Time: 0.23721959, Dt = 0.011337792 s
+
+ after SC integration TIME: 0.24855737, dt = 0.011337792
+Simulation time step control : dt is 0.11337792 s
+
+Time: 0.24855737, Dt = 0.11337792 s
+
+ after SC integration TIME: 0.2580978, dt = 0.009540417
+Simulation time step control : dt is 0.009659736 s
+
+Time: 0.2580978, Dt = 0.009659736 s
+
+ after SC integration TIME: 0.26775753, dt = 0.009659736
+Simulation time step control : dt is 0.096597366 s
+
+Time: 0.26775753, Dt = 0.096597366 s
+
+ after SC integration TIME: 0.36435488, dt = 0.096597366
+Simulation time step control : dt is 0.9659737 s
+
+Time: 0.36435488, Dt = 0.9659737 s
+
+ after SC integration TIME: 1.3303286, dt = 0.9659737
+Simulation time step control : dt is 9.659737 s
+
+Time: 1.3303286, Dt = 9.659737 s
+
+ after SC integration TIME: 1.3329037, dt = 0.0025751696
+Simulation time step control : dt is 0.0027304236 s
+
+Time: 1.3329037, Dt = 0.0027304236 s
+
+ after SC integration TIME: 1.3356341, dt = 0.0027304236
+Simulation time step control : dt is 0.004885214 s
+
+Time: 1.3356341, Dt = 0.004885214 s
+
+ after SC integration TIME: 1.3405193, dt = 0.004885214
+Simulation time step control : dt is 0.008922562 s
+
+Time: 1.3405193, Dt = 0.008922562 s
+
+ after SC integration TIME: 1.3494419, dt = 0.008922562
+Simulation time step control : dt is 0.012901394 s
+
+Time: 1.3494419, Dt = 0.012901394 s
+
+ after SC integration TIME: 1.3623433, dt = 0.012901394
+Simulation time step control : dt is 0.01588587 s
+
+Time: 1.3623433, Dt = 0.01588587 s
+
+ after SC integration TIME: 1.3782291, dt = 0.01588587
+Simulation time step control : dt is 0.022028713 s
+
+Time: 1.3782291, Dt = 0.022028713 s
+
+ after SC integration TIME: 1.4002578, dt = 0.022028713
+Simulation time step control : dt is 0.22028713 s
+
+Time: 1.4002578, Dt = 0.22028713 s
+
+ after SC integration TIME: 1.620545, dt = 0.22028713
+Simulation time step control : dt is 2.2028713 s
+
+Time: 1.620545, Dt = 2.2028713 s
+
+ after SC integration TIME: 1.6497569, dt = 0.029211916
+Simulation time step control : dt is 0.030667182 s
+
+Time: 1.6497569, Dt = 0.030667182 s
+
+ after SC integration TIME: 1.6804241, dt = 0.030667182
+Simulation time step control : dt is 0.3066718 s
+
+Time: 1.6804241, Dt = 0.3066718 s
+
+ after SC integration TIME: 1.987096, dt = 0.3066718
+Simulation time step control : dt is 3.066718 s
+
+Time: 1.987096, Dt = 3.066718 s
+
+ after SC integration TIME: 2.0133123, dt = 0.026216498
+Simulation time step control : dt is 0.026216783 s
+
+Time: 2.0133123, Dt = 0.026216783 s
+
+ after SC integration TIME: 2.039529, dt = 0.026216783
+Simulation time step control : dt is 0.2621678 s
+
+Time: 2.039529, Dt = 0.2621678 s
+
+ after SC integration TIME: 2.301697, dt = 0.2621678
+Simulation time step control : dt is 2.621678 s
+
+Time: 2.301697, Dt = 2.621678 s
+
+ after SC integration TIME: 4.923375, dt = 2.621678
+Simulation time step control : dt is 26.216782 s
+
+Time: 4.923375, Dt = 26.216782 s
+
+ after SC integration TIME: 4.930381, dt = 0.0070055164
+Simulation time step control : dt is 0.0073829815 s
+
+Time: 4.930381, Dt = 0.0073829815 s
+
+ after SC integration TIME: 4.9377637, dt = 0.0073829815
+Simulation time step control : dt is 0.016725732 s
+
+Time: 4.9377637, Dt = 0.016725732 s
+
+ after SC integration TIME: 4.954489, dt = 0.016725732
+Simulation time step control : dt is 0.029333754 s
+
+Time: 4.954489, Dt = 0.029333754 s
+
+ after SC integration TIME: 4.9838233, dt = 0.029333754
+Simulation time step control : dt is 0.03585345 s
+
+Time: 4.9838233, Dt = 0.03585345 s
+
+ after SC integration TIME: 5.0196767, dt = 0.03585345
+Simulation time step control : dt is 0.055797357 s
+
+Time: 5.0196767, Dt = 0.055797357 s
+
+ after SC integration TIME: 5.075474, dt = 0.055797357
+Simulation time step control : dt is 0.07689646 s
+
+Time: 5.075474, Dt = 0.07689646 s
+
+ after SC integration TIME: 5.1523705, dt = 0.07689646
+Simulation time step control : dt is 0.09929134 s
+
+Time: 5.1523705, Dt = 0.09929134 s
+
+ after SC integration TIME: 5.251662, dt = 0.09929134
+Simulation time step control : dt is 0.99291337 s
+
+Time: 5.251662, Dt = 0.99291337 s
+
+ after SC integration TIME: 6.244575, dt = 0.99291337
+Simulation time step control : dt is 9.929134 s
+
+Time: 6.244575, Dt = 9.929134 s
+
+ after SC integration TIME: 6.290225, dt = 0.045649868
+Simulation time step control : dt is 0.04876564 s
+
+Time: 6.290225, Dt = 0.04876564 s
+
+ after SC integration TIME: 6.3389907, dt = 0.04876564
+Simulation time step control : dt is 0.11119174 s
+
+Time: 6.3389907, Dt = 0.11119174 s
+
+ after SC integration TIME: 6.4501824, dt = 0.11119174
+Simulation time step control : dt is 1.1119174 s
+
+Time: 6.4501824, Dt = 1.1119174 s
+
+ after SC integration TIME: 7.5621, dt = 1.1119174
+Simulation time step control : dt is 11.119174 s
+
+Time: 7.5621, Dt = 11.119174 s
+
+ after SC integration TIME: 7.666745, dt = 0.10464535
+Simulation time step control : dt is 0.109727144 s
+
+Time: 7.666745, Dt = 0.109727144 s
+
+ after SC integration TIME: 7.7764726, dt = 0.109727144
+Simulation time step control : dt is 1.0972714 s
+
+Time: 7.7764726, Dt = 1.0972714 s
+
+ after SC integration TIME: 8.873744, dt = 1.0972714
+Simulation time step control : dt is 10.972714 s
+
+Time: 8.873744, Dt = 10.972714 s
+
+ after SC integration TIME: 9.00219, dt = 0.12844561
+Simulation time step control : dt is 0.13098255 s
+
+Time: 9.00219, Dt = 0.13098255 s
+
+ after SC integration TIME: 9.133172, dt = 0.13098255
+Simulation time step control : dt is 1.3098254 s
+
+Time: 9.133172, Dt = 1.3098254 s
+
+ after SC integration TIME: 10.442997, dt = 1.3098254
+
+In this time interval: 
+  COLLECTED current: -0.0020749413 A total,
+        -2.157374E-4 A on node0,   	-3.7459013E-5 A on node1,   	-7.164895E-6 A on node2,   	-1.9546322E-5 A on node3,   	-5.6234527E-5 A on node4,   	-0.001485117 A on node5,   	-2.1853649E-4 A on node6,   	-3.514548E-5 A on node7,   	
+  EMITTED current: -0.002003968 A total,
+        -2.0945248E-4 A on node0,   	-1.2989769E-5 A on node1,   	-4.7551744E-6 A on node2,   	-1.9362062E-5 A on node3,   	-1.5723013E-5 A on node4,   	-0.001626646 A on node5,   	-9.224308E-5 A on node6,   	-2.2797734E-5 A on node7,   	
+
+Time 10.442997 s => POTENTIALS: 
+ -206.05373 V on SC ground (node0),	-206.05373 V on node1 ground,	-206.05373 V on node2 ground,	-206.05373 V on node3 ground,	-206.05373 V on node4 ground,	-206.05373 V on node5 ground,	-206.05373 V on node6 ground,	-206.05373 V on node7 ground,	
+      -202.50919 V on top of node0,	-206.05365 V on top of node1,	-217.6198 V on top of node2,	-187.8824 V on top of node3,	-206.05368 V on top of node4,	-113.038414 V on top of node5,	-281.57858 V on top of node6,	-234.54068 V on top of node7,	
+      -275.86218 Vmin onTopOfNode0,	-206.05373 Vmin onTopOfNode1,	-217.7372 Vmin onTopOfNode2,	-224.76819 Vmin onTopOfNode3,	-206.05373 Vmin onTopOfNode4,	-135.47516 Vmin onTopOfNode5,	-286.76678 Vmin onTopOfNode6,	-308.1329 Vmin onTopOfNode7,	
+      -134.54306 Vmax onTopOfNode0,	-206.05373 Vmax onTopOfNode1,	-217.47466 Vmax onTopOfNode2,	-147.03983 Vmax onTopOfNode3,	-206.05373 Vmax onTopOfNode4,	-72.64456 Vmax onTopOfNode5,	-280.19876 Vmax onTopOfNode6,	-81.75062 Vmax onTopOfNode7,	
+
+Monitoring numerics of simulation at time 10.442997
+ PICVolDistrib photoElec: 49562 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec True from ambiant electrons: 5789 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec BS from ambiant electrons: 6 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec from ambiant protons: 5707 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ Last local volume potential change: 13.974342V maximum change, and 4.5410285V average change (last plasma time step = 1.1922335E-6s)
+ Warning: last SC local surface potential change was rather large: 33.332V maximum change, and 11.67199V average change
+    it may be due to too small a SC capacitance (1.0E-6F) or too large a time step (last one = 1.3098254s)
+Simulation time step control : dt is 13.098254 s
+
+Time: 10.442997, Dt = 13.098254 s
+
+ after SC integration TIME: 10.63761, dt = 0.1946133
+Simulation time step control : dt is 0.19767179 s
+
+Time: 10.63761, Dt = 0.19767179 s
+
+ after SC integration TIME: 10.835282, dt = 0.19767179
+Simulation time step control : dt is 1.976718 s
+
+Time: 10.835282, Dt = 1.976718 s
+
+ after SC integration TIME: 12.812, dt = 1.976718
+Simulation time step control : dt is 19.76718 s
+
+Time: 12.812, Dt = 19.76718 s
+
+ after SC integration TIME: 12.970828, dt = 0.15882811
+Simulation time step control : dt is 0.16338861 s
+
+Time: 12.970828, Dt = 0.16338861 s
+
+ after SC integration TIME: 13.134217, dt = 0.16338861
+Simulation time step control : dt is 1.6338861 s
+
+Time: 13.134217, Dt = 1.6338861 s
+
+ after SC integration TIME: 14.768104, dt = 1.6338861
+Simulation time step control : dt is 16.338861 s
+
+Time: 14.768104, Dt = 16.338861 s
+
+ after SC integration TIME: 15.279116, dt = 0.5110129
+Simulation time step control : dt is 0.5185781 s
+
+Time: 15.279116, Dt = 0.5185781 s
+
+ after SC integration TIME: 15.797694, dt = 0.5185781
+Simulation time step control : dt is 5.1857815 s
+
+Time: 15.797694, Dt = 5.1857815 s
+
+ after SC integration TIME: 20.983475, dt = 5.1857815
+
+In this time interval: 
+  COLLECTED current: -0.002100766 A total,
+        -2.1589916E-4 A on node0,   	-2.8070397E-5 A on node1,   	-5.8897504E-6 A on node2,   	-2.0910242E-5 A on node3,   	-4.5740413E-5 A on node4,   	-0.0015599552 A on node5,   	-1.964188E-4 A on node6,   	-2.7883032E-5 A on node7,   	
+  EMITTED current: -0.0019947146 A total,
+        -2.0859098E-4 A on node0,   	-1.2763863E-5 A on node1,   	-4.664746E-6 A on node2,   	-1.9321926E-5 A on node3,   	-1.55154E-5 A on node4,   	-0.0016210928 A on node5,   	-9.016392E-5 A on node6,   	-2.260061E-5 A on node7,   	
+
+Time 20.983475 s => POTENTIALS: 
+ -390.35675 V on SC ground (node0),	-390.35675 V on node1 ground,	-390.35675 V on node2 ground,	-390.35675 V on node3 ground,	-390.35675 V on node4 ground,	-390.35675 V on node5 ground,	-390.35675 V on node6 ground,	-390.35675 V on node7 ground,	
+      -397.88138 V on top of node0,	-390.35684 V on top of node1,	-411.4569 V on top of node2,	-345.2649 V on top of node3,	-390.35654 V on top of node4,	-210.7766 V on top of node5,	-538.4715 V on top of node6,	-456.44043 V on top of node7,	
+      -524.7391 Vmin onTopOfNode0,	-390.35675 Vmin onTopOfNode1,	-414.6492 Vmin onTopOfNode2,	-451.39468 Vmin onTopOfNode3,	-390.35675 Vmin onTopOfNode4,	-281.43033 Vmin onTopOfNode5,	-547.7083 Vmin onTopOfNode6,	-780.556 Vmin onTopOfNode7,	
+      -285.20255 Vmax onTopOfNode0,	-390.35675 Vmax onTopOfNode1,	-409.77386 Vmax onTopOfNode2,	-214.41644 Vmax onTopOfNode3,	-390.35675 Vmax onTopOfNode4,	-122.85104 Vmax onTopOfNode5,	-536.73676 Vmax onTopOfNode6,	-128.62395 Vmax onTopOfNode7,	
+
+Monitoring numerics of simulation at time 20.983475
+ PICVolDistrib photoElec: 37748 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec True from ambiant electrons: 4421 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec BS from ambiant electrons: 7 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec from ambiant protons: 4405 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ Last local volume potential change: 25.222672V maximum change, and 12.7724085V average change (last plasma time step = 1.1922335E-6s)
+ Warning: last SC local surface potential change was rather large: 283.8208V maximum change, and 47.71113V average change
+    it may be due to too small a SC capacitance (1.0E-6F) or too large a time step (last one = 5.1857815s)
+Simulation time step control : dt is 51.857815 s
+
+Time: 20.983475, Dt = 51.857815 s
+
+ after SC integration TIME: 21.107504, dt = 0.12402793
+Simulation time step control : dt is 0.12543462 s
+
+Time: 21.107504, Dt = 0.12543462 s
+
+ after SC integration TIME: 21.232939, dt = 0.12543462
+Simulation time step control : dt is 1.2543461 s
+
+Time: 21.232939, Dt = 1.2543461 s
+
+ after SC integration TIME: 22.487284, dt = 1.2543461
+Simulation time step control : dt is 12.543462 s
+
+Time: 22.487284, Dt = 12.543462 s
+
+ after SC integration TIME: 23.32167, dt = 0.83438694
+Simulation time step control : dt is 0.8472458 s
+
+Time: 23.32167, Dt = 0.8472458 s
+
+ after SC integration TIME: 24.168917, dt = 0.8472458
+Simulation time step control : dt is 8.472458 s
+
+Time: 24.168917, Dt = 8.472458 s
+
+ after SC integration TIME: 32.641376, dt = 8.472458
+
+In this time interval: 
+  COLLECTED current: -0.0021443998 A total,
+        -2.0455474E-4 A on node0,   	-2.7827073E-5 A on node1,   	-4.9522946E-6 A on node2,   	-2.3587103E-5 A on node3,   	-4.5587032E-5 A on node4,   	-0.0016174029 A on node5,   	-1.931688E-4 A on node6,   	-2.7319576E-5 A on node7,   	
+  EMITTED current: -0.0019873416 A total,
+        -2.0787983E-4 A on node0,   	-1.26017285E-5 A on node1,   	-4.61523E-6 A on node2,   	-1.928485E-5 A on node3,   	-1.5404448E-5 A on node4,   	-0.0016166146 A on node5,   	-8.850659E-5 A on node6,   	-2.2434808E-5 A on node7,   	
+
+Time 32.641376 s => POTENTIALS: 
+ -595.3449 V on SC ground (node0),	-595.3449 V on node1 ground,	-595.3449 V on node2 ground,	-595.3449 V on node3 ground,	-595.3449 V on node4 ground,	-595.3449 V on node5 ground,	-595.3449 V on node6 ground,	-595.3449 V on node7 ground,	
+      -597.8409 V on top of node0,	-595.3448 V on top of node1,	-622.0797 V on top of node2,	-534.80804 V on top of node3,	-595.34454 V on top of node4,	-327.77673 V on top of node5,	-821.64856 V on top of node6,	-690.4906 V on top of node7,	
+      -802.05066 Vmin onTopOfNode0,	-595.3449 Vmin onTopOfNode1,	-622.72614 Vmin onTopOfNode2,	-694.2803 Vmin onTopOfNode3,	-595.3449 Vmin onTopOfNode4,	-405.74997 Vmin onTopOfNode5,	-839.40674 Vmin onTopOfNode6,	-831.76306 Vmin onTopOfNode7,	
+      -413.5232 Vmax onTopOfNode0,	-595.3449 Vmax onTopOfNode1,	-621.5493 Vmax onTopOfNode2,	-355.21826 Vmax onTopOfNode3,	-595.3449 Vmax onTopOfNode4,	-214.32207 Vmax onTopOfNode5,	-818.68616 Vmax onTopOfNode6,	-202.78253 Vmax onTopOfNode7,	
+
+Monitoring numerics of simulation at time 32.641376
+ PICVolDistrib photoElec: 29669 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec True from ambiant electrons: 3480 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec BS from ambiant electrons: 6 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec from ambiant protons: 3469 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ Last local volume potential change: 37.49292V maximum change, and 10.381162V average change (last plasma time step = 1.1922335E-6s)
+ Warning: last SC local surface potential change was rather large: 134.73608V maximum change, and 71.882935V average change
+    it may be due to too small a SC capacitance (1.0E-6F) or too large a time step (last one = 8.472458s)
+Simulation time step control : dt is 84.72459 s
+
+Time: 32.641376, Dt = 84.72459 s
+
+ after SC integration TIME: 32.831818, dt = 0.19044186
+Simulation time step control : dt is 0.19466932 s
+
+Time: 32.831818, Dt = 0.19466932 s
+
+ after SC integration TIME: 33.026485, dt = 0.19466932
+Simulation time step control : dt is 0.6799978 s
+
+Time: 33.026485, Dt = 0.6799978 s
+
+ after SC integration TIME: 33.706486, dt = 0.6799978
+Simulation time step control : dt is 1.4674509 s
+
+Time: 33.706486, Dt = 1.4674509 s
+
+ after SC integration TIME: 35.173935, dt = 1.4674509
+Simulation time step control : dt is 1.9470828 s
+
+Time: 35.173935, Dt = 1.9470828 s
+
+ after SC integration TIME: 36.147476, dt = 0.9735414
+Simulation time step control : dt is 1.115709 s
+
+Time: 36.147476, Dt = 1.115709 s
+
+ after SC integration TIME: 37.263184, dt = 1.115709
+Simulation time step control : dt is 11.15709 s
+
+Time: 37.263184, Dt = 11.15709 s
+
+ after SC integration TIME: 38.216442, dt = 0.9532569
+Simulation time step control : dt is 1.0019062 s
+
+Time: 38.216442, Dt = 1.0019062 s
+
+ after SC integration TIME: 39.21835, dt = 1.0019062
+Simulation time step control : dt is 10.019062 s
+
+Time: 39.21835, Dt = 10.019062 s
+
+ after SC integration TIME: 49.23741, dt = 10.019062
+
+In this time interval: 
+  COLLECTED current: -0.0020860888 A total,
+        -2.141079E-4 A on node0,   	-2.7089218E-5 A on node1,   	-4.821536E-6 A on node2,   	-2.1187649E-5 A on node3,   	-4.4620672E-5 A on node4,   	-0.0015615069 A on node5,   	-1.8703146E-4 A on node6,   	-2.572275E-5 A on node7,   	
+  EMITTED current: -0.001976505 A total,
+        -2.0691757E-4 A on node0,   	-1.234788E-5 A on node1,   	-4.4932235E-6 A on node2,   	-1.9250974E-5 A on node3,   	-1.5214875E-5 A on node4,   	-0.0016098566 A on node5,   	-8.621605E-5 A on node6,   	-2.2207594E-5 A on node7,   	
+
+Time 49.23741 s => POTENTIALS: 
+ -846.76166 V on SC ground (node0),	-846.76166 V on node1 ground,	-846.76166 V on node2 ground,	-846.76166 V on node3 ground,	-846.76166 V on node4 ground,	-846.76166 V on node5 ground,	-846.76166 V on node6 ground,	-846.76166 V on node7 ground,	
+      -873.41754 V on top of node0,	-846.76166 V on top of node1,	-883.8916 V on top of node2,	-763.25653 V on top of node3,	-846.7615 V on top of node4,	-455.2309 V on top of node5,	-1180.8527 V on top of node6,	-974.6131 V on top of node7,	
+      -1143.1406 Vmin onTopOfNode0,	-846.76166 Vmin onTopOfNode1,	-885.6449 Vmin onTopOfNode2,	-943.6376 Vmin onTopOfNode3,	-846.76166 Vmin onTopOfNode4,	-508.20374 Vmin onTopOfNode5,	-1194.0327 Vmin onTopOfNode6,	-1192.4698 Vmin onTopOfNode7,	
+      -627.62305 Vmax onTopOfNode0,	-846.76166 Vmax onTopOfNode1,	-882.08075 Vmax onTopOfNode2,	-562.4028 Vmax onTopOfNode3,	-846.76166 Vmax onTopOfNode4,	-362.49863 Vmax onTopOfNode5,	-1176.9763 Vmax onTopOfNode6,	-298.08636 Vmax onTopOfNode7,	
+
+Monitoring numerics of simulation at time 49.23741
+ PICVolDistrib photoElec: 23716 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec True from ambiant electrons: 2813 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec BS from ambiant electrons: 7 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec from ambiant protons: 2819 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ Last local volume potential change: 25.846558V maximum change, and 3.7074027V average change (last plasma time step = 1.1922335E-6s)
+ Warning: last SC local surface potential change was rather large: 146.14471V maximum change, and 81.34954V average change
+    it may be due to too small a SC capacitance (1.0E-6F) or too large a time step (last one = 10.019062s)
+Simulation time step control : dt is 100.0 s
+
+Time: 49.23741, Dt = 100.0 s
+
+ after SC integration TIME: 49.52696, dt = 0.28954855
+Simulation time step control : dt is 0.30964914 s
+
+Time: 49.52696, Dt = 0.30964914 s
+
+ after SC integration TIME: 49.83661, dt = 0.30964914
+Simulation time step control : dt is 0.41984078 s
+
+Time: 49.83661, Dt = 0.41984078 s
+
+ after SC integration TIME: 50.256447, dt = 0.41984078
+
+In this time interval: 
+  COLLECTED current: -0.0022188225 A total,
+        -1.8783502E-4 A on node0,   	-2.6318203E-5 A on node1,   	-4.6939645E-6 A on node2,   	-2.545702E-5 A on node3,   	-4.346615E-5 A on node4,   	-0.001716346 A on node5,   	-1.859628E-4 A on node6,   	-2.874351E-5 A on node7,   	
+  EMITTED current: -0.0019708038 A total,
+        -2.0617287E-4 A on node0,   	-1.2266981E-5 A on node1,   	-4.432399E-6 A on node2,   	-1.9228046E-5 A on node3,   	-1.5084945E-5 A on node4,   	-0.0016070468 A on node5,   	-8.4534E-5 A on node6,   	-2.2038403E-5 A on node7,   	
+
+Time 50.256447 s => POTENTIALS: 
+ -983.3534 V on SC ground (node0),	-983.3534 V on node1 ground,	-983.3534 V on node2 ground,	-983.3534 V on node3 ground,	-983.3534 V on node4 ground,	-983.3534 V on node5 ground,	-983.3534 V on node6 ground,	-983.3534 V on node7 ground,	
+      -1004.9163 V on top of node0,	-983.3532 V on top of node1,	-1021.0602 V on top of node2,	-904.2081 V on top of node3,	-983.35315 V on top of node4,	-600.71063 V on top of node5,	-1324.2417 V on top of node6,	-1114.9513 V on top of node7,	
+      -1277.3193 Vmin onTopOfNode0,	-983.3534 Vmin onTopOfNode1,	-1021.4347 Vmin onTopOfNode2,	-1024.1073 Vmin onTopOfNode3,	-983.3534 Vmin onTopOfNode4,	-680.9122 Vmin onTopOfNode5,	-1333.9801 Vmin onTopOfNode6,	-1351.8993 Vmin onTopOfNode7,	
+      -753.9647 Vmax onTopOfNode0,	-983.3534 Vmax onTopOfNode1,	-1020.52155 Vmax onTopOfNode2,	-785.17053 Vmax onTopOfNode3,	-983.3534 Vmax onTopOfNode4,	-550.2143 Vmax onTopOfNode5,	-1320.7833 Vmax onTopOfNode6,	-465.77228 Vmax onTopOfNode7,	
+
+Monitoring numerics of simulation at time 50.256447
+ PICVolDistrib photoElec: 19677 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec True from ambiant electrons: 2460 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec BS from ambiant electrons: 5 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec from ambiant protons: 2450 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ Last local volume potential change: 54.65851V maximum change, and 18.541069V average change (last plasma time step = 1.1922335E-6s)
+ Warning: last SC local surface potential change was rather large: 50.375305V maximum change, and 32.105087V average change
+    it may be due to too small a SC capacitance (1.0E-6F) or too large a time step (last one = 0.41984078s)
+Simulation time step control : dt is 0.4795207 s
+
+Time: 50.256447, Dt = 0.4795207 s
+
+ after SC integration TIME: 50.49621, dt = 0.23976035
+Simulation time step control : dt is 0.37194747 s
+
+Time: 50.49621, Dt = 0.37194747 s
+
+ after SC integration TIME: 50.868156, dt = 0.37194747
+Simulation time step control : dt is 3.7194748 s
+
+Time: 50.868156, Dt = 3.7194748 s
+
+ after SC integration TIME: 54.58763, dt = 3.7194748
+Simulation time step control : dt is 37.194748 s
+
+Time: 54.58763, Dt = 37.194748 s
+
+ after SC integration TIME: 55.31507, dt = 0.7274397
+Simulation time step control : dt is 0.7356772 s
+
+Time: 55.31507, Dt = 0.7356772 s
+
+ after SC integration TIME: 56.050747, dt = 0.7356772
+Simulation time step control : dt is 1.1524997 s
+
+Time: 56.050747, Dt = 1.1524997 s
+
+ after SC integration TIME: 57.203247, dt = 1.1524997
+Simulation time step control : dt is 11.524997 s
+
+Time: 57.203247, Dt = 11.524997 s
+
+ after SC integration TIME: 68.72825, dt = 11.524997
+
+In this time interval: 
+  COLLECTED current: -0.0020502072 A total,
+        -2.0750386E-4 A on node0,   	-2.5983463E-5 A on node1,   	-4.656256E-6 A on node2,   	-1.8973555E-5 A on node3,   	-4.4065804E-5 A on node4,   	-0.0015427255 A on node5,   	-1.8000089E-4 A on node6,   	-2.6297083E-5 A on node7,   	
+  EMITTED current: -0.001962365 A total,
+        -2.0563244E-4 A on node0,   	-1.20318355E-5 A on node1,   	-4.367187E-6 A on node2,   	-1.9189372E-5 A on node3,   	-1.4939013E-5 A on node4,   	-0.0016009111 A on node5,   	-8.3354185E-5 A on node6,   	-2.1938447E-5 A on node7,   	
+
+Time 68.72825 s => POTENTIALS: 
+ -1290.4728 V on SC ground (node0),	-1290.4728 V on node1 ground,	-1290.4728 V on node2 ground,	-1290.4728 V on node3 ground,	-1290.4728 V on node4 ground,	-1290.4728 V on node5 ground,	-1290.4728 V on node6 ground,	-1290.4728 V on node7 ground,	
+      -1300.8031 V on top of node0,	-1290.4724 V on top of node1,	-1338.5161 V on top of node2,	-1171.6351 V on top of node3,	-1290.4724 V on top of node4,	-787.90875 V on top of node5,	-1746.1329 V on top of node6,	-1463.834 V on top of node7,	
+      -1675.9552 Vmin onTopOfNode0,	-1290.4728 Vmin onTopOfNode1,	-1342.76 Vmin onTopOfNode2,	-1395.6763 Vmin onTopOfNode3,	-1290.4728 Vmin onTopOfNode4,	-1026.106 Vmin onTopOfNode5,	-1795.6365 Vmin onTopOfNode6,	-1761.0621 Vmin onTopOfNode7,	
+      -924.53186 Vmax onTopOfNode0,	-1290.4728 Vmax onTopOfNode1,	-1336.9314 Vmax onTopOfNode2,	-924.13007 Vmax onTopOfNode3,	-1290.4728 Vmax onTopOfNode4,	-591.81537 Vmax onTopOfNode5,	-1738.1713 Vmax onTopOfNode6,	-525.5599 Vmax onTopOfNode7,	
+
+Monitoring numerics of simulation at time 68.72825
+ PICVolDistrib photoElec: 19609 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec True from ambiant electrons: 2282 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec BS from ambiant electrons: 6 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec from ambiant protons: 2350 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ Last local volume potential change: 33.66565V maximum change, and 16.236494V average change (last plasma time step = 1.1922335E-6s)
+ Warning: last SC local surface potential change was rather large: 188.3451V maximum change, and 95.87431V average change
+    it may be due to too small a SC capacitance (1.0E-6F) or too large a time step (last one = 11.524997s)
+Simulation time step control : dt is 100.0 s
+
+Time: 68.72825, Dt = 100.0 s
+
+ after SC integration TIME: 69.02271, dt = 0.29446477
+Simulation time step control : dt is 0.3211575 s
+
+Time: 69.02271, Dt = 0.3211575 s
+
+ after SC integration TIME: 69.343864, dt = 0.3211575
+Simulation time step control : dt is 0.90190923 s
+
+Time: 69.343864, Dt = 0.90190923 s
+
+ after SC integration TIME: 70.24577, dt = 0.90190923
+
+In this time interval: 
+  COLLECTED current: -0.0021279845 A total,
+        -2.1756774E-4 A on node0,   	-2.5378751E-5 A on node1,   	-7.1889353E-6 A on node2,   	-2.251319E-5 A on node3,   	-4.0979252E-5 A on node4,   	-0.0016138459 A on node5,   	-1.7382667E-4 A on node6,   	-2.6684795E-5 A on node7,   	
+  EMITTED current: -0.0019521007 A total,
+        -2.0470936E-4 A on node0,   	-1.1777552E-5 A on node1,   	-4.2679962E-6 A on node2,   	-1.9150777E-5 A on node3,   	-1.4766941E-5 A on node4,   	-0.0015945176 A on node5,   	-8.1189275E-5 A on node6,   	-2.1720964E-5 A on node7,   	
+
+Time 70.24577 s => POTENTIALS: 
+ -1421.35 V on SC ground (node0),	-1421.35 V on node1 ground,	-1421.35 V on node2 ground,	-1421.35 V on node3 ground,	-1421.35 V on node4 ground,	-1421.35 V on node5 ground,	-1421.35 V on node6 ground,	-1421.35 V on node7 ground,	
+      -1438.0814 V on top of node0,	-1421.3501 V on top of node1,	-1478.0818 V on top of node2,	-1303.2506 V on top of node3,	-1421.3495 V on top of node4,	-924.4401 V on top of node5,	-1886.3073 V on top of node6,	-1599.8082 V on top of node7,	
+      -1806.0875 Vmin onTopOfNode0,	-1421.35 Vmin onTopOfNode1,	-1485.6581 Vmin onTopOfNode2,	-1448.0432 Vmin onTopOfNode3,	-1421.35 Vmin onTopOfNode4,	-1139.3503 Vmin onTopOfNode5,	-1912.2412 Vmin onTopOfNode6,	-1900.2338 Vmin onTopOfNode7,	
+      -1070.7101 Vmax onTopOfNode0,	-1421.35 Vmax onTopOfNode1,	-1471.5802 Vmax onTopOfNode2,	-1151.5222 Vmax onTopOfNode3,	-1421.35 Vmax onTopOfNode4,	-789.3388 Vmax onTopOfNode5,	-1880.1371 Vmax onTopOfNode6,	-699.0746 Vmax onTopOfNode7,	
+
+Monitoring numerics of simulation at time 70.24577
+ PICVolDistrib photoElec: 16875 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec True from ambiant electrons: 2083 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec BS from ambiant electrons: 2 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec from ambiant protons: 2058 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ Last local volume potential change: 61.7218V maximum change, and 19.969477V average change (last plasma time step = 1.1922335E-6s)
+ Warning: last SC local surface potential change was rather large: 77.68164V maximum change, and 26.946722V average change
+    it may be due to too small a SC capacitance (1.0E-6F) or too large a time step (last one = 0.90190923s)
+Simulation time step control : dt is 9.019093 s
+
+Time: 70.24577, Dt = 9.019093 s
+
+ after SC integration TIME: 79.26487, dt = 9.019093
+Simulation time step control : dt is 90.190926 s
+
+Time: 79.26487, Dt = 90.190926 s
+
+CGS solver fail to solve the system => try with Gauss solver (longer but exact)
+ after SC integration TIME: 79.38333, dt = 0.11846011
+Simulation time step control : dt is 0.12144217 s
+
+Time: 79.38333, Dt = 0.12144217 s
+
+ after SC integration TIME: 79.50477, dt = 0.12144217
+Simulation time step control : dt is 0.3429315 s
+
+Time: 79.50477, Dt = 0.3429315 s
+
+ after SC integration TIME: 79.8477, dt = 0.3429315
+Simulation time step control : dt is 3.429315 s
+
+Time: 79.8477, Dt = 3.429315 s
+
+ after SC integration TIME: 83.277016, dt = 3.429315
+
+In this time interval: 
+  COLLECTED current: -0.0020597745 A total,
+        -2.1306943E-4 A on node0,   	-2.5243198E-5 A on node1,   	-4.792163E-6 A on node2,   	-2.029601E-5 A on node3,   	-4.0857645E-5 A on node4,   	-0.0015579014 A on node5,   	-1.7071629E-4 A on node6,   	-2.6898117E-5 A on node7,   	
+  EMITTED current: -0.0019453525 A total,
+        -2.0414975E-4 A on node0,   	-1.1661046E-5 A on node1,   	-4.2109987E-6 A on node2,   	-1.9149391E-5 A on node3,   	-1.4667184E-5 A on node4,   	-0.00159014 A on node5,   	-7.9798236E-5 A on node6,   	-2.1576077E-5 A on node7,   	
+
+Time 83.277016 s => POTENTIALS: 
+ -1596.6233 V on SC ground (node0),	-1596.6233 V on node1 ground,	-1596.6233 V on node2 ground,	-1596.6233 V on node3 ground,	-1596.6233 V on node4 ground,	-1596.6233 V on node5 ground,	-1596.6233 V on node6 ground,	-1596.6233 V on node7 ground,	
+      -1618.3478 V on top of node0,	-1596.6232 V on top of node1,	-1664.2712 V on top of node2,	-1471.242 V on top of node3,	-1596.623 V on top of node4,	-1015.1652 V on top of node5,	-2138.8306 V on top of node6,	-1803.1434 V on top of node7,	
+      -2047.6523 Vmin onTopOfNode0,	-1596.6233 Vmin onTopOfNode1,	-1670.1744 Vmin onTopOfNode2,	-1640.5651 Vmin onTopOfNode3,	-1596.6233 Vmin onTopOfNode4,	-1193.0103 Vmin onTopOfNode5,	-2162.1519 Vmin onTopOfNode6,	-2153.5122 Vmin onTopOfNode7,	
+      -1205.3003 Vmax onTopOfNode0,	-1596.6233 Vmax onTopOfNode1,	-1661.2643 Vmax onTopOfNode2,	-1292.1642 Vmax onTopOfNode3,	-1596.6233 Vmax onTopOfNode4,	-844.6533 Vmax onTopOfNode5,	-2133.4243 Vmax onTopOfNode6,	-752.3987 Vmax onTopOfNode7,	
+
+Monitoring numerics of simulation at time 83.277016
+ PICVolDistrib photoElec: 16256 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec True from ambiant electrons: 1987 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec BS from ambiant electrons: 9 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec from ambiant protons: 1970 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ Last local volume potential change: 46.137207V maximum change, and 16.965431V average change (last plasma time step = 1.1922335E-6s)
+ Warning: last SC local surface potential change was rather large: 57.52649V maximum change, and 27.406166V average change
+    it may be due to too small a SC capacitance (1.0E-6F) or too large a time step (last one = 3.429315s)
+Simulation time step control : dt is 34.29315 s
+
+Time: 83.277016, Dt = 34.29315 s
+
+ after SC integration TIME: 117.57017, dt = 34.29315
+
+In this time interval: 
+  COLLECTED current: -0.0020248834 A total,
+        -2.1232465E-4 A on node0,   	-2.4690271E-5 A on node1,   	-4.415261E-6 A on node2,   	-1.7905064E-5 A on node3,   	-4.029441E-5 A on node4,   	-0.0015313751 A on node5,   	-1.6905121E-4 A on node6,   	-2.4827681E-5 A on node7,   	
+  EMITTED current: -0.0019423064 A total,
+        -2.0381827E-4 A on node0,   	-1.1548689E-5 A on node1,   	-4.1696035E-6 A on node2,   	-1.9145258E-5 A on node3,   	-1.46083785E-5 A on node4,   	-0.0015883872 A on node5,   	-7.909103E-5 A on node6,   	-2.1538086E-5 A on node7,   	
+
+Time 117.57017 s => POTENTIALS: 
+ -1834.5907 V on SC ground (node0),	-1834.5907 V on node1 ground,	-1834.5907 V on node2 ground,	-1834.5907 V on node3 ground,	-1834.5907 V on node4 ground,	-1834.5907 V on node5 ground,	-1834.5907 V on node6 ground,	-1834.5907 V on node7 ground,	
+      -1841.4587 V on top of node0,	-1834.5908 V on top of node1,	-1914.5536 V on top of node2,	-1627.1465 V on top of node3,	-1834.5903 V on top of node4,	-1013.3312 V on top of node5,	-2571.107 V on top of node6,	-2095.4375 V on top of node7,	
+      -2624.1687 Vmin onTopOfNode0,	-1834.5907 Vmin onTopOfNode1,	-1916.3911 Vmin onTopOfNode2,	-2018.7354 Vmin onTopOfNode3,	-1834.5907 Vmin onTopOfNode4,	-1175.1951 Vmin onTopOfNode5,	-2624.71 Vmin onTopOfNode6,	-2591.4712 Vmin onTopOfNode7,	
+      -1212.8284 Vmax onTopOfNode0,	-1834.5907 Vmax onTopOfNode1,	-1912.7815 Vmax onTopOfNode2,	-1225.2568 Vmax onTopOfNode3,	-1834.5907 Vmax onTopOfNode4,	-846.7571 Vmax onTopOfNode5,	-2559.5593 Vmax onTopOfNode6,	-470.71948 Vmax onTopOfNode7,	
+
+Monitoring numerics of simulation at time 117.57017
+ PICVolDistrib photoElec: 15619 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec True from ambiant electrons: 1971 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec BS from ambiant electrons: 7 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec from ambiant protons: 1900 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ Last local volume potential change: 57.52649V maximum change, and 19.115204V average change (last plasma time step = 1.1922335E-6s)
+ Warning: last SC local surface potential change was rather large: 597.0591V maximum change, and 231.77762V average change
+    it may be due to too small a SC capacitance (1.0E-6F) or too large a time step (last one = 34.29315s)
+Simulation time step control : dt is 100.0 s
+
+Time: 117.57017, Dt = 100.0 s
+
+ after SC integration TIME: 117.79344, dt = 0.22327329
+
+In this time interval: 
+  COLLECTED current: -0.002421667 A total,
+        -2.4805014E-4 A on node0,   	-2.4552604E-5 A on node1,   	-4.4119665E-6 A on node2,   	-2.8190772E-5 A on node3,   	-3.9896462E-5 A on node4,   	-0.0018818455 A on node5,   	-1.6728969E-4 A on node6,   	-2.7430175E-5 A on node7,   	
+  EMITTED current: -0.0019386715 A total,
+        -2.0316835E-4 A on node0,   	-1.1456798E-5 A on node1,   	-4.088114E-6 A on node2,   	-1.9109615E-5 A on node3,   	-1.4455705E-5 A on node4,   	-0.001588488 A on node5,   	-7.657331E-5 A on node6,   	-2.1331593E-5 A on node7,   	
+
+Time 117.79344 s => POTENTIALS: 
+ -1919.0781 V on SC ground (node0),	-1919.0781 V on node1 ground,	-1919.0781 V on node2 ground,	-1919.0781 V on node3 ground,	-1919.0781 V on node4 ground,	-1919.0781 V on node5 ground,	-1919.0781 V on node6 ground,	-1919.0781 V on node7 ground,	
+      -1930.6234 V on top of node0,	-1919.078 V on top of node1,	-1999.2318 V on top of node2,	-1710.8289 V on top of node3,	-1919.0773 V on top of node4,	-1105.2972 V on top of node5,	-2657.1292 V on top of node6,	-2180.4937 V on top of node7,	
+      -2640.5059 Vmin onTopOfNode0,	-1919.0781 Vmin onTopOfNode1,	-1999.9325 Vmin onTopOfNode2,	-2037.8969 Vmin onTopOfNode3,	-1919.0781 Vmin onTopOfNode4,	-1296.3357 Vmin onTopOfNode5,	-2696.7515 Vmin onTopOfNode6,	-2675.6858 Vmin onTopOfNode7,	
+      -1302.4485 Vmax onTopOfNode0,	-1919.0781 Vmax onTopOfNode1,	-1998.4407 Vmax onTopOfNode2,	-1373.2894 Vmax onTopOfNode3,	-1919.0781 Vmax onTopOfNode4,	-952.8909 Vmax onTopOfNode5,	-2646.0283 Vmax onTopOfNode6,	-625.11194 Vmax onTopOfNode7,	
+
+Monitoring numerics of simulation at time 117.79344
+ PICVolDistrib photoElec: 10038 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec True from ambiant electrons: 1566 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec BS from ambiant electrons: 6 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec from ambiant protons: 1502 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ Last local volume potential change: 597.0591V maximum change, and 165.52242V average change (last plasma time step = 1.1922335E-6s)
+ Warning: last SC local surface potential change was rather large: 176.57227V maximum change, and 88.27847V average change
+    it may be due to too small a SC capacitance (1.0E-6F) or too large a time step (last one = 100.0s)
+Simulation time step control : dt is 0.24501023 s
+
+Time: 117.79344, Dt = 0.24501023 s
+
+ after SC integration TIME: 118.03845, dt = 0.24501023
+
+In this time interval: 
+  COLLECTED current: -0.0021936393 A total,
+        -2.2875734E-4 A on node0,   	-2.424461E-5 A on node1,   	-4.518269E-6 A on node2,   	-2.6850874E-5 A on node3,   	-4.470078E-5 A on node4,   	-0.0016752237 A on node5,   	-1.6204375E-4 A on node6,   	-2.73E-5 A on node7,   	
+  EMITTED current: -0.0019348194 A total,
+        -2.0292806E-4 A on node0,   	-1.159783E-5 A on node1,   	-4.0867412E-6 A on node2,   	-1.9104082E-5 A on node3,   	-1.4411623E-5 A on node4,   	-0.0015852591 A on node5,   	-7.616242E-5 A on node6,   	-2.1269449E-5 A on node7,   	
+
+Time 118.03845 s => POTENTIALS: 
+ -1967.8885 V on SC ground (node0),	-1967.8885 V on node1 ground,	-1967.8885 V on node2 ground,	-1967.8885 V on node3 ground,	-1967.8885 V on node4 ground,	-1967.8885 V on node5 ground,	-1967.8885 V on node6 ground,	-1967.8885 V on node7 ground,	
+      -1982.5654 V on top of node0,	-1967.8883 V on top of node1,	-2048.265 V on top of node2,	-1760.2894 V on top of node3,	-1967.8883 V on top of node4,	-1158.8795 V on top of node5,	-2707.4238 V on top of node6,	-2230.0244 V on top of node7,	
+      -2664.524 Vmin onTopOfNode0,	-1967.8885 Vmin onTopOfNode1,	-2048.612 Vmin onTopOfNode2,	-2034.1039 Vmin onTopOfNode3,	-1967.8885 Vmin onTopOfNode4,	-1357.1672 Vmin onTopOfNode5,	-2743.5059 Vmin onTopOfNode6,	-2725.036 Vmin onTopOfNode7,	
+      -1360.04 Vmax onTopOfNode0,	-1967.8885 Vmax onTopOfNode1,	-2047.8623 Vmax onTopOfNode2,	-1483.6035 Vmax onTopOfNode3,	-1967.8885 Vmax onTopOfNode4,	-1006.4196 Vmax onTopOfNode5,	-2697.17 Vmax onTopOfNode6,	-716.244 Vmax onTopOfNode7,	
+
+Monitoring numerics of simulation at time 118.03845
+ PICVolDistrib photoElec: 10302 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec True from ambiant electrons: 1499 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec BS from ambiant electrons: 5 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec from ambiant protons: 1494 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ Last local volume potential change: 176.57227V maximum change, and 64.335846V average change (last plasma time step = 1.1922335E-6s)
+ Warning: last SC local surface potential change was rather large: 110.11267V maximum change, and 51.067005V average change
+    it may be due to too small a SC capacitance (1.0E-6F) or too large a time step (last one = 0.24501023s)
+Simulation time step control : dt is 0.42727578 s
+
+Time: 118.03845, Dt = 0.42727578 s
+
+ after SC integration TIME: 118.46573, dt = 0.42727578
+Simulation time step control : dt is 0.5040147 s
+
+Time: 118.46573, Dt = 0.5040147 s
+
+ after SC integration TIME: 118.96974, dt = 0.5040147
+Simulation time step control : dt is 0.5677047 s
+
+Time: 118.96974, Dt = 0.5677047 s
+
+ after SC integration TIME: 119.25359, dt = 0.28385234
+Simulation time step control : dt is 0.33471438 s
+
+Time: 119.25359, Dt = 0.33471438 s
+
+ after SC integration TIME: 119.58831, dt = 0.33471438
+Simulation time step control : dt is 0.665885 s
+
+Time: 119.58831, Dt = 0.665885 s
+
+ after SC integration TIME: 120.254196, dt = 0.665885
+
+In this time interval: 
+  COLLECTED current: -0.0020748072 A total,
+        -2.2022039E-4 A on node0,   	-2.399598E-5 A on node1,   	-4.351081E-6 A on node2,   	-1.9497738E-5 A on node3,   	-3.9533625E-5 A on node4,   	-0.0015794398 A on node5,   	-1.605229E-4 A on node6,   	-2.724527E-5 A on node7,   	
+  EMITTED current: -0.0019263834 A total,
+        -2.0231746E-4 A on node0,   	-1.1175852E-5 A on node1,   	-4.024535E-6 A on node2,   	-1.9071653E-5 A on node3,   	-1.42777435E-5 A on node4,   	-0.0015790032 A on node5,   	-7.534005E-5 A on node6,   	-2.1172624E-5 A on node7,   	
+
+Time 120.254196 s => POTENTIALS: 
+ -2195.9539 V on SC ground (node0),	-2195.9539 V on node1 ground,	-2195.9539 V on node2 ground,	-2195.9539 V on node3 ground,	-2195.9539 V on node4 ground,	-2195.9539 V on node5 ground,	-2195.9539 V on node6 ground,	-2195.9539 V on node7 ground,	
+      -2228.043 V on top of node0,	-2195.9539 V on top of node1,	-2277.6655 V on top of node2,	-1985.9692 V on top of node3,	-2195.953 V on top of node4,	-1406.8612 V on top of node5,	-2947.987 V on top of node6,	-2464.79 V on top of node7,	
+      -2875.901 Vmin onTopOfNode0,	-2195.9539 Vmin onTopOfNode1,	-2278.036 Vmin onTopOfNode2,	-2113.5618 Vmin onTopOfNode3,	-2195.9539 Vmin onTopOfNode4,	-1650.6613 Vmin onTopOfNode5,	-2972.3958 Vmin onTopOfNode6,	-2963.1245 Vmin onTopOfNode7,	
+      -1631.901 Vmax onTopOfNode0,	-2195.9539 Vmax onTopOfNode1,	-2277.483 Vmax onTopOfNode2,	-1851.7559 Vmax onTopOfNode3,	-2195.9539 Vmax onTopOfNode4,	-1250.253 Vmax onTopOfNode5,	-2939.385 Vmax onTopOfNode6,	-1045.2611 Vmax onTopOfNode7,	
+
+Monitoring numerics of simulation at time 120.254196
+ PICVolDistrib photoElec: 12330 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec True from ambiant electrons: 1601 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec BS from ambiant electrons: 6 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec from ambiant protons: 1568 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ Last local volume potential change: 55.740112V maximum change, and 23.496033V average change (last plasma time step = 1.1922335E-6s)
+ Warning: last SC local surface potential change was rather large: 44.589844V maximum change, and 29.896902V average change
+    it may be due to too small a SC capacitance (1.0E-6F) or too large a time step (last one = 0.665885s)
+Simulation time step control : dt is 6.6588497 s
+
+Time: 120.254196, Dt = 6.6588497 s
+
+ after SC integration TIME: 126.91304, dt = 6.6588497
+Simulation time step control : dt is 66.5885 s
+
+Time: 126.91304, Dt = 66.5885 s
+
+ after SC integration TIME: 127.53911, dt = 0.6260683
+Simulation time step control : dt is 0.66495395 s
+
+Time: 127.53911, Dt = 0.66495395 s
+
+ after SC integration TIME: 128.20407, dt = 0.66495395
+Simulation time step control : dt is 6.64954 s
+
+Time: 128.20407, Dt = 6.64954 s
+
+ after SC integration TIME: 134.8536, dt = 6.64954
+
+In this time interval: 
+  COLLECTED current: -0.002001299 A total,
+        -2.0727783E-4 A on node0,   	-2.3245353E-5 A on node1,   	-4.3243367E-6 A on node2,   	-1.8191171E-5 A on node3,   	-3.8036163E-5 A on node4,   	-0.0015288567 A on node5,   	-1.5661228E-4 A on node6,   	-2.4754625E-5 A on node7,   	
+  EMITTED current: -0.0019161018 A total,
+        -2.0156645E-4 A on node0,   	-1.1015927E-5 A on node1,   	-3.9562337E-6 A on node2,   	-1.9028714E-5 A on node3,   	-1.4143364E-5 A on node4,   	-0.0015714022 A on node5,   	-7.3971656E-5 A on node6,   	-2.1017635E-5 A on node7,   	
+
+Time 134.8536 s => POTENTIALS: 
+ -2465.661 V on SC ground (node0),	-2465.661 V on node1 ground,	-2465.661 V on node2 ground,	-2465.661 V on node3 ground,	-2465.661 V on node4 ground,	-2465.661 V on node5 ground,	-2465.661 V on node6 ground,	-2465.661 V on node7 ground,	
+      -2506.434 V on top of node0,	-2465.661 V on top of node1,	-2559.0369 V on top of node2,	-2223.7703 V on top of node3,	-2465.6611 V on top of node4,	-1612.7739 V on top of node5,	-3295.946 V on top of node6,	-2764.6282 V on top of node7,	
+      -3190.8286 Vmin onTopOfNode0,	-2465.661 Vmin onTopOfNode1,	-2561.459 Vmin onTopOfNode2,	-2426.1353 Vmin onTopOfNode3,	-2465.661 Vmin onTopOfNode4,	-2168.0303 Vmin onTopOfNode5,	-3326.5027 Vmin onTopOfNode6,	-3311.6277 Vmin onTopOfNode7,	
+      -1845.9454 Vmax onTopOfNode0,	-2465.661 Vmax onTopOfNode1,	-2556.845 Vmax onTopOfNode2,	-1987.5322 Vmax onTopOfNode3,	-2465.661 Vmax onTopOfNode4,	-1364.0844 Vmax onTopOfNode5,	-3286.818 Vmax onTopOfNode6,	-1218.8245 Vmax onTopOfNode7,	
+
+Monitoring numerics of simulation at time 134.8536
+ PICVolDistrib photoElec: 12738 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec True from ambiant electrons: 1587 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec BS from ambiant electrons: 8 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec from ambiant protons: 1572 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ Last local volume potential change: 63.489502V maximum change, and 32.975426V average change (last plasma time step = 1.1922335E-6s)
+ Warning: last SC local surface potential change was rather large: 130.29651V maximum change, and 73.301254V average change
+    it may be due to too small a SC capacitance (1.0E-6F) or too large a time step (last one = 6.64954s)
+Simulation time step control : dt is 66.4954 s
+
+Time: 134.8536, Dt = 66.4954 s
+
+ after SC integration TIME: 135.49637, dt = 0.6427654
+Simulation time step control : dt is 0.67370385 s
+
+Time: 135.49637, Dt = 0.67370385 s
+
+ after SC integration TIME: 136.17007, dt = 0.67370385
+Simulation time step control : dt is 6.7370386 s
+
+Time: 136.17007, Dt = 6.7370386 s
+
+ after SC integration TIME: 142.90712, dt = 6.7370386
+
+In this time interval: 
+  COLLECTED current: -0.0019357384 A total,
+        -2.0383902E-4 A on node0,   	-2.3646697E-5 A on node1,   	-4.1675353E-6 A on node2,   	-1.7899514E-5 A on node3,   	-3.8874114E-5 A on node4,   	-0.0014696864 A on node5,   	-1.5369772E-4 A on node6,   	-2.3927269E-5 A on node7,   	
+  EMITTED current: -0.0019076692 A total,
+        -2.0089852E-4 A on node0,   	-1.086101E-5 A on node1,   	-3.8903318E-6 A on node2,   	-1.899603E-5 A on node3,   	-1.4012453E-5 A on node4,   	-0.0015655485 A on node5,   	-7.259198E-5 A on node6,   	-2.087026E-5 A on node7,   	
+
+Time 142.90712 s => POTENTIALS: 
+ -2564.6921 V on SC ground (node0),	-2564.6921 V on node1 ground,	-2564.6921 V on node2 ground,	-2564.6921 V on node3 ground,	-2564.6921 V on node4 ground,	-2564.6921 V on node5 ground,	-2564.6921 V on node6 ground,	-2564.6921 V on node7 ground,	
+      -2610.9731 V on top of node0,	-2564.6921 V on top of node1,	-2661.6042 V on top of node2,	-2308.7483 V on top of node3,	-2564.6929 V on top of node4,	-1665.557 V on top of node5,	-3438.3972 V on top of node6,	-2877.884 V on top of node7,	
+      -3373.4827 Vmin onTopOfNode0,	-2564.6921 Vmin onTopOfNode1,	-2665.5007 Vmin onTopOfNode2,	-2521.1375 Vmin onTopOfNode3,	-2564.6921 Vmin onTopOfNode4,	-1910.6628 Vmin onTopOfNode5,	-3516.8796 Vmin onTopOfNode6,	-3452.186 Vmin onTopOfNode7,	
+      -1943.7155 Vmax onTopOfNode0,	-2564.6921 Vmax onTopOfNode1,	-2659.7598 Vmax onTopOfNode2,	-2075.9438 Vmax onTopOfNode3,	-2564.6921 Vmax onTopOfNode4,	-1282.4711 Vmax onTopOfNode5,	-3427.621 Vmax onTopOfNode6,	-1262.7859 Vmax onTopOfNode7,	
+
+Monitoring numerics of simulation at time 142.90712
+ PICVolDistrib photoElec: 13111 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec True from ambiant electrons: 1509 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec BS from ambiant electrons: 7 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec from ambiant protons: 1529 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ Last local volume potential change: 50.49536V maximum change, and 8.026438V average change (last plasma time step = 1.1922335E-6s)
+ Warning: last SC local surface potential change was rather large: 164.07178V maximum change, and 38.7067V average change
+    it may be due to too small a SC capacitance (1.0E-6F) or too large a time step (last one = 6.7370386s)
+Simulation time step control : dt is 67.370384 s
+
+Time: 142.90712, Dt = 67.370384 s
+
+ after SC integration TIME: 210.2775, dt = 67.370384
+
+In this time interval: 
+  COLLECTED current: -0.0018817062 A total,
+        -2.182706E-4 A on node0,   	-2.3921568E-5 A on node1,   	-4.061594E-6 A on node2,   	-1.8470939E-5 A on node3,   	-3.7272206E-5 A on node4,   	-0.0014034348 A on node5,   	-1.5175149E-4 A on node6,   	-2.4522997E-5 A on node7,   	
+  EMITTED current: -0.0019064579 A total,
+        -2.0071058E-4 A on node0,   	-1.0801691E-5 A on node1,   	-3.850673E-6 A on node2,   	-1.8997936E-5 A on node3,   	-1.4071558E-5 A on node4,   	-0.0015651542 A on node5,   	-7.205104E-5 A on node6,   	-2.0820049E-5 A on node7,   	
+
+Time 210.2775 s => POTENTIALS: 
+ -2956.643 V on SC ground (node0),	-2956.643 V on node1 ground,	-2956.643 V on node2 ground,	-2956.643 V on node3 ground,	-2956.643 V on node4 ground,	-2956.643 V on node5 ground,	-2956.643 V on node6 ground,	-2956.643 V on node7 ground,	
+      -2960.7732 V on top of node0,	-2956.6423 V on top of node1,	-3071.9138 V on top of node2,	-2579.8396 V on top of node3,	-2956.6418 V on top of node4,	-1636.663 V on top of node5,	-4163.78 V on top of node6,	-3387.631 V on top of node7,	
+      -4073.2693 Vmin onTopOfNode0,	-2956.643 Vmin onTopOfNode1,	-3072.8884 Vmin onTopOfNode2,	-2940.7285 Vmin onTopOfNode3,	-2956.643 Vmin onTopOfNode4,	-1841.6741 Vmin onTopOfNode5,	-4369.2886 Vmin onTopOfNode6,	-4186.3623 Vmin onTopOfNode7,	
+      -2003.8313 Vmax onTopOfNode0,	-2956.643 Vmax onTopOfNode1,	-3070.602 Vmax onTopOfNode2,	-2124.807 Vmax onTopOfNode3,	-2956.643 Vmax onTopOfNode4,	-1345.0853 Vmax onTopOfNode5,	-4078.5098 Vmax onTopOfNode6,	-979.7699 Vmax onTopOfNode7,	
+
+Monitoring numerics of simulation at time 210.2775
+ PICVolDistrib photoElec: 12385 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec True from ambiant electrons: 1462 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec BS from ambiant electrons: 3 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec from ambiant protons: 1513 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ Last local volume potential change: 164.07178V maximum change, and 22.24505V average change (last plasma time step = 1.1922335E-6s)
+ Warning: last SC local surface potential change was rather large: 836.4729V maximum change, and 386.9468V average change
+    it may be due to too small a SC capacitance (1.0E-6F) or too large a time step (last one = 67.370384s)
+Simulation time step control : dt is 100.0 s
+
+Time: 210.2775, Dt = 100.0 s
+
+ after SC integration TIME: 210.52135, dt = 0.24385491
+
+In this time interval: 
+  COLLECTED current: -0.00234044 A total,
+        -2.303261E-4 A on node0,   	-2.3261802E-5 A on node1,   	-4.199194E-6 A on node2,   	-2.5788178E-5 A on node3,   	-3.6092566E-5 A on node4,   	-0.0018506958 A on node5,   	-1.4260576E-4 A on node6,   	-2.7470667E-5 A on node7,   	
+  EMITTED current: -0.0019016536 A total,
+        -1.9963432E-4 A on node0,   	-1.04469955E-5 A on node1,   	-3.7511766E-6 A on node2,   	-1.8963587E-5 A on node3,   	-1.3785711E-5 A on node4,   	-0.0015660323 A on node5,   	-6.8521236E-5 A on node6,   	-2.0518586E-5 A on node7,   	
+
+Time 210.52135 s => POTENTIALS: 
+ -3040.1538 V on SC ground (node0),	-3040.1538 V on node1 ground,	-3040.1538 V on node2 ground,	-3040.1538 V on node3 ground,	-3040.1538 V on node4 ground,	-3040.1538 V on node5 ground,	-3040.1538 V on node6 ground,	-3040.1538 V on node7 ground,	
+      -3048.2222 V on top of node0,	-3040.1538 V on top of node1,	-3155.6008 V on top of node2,	-2661.0203 V on top of node3,	-3040.1523 V on top of node4,	-1726.9825 V on top of node5,	-4249.2915 V on top of node6,	-3471.7769 V on top of node7,	
+      -4126.0625 Vmin onTopOfNode0,	-3040.1538 Vmin onTopOfNode1,	-3155.95 Vmin onTopOfNode2,	-2966.3096 Vmin onTopOfNode3,	-3040.1538 Vmin onTopOfNode4,	-1937.6599 Vmin onTopOfNode5,	-4398.503 Vmin onTopOfNode6,	-4269.6475 Vmin onTopOfNode7,	
+      -2100.3801 Vmax onTopOfNode0,	-3040.1538 Vmax onTopOfNode1,	-3155.395 Vmax onTopOfNode2,	-2297.0984 Vmax onTopOfNode3,	-3040.1538 Vmax onTopOfNode4,	-1490.5355 Vmax onTopOfNode5,	-4196.1826 Vmax onTopOfNode6,	-1139.244 Vmax onTopOfNode7,	
+
+Monitoring numerics of simulation at time 210.52135
+ PICVolDistrib photoElec: 8027 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec True from ambiant electrons: 1199 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec BS from ambiant electrons: 6 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec from ambiant protons: 1201 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ Last local volume potential change: 836.4729V maximum change, and 273.91196V average change (last plasma time step = 1.1922335E-6s)
+ Warning: last SC local surface potential change was rather large: 191.58301V maximum change, and 87.397316V average change
+    it may be due to too small a SC capacitance (1.0E-6F) or too large a time step (last one = 100.0s)
+Simulation time step control : dt is 0.26758444 s
+
+Time: 210.52135, Dt = 0.26758444 s
+
+ after SC integration TIME: 210.78894, dt = 0.26758444
+
+In this time interval: 
+  COLLECTED current: -0.0021276479 A total,
+        -2.1917654E-4 A on node0,   	-2.3136776E-5 A on node1,   	-4.0309164E-6 A on node2,   	-2.1920408E-5 A on node3,   	-3.8675422E-5 A on node4,   	-0.0016545756 A on node5,   	-1.4177301E-4 A on node6,   	-2.4358791E-5 A on node7,   	
+  EMITTED current: -0.0018981801 A total,
+        -1.9946125E-4 A on node0,   	-1.04624205E-5 A on node1,   	-3.7168738E-6 A on node2,   	-1.8950168E-5 A on node3,   	-1.3689705E-5 A on node4,   	-0.0015631784 A on node5,   	-6.824945E-5 A on node6,   	-2.0471689E-5 A on node7,   	
+
+Time 210.78894 s => POTENTIALS: 
+ -3086.961 V on SC ground (node0),	-3086.961 V on node1 ground,	-3086.961 V on node2 ground,	-3086.961 V on node3 ground,	-3086.961 V on node4 ground,	-3086.961 V on node5 ground,	-3086.961 V on node6 ground,	-3086.961 V on node7 ground,	
+      -3097.618 V on top of node0,	-3086.9612 V on top of node1,	-3202.5598 V on top of node2,	-2706.6643 V on top of node3,	-3086.9592 V on top of node4,	-1778.0952 V on top of node5,	-4297.7837 V on top of node6,	-3519.0137 V on top of node7,	
+      -4148.4395 Vmin onTopOfNode0,	-3086.961 Vmin onTopOfNode1,	-3202.7427 Vmin onTopOfNode2,	-2962.4907 Vmin onTopOfNode3,	-3086.961 Vmin onTopOfNode4,	-1981.8938 Vmin onTopOfNode5,	-4415.694 Vmin onTopOfNode6,	-4317.079 Vmin onTopOfNode7,	
+      -2160.845 Vmax onTopOfNode0,	-3086.961 Vmax onTopOfNode1,	-3202.4875 Vmax onTopOfNode2,	-2417.315 Vmax onTopOfNode3,	-3086.961 Vmax onTopOfNode4,	-1561.805 Vmax onTopOfNode5,	-4269.577 Vmax onTopOfNode6,	-1236.6357 Vmax onTopOfNode7,	
+
+Monitoring numerics of simulation at time 210.78894
+ PICVolDistrib photoElec: 8178 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec True from ambiant electrons: 1191 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec BS from ambiant electrons: 9 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec from ambiant protons: 1182 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ Last local volume potential change: 191.58301V maximum change, and 63.51254V average change (last plasma time step = 1.1922335E-6s)
+ Warning: last SC local surface potential change was rather large: 111.97412V maximum change, and 48.95476V average change
+    it may be due to too small a SC capacitance (1.0E-6F) or too large a time step (last one = 0.26758444s)
+Simulation time step control : dt is 0.46070737 s
+
+Time: 210.78894, Dt = 0.46070737 s
+
+ after SC integration TIME: 211.24965, dt = 0.46070737
+
+In this time interval: 
+  COLLECTED current: -0.002100655 A total,
+        -2.1940298E-4 A on node0,   	-2.1814278E-5 A on node1,   	-4.160687E-6 A on node2,   	-1.9806625E-5 A on node3,   	-3.5557718E-5 A on node4,   	-0.0016349118 A on node5,   	-1.4098693E-4 A on node6,   	-2.4014109E-5 A on node7,   	
+  EMITTED current: -0.0018957474 A total,
+        -1.993404E-4 A on node0,   	-1.0391869E-5 A on node1,   	-3.7133243E-6 A on node2,   	-1.8942334E-5 A on node3,   	-1.3662941E-5 A on node4,   	-0.0015613945 A on node5,   	-6.7848385E-5 A on node6,   	-2.0453603E-5 A on node7,   	
+
+Time 211.24965 s => POTENTIALS: 
+ -3150.8452 V on SC ground (node0),	-3150.8452 V on node1 ground,	-3150.8452 V on node2 ground,	-3150.8452 V on node3 ground,	-3150.8452 V on node4 ground,	-3150.8452 V on node5 ground,	-3150.8452 V on node6 ground,	-3150.8452 V on node7 ground,	
+      -3165.3682 V on top of node0,	-3150.8447 V on top of node1,	-3266.8213 V on top of node2,	-2769.8472 V on top of node3,	-3150.8438 V on top of node4,	-1848.3318 V on top of node5,	-4364.126 V on top of node6,	-3583.653 V on top of node7,	
+      -4194.3345 Vmin onTopOfNode0,	-3150.8452 Vmin onTopOfNode1,	-3267.0005 Vmin onTopOfNode2,	-2989.2341 Vmin onTopOfNode3,	-3150.8452 Vmin onTopOfNode4,	-2067.3223 Vmin onTopOfNode5,	-4461.5923 Vmin onTopOfNode6,	-4382.3794 Vmin onTopOfNode7,	
+      -2237.403 Vmax onTopOfNode0,	-3150.8452 Vmax onTopOfNode1,	-3266.562 Vmax onTopOfNode2,	-2529.891 Vmax onTopOfNode3,	-3150.8452 Vmax onTopOfNode4,	-1628.6722 Vmax onTopOfNode5,	-4345.3916 Vmax onTopOfNode6,	-1332.5719 Vmax onTopOfNode7,	
+
+Monitoring numerics of simulation at time 211.24965
+ PICVolDistrib photoElec: 8182 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec True from ambiant electrons: 1202 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec BS from ambiant electrons: 8 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec from ambiant protons: 1179 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ Last local volume potential change: 111.97412V maximum change, and 35.656887V average change (last plasma time step = 1.1922335E-6s)
+ Warning: last SC local surface potential change was rather large: 117.38501V maximum change, and 67.43961V average change
+    it may be due to too small a SC capacitance (1.0E-6F) or too large a time step (last one = 0.46070737s)
+Simulation time step control : dt is 0.5126365 s
+
+Time: 211.24965, Dt = 0.5126365 s
+
+ after SC integration TIME: 211.72522, dt = 0.47556624
+
+In this time interval: 
+  COLLECTED current: -0.002098999 A total,
+        -2.1556595E-4 A on node0,   	-2.2839218E-5 A on node1,   	-4.059865E-6 A on node2,   	-1.8084274E-5 A on node3,   	-3.587762E-5 A on node4,   	-0.0016378828 A on node5,   	-1.4055592E-4 A on node6,   	-2.4133195E-5 A on node7,   	
+  EMITTED current: -0.0018927627 A total,
+        -1.9913322E-4 A on node0,   	-1.0339791E-5 A on node1,   	-3.7046173E-6 A on node2,   	-1.8966943E-5 A on node3,   	-1.3690856E-5 A on node4,   	-0.0015590454 A on node5,   	-6.745581E-5 A on node6,   	-2.0425783E-5 A on node7,   	
+
+Time 211.72522 s => POTENTIALS: 
+ -3220.882 V on SC ground (node0),	-3220.882 V on node1 ground,	-3220.882 V on node2 ground,	-3220.882 V on node3 ground,	-3220.882 V on node4 ground,	-3220.882 V on node5 ground,	-3220.882 V on node6 ground,	-3220.882 V on node7 ground,	
+      -3239.084 V on top of node0,	-3220.8818 V on top of node1,	-3337.1633 V on top of node2,	-2838.6768 V on top of node3,	-3220.8813 V on top of node4,	-1926.4559 V on top of node5,	-4436.61 V on top of node6,	-3654.521 V on top of node7,	
+      -4249.798 Vmin onTopOfNode0,	-3220.882 Vmin onTopOfNode1,	-3337.4124 Vmin onTopOfNode2,	-3027.683 Vmin onTopOfNode3,	-3220.882 Vmin onTopOfNode4,	-2187.0798 Vmin onTopOfNode5,	-4519.3696 Vmin onTopOfNode6,	-4453.9126 Vmin onTopOfNode7,	
+      -2319.9036 Vmax onTopOfNode0,	-3220.882 Vmax onTopOfNode1,	-3336.8438 Vmax onTopOfNode2,	-2634.1704 Vmax onTopOfNode3,	-3220.882 Vmax onTopOfNode4,	-1703.0895 Vmax onTopOfNode5,	-4418.271 Vmax onTopOfNode6,	-1425.377 Vmax onTopOfNode7,	
+
+Monitoring numerics of simulation at time 211.72522
+ PICVolDistrib photoElec: 8493 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec True from ambiant electrons: 1198 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec BS from ambiant electrons: 4 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec from ambiant protons: 1193 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ Last local volume potential change: 117.38501V maximum change, and 49.23697V average change (last plasma time step = 1.1922335E-6s)
+ Warning: last SC local surface potential change was rather large: 116.63867V maximum change, and 73.83359V average change
+    it may be due to too small a SC capacitance (1.0E-6F) or too large a time step (last one = 0.5126365s)
+Simulation time step control : dt is 0.48416832 s
+
+Time: 211.72522, Dt = 0.48416832 s
+
+ after SC integration TIME: 212.20938, dt = 0.48416832
+
+In this time interval: 
+  COLLECTED current: -0.002075139 A total,
+        -2.1426666E-4 A on node0,   	-2.1580308E-5 A on node1,   	-4.058935E-6 A on node2,   	-1.7670078E-5 A on node3,   	-3.5121713E-5 A on node4,   	-0.0016192136 A on node5,   	-1.392397E-4 A on node6,   	-2.3988081E-5 A on node7,   	
+  EMITTED current: -0.0018893227 A total,
+        -1.9895483E-4 A on node0,   	-1.030563E-5 A on node1,   	-3.6754823E-6 A on node2,   	-1.892876E-5 A on node3,   	-1.35632245E-5 A on node4,   	-0.0015564298 A on node5,   	-6.709837E-5 A on node6,   	-2.0366526E-5 A on node7,   	
+
+Time 212.20938 s => POTENTIALS: 
+ -3288.126 V on SC ground (node0),	-3288.126 V on node1 ground,	-3288.126 V on node2 ground,	-3288.126 V on node3 ground,	-3288.126 V on node4 ground,	-3288.126 V on node5 ground,	-3288.126 V on node6 ground,	-3288.126 V on node7 ground,	
+      -3309.932 V on top of node0,	-3288.1262 V on top of node1,	-3404.7683 V on top of node2,	-2904.7407 V on top of node3,	-3288.1248 V on top of node4,	-2002.0485 V on top of node5,	-4506.2666 V on top of node6,	-3722.5977 V on top of node7,	
+      -4304.2227 Vmin onTopOfNode0,	-3288.126 Vmin onTopOfNode1,	-3405.0383 Vmin onTopOfNode2,	-3068.2505 Vmin onTopOfNode3,	-3288.126 Vmin onTopOfNode4,	-2295.0696 Vmin onTopOfNode5,	-4578.648 Vmin onTopOfNode6,	-4522.503 Vmin onTopOfNode7,	
+      -2399.6858 Vmax onTopOfNode0,	-3288.126 Vmax onTopOfNode1,	-3404.3867 Vmax onTopOfNode2,	-2727.8413 Vmax onTopOfNode3,	-3288.126 Vmax onTopOfNode4,	-1778.6406 Vmax onTopOfNode5,	-4488.083 Vmax onTopOfNode6,	-1508.2272 Vmax onTopOfNode7,	
+
+Monitoring numerics of simulation at time 212.20938
+ PICVolDistrib photoElec: 8813 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec True from ambiant electrons: 1184 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec BS from ambiant electrons: 3 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec from ambiant protons: 1196 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ Last local volume potential change: 116.63867V maximum change, and 54.0113V average change (last plasma time step = 1.1922335E-6s)
+ Warning: last SC local surface potential change was rather large: 103.677124V maximum change, and 70.81186V average change
+    it may be due to too small a SC capacitance (1.0E-6F) or too large a time step (last one = 0.48416832s)
+Simulation time step control : dt is 0.5185205 s
+
+Time: 212.20938, Dt = 0.5185205 s
+
+ after SC integration TIME: 212.46864, dt = 0.25926024
+
+In this time interval: 
+  COLLECTED current: -0.0020403597 A total,
+        -2.0804032E-4 A on node0,   	-2.1352E-5 A on node1,   	-4.4948397E-6 A on node2,   	-1.8637262E-5 A on node3,   	-3.508128E-5 A on node4,   	-0.0015900213 A on node5,   	-1.3826281E-4 A on node6,   	-2.4470104E-5 A on node7,   	
+  EMITTED current: -0.0018862223 A total,
+        -1.9866781E-4 A on node0,   	-1.0332453E-5 A on node1,   	-3.64829E-6 A on node2,   	-1.8902896E-5 A on node3,   	-1.3542387E-5 A on node4,   	-0.001553942 A on node5,   	-6.6864355E-5 A on node6,   	-2.0322144E-5 A on node7,   	
+
+Time 212.46864 s => POTENTIALS: 
+ -3323.115 V on SC ground (node0),	-3323.115 V on node1 ground,	-3323.115 V on node2 ground,	-3323.115 V on node3 ground,	-3323.115 V on node4 ground,	-3323.115 V on node5 ground,	-3323.115 V on node6 ground,	-3323.115 V on node7 ground,	
+      -3346.38 V on top of node0,	-3323.1152 V on top of node1,	-3440.1514 V on top of node2,	-2939.3499 V on top of node3,	-3323.1135 V on top of node4,	-2041.9108 V on top of node5,	-4542.5684 V on top of node6,	-3758.1562 V on top of node7,	
+      -4327.3867 Vmin onTopOfNode0,	-3323.115 Vmin onTopOfNode1,	-3440.4368 Vmin onTopOfNode2,	-3079.4438 Vmin onTopOfNode3,	-3323.115 Vmin onTopOfNode4,	-2315.8726 Vmin onTopOfNode5,	-4606.891 Vmin onTopOfNode6,	-4557.72 Vmin onTopOfNode7,	
+      -2444.023 Vmax onTopOfNode0,	-3323.115 Vmax onTopOfNode1,	-3439.9824 Vmax onTopOfNode2,	-2790.2766 Vmax onTopOfNode3,	-3323.115 Vmax onTopOfNode4,	-1833.965 Vmax onTopOfNode5,	-4524.4897 Vmax onTopOfNode6,	-1555.5426 Vmax onTopOfNode7,	
+
+Monitoring numerics of simulation at time 212.46864
+ PICVolDistrib photoElec: 8887 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec True from ambiant electrons: 1203 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec BS from ambiant electrons: 5 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec from ambiant protons: 1206 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ Last local volume potential change: 103.677124V maximum change, and 51.857258V average change (last plasma time step = 1.1922335E-6s)
+ Warning: last SC local surface potential change was rather large: 60.989014V maximum change, and 36.082386V average change
+    it may be due to too small a SC capacitance (1.0E-6F) or too large a time step (last one = 0.5185205s)
+Simulation time step control : dt is 0.4373013 s
+
+Time: 212.46864, Dt = 0.4373013 s
+
+ after SC integration TIME: 212.90594, dt = 0.4373013
+Simulation time step control : dt is 0.8033716 s
+
+Time: 212.90594, Dt = 0.8033716 s
+
+ after SC integration TIME: 213.30763, dt = 0.4016858
+Simulation time step control : dt is 0.5413519 s
+
+Time: 213.30763, Dt = 0.5413519 s
+
+ after SC integration TIME: 213.84898, dt = 0.5413519
+Simulation time step control : dt is 5.4135194 s
+
+Time: 213.84898, Dt = 5.4135194 s
+
+ after SC integration TIME: 219.2625, dt = 5.4135194
+Simulation time step control : dt is 54.135193 s
+
+Time: 219.2625, Dt = 54.135193 s
+
+ after SC integration TIME: 220.14735, dt = 0.884862
+
+In this time interval: 
+  COLLECTED current: -0.0019712555 A total,
+        -2.0214115E-4 A on node0,   	-2.1425843E-5 A on node1,   	-3.864286E-6 A on node2,   	-1.6555143E-5 A on node3,   	-3.4541154E-5 A on node4,   	-0.0015307037 A on node5,   	-1.3883843E-4 A on node6,   	-2.318634E-5 A on node7,   	
+  EMITTED current: -0.0018805369 A total,
+        -1.9836133E-4 A on node0,   	-1.0194486E-5 A on node1,   	-3.6278436E-6 A on node2,   	-1.8920999E-5 A on node3,   	-1.3486724E-5 A on node4,   	-0.0015495013 A on node5,   	-6.6191635E-5 A on node6,   	-2.025234E-5 A on node7,   	
+
+Time 220.14735 s => POTENTIALS: 
+ -3573.639 V on SC ground (node0),	-3573.639 V on node1 ground,	-3573.639 V on node2 ground,	-3573.639 V on node3 ground,	-3573.639 V on node4 ground,	-3573.639 V on node5 ground,	-3573.639 V on node6 ground,	-3573.639 V on node7 ground,	
+      -3596.6138 V on top of node0,	-3573.6382 V on top of node1,	-3693.1584 V on top of node2,	-3164.4395 V on top of node3,	-3573.6372 V on top of node4,	-2288.056 V on top of node5,	-4829.7515 V on top of node6,	-4018.902 V on top of node7,	
+      -4544.729 Vmin onTopOfNode0,	-3573.639 Vmin onTopOfNode1,	-3693.7036 Vmin onTopOfNode2,	-3306.8892 Vmin onTopOfNode3,	-3573.639 Vmin onTopOfNode4,	-2776.9368 Vmin onTopOfNode5,	-4910.3486 Vmin onTopOfNode6,	-4840.7676 Vmin onTopOfNode7,	
+      -2710.1333 Vmax onTopOfNode0,	-3573.639 Vmax onTopOfNode1,	-3692.4165 Vmax onTopOfNode2,	-2989.03 Vmax onTopOfNode3,	-3573.639 Vmax onTopOfNode4,	-2016.6816 Vmax onTopOfNode5,	-4809.1416 Vmax onTopOfNode6,	-1839.0098 Vmax onTopOfNode7,	
+
+Monitoring numerics of simulation at time 220.14735
+ PICVolDistrib photoElec: 9299 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec True from ambiant electrons: 1195 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec BS from ambiant electrons: 4 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec from ambiant protons: 1178 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ Last local volume potential change: 219.71826V maximum change, and 62.43109V average change (last plasma time step = 1.1922335E-6s)
+ Warning: last SC local surface potential change was rather large: 87.05615V maximum change, and 65.53249V average change
+    it may be due to too small a SC capacitance (1.0E-6F) or too large a time step (last one = 54.135193s)
+Simulation time step control : dt is 0.96199125 s
+
+Time: 220.14735, Dt = 0.96199125 s
+
+ after SC integration TIME: 221.10936, dt = 0.96199125
+Simulation time step control : dt is 9.619912 s
+
+Time: 221.10936, Dt = 9.619912 s
+
+ after SC integration TIME: 230.72926, dt = 9.619912
+
+In this time interval: 
+  COLLECTED current: -0.001927325 A total,
+        -1.9656347E-4 A on node0,   	-2.0843216E-5 A on node1,   	-3.8027574E-6 A on node2,   	-1.7010712E-5 A on node3,   	-3.3933135E-5 A on node4,   	-0.0014968613 A on node5,   	-1.3456278E-4 A on node6,   	-2.3747087E-5 A on node7,   	
+  EMITTED current: -0.001872482 A total,
+        -1.9778682E-4 A on node0,   	-1.0089069E-5 A on node1,   	-3.5804944E-6 A on node2,   	-1.8881743E-5 A on node3,   	-1.33795165E-5 A on node4,   	-0.0015434658 A on node5,   	-6.511956E-5 A on node6,   	-2.0179243E-5 A on node7,   	
+
+Time 230.72926 s => POTENTIALS: 
+ -3711.12 V on SC ground (node0),	-3711.12 V on node1 ground,	-3711.12 V on node2 ground,	-3711.12 V on node3 ground,	-3711.12 V on node4 ground,	-3711.12 V on node5 ground,	-3711.12 V on node6 ground,	-3711.12 V on node7 ground,	
+      -3718.3965 V on top of node0,	-3711.121 V on top of node1,	-3834.917 V on top of node2,	-3279.219 V on top of node3,	-3711.1187 V on top of node4,	-2387.3477 V on top of node5,	-5014.7876 V on top of node6,	-4180.442 V on top of node7,	
+      -4700.8516 Vmin onTopOfNode0,	-3711.12 Vmin onTopOfNode1,	-3837.6936 Vmin onTopOfNode2,	-3490.7375 Vmin onTopOfNode3,	-3711.12 Vmin onTopOfNode4,	-3097.9233 Vmin onTopOfNode5,	-5097.5596 Vmin onTopOfNode6,	-5636.7397 Vmin onTopOfNode7,	
+      -2771.6284 Vmax onTopOfNode0,	-3711.12 Vmax onTopOfNode1,	-3832.6858 Vmax onTopOfNode2,	-3021.1829 Vmax onTopOfNode3,	-3711.12 Vmax onTopOfNode4,	-2058.5232 Vmax onTopOfNode5,	-4993.6924 Vmax onTopOfNode6,	-1892.6752 Vmax onTopOfNode7,	
+
+Monitoring numerics of simulation at time 230.72926
+ PICVolDistrib photoElec: 9799 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec True from ambiant electrons: 1239 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec BS from ambiant electrons: 6 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec from ambiant protons: 1208 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ Last local volume potential change: 57.290283V maximum change, and 31.751291V average change (last plasma time step = 1.1922335E-6s)
+ Warning: last SC local surface potential change was rather large: 447.85645V maximum change, and 99.48872V average change
+    it may be due to too small a SC capacitance (1.0E-6F) or too large a time step (last one = 9.619912s)
+Simulation time step control : dt is 96.19913 s
+
+Time: 230.72926, Dt = 96.19913 s
+
+ after SC integration TIME: 231.47845, dt = 0.7491968
+Simulation time step control : dt is 0.8180644 s
+
+Time: 231.47845, Dt = 0.8180644 s
+
+ after SC integration TIME: 232.29652, dt = 0.8180644
+Simulation time step control : dt is 8.180644 s
+
+Time: 232.29652, Dt = 8.180644 s
+
+ after SC integration TIME: 240.47717, dt = 8.180644
+
+In this time interval: 
+  COLLECTED current: -0.0019284356 A total,
+        -2.0463784E-4 A on node0,   	-2.0899572E-5 A on node1,   	-3.7775994E-6 A on node2,   	-1.7420583E-5 A on node3,   	-3.4128843E-5 A on node4,   	-0.0014929997 A on node5,   	-1.324639E-4 A on node6,   	-2.2107415E-5 A on node7,   	
+  EMITTED current: -0.0018659977 A total,
+        -1.9734417E-4 A on node0,   	-9.946018E-6 A on node1,   	-3.5269607E-6 A on node2,   	-1.885563E-5 A on node3,   	-1.3284604E-5 A on node4,   	-0.0015388399 A on node5,   	-6.4142005E-5 A on node6,   	-2.0058438E-5 A on node7,   	
+
+Time 240.47717 s => POTENTIALS: 
+ -3873.637 V on SC ground (node0),	-3873.637 V on node1 ground,	-3873.637 V on node2 ground,	-3873.637 V on node3 ground,	-3873.637 V on node4 ground,	-3873.637 V on node5 ground,	-3873.637 V on node6 ground,	-3873.637 V on node7 ground,	
+      -3894.3137 V on top of node0,	-3873.637 V on top of node1,	-4001.9539 V on top of node2,	-3423.2058 V on top of node3,	-3873.6362 V on top of node4,	-2519.3032 V on top of node5,	-5220.17 V on top of node6,	-4354.9893 V on top of node7,	
+      -4869.095 Vmin onTopOfNode0,	-3873.637 Vmin onTopOfNode1,	-4008.6436 Vmin onTopOfNode2,	-3652.8796 Vmin onTopOfNode3,	-3873.637 Vmin onTopOfNode4,	-3206.416 Vmin onTopOfNode5,	-5286.194 Vmin onTopOfNode6,	-5506.1216 Vmin onTopOfNode7,	
+      -2923.537 Vmax onTopOfNode0,	-3873.637 Vmax onTopOfNode1,	-3998.9197 Vmax onTopOfNode2,	-3160.2334 Vmax onTopOfNode3,	-3873.637 Vmax onTopOfNode4,	-2041.8071 Vmax onTopOfNode5,	-5199.11 Vmax onTopOfNode6,	-2045.4456 Vmax onTopOfNode7,	
+
+Monitoring numerics of simulation at time 240.47717
+ PICVolDistrib photoElec: 9728 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec True from ambiant electrons: 1262 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec BS from ambiant electrons: 11 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec from ambiant protons: 1219 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ Last local volume potential change: 62.527832V maximum change, and 29.845966V average change (last plasma time step = 1.1922335E-6s)
+ Warning: last SC local surface potential change was rather large: 128.22803V maximum change, and 61.497147V average change
+    it may be due to too small a SC capacitance (1.0E-6F) or too large a time step (last one = 8.180644s)
+Simulation time step control : dt is 81.806435 s
+
+Time: 240.47717, Dt = 81.806435 s
+
+ WARNING: last SC local surface potential change was huge: 6348.672V maximum change, and 474.88364V average change
+    it may be due to too small a SC capacitance (1.0E-6F) or too large a time step (last one = 81.806435s)
+ after SC integration TIME: 322.2836, dt = 81.806435
+
+In this time interval: 
+  COLLECTED current: -0.0019435121 A total,
+        -2.0394266E-4 A on node0,   	-2.0401276E-5 A on node1,   	-4.3809882E-6 A on node2,   	-1.7866001E-5 A on node3,   	-3.94202E-5 A on node4,   	-0.0014968694 A on node5,   	-1.3261654E-4 A on node6,   	-2.8015249E-5 A on node7,   	
+  EMITTED current: -0.0018624938 A total,
+        -1.9704251E-4 A on node0,   	-9.84357E-6 A on node1,   	-3.4652137E-6 A on node2,   	-1.8839575E-5 A on node3,   	-1.3281866E-5 A on node4,   	-0.0015366278 A on node5,   	-6.3407424E-5 A on node6,   	-1.9985748E-5 A on node7,   	
+
+Time 322.2836 s => POTENTIALS: 
+ -4337.8726 V on SC ground (node0),	-4337.8726 V on node1 ground,	-4337.8726 V on node2 ground,	-4337.8726 V on node3 ground,	-4337.8726 V on node4 ground,	-4337.8726 V on node5 ground,	-4337.8726 V on node6 ground,	-4337.8726 V on node7 ground,	
+      -4295.6846 V on top of node0,	-4337.8726 V on top of node1,	-4594.226 V on top of node2,	-3753.5613 V on top of node3,	-4337.87 V on top of node4,	-2512.4941 V on top of node5,	-6025.7856 V on top of node6,	-5129.931 V on top of node7,	
+      -6094.3706 Vmin onTopOfNode0,	-4337.8726 Vmin onTopOfNode1,	-4703.0864 Vmin onTopOfNode2,	-4137.9688 Vmin onTopOfNode3,	-4337.8726 Vmin onTopOfNode4,	-3228.539 Vmin onTopOfNode5,	-6271.1626 Vmin onTopOfNode6,	-16564.035 Vmin onTopOfNode7,	
+      -2923.037 Vmax onTopOfNode0,	-4337.8726 Vmax onTopOfNode1,	-4480.8325 Vmax onTopOfNode2,	-3219.8296 Vmax onTopOfNode3,	-4337.8726 Vmax onTopOfNode4,	-1970.5704 Vmax onTopOfNode5,	-5936.7466 Vmax onTopOfNode6,	-1674.8484 Vmax onTopOfNode7,	
+
+Monitoring numerics of simulation at time 322.2836
+ PICVolDistrib photoElec: 9349 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec True from ambiant electrons: 1204 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec BS from ambiant electrons: 6 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec from ambiant protons: 1167 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ Last local volume potential change: 128.22803V maximum change, and 42.66987V average change (last plasma time step = 1.1922335E-6s)
+ WARNING: last SC local surface potential change was huge: 6348.672V maximum change, and 474.88364V average change
+    it may be due to too small a SC capacitance (1.0E-6F) or too large a time step (last one = 81.806435s)
+Simulation time step control : dt is 100.0 s
+
+Time: 322.2836, Dt = 100.0 s
+
+ WARNING: last SC local surface potential change was huge: 1451.2871V maximum change, and 83.91712V average change
+    it may be due to too small a SC capacitance (1.0E-6F) or too large a time step (last one = 100.0s)
+ after SC integration TIME: 322.52728, dt = 0.24367073
+
+In this time interval: 
+  COLLECTED current: -0.0021714824 A total,
+        -2.2949236E-4 A on node0,   	-2.1802052E-5 A on node1,   	-3.6950337E-6 A on node2,   	-2.3692899E-5 A on node3,   	-3.231723E-5 A on node4,   	-0.0017097301 A on node5,   	-1.2553424E-4 A on node6,   	-2.5218375E-5 A on node7,   	
+  EMITTED current: -0.0018574075 A total,
+        -1.961955E-4 A on node0,   	-9.546335E-6 A on node1,   	-3.3594354E-6 A on node2,   	-1.8826258E-5 A on node3,   	-1.290393E-5 A on node4,   	-0.0015365321 A on node5,   	-6.040269E-5 A on node6,   	-1.9641393E-5 A on node7,   	
+
+Time 322.52728 s => POTENTIALS: 
+ -4407.954 V on SC ground (node0),	-4407.954 V on node1 ground,	-4407.954 V on node2 ground,	-4407.954 V on node3 ground,	-4407.954 V on node4 ground,	-4407.954 V on node5 ground,	-4407.954 V on node6 ground,	-4407.954 V on node7 ground,	
+      -4371.059 V on top of node0,	-4407.9536 V on top of node1,	-4668.318 V on top of node2,	-3819.6877 V on top of node3,	-4407.951 V on top of node4,	-2590.34 V on top of node5,	-6097.6367 V on top of node6,	-5200.3306 V on top of node7,	
+      -5943.2085 Vmin onTopOfNode0,	-4407.954 Vmin onTopOfNode1,	-4714.837 Vmin onTopOfNode2,	-4140.984 Vmin onTopOfNode3,	-4407.954 Vmin onTopOfNode4,	-3254.7925 Vmin onTopOfNode5,	-6247.6953 Vmin onTopOfNode6,	-13692.141 Vmin onTopOfNode7,	
+      -3012.0098 Vmax onTopOfNode0,	-4407.954 Vmax onTopOfNode1,	-4602.381 Vmax onTopOfNode2,	-3402.6519 Vmax onTopOfNode3,	-4407.954 Vmax onTopOfNode4,	-2113.0186 Vmax onTopOfNode5,	-6055.3213 Vmax onTopOfNode6,	-2000.1549 Vmax onTopOfNode7,	
+
+Monitoring numerics of simulation at time 322.52728
+ PICVolDistrib photoElec: 6366 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec True from ambiant electrons: 972 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec BS from ambiant electrons: 6 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec from ambiant protons: 999 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ Last local volume potential change: 6348.672V maximum change, and 344.3889V average change (last plasma time step = 1.1922335E-6s)
+ WARNING: last SC local surface potential change was huge: 1451.2871V maximum change, and 83.91712V average change
+    it may be due to too small a SC capacitance (1.0E-6F) or too large a time step (last one = 100.0s)
+Simulation time step control : dt is 0.2619932 s
+
+Time: 322.52728, Dt = 0.2619932 s
+
+ after SC integration TIME: 322.78928, dt = 0.2619932
+
+In this time interval: 
+  COLLECTED current: -0.002037758 A total,
+        -2.1893023E-4 A on node0,   	-1.96038E-5 A on node1,   	-3.566986E-6 A on node2,   	-2.0089918E-5 A on node3,   	-3.2003103E-5 A on node4,   	-0.0016004238 A on node5,   	-1.2094212E-4 A on node6,   	-2.2197994E-5 A on node7,   	
+  EMITTED current: -0.00185403 A total,
+        -1.9588812E-4 A on node0,   	-9.475056E-6 A on node1,   	-3.3592935E-6 A on node2,   	-1.8800596E-5 A on node3,   	-1.2889068E-5 A on node4,   	-0.001534278 A on node5,   	-5.9747905E-5 A on node6,   	-1.9591685E-5 A on node7,   	
+
+Time 322.78928 s => POTENTIALS: 
+ -4450.9937 V on SC ground (node0),	-4450.9937 V on node1 ground,	-4450.9937 V on node2 ground,	-4450.9937 V on node3 ground,	-4450.9937 V on node4 ground,	-4450.9937 V on node5 ground,	-4450.9937 V on node6 ground,	-4450.9937 V on node7 ground,	
+      -4417.76 V on top of node0,	-4450.992 V on top of node1,	-4713.2754 V on top of node2,	-3860.5583 V on top of node3,	-4450.9917 V on top of node4,	-2639.0513 V on top of node5,	-6141.9937 V on top of node6,	-5243.591 V on top of node7,	
+      -5895.9937 Vmin onTopOfNode0,	-4450.9937 Vmin onTopOfNode1,	-4737.2837 Vmin onTopOfNode2,	-4132.705 Vmin onTopOfNode3,	-4450.9937 Vmin onTopOfNode4,	-3254.244 Vmin onTopOfNode5,	-6261.37 Vmin onTopOfNode6,	-12401.963 Vmin onTopOfNode7,	
+      -3065.101 Vmax onTopOfNode0,	-4450.9937 Vmax onTopOfNode1,	-4672.881 Vmax onTopOfNode2,	-3534.8372 Vmax onTopOfNode3,	-4450.9937 Vmax onTopOfNode4,	-2193.088 Vmax onTopOfNode5,	-6106.2344 Vmax onTopOfNode6,	-2166.9006 Vmax onTopOfNode7,	
+
+Monitoring numerics of simulation at time 322.78928
+ PICVolDistrib photoElec: 6566 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec True from ambiant electrons: 981 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec BS from ambiant electrons: 4 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec from ambiant protons: 975 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ Last local volume potential change: 1451.2871V maximum change, and 55.986084V average change (last plasma time step = 1.1922335E-6s)
+ Warning: last SC local surface potential change was rather large: 692.9004V maximum change, and 51.3073V average change
+    it may be due to too small a SC capacitance (1.0E-6F) or too large a time step (last one = 0.2619932s)
+Simulation time step control : dt is 0.49838567 s
+
+Time: 322.78928, Dt = 0.49838567 s
+
+ after SC integration TIME: 323.03845, dt = 0.24919283
+
+In this time interval: 
+  COLLECTED current: -0.0020440167 A total,
+        -2.1834396E-4 A on node0,   	-1.9484722E-5 A on node1,   	-3.5922526E-6 A on node2,   	-2.1136115E-5 A on node3,   	-3.1725995E-5 A on node4,   	-0.0016078006 A on node5,   	-1.2037709E-4 A on node6,   	-2.1555765E-5 A on node7,   	
+  EMITTED current: -0.0018523383 A total,
+        -1.9583164E-4 A on node0,   	-9.453908E-6 A on node1,   	-3.2809846E-6 A on node2,   	-1.879568E-5 A on node3,   	-1.2923925E-5 A on node4,   	-0.0015327116 A on node5,   	-5.9775597E-5 A on node6,   	-1.956512E-5 A on node7,   	
+
+Time 323.03845 s => POTENTIALS: 
+ -4494.8027 V on SC ground (node0),	-4494.8027 V on node1 ground,	-4494.8027 V on node2 ground,	-4494.8027 V on node3 ground,	-4494.8027 V on node4 ground,	-4494.8027 V on node5 ground,	-4494.8027 V on node6 ground,	-4494.8027 V on node7 ground,	
+      -4464.6265 V on top of node0,	-4494.8027 V on top of node1,	-4758.0615 V on top of node2,	-3903.622 V on top of node3,	-4494.8003 V on top of node4,	-2688.1707 V on top of node5,	-6186.948 V on top of node6,	-5287.56 V on top of node7,	
+      -5901.766 Vmin onTopOfNode0,	-4494.8027 Vmin onTopOfNode1,	-4772.9204 Vmin onTopOfNode2,	-4136.918 Vmin onTopOfNode3,	-4494.8027 Vmin onTopOfNode4,	-3264.446 Vmin onTopOfNode5,	-6284.403 Vmin onTopOfNode6,	-11640.743 Vmin onTopOfNode7,	
+      -3119.8691 Vmax onTopOfNode0,	-4494.8027 Vmax onTopOfNode1,	-4731.0146 Vmax onTopOfNode2,	-3642.319 Vmax onTopOfNode3,	-4494.8027 Vmax onTopOfNode4,	-2263.114 Vmax onTopOfNode5,	-6152.311 Vmax onTopOfNode6,	-2281.645 Vmax onTopOfNode7,	
+
+Monitoring numerics of simulation at time 323.03845
+ PICVolDistrib photoElec: 6751 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec True from ambiant electrons: 959 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec BS from ambiant electrons: 1 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec from ambiant protons: 989 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ Last local volume potential change: 692.9004V maximum change, and 34.493122V average change (last plasma time step = 1.1922335E-6s)
+ Warning: last SC local surface potential change was rather large: 412.28467V maximum change, and 49.383385V average change
+    it may be due to too small a SC capacitance (1.0E-6F) or too large a time step (last one = 0.49838567s)
+Simulation time step control : dt is 0.406573 s
+
+Time: 323.03845, Dt = 0.406573 s
+
+ after SC integration TIME: 323.44504, dt = 0.406573
+
+In this time interval: 
+  COLLECTED current: -0.0020370658 A total,
+        -2.1812393E-4 A on node0,   	-1.9426701E-5 A on node1,   	-3.5722162E-6 A on node2,   	-1.7420825E-5 A on node3,   	-3.162306E-5 A on node4,   	-0.001605312 A on node5,   	-1.200938E-4 A on node6,   	-2.149333E-5 A on node7,   	
+  EMITTED current: -0.0018500404 A total,
+        -1.9558435E-4 A on node0,   	-9.393879E-6 A on node1,   	-3.3158356E-6 A on node2,   	-1.877504E-5 A on node3,   	-1.28676065E-5 A on node4,   	-0.0015311945 A on node5,   	-5.9358208E-5 A on node6,   	-1.9550831E-5 A on node7,   	
+
+Time 323.44504 s => POTENTIALS: 
+ -4561.6797 V on SC ground (node0),	-4561.6797 V on node1 ground,	-4561.6797 V on node2 ground,	-4561.6797 V on node3 ground,	-4561.6797 V on node4 ground,	-4561.6797 V on node5 ground,	-4561.6797 V on node6 ground,	-4561.6797 V on node7 ground,	
+      -4536.1206 V on top of node0,	-4561.6787 V on top of node1,	-4825.51 V on top of node2,	-3969.245 V on top of node3,	-4561.678 V on top of node4,	-2763.2107 V on top of node5,	-6255.547 V on top of node6,	-5354.8467 V on top of node7,	
+      -5941.3086 Vmin onTopOfNode0,	-4561.6797 Vmin onTopOfNode1,	-4838.05 Vmin onTopOfNode2,	-4169.867 Vmin onTopOfNode3,	-4561.6797 Vmin onTopOfNode4,	-3340.644 Vmin onTopOfNode5,	-6337.587 Vmin onTopOfNode6,	-11153.825 Vmin onTopOfNode7,	
+      -3209.5776 Vmax onTopOfNode0,	-4561.6797 Vmax onTopOfNode1,	-4805.9775 Vmax onTopOfNode2,	-3750.4438 Vmax onTopOfNode3,	-4561.6797 Vmax onTopOfNode4,	-2355.1062 Vmax onTopOfNode5,	-6221.8525 Vmax onTopOfNode6,	-2389.2048 Vmax onTopOfNode7,	
+
+Monitoring numerics of simulation at time 323.44504
+ PICVolDistrib photoElec: 6661 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec True from ambiant electrons: 923 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec BS from ambiant electrons: 4 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec from ambiant protons: 976 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ Last local volume potential change: 412.28467V maximum change, and 34.233173V average change (last plasma time step = 1.1922335E-6s)
+ Warning: last SC local surface potential change was rather large: 250.21777V maximum change, and 72.66443V average change
+    it may be due to too small a SC capacitance (1.0E-6F) or too large a time step (last one = 0.406573s)
+Simulation time step control : dt is 0.45107478 s
+
+Time: 323.44504, Dt = 0.45107478 s
+
+ after SC integration TIME: 323.89612, dt = 0.45107478
+
+In this time interval: 
+  COLLECTED current: -0.0020176696 A total,
+        -2.1640758E-4 A on node0,   	-1.926959E-5 A on node1,   	-3.6995677E-6 A on node2,   	-1.6932443E-5 A on node3,   	-3.158417E-5 A on node4,   	-0.001589461 A on node5,   	-1.1936153E-4 A on node6,   	-2.0953608E-5 A on node7,   	
+  EMITTED current: -0.0018469163 A total,
+        -1.9531172E-4 A on node0,   	-9.407883E-6 A on node1,   	-3.2714563E-6 A on node2,   	-1.8770666E-5 A on node3,   	-1.28048505E-5 A on node4,   	-0.0015287681 A on node5,   	-5.9089976E-5 A on node6,   	-1.9491566E-5 A on node7,   	
+
+Time 323.89612 s => POTENTIALS: 
+ -4629.474 V on SC ground (node0),	-4629.474 V on node1 ground,	-4629.474 V on node2 ground,	-4629.474 V on node3 ground,	-4629.474 V on node4 ground,	-4629.474 V on node5 ground,	-4629.474 V on node6 ground,	-4629.474 V on node7 ground,	
+      -4608.703 V on top of node0,	-4629.475 V on top of node1,	-4893.8433 V on top of node2,	-4035.7878 V on top of node3,	-4629.4697 V on top of node4,	-2839.8513 V on top of node5,	-6325.206 V on top of node6,	-5422.9233 V on top of node7,	
+      -5988.5327 Vmin onTopOfNode0,	-4629.474 Vmin onTopOfNode1,	-4905.3237 Vmin onTopOfNode2,	-4208.849 Vmin onTopOfNode3,	-4629.474 Vmin onTopOfNode4,	-3419.2683 Vmin onTopOfNode5,	-6397.474 Vmin onTopOfNode6,	-10810.291 Vmin onTopOfNode7,	
+      -3298.8386 Vmax onTopOfNode0,	-4629.474 Vmax onTopOfNode1,	-4879.209 Vmax onTopOfNode2,	-3848.3235 Vmax onTopOfNode3,	-4629.474 Vmax onTopOfNode4,	-2432.9675 Vmax onTopOfNode5,	-6291.9624 Vmax onTopOfNode6,	-2481.9604 Vmax onTopOfNode7,	
+
+Monitoring numerics of simulation at time 323.89612
+ PICVolDistrib photoElec: 6868 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec True from ambiant electrons: 952 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec BS from ambiant electrons: 7 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec from ambiant protons: 952 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ Last local volume potential change: 250.21777V maximum change, and 51.789257V average change (last plasma time step = 1.1922335E-6s)
+ Warning: last SC local surface potential change was rather large: 173.85596V maximum change, and 72.90392V average change
+    it may be due to too small a SC capacitance (1.0E-6F) or too large a time step (last one = 0.45107478s)
+Simulation time step control : dt is 0.4772421 s
+
+Time: 323.89612, Dt = 0.4772421 s
+
+ after SC integration TIME: 324.3312, dt = 0.43508193
+
+In this time interval: 
+  COLLECTED current: -0.0020209171 A total,
+        -2.1701276E-4 A on node0,   	-1.91948E-5 A on node1,   	-3.3992799E-6 A on node2,   	-1.6820377E-5 A on node3,   	-3.132163E-5 A on node4,   	-0.0015931459 A on node5,   	-1.1863928E-4 A on node6,   	-2.1383454E-5 A on node7,   	
+  EMITTED current: -0.0018440054 A total,
+        -1.9508506E-4 A on node0,   	-9.326655E-6 A on node1,   	-3.260287E-6 A on node2,   	-1.8781011E-5 A on node3,   	-1.2858685E-5 A on node4,   	-0.0015263284 A on node5,   	-5.8927206E-5 A on node6,   	-1.943812E-5 A on node7,   	
+
+Time 324.3312 s => POTENTIALS: 
+ -4698.696 V on SC ground (node0),	-4698.696 V on node1 ground,	-4698.696 V on node2 ground,	-4698.696 V on node3 ground,	-4698.696 V on node4 ground,	-4698.696 V on node5 ground,	-4698.696 V on node6 ground,	-4698.696 V on node7 ground,	
+      -4682.7495 V on top of node0,	-4698.6963 V on top of node1,	-4963.2456 V on top of node2,	-4103.8926 V on top of node3,	-4698.694 V on top of node4,	-2918.5432 V on top of node5,	-6396.194 V on top of node6,	-5492.5347 V on top of node7,	
+      -6054.815 Vmin onTopOfNode0,	-4698.696 Vmin onTopOfNode1,	-4973.381 Vmin onTopOfNode2,	-4253.7407 Vmin onTopOfNode3,	-4698.696 Vmin onTopOfNode4,	-3496.1946 Vmin onTopOfNode5,	-6461.5874 Vmin onTopOfNode6,	-10558.065 Vmin onTopOfNode7,	
+      -3388.8704 Vmax onTopOfNode0,	-4698.696 Vmax onTopOfNode1,	-4951.7925 Vmax onTopOfNode2,	-3941.2524 Vmax onTopOfNode3,	-4698.696 Vmax onTopOfNode4,	-2512.5732 Vmax onTopOfNode5,	-6363.202 Vmax onTopOfNode6,	-2569.051 Vmax onTopOfNode7,	
+
+Monitoring numerics of simulation at time 324.3312
+ PICVolDistrib photoElec: 6896 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec True from ambiant electrons: 970 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec BS from ambiant electrons: 5 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec from ambiant protons: 993 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ Last local volume potential change: 173.85596V maximum change, and 52.3658V average change (last plasma time step = 1.1922335E-6s)
+ Warning: last SC local surface potential change was rather large: 146.02002V maximum change, and 73.87181V average change
+    it may be due to too small a SC capacitance (1.0E-6F) or too large a time step (last one = 0.4772421s)
+Simulation time step control : dt is 0.4423993 s
+
+Time: 324.3312, Dt = 0.4423993 s
+
+ after SC integration TIME: 324.7736, dt = 0.4423993
+
+In this time interval: 
+  COLLECTED current: -0.0019884622 A total,
+        -2.1547553E-4 A on node0,   	-1.9100922E-5 A on node1,   	-3.584389E-6 A on node2,   	-1.6319811E-5 A on node3,   	-3.1013784E-5 A on node4,   	-0.0015645146 A on node5,   	-1.1770595E-4 A on node6,   	-2.0747435E-5 A on node7,   	
+  EMITTED current: -0.001841196 A total,
+        -1.9499478E-4 A on node0,   	-9.35414E-6 A on node1,   	-3.2312232E-6 A on node2,   	-1.877965E-5 A on node3,   	-1.28237825E-5 A on node4,   	-0.0015238515 A on node5,   	-5.8756268E-5 A on node6,   	-1.9404724E-5 A on node7,   	
+
+Time 324.7736 s => POTENTIALS: 
+ -4757.1904 V on SC ground (node0),	-4757.1904 V on node1 ground,	-4757.1904 V on node2 ground,	-4757.1904 V on node3 ground,	-4757.1904 V on node4 ground,	-4757.1904 V on node5 ground,	-4757.1904 V on node6 ground,	-4757.1904 V on node7 ground,	
+      -4745.6084 V on top of node0,	-4757.1904 V on top of node1,	-5022.076 V on top of node2,	-4161.0815 V on top of node3,	-4757.1885 V on top of node4,	-2985.28 V on top of node5,	-6456.4473 V on top of node6,	-5551.298 V on top of node7,	
+      -6107.455 Vmin onTopOfNode0,	-4757.1904 Vmin onTopOfNode1,	-5030.6406 Vmin onTopOfNode2,	-4291.8447 Vmin onTopOfNode3,	-4757.1904 Vmin onTopOfNode4,	-3554.6282 Vmin onTopOfNode5,	-6516.3374 Vmin onTopOfNode6,	-10356.197 Vmin onTopOfNode7,	
+      -3464.9187 Vmax onTopOfNode0,	-4757.1904 Vmax onTopOfNode1,	-5012.7188 Vmax onTopOfNode2,	-4018.3813 Vmax onTopOfNode3,	-4757.1904 Vmax onTopOfNode4,	-2586.1262 Vmax onTopOfNode5,	-6423.5264 Vmax onTopOfNode6,	-2639.7878 Vmax onTopOfNode7,	
+
+Monitoring numerics of simulation at time 324.7736
+ PICVolDistrib photoElec: 7114 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec True from ambiant electrons: 1035 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec BS from ambiant electrons: 5 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec from ambiant protons: 984 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ Last local volume potential change: 146.02002V maximum change, and 53.38706V average change (last plasma time step = 1.1922335E-6s)
+ Warning: last SC local surface potential change was rather large: 130.23193V maximum change, and 62.29675V average change
+    it may be due to too small a SC capacitance (1.0E-6F) or too large a time step (last one = 0.4423993s)
+Simulation time step control : dt is 0.54580414 s
+
+Time: 324.7736, Dt = 0.54580414 s
+
+ after SC integration TIME: 325.0465, dt = 0.27290207
+Simulation time step control : dt is 0.46893778 s
+
+Time: 325.0465, Dt = 0.46893778 s
+
+ after SC integration TIME: 325.51544, dt = 0.46893778
+Simulation time step control : dt is 0.6909972 s
+
+Time: 325.51544, Dt = 0.6909972 s
+
+ after SC integration TIME: 326.20642, dt = 0.6909972
+Simulation time step control : dt is 0.81164235 s
+
+Time: 326.20642, Dt = 0.81164235 s
+
+ after SC integration TIME: 327.01807, dt = 0.81164235
+Simulation time step control : dt is 8.116424 s
+
+Time: 327.01807, Dt = 8.116424 s
+
+ after SC integration TIME: 335.1345, dt = 8.116424
+
+In this time interval: 
+  COLLECTED current: -0.0019131819 A total,
+        -2.064115E-4 A on node0,   	-1.8977502E-5 A on node1,   	-3.406357E-6 A on node2,   	-1.6039363E-5 A on node3,   	-3.113641E-5 A on node4,   	-0.0014996461 A on node5,   	-1.1715014E-4 A on node6,   	-2.0414333E-5 A on node7,   	
+  EMITTED current: -0.0018347017 A total,
+        -1.9459882E-4 A on node0,   	-9.227261E-6 A on node1,   	-3.1992597E-6 A on node2,   	-1.8742441E-5 A on node3,   	-1.2716777E-5 A on node4,   	-0.0015188116 A on node5,   	-5.8037964E-5 A on node6,   	-1.9367191E-5 A on node7,   	
+
+Time 335.1345 s => POTENTIALS: 
+ -4954.735 V on SC ground (node0),	-4954.735 V on node1 ground,	-4954.735 V on node2 ground,	-4954.735 V on node3 ground,	-4954.735 V on node4 ground,	-4954.735 V on node5 ground,	-4954.735 V on node6 ground,	-4954.735 V on node7 ground,	
+      -4976.982 V on top of node0,	-4954.7354 V on top of node1,	-5223.823 V on top of node2,	-4327.421 V on top of node3,	-4954.7334 V on top of node4,	-3160.6648 V on top of node5,	-6693.2793 V on top of node6,	-5754.1226 V on top of node7,	
+      -6272.8735 Vmin onTopOfNode0,	-4954.735 Vmin onTopOfNode1,	-5232.25 Vmin onTopOfNode2,	-4498.6333 Vmin onTopOfNode3,	-4954.735 Vmin onTopOfNode4,	-3703.132 Vmin onTopOfNode5,	-6740.051 Vmin onTopOfNode6,	-9755.955 Vmin onTopOfNode7,	
+      -3726.8862 Vmax onTopOfNode0,	-4954.735 Vmax onTopOfNode1,	-5218.412 Vmax onTopOfNode2,	-4114.816 Vmax onTopOfNode3,	-4954.735 Vmax onTopOfNode4,	-2589.02 Vmax onTopOfNode5,	-6660.7617 Vmax onTopOfNode6,	-2722.45 Vmax onTopOfNode7,	
+
+Monitoring numerics of simulation at time 335.1345
+ PICVolDistrib photoElec: 8424 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec True from ambiant electrons: 1010 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec BS from ambiant electrons: 3 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec from ambiant protons: 1040 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ Last local volume potential change: 76.87012V maximum change, and 21.746914V average change (last plasma time step = 1.1922335E-6s)
+ Warning: last SC local surface potential change was rather large: 196.70752V maximum change, and 40.342262V average change
+    it may be due to too small a SC capacitance (1.0E-6F) or too large a time step (last one = 8.116424s)
+Simulation time step control : dt is 81.16424 s
+
+Time: 335.1345, Dt = 81.16424 s
+
+ after SC integration TIME: 416.29874, dt = 81.16424
+
+In this time interval: 
+  COLLECTED current: -0.0018566459 A total,
+        -2.0614275E-4 A on node0,   	-1.858648E-5 A on node1,   	-3.4686045E-6 A on node2,   	-1.736111E-5 A on node3,   	-3.0256877E-5 A on node4,   	-0.0014436801 A on node5,   	-1.1489541E-4 A on node6,   	-2.2254599E-5 A on node7,   	
+  EMITTED current: -0.0018313464 A total,
+        -1.9427219E-4 A on node0,   	-9.129857E-6 A on node1,   	-3.1536285E-6 A on node2,   	-1.8731194E-5 A on node3,   	-1.2685458E-5 A on node4,   	-0.0015164451 A on node5,   	-5.7631703E-5 A on node6,   	-1.9297335E-5 A on node7,   	
+
+Time 416.29874 s => POTENTIALS: 
+ -5298.6553 V on SC ground (node0),	-5298.6553 V on node1 ground,	-5298.6553 V on node2 ground,	-5298.6553 V on node3 ground,	-5298.6553 V on node4 ground,	-5298.6553 V on node5 ground,	-5298.6553 V on node6 ground,	-5298.6553 V on node7 ground,	
+      -5289.2407 V on top of node0,	-5298.654 V on top of node1,	-5605.0625 V on top of node2,	-4540.2 V on top of node3,	-5298.6533 V on top of node4,	-3141.4504 V on top of node5,	-7325.019 V on top of node6,	-6183.873 V on top of node7,	
+      -6866.519 Vmin onTopOfNode0,	-5298.6553 Vmin onTopOfNode1,	-5616.8066 Vmin onTopOfNode2,	-4832.647 Vmin onTopOfNode3,	-5298.6553 Vmin onTopOfNode4,	-3523.5945 Vmin onTopOfNode5,	-7510.345 Vmin onTopOfNode6,	-10209.822 Vmin onTopOfNode7,	
+      -3740.528 Vmax onTopOfNode0,	-5298.6553 Vmax onTopOfNode1,	-5587.606 Vmax onTopOfNode2,	-4137.226 Vmax onTopOfNode3,	-5298.6553 Vmax onTopOfNode4,	-2704.8667 Vmax onTopOfNode5,	-7281.457 Vmax onTopOfNode6,	-1426.4087 Vmax onTopOfNode7,	
+
+Monitoring numerics of simulation at time 416.29874
+ PICVolDistrib photoElec: 8034 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec True from ambiant electrons: 1050 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec BS from ambiant electrons: 3 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec from ambiant protons: 1031 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ Last local volume potential change: 196.70752V maximum change, and 22.995058V average change (last plasma time step = 1.1922335E-6s)
+ Warning: last SC local surface potential change was rather large: 845.0991V maximum change, and 353.16202V average change
+    it may be due to too small a SC capacitance (1.0E-6F) or too large a time step (last one = 81.16424s)
+Simulation time step control : dt is 100.0 s
+
+Time: 416.29874, Dt = 100.0 s
+
+CGS solver fail to solve the system => try with Gauss solver (longer but exact)
+ after SC integration TIME: 416.7646, dt = 0.46584675
+
+In this time interval: 
+  COLLECTED current: -0.0020470482 A total,
+        -2.1438637E-4 A on node0,   	-1.8076582E-5 A on node1,   	-3.3920094E-6 A on node2,   	-2.1523732E-5 A on node3,   	-2.9631987E-5 A on node4,   	-0.0016297984 A on node5,   	-1.0909463E-4 A on node6,   	-2.1144591E-5 A on node7,   	
+  EMITTED current: -0.001827822 A total,
+        -1.9368938E-4 A on node0,   	-8.925995E-6 A on node1,   	-3.0845376E-6 A on node2,   	-1.8731846E-5 A on node3,   	-1.2461989E-5 A on node4,   	-0.0015166423 A on node5,   	-5.516498E-5 A on node6,   	-1.9120778E-5 A on node7,   	
+
+Time 416.7646 s => POTENTIALS: 
+ -5375.986 V on SC ground (node0),	-5375.986 V on node1 ground,	-5375.986 V on node2 ground,	-5375.986 V on node3 ground,	-5375.986 V on node4 ground,	-5375.986 V on node5 ground,	-5375.986 V on node6 ground,	-5375.986 V on node7 ground,	
+      -5371.272 V on top of node0,	-5375.9863 V on top of node1,	-5683.015 V on top of node2,	-4614.8423 V on top of node3,	-5375.985 V on top of node4,	-3225.7795 V on top of node5,	-7404.5376 V on top of node6,	-6261.4116 V on top of node7,	
+      -6923.573 Vmin onTopOfNode0,	-5375.986 Vmin onTopOfNode1,	-5690.501 Vmin onTopOfNode2,	-4860.1655 Vmin onTopOfNode3,	-5375.986 Vmin onTopOfNode4,	-3657.1787 Vmin onTopOfNode5,	-7540.227 Vmin onTopOfNode6,	-10193.365 Vmin onTopOfNode7,	
+      -3843.1548 Vmax onTopOfNode0,	-5375.986 Vmax onTopOfNode1,	-5670.8623 Vmax onTopOfNode2,	-4295.1514 Vmax onTopOfNode3,	-5375.986 Vmax onTopOfNode4,	-2839.5112 Vmax onTopOfNode5,	-7371.921 Vmax onTopOfNode6,	-1676.6404 Vmax onTopOfNode7,	
+
+Monitoring numerics of simulation at time 416.7646
+ PICVolDistrib photoElec: 6199 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec True from ambiant electrons: 898 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec BS from ambiant electrons: 5 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec from ambiant protons: 903 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ Last local volume potential change: 845.0991V maximum change, and 241.78363V average change (last plasma time step = 1.1922335E-6s)
+ Warning: last SC local surface potential change was rather large: 253.04932V maximum change, and 81.78292V average change
+    it may be due to too small a SC capacitance (1.0E-6F) or too large a time step (last one = 100.0s)
+Simulation time step control : dt is 0.49326286 s
+
+Time: 416.7646, Dt = 0.49326286 s
+
+ after SC integration TIME: 417.25784, dt = 0.49326286
+
+In this time interval: 
+  COLLECTED current: -0.001942527 A total,
+        -2.085187E-4 A on node0,   	-1.8049128E-5 A on node1,   	-3.3503807E-6 A on node2,   	-1.9825007E-5 A on node3,   	-2.9376322E-5 A on node4,   	-0.0015349215 A on node5,   	-1.08172964E-4 A on node6,   	-2.0313182E-5 A on node7,   	
+  EMITTED current: -0.0018246291 A total,
+        -1.9340286E-4 A on node0,   	-8.896096E-6 A on node1,   	-3.064864E-6 A on node2,   	-1.8683577E-5 A on node3,   	-1.242145E-5 A on node4,   	-0.0015144151 A on node5,   	-5.4659125E-5 A on node6,   	-1.908621E-5 A on node7,   	
+
+Time 417.25784 s => POTENTIALS: 
+ -5418.9194 V on SC ground (node0),	-5418.9194 V on node1 ground,	-5418.9194 V on node2 ground,	-5418.9194 V on node3 ground,	-5418.9194 V on node4 ground,	-5418.9194 V on node5 ground,	-5418.9194 V on node6 ground,	-5418.9194 V on node7 ground,	
+      -5417.5625 V on top of node0,	-5418.919 V on top of node1,	-5726.3564 V on top of node2,	-4656.649 V on top of node3,	-5418.915 V on top of node4,	-3273.151 V on top of node5,	-7449.4927 V on top of node6,	-6304.5454 V on top of node7,	
+      -6951.3516 Vmin onTopOfNode0,	-5418.9194 Vmin onTopOfNode1,	-5732.805 Vmin onTopOfNode2,	-4867.1343 Vmin onTopOfNode3,	-5418.9194 Vmin onTopOfNode4,	-3719.4 Vmin onTopOfNode5,	-7559.205 Vmin onTopOfNode6,	-10149.941 Vmin onTopOfNode7,	
+      -3902.6694 Vmax onTopOfNode0,	-5418.9194 Vmax onTopOfNode1,	-5717.31 Vmax onTopOfNode2,	-4402.657 Vmax onTopOfNode3,	-5418.9194 Vmax onTopOfNode4,	-2896.2966 Vmax onTopOfNode5,	-7416.9443 Vmax onTopOfNode6,	-1846.1449 Vmax onTopOfNode7,	
+
+Monitoring numerics of simulation at time 417.25784
+ PICVolDistrib photoElec: 6410 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec True from ambiant electrons: 915 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec BS from ambiant electrons: 7 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec from ambiant protons: 899 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ Last local volume potential change: 253.04932V maximum change, and 59.159523V average change (last plasma time step = 1.1922335E-6s)
+ Warning: last SC local surface potential change was rather large: 146.6438V maximum change, and 45.427204V average change
+    it may be due to too small a SC capacitance (1.0E-6F) or too large a time step (last one = 0.49326286s)
+Simulation time step control : dt is 0.794964 s
+
+Time: 417.25784, Dt = 0.794964 s
+
+ after SC integration TIME: 418.0528, dt = 0.794964
+
+In this time interval: 
+  COLLECTED current: -0.001926377 A total,
+        -2.0491205E-4 A on node0,   	-1.795966E-5 A on node1,   	-3.439208E-6 A on node2,   	-1.9281151E-5 A on node3,   	-2.9258808E-5 A on node4,   	-0.0015229757 A on node5,   	-1.0768278E-4 A on node6,   	-2.0867543E-5 A on node7,   	
+  EMITTED current: -0.0018226227 A total,
+        -1.9327526E-4 A on node0,   	-8.855394E-6 A on node1,   	-3.051813E-6 A on node2,   	-1.868541E-5 A on node3,   	-1.2466143E-5 A on node4,   	-0.0015127654 A on node5,   	-5.4488955E-5 A on node6,   	-1.9034356E-5 A on node7,   	
+
+Time 418.0528 s => POTENTIALS: 
+ -5473.3887 V on SC ground (node0),	-5473.3887 V on node1 ground,	-5473.3887 V on node2 ground,	-5473.3887 V on node3 ground,	-5473.3887 V on node4 ground,	-5473.3887 V on node5 ground,	-5473.3887 V on node6 ground,	-5473.3887 V on node7 ground,	
+      -5475.8213 V on top of node0,	-5473.388 V on top of node1,	-5781.4346 V on top of node2,	-4711.3086 V on top of node3,	-5473.3867 V on top of node4,	-3332.905 V on top of node5,	-7506.9155 V on top of node6,	-6359.6987 V on top of node7,	
+      -6994.2275 Vmin onTopOfNode0,	-5473.3887 Vmin onTopOfNode1,	-5786.742 Vmin onTopOfNode2,	-4896.7544 Vmin onTopOfNode3,	-5473.3887 Vmin onTopOfNode4,	-3822.1638 Vmin onTopOfNode5,	-7600.1953 Vmin onTopOfNode6,	-10125.909 Vmin onTopOfNode7,	
+      -3976.313 Vmax onTopOfNode0,	-5473.3887 Vmax onTopOfNode1,	-5774.6797 Vmax onTopOfNode2,	-4494.1123 Vmax onTopOfNode3,	-5473.3887 Vmax onTopOfNode4,	-2956.446 Vmax onTopOfNode5,	-7474.6167 Vmax onTopOfNode6,	-2011.184 Vmax onTopOfNode7,	
+
+Monitoring numerics of simulation at time 418.0528
+ PICVolDistrib photoElec: 6689 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec True from ambiant electrons: 847 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec BS from ambiant electrons: 2 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec from ambiant protons: 867 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ Last local volume potential change: 146.6438V maximum change, and 32.923454V average change (last plasma time step = 1.1922335E-6s)
+ Warning: last SC local surface potential change was rather large: 140.77856V maximum change, and 57.80967V average change
+    it may be due to too small a SC capacitance (1.0E-6F) or too large a time step (last one = 0.794964s)
+Simulation time step control : dt is 0.8838463 s
+
+Time: 418.0528, Dt = 0.8838463 s
+
+ after SC integration TIME: 418.88065, dt = 0.8278279
+
+In this time interval: 
+  COLLECTED current: -0.0019239155 A total,
+        -2.0379057E-4 A on node0,   	-1.7890368E-5 A on node1,   	-3.2116006E-6 A on node2,   	-1.7309298E-5 A on node3,   	-2.9083427E-5 A on node4,   	-0.0015252626 A on node5,   	-1.0722069E-4 A on node6,   	-2.014713E-5 A on node7,   	
+  EMITTED current: -0.0018203396 A total,
+        -1.9300621E-4 A on node0,   	-8.862982E-6 A on node1,   	-3.0250042E-6 A on node2,   	-1.8690573E-5 A on node3,   	-1.2411733E-5 A on node4,   	-0.0015110171 A on node5,   	-5.4289223E-5 A on node6,   	-1.9036697E-5 A on node7,   	
+
+Time 418.88065 s => POTENTIALS: 
+ -5532.777 V on SC ground (node0),	-5532.777 V on node1 ground,	-5532.777 V on node2 ground,	-5532.777 V on node3 ground,	-5532.777 V on node4 ground,	-5532.777 V on node5 ground,	-5532.777 V on node6 ground,	-5532.777 V on node7 ground,	
+      -5539.087 V on top of node0,	-5532.7754 V on top of node1,	-5841.1143 V on top of node2,	-4769.3726 V on top of node3,	-5532.774 V on top of node4,	-3399.012 V on top of node5,	-7569.3027 V on top of node6,	-6419.559 V on top of node7,	
+      -7041.7017 Vmin onTopOfNode0,	-5532.777 Vmin onTopOfNode1,	-5845.579 Vmin onTopOfNode2,	-4935.329 Vmin onTopOfNode3,	-5532.777 Vmin onTopOfNode4,	-3925.7026 Vmin onTopOfNode5,	-7651.288 Vmin onTopOfNode6,	-10113.311 Vmin onTopOfNode7,	
+      -4056.4094 Vmax onTopOfNode0,	-5532.777 Vmax onTopOfNode1,	-5836.046 Vmax onTopOfNode2,	-4578.2627 Vmax onTopOfNode3,	-5532.777 Vmax onTopOfNode4,	-3019.669 Vmax onTopOfNode5,	-7537.39 Vmax onTopOfNode6,	-2148.3667 Vmax onTopOfNode7,	
+
+Monitoring numerics of simulation at time 418.88065
+ PICVolDistrib photoElec: 6701 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec True from ambiant electrons: 888 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec BS from ambiant electrons: 3 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec from ambiant protons: 928 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ Last local volume potential change: 140.77856V maximum change, and 42.14631V average change (last plasma time step = 1.1922335E-6s)
+ Warning: last SC local surface potential change was rather large: 130.93408V maximum change, and 62.976875V average change
+    it may be due to too small a SC capacitance (1.0E-6F) or too large a time step (last one = 0.8838463s)
+Simulation time step control : dt is 0.84675187 s
+
+Time: 418.88065, Dt = 0.84675187 s
+
+ after SC integration TIME: 419.7274, dt = 0.84675187
+
+In this time interval: 
+  COLLECTED current: -0.0019015375 A total,
+        -2.038523E-4 A on node0,   	-1.7753937E-5 A on node1,   	-3.2074067E-6 A on node2,   	-1.6839655E-5 A on node3,   	-3.1030915E-5 A on node4,   	-0.001501501 A on node5,   	-1.06583306E-4 A on node6,   	-2.0769292E-5 A on node7,   	
+  EMITTED current: -0.0018179705 A total,
+        -1.9285743E-4 A on node0,   	-8.865317E-6 A on node1,   	-3.02511E-6 A on node2,   	-1.8684414E-5 A on node3,   	-1.2401848E-5 A on node4,   	-0.0015089657 A on node5,   	-5.419542E-5 A on node6,   	-1.897524E-5 A on node7,   	
+
+Time 419.7274 s => POTENTIALS: 
+ -5583.3315 V on SC ground (node0),	-5583.3315 V on node1 ground,	-5583.3315 V on node2 ground,	-5583.3315 V on node3 ground,	-5583.3315 V on node4 ground,	-5583.3315 V on node5 ground,	-5583.3315 V on node6 ground,	-5583.3315 V on node7 ground,	
+      -5593.6353 V on top of node0,	-5583.331 V on top of node1,	-5891.9487 V on top of node2,	-4818.383 V on top of node3,	-5583.3286 V on top of node4,	-3455.1829 V on top of node5,	-7622.8604 V on top of node6,	-6470.8936 V on top of node7,	
+      -7078.935 Vmin onTopOfNode0,	-5583.3315 Vmin onTopOfNode1,	-5895.5137 Vmin onTopOfNode2,	-4968.0786 Vmin onTopOfNode3,	-5583.3315 Vmin onTopOfNode4,	-4003.3914 Vmin onTopOfNode5,	-7696.539 Vmin onTopOfNode6,	-10097.454 Vmin onTopOfNode7,	
+      -4126.0117 Vmax onTopOfNode0,	-5583.3315 Vmax onTopOfNode1,	-5888.0815 Vmax onTopOfNode2,	-4646.341 Vmax onTopOfNode3,	-5583.3315 Vmax onTopOfNode4,	-3073.8953 Vmax onTopOfNode5,	-7591.424 Vmax onTopOfNode6,	-2268.512 Vmax onTopOfNode7,	
+
+Monitoring numerics of simulation at time 419.7274
+ PICVolDistrib photoElec: 6872 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec True from ambiant electrons: 947 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec BS from ambiant electrons: 5 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec from ambiant protons: 898 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ Last local volume potential change: 130.93408V maximum change, and 45.978607V average change (last plasma time step = 1.1922335E-6s)
+ Warning: last SC local surface potential change was rather large: 109.09082V maximum change, and 53.42145V average change
+    it may be due to too small a SC capacitance (1.0E-6F) or too large a time step (last one = 0.84675187s)
+Simulation time step control : dt is 8.467519 s
+
+Time: 419.7274, Dt = 8.467519 s
+
+ after SC integration TIME: 428.19492, dt = 8.467519
+
+In this time interval: 
+  COLLECTED current: -0.0018869269 A total,
+        -1.999716E-4 A on node0,   	-1.7681175E-5 A on node1,   	-3.2606083E-6 A on node2,   	-1.6771417E-5 A on node3,   	-2.8745284E-5 A on node4,   	-0.001494212 A on node5,   	-1.0608725E-4 A on node6,   	-2.0197604E-5 A on node7,   	
+  EMITTED current: -0.0018159325 A total,
+        -1.9294604E-4 A on node0,   	-8.748154E-6 A on node1,   	-3.0230722E-6 A on node2,   	-1.8670962E-5 A on node3,   	-1.24169665E-5 A on node4,   	-0.0015074795 A on node5,   	-5.3718326E-5 A on node6,   	-1.892943E-5 A on node7,   	
+
+Time 428.19492 s => POTENTIALS: 
+ -5689.565 V on SC ground (node0),	-5689.565 V on node1 ground,	-5689.565 V on node2 ground,	-5689.565 V on node3 ground,	-5689.565 V on node4 ground,	-5689.565 V on node5 ground,	-5689.565 V on node6 ground,	-5689.565 V on node7 ground,	
+      -5708.3657 V on top of node0,	-5689.564 V on top of node1,	-6001.566 V on top of node2,	-4912.9546 V on top of node3,	-5689.5605 V on top of node4,	-3539.8098 V on top of node5,	-7757.6235 V on top of node6,	-6581.8535 V on top of node7,	
+      -7194.703 Vmin onTopOfNode0,	-5689.565 Vmin onTopOfNode1,	-6006.3906 Vmin onTopOfNode2,	-5117.8774 Vmin onTopOfNode3,	-5689.565 Vmin onTopOfNode4,	-4333.174 Vmin onTopOfNode5,	-7828.236 Vmin onTopOfNode6,	-10162.641 Vmin onTopOfNode7,	
+      -4184.532 Vmax onTopOfNode0,	-5689.565 Vmax onTopOfNode1,	-5997.482 Vmax onTopOfNode2,	-4658.563 Vmax onTopOfNode3,	-5689.565 Vmax onTopOfNode4,	-3113.8281 Vmax onTopOfNode5,	-7727.1724 Vmax onTopOfNode6,	-2377.9185 Vmax onTopOfNode7,	
+
+Monitoring numerics of simulation at time 428.19492
+ PICVolDistrib photoElec: 6921 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec True from ambiant electrons: 877 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec BS from ambiant electrons: 13 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec from ambiant protons: 910 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ Last local volume potential change: 109.09082V maximum change, and 39.064556V average change (last plasma time step = 1.1922335E-6s)
+ Warning: last SC local surface potential change was rather large: 269.47485V maximum change, and 111.89283V average change
+    it may be due to too small a SC capacitance (1.0E-6F) or too large a time step (last one = 8.467519s)
+Simulation time step control : dt is 84.675186 s
+
+Time: 428.19492, Dt = 84.675186 s
+
+ after SC integration TIME: 512.8701, dt = 84.675186
+
+In this time interval: 
+  COLLECTED current: -0.001877705 A total,
+        -2.000494E-4 A on node0,   	-1.7479568E-5 A on node1,   	-3.1378195E-6 A on node2,   	-1.7494907E-5 A on node3,   	-2.8593871E-5 A on node4,   	-0.0014851086 A on node5,   	-1.04999395E-4 A on node6,   	-2.084143E-5 A on node7,   	
+  EMITTED current: -0.0018123197 A total,
+        -1.9256014E-4 A on node0,   	-8.675423E-6 A on node1,   	-2.9893636E-6 A on node2,   	-1.865464E-5 A on node3,   	-1.2191561E-5 A on node4,   	-0.0015049073 A on node5,   	-5.3405325E-5 A on node6,   	-1.8936096E-5 A on node7,   	
+
+Time 512.8701 s => POTENTIALS: 
+ -6030.277 V on SC ground (node0),	-6030.277 V on node1 ground,	-6030.277 V on node2 ground,	-6030.277 V on node3 ground,	-6030.277 V on node4 ground,	-6030.277 V on node5 ground,	-6030.277 V on node6 ground,	-6030.277 V on node7 ground,	
+      -6048.519 V on top of node0,	-6030.278 V on top of node1,	-6356.237 V on top of node2,	-5177.7363 V on top of node3,	-6030.276 V on top of node4,	-3541.9412 V on top of node5,	-8367.313 V on top of node6,	-6985.9697 V on top of node7,	
+      -7775.3584 Vmin onTopOfNode0,	-6030.277 Vmin onTopOfNode1,	-6373.903 Vmin onTopOfNode2,	-5507.3184 Vmin onTopOfNode3,	-6030.277 Vmin onTopOfNode4,	-4435.5264 Vmin onTopOfNode5,	-8599.951 Vmin onTopOfNode6,	-10664.224 Vmin onTopOfNode7,	
+      -4140.669 Vmax onTopOfNode0,	-6030.277 Vmax onTopOfNode1,	-6329.457 Vmax onTopOfNode2,	-4691.957 Vmax onTopOfNode3,	-6030.277 Vmax onTopOfNode4,	-2997.2307 Vmax onTopOfNode5,	-8303.488 Vmax onTopOfNode6,	-2525.5308 Vmax onTopOfNode7,	
+
+Monitoring numerics of simulation at time 512.8701
+ PICVolDistrib photoElec: 6914 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec True from ambiant electrons: 881 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec BS from ambiant electrons: 10 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec from ambiant protons: 939 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ Last local volume potential change: 269.47485V maximum change, and 81.37305V average change (last plasma time step = 1.1922335E-6s)
+ Warning: last SC local surface potential change was rather large: 769.7529V maximum change, and 346.12402V average change
+    it may be due to too small a SC capacitance (1.0E-6F) or too large a time step (last one = 84.675186s)
+Simulation time step control : dt is 100.0 s
+
+Time: 512.8701, Dt = 100.0 s
+
+ after SC integration TIME: 513.2957, dt = 0.42563164
+
+In this time interval: 
+  COLLECTED current: -0.001996958 A total,
+        -2.0560493E-4 A on node0,   	-1.8029647E-5 A on node1,   	-3.1376712E-6 A on node2,   	-2.1049445E-5 A on node3,   	-2.7937725E-5 A on node4,   	-0.0015985371 A on node5,   	-9.9712524E-5 A on node6,   	-2.2948512E-5 A on node7,   	
+  EMITTED current: -0.0018088858 A total,
+        -1.9178443E-4 A on node0,   	-8.464842E-6 A on node1,   	-2.9123048E-6 A on node2,   	-1.8645685E-5 A on node3,   	-1.2108012E-5 A on node4,   	-0.0015048021 A on node5,   	-5.1431747E-5 A on node6,   	-1.8736904E-5 A on node7,   	
+
+Time 513.2957 s => POTENTIALS: 
+ -6101.706 V on SC ground (node0),	-6101.706 V on node1 ground,	-6101.706 V on node2 ground,	-6101.706 V on node3 ground,	-6101.706 V on node4 ground,	-6101.706 V on node5 ground,	-6101.706 V on node6 ground,	-6101.706 V on node7 ground,	
+      -6124.49 V on top of node0,	-6101.706 V on top of node1,	-6428.2334 V on top of node2,	-5245.6733 V on top of node3,	-6101.7017 V on top of node4,	-3623.1384 V on top of node5,	-8440.911 V on top of node6,	-7058.011 V on top of node7,	
+      -7829.6753 Vmin onTopOfNode0,	-6101.706 Vmin onTopOfNode1,	-6439.94 Vmin onTopOfNode2,	-5521.041 Vmin onTopOfNode3,	-6101.706 Vmin onTopOfNode4,	-4453.682 Vmin onTopOfNode5,	-8622.778 Vmin onTopOfNode6,	-10682.329 Vmin onTopOfNode7,	
+      -4245.4414 Vmax onTopOfNode0,	-6101.706 Vmax onTopOfNode1,	-6409.403 Vmax onTopOfNode2,	-4867.249 Vmax onTopOfNode3,	-6101.706 Vmax onTopOfNode4,	-3143.7544 Vmax onTopOfNode5,	-8406.138 Vmax onTopOfNode6,	-2634.2183 Vmax onTopOfNode7,	
+
+Monitoring numerics of simulation at time 513.2957
+ PICVolDistrib photoElec: 5826 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec True from ambiant electrons: 855 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec BS from ambiant electrons: 8 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec from ambiant protons: 791 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ Last local volume potential change: 769.7529V maximum change, and 239.41077V average change (last plasma time step = 1.1922335E-6s)
+ Warning: last SC local surface potential change was rather large: 202.74219V maximum change, and 75.97412V average change
+    it may be due to too small a SC capacitance (1.0E-6F) or too large a time step (last one = 100.0s)
+Simulation time step control : dt is 0.44724837 s
+
+Time: 513.2957, Dt = 0.44724837 s
+
+ after SC integration TIME: 513.743, dt = 0.44724837
+
+In this time interval: 
+  COLLECTED current: -0.0019609279 A total,
+        -2.0308357E-4 A on node0,   	-1.7840228E-5 A on node1,   	-3.047801E-6 A on node2,   	-1.8763576E-5 A on node3,   	-2.7802846E-5 A on node4,   	-0.0015717325 A on node5,   	-9.8973105E-5 A on node6,   	-1.9683946E-5 A on node7,   	
+  EMITTED current: -0.0018060735 A total,
+        -1.9163029E-4 A on node0,   	-8.43685E-6 A on node1,   	-2.8810132E-6 A on node2,   	-1.8604649E-5 A on node3,   	-1.2161784E-5 A on node4,   	-0.0015023472 A on node5,   	-5.1286446E-5 A on node6,   	-1.872473E-5 A on node7,   	
+
+Time 513.743 s => POTENTIALS: 
+ -6162.8896 V on SC ground (node0),	-6162.8896 V on node1 ground,	-6162.8896 V on node2 ground,	-6162.8896 V on node3 ground,	-6162.8896 V on node4 ground,	-6162.8896 V on node5 ground,	-6162.8896 V on node6 ground,	-6162.8896 V on node7 ground,	
+      -6189.341 V on top of node0,	-6162.888 V on top of node1,	-6489.727 V on top of node2,	-5304.893 V on top of node3,	-6162.8867 V on top of node4,	-3693.878 V on top of node5,	-8503.933 V on top of node6,	-7119.3345 V on top of node7,	
+      -7878.257 Vmin onTopOfNode0,	-6162.8896 Vmin onTopOfNode1,	-6500.395 Vmin onTopOfNode2,	-5542.2344 Vmin onTopOfNode3,	-6162.8896 Vmin onTopOfNode4,	-4481.6836 Vmin onTopOfNode5,	-8655.296 Vmin onTopOfNode6,	-10693.756 Vmin onTopOfNode7,	
+      -4334.7544 Vmax onTopOfNode0,	-6162.8896 Vmax onTopOfNode1,	-6475.6226 Vmax onTopOfNode2,	-5007.183 Vmax onTopOfNode3,	-6162.8896 Vmax onTopOfNode4,	-3216.007 Vmax onTopOfNode5,	-8469.525 Vmax onTopOfNode6,	-2725.784 Vmax onTopOfNode7,	
+
+Monitoring numerics of simulation at time 513.743
+ PICVolDistrib photoElec: 5959 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec True from ambiant electrons: 832 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec BS from ambiant electrons: 0 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec from ambiant protons: 857 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ Last local volume potential change: 202.74219V maximum change, and 54.67247V average change (last plasma time step = 1.1922335E-6s)
+ Warning: last SC local surface potential change was rather large: 141.37744V maximum change, and 64.2662V average change
+    it may be due to too small a SC capacitance (1.0E-6F) or too large a time step (last one = 0.44724837s)
+Simulation time step control : dt is 0.538356 s
+
+Time: 513.743, Dt = 0.538356 s
+
+ after SC integration TIME: 514.2813, dt = 0.538356
+
+In this time interval: 
+  COLLECTED current: -0.0019287852 A total,
+        -2.0196677E-4 A on node0,   	-1.6803899E-5 A on node1,   	-3.0965748E-6 A on node2,   	-1.7823444E-5 A on node3,   	-2.7663526E-5 A on node4,   	-0.0015438207 A on node5,   	-9.8404365E-5 A on node6,   	-1.9205776E-5 A on node7,   	
+  EMITTED current: -0.0018036773 A total,
+        -1.9148376E-4 A on node0,   	-8.425164E-6 A on node1,   	-2.887105E-6 A on node2,   	-1.8621564E-5 A on node3,   	-1.204093E-5 A on node4,   	-0.0015004614 A on node5,   	-5.1028404E-5 A on node6,   	-1.8728926E-5 A on node7,   	
+
+Time 514.2813 s => POTENTIALS: 
+ -6221.259 V on SC ground (node0),	-6221.259 V on node1 ground,	-6221.259 V on node2 ground,	-6221.259 V on node3 ground,	-6221.259 V on node4 ground,	-6221.259 V on node5 ground,	-6221.259 V on node6 ground,	-6221.259 V on node7 ground,	
+      -6251.2715 V on top of node0,	-6221.2603 V on top of node1,	-6548.3784 V on top of node2,	-5361.9907 V on top of node3,	-6221.2554 V on top of node4,	-3761.3237 V on top of node5,	-8564.269 V on top of node6,	-7177.758 V on top of node7,	
+      -7924.4927 Vmin onTopOfNode0,	-6221.259 Vmin onTopOfNode1,	-6557.6577 Vmin onTopOfNode2,	-5567.377 Vmin onTopOfNode3,	-6221.259 Vmin onTopOfNode4,	-4526.3906 Vmin onTopOfNode5,	-8693.1455 Vmin onTopOfNode6,	-10705.561 Vmin onTopOfNode7,	
+      -4420.289 Vmax onTopOfNode0,	-6221.259 Vmax onTopOfNode1,	-6537.387 Vmax onTopOfNode2,	-5118.7295 Vmax onTopOfNode3,	-6221.259 Vmax onTopOfNode4,	-3284.3684 Vmax onTopOfNode5,	-8529.94 Vmax onTopOfNode6,	-2808.9993 Vmax onTopOfNode7,	
+
+Monitoring numerics of simulation at time 514.2813
+ PICVolDistrib photoElec: 6215 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec True from ambiant electrons: 856 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec BS from ambiant electrons: 7 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec from ambiant protons: 879 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ Last local volume potential change: 141.37744V maximum change, and 46.96631V average change (last plasma time step = 1.1922335E-6s)
+ Warning: last SC local surface potential change was rather large: 122.073V maximum change, and 61.28939V average change
+    it may be due to too small a SC capacitance (1.0E-6F) or too large a time step (last one = 0.538356s)
+Simulation time step control : dt is 0.63998693 s
+
+Time: 514.2813, Dt = 0.63998693 s
+
+ after SC integration TIME: 514.43884, dt = 0.15752806
+
+In this time interval: 
+  COLLECTED current: -0.0019278529 A total,
+        -1.9847196E-4 A on node0,   	-1.764067E-5 A on node1,   	-3.0442395E-6 A on node2,   	-1.691851E-5 A on node3,   	-2.7413951E-5 A on node4,   	-0.0015452491 A on node5,   	-9.7928605E-5 A on node6,   	-2.118606E-5 A on node7,   	
+  EMITTED current: -0.0018012207 A total,
+        -1.9137478E-4 A on node0,   	-8.439988E-6 A on node1,   	-2.8705954E-6 A on node2,   	-1.8603965E-5 A on node3,   	-1.2020942E-5 A on node4,   	-0.0014984413 A on node5,   	-5.080222E-5 A on node6,   	-1.866706E-5 A on node7,   	
+
+Time 514.43884 s => POTENTIALS: 
+ -6240.5615 V on SC ground (node0),	-6240.5615 V on node1 ground,	-6240.5615 V on node2 ground,	-6240.5615 V on node3 ground,	-6240.5615 V on node4 ground,	-6240.5615 V on node5 ground,	-6240.5615 V on node6 ground,	-6240.5615 V on node7 ground,	
+      -6271.5615 V on top of node0,	-6240.56 V on top of node1,	-6567.766 V on top of node2,	-5380.3003 V on top of node3,	-6240.557 V on top of node4,	-3785.406 V on top of node5,	-8584.281 V on top of node6,	-7197.1455 V on top of node7,	
+      -7929.809 Vmin onTopOfNode0,	-6240.5615 Vmin onTopOfNode1,	-6575.6816 Vmin onTopOfNode2,	-5556.2646 Vmin onTopOfNode3,	-6240.5615 Vmin onTopOfNode4,	-4483.161 Vmin onTopOfNode5,	-8696.561 Vmin onTopOfNode6,	-10679.851 Vmin onTopOfNode7,	
+      -4454.817 Vmax onTopOfNode0,	-6240.5615 Vmax onTopOfNode1,	-6559.0776 Vmax onTopOfNode2,	-5184.544 Vmax onTopOfNode3,	-6240.5615 Vmax onTopOfNode4,	-3321.8591 Vmax onTopOfNode5,	-8549.962 Vmax onTopOfNode6,	-2849.6453 Vmax onTopOfNode7,	
+
+Monitoring numerics of simulation at time 514.43884
+ PICVolDistrib photoElec: 6151 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec True from ambiant electrons: 829 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec BS from ambiant electrons: 6 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec from ambiant protons: 859 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ Last local volume potential change: 122.073V maximum change, and 44.896313V average change (last plasma time step = 1.1922335E-6s)
+ Warning: last SC local surface potential change was rather large: 65.46387V maximum change, and 21.093794V average change
+    it may be due to too small a SC capacitance (1.0E-6F) or too large a time step (last one = 0.63998693s)
+Simulation time step control : dt is 0.16290365 s
+
+Time: 514.43884, Dt = 0.16290365 s
+
+ after SC integration TIME: 514.60175, dt = 0.16290365
+
+In this time interval: 
+  COLLECTED current: -0.0018951818 A total,
+        -2.0036884E-4 A on node0,   	-1.6773305E-5 A on node1,   	-2.964788E-6 A on node2,   	-1.637876E-5 A on node3,   	-2.7350401E-5 A on node4,   	-0.0015142024 A on node5,   	-9.787577E-5 A on node6,   	-1.9267576E-5 A on node7,   	
+  EMITTED current: -0.0018000822 A total,
+        -1.9141161E-4 A on node0,   	-8.364273E-6 A on node1,   	-2.8675206E-6 A on node2,   	-1.8587627E-5 A on node3,   	-1.2079745E-5 A on node4,   	-0.0014974774 A on node5,   	-5.0604285E-5 A on node6,   	-1.8689827E-5 A on node7,   	
+
+Time 514.60175 s => POTENTIALS: 
+ -6255.4727 V on SC ground (node0),	-6255.4727 V on node1 ground,	-6255.4727 V on node2 ground,	-6255.4727 V on node3 ground,	-6255.4727 V on node4 ground,	-6255.4727 V on node5 ground,	-6255.4727 V on node6 ground,	-6255.4727 V on node7 ground,	
+      -6287.1367 V on top of node0,	-6255.4727 V on top of node1,	-6582.723 V on top of node2,	-5394.4497 V on top of node3,	-6255.468 V on top of node4,	-3803.6191 V on top of node5,	-8599.874 V on top of node6,	-7212.0493 V on top of node7,	
+      -7929.683 Vmin onTopOfNode0,	-6255.4727 Vmin onTopOfNode1,	-6589.366 Vmin onTopOfNode2,	-5544.1187 Vmin onTopOfNode3,	-6255.4727 Vmin onTopOfNode4,	-4449.692 Vmin onTopOfNode5,	-8699.754 Vmin onTopOfNode6,	-10652.088 Vmin onTopOfNode7,	
+      -4492.0283 Vmax onTopOfNode0,	-6255.4727 Vmax onTopOfNode1,	-6575.733 Vmax onTopOfNode2,	-5234.2944 Vmax onTopOfNode3,	-6255.4727 Vmax onTopOfNode4,	-3345.887 Vmax onTopOfNode5,	-8565.674 Vmax onTopOfNode6,	-2881.4849 Vmax onTopOfNode7,	
+
+Monitoring numerics of simulation at time 514.60175
+ PICVolDistrib photoElec: 6268 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec True from ambiant electrons: 875 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec BS from ambiant electrons: 4 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec from ambiant protons: 884 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ Last local volume potential change: 65.46387V maximum change, and 14.65607V average change (last plasma time step = 1.1922335E-6s)
+ Warning: last SC local surface potential change was rather large: 56.48291V maximum change, and 16.770979V average change
+    it may be due to too small a SC capacitance (1.0E-6F) or too large a time step (last one = 0.16290365s)
+Simulation time step control : dt is 0.40812674 s
+
+Time: 514.60175, Dt = 0.40812674 s
+
+ after SC integration TIME: 515.0099, dt = 0.40812674
+
+In this time interval: 
+  COLLECTED current: -0.0018931711 A total,
+        -1.9568483E-4 A on node0,   	-1.6695898E-5 A on node1,   	-3.1490792E-6 A on node2,   	-1.6388447E-5 A on node3,   	-2.7320368E-5 A on node4,   	-0.0015169062 A on node5,   	-9.770066E-5 A on node6,   	-1.932584E-5 A on node7,   	
+  EMITTED current: -0.0017992688 A total,
+        -1.9120818E-4 A on node0,   	-8.389098E-6 A on node1,   	-2.8544443E-6 A on node2,   	-1.8607607E-5 A on node3,   	-1.2093779E-5 A on node4,   	-0.0014969553 A on node5,   	-5.0523784E-5 A on node6,   	-1.8636836E-5 A on node7,   	
+
+Time 515.0099 s => POTENTIALS: 
+ -6289.8765 V on SC ground (node0),	-6289.8765 V on node1 ground,	-6289.8765 V on node2 ground,	-6289.8765 V on node3 ground,	-6289.8765 V on node4 ground,	-6289.8765 V on node5 ground,	-6289.8765 V on node6 ground,	-6289.8765 V on node7 ground,	
+      -6322.4883 V on top of node0,	-6289.878 V on top of node1,	-6617.351 V on top of node2,	-5427.923 V on top of node3,	-6289.8735 V on top of node4,	-3842.519 V on top of node5,	-8635.669 V on top of node6,	-7246.552 V on top of node7,	
+      -7948.6123 Vmin onTopOfNode0,	-6289.8765 Vmin onTopOfNode1,	-6622.841 Vmin onTopOfNode2,	-5557.5312 Vmin onTopOfNode3,	-6289.8765 Vmin onTopOfNode4,	-4468.2637 Vmin onTopOfNode5,	-8726.192 Vmin onTopOfNode6,	-10646.589 Vmin onTopOfNode7,	
+      -4559.045 Vmax onTopOfNode0,	-6289.8765 Vmax onTopOfNode1,	-6611.6772 Vmax onTopOfNode2,	-5289.8086 Vmax onTopOfNode3,	-6289.8765 Vmax onTopOfNode4,	-3387.2297 Vmax onTopOfNode5,	-8601.673 Vmax onTopOfNode6,	-2935.2925 Vmax onTopOfNode7,	
+
+Monitoring numerics of simulation at time 515.0099
+ PICVolDistrib photoElec: 6360 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec True from ambiant electrons: 822 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec BS from ambiant electrons: 9 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec from ambiant protons: 871 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ Last local volume potential change: 56.48291V maximum change, and 11.37936V average change (last plasma time step = 1.1922335E-6s)
+ Warning: last SC local surface potential change was rather large: 69.64795V maximum change, and 35.79798V average change
+    it may be due to too small a SC capacitance (1.0E-6F) or too large a time step (last one = 0.40812674s)
+Simulation time step control : dt is 0.8186391 s
+
+Time: 515.0099, Dt = 0.8186391 s
+
+ after SC integration TIME: 515.77185, dt = 0.7619845
+
+In this time interval: 
+  COLLECTED current: -0.0018956888 A total,
+        -1.9518548E-4 A on node0,   	-1.7520588E-5 A on node1,   	-2.9478995E-6 A on node2,   	-1.6907015E-5 A on node3,   	-2.7265283E-5 A on node4,   	-0.0015193257 A on node5,   	-9.731964E-5 A on node6,   	-1.9217201E-5 A on node7,   	
+  EMITTED current: -0.0017981929 A total,
+        -1.911636E-4 A on node0,   	-8.397028E-6 A on node1,   	-2.88086E-6 A on node2,   	-1.8607012E-5 A on node3,   	-1.2037377E-5 A on node4,   	-0.0014961689 A on node5,   	-5.025441E-5 A on node6,   	-1.8683397E-5 A on node7,   	
+
+Time 515.77185 s => POTENTIALS: 
+ -6352.171 V on SC ground (node0),	-6352.171 V on node1 ground,	-6352.171 V on node2 ground,	-6352.171 V on node3 ground,	-6352.171 V on node4 ground,	-6352.171 V on node5 ground,	-6352.171 V on node6 ground,	-6352.171 V on node7 ground,	
+      -6386.6816 V on top of node0,	-6352.1704 V on top of node1,	-6679.7217 V on top of node2,	-5489.2915 V on top of node3,	-6352.168 V on top of node4,	-3912.4229 V on top of node5,	-8700.394 V on top of node6,	-7308.9966 V on top of node7,	
+      -7998.2686 Vmin onTopOfNode0,	-6352.171 Vmin onTopOfNode1,	-6684.235 Vmin onTopOfNode2,	-5605.6187 Vmin onTopOfNode3,	-6352.171 Vmin onTopOfNode4,	-4568.153 Vmin onTopOfNode5,	-8783.775 Vmin onTopOfNode6,	-10671.968 Vmin onTopOfNode7,	
+      -4660.1743 Vmax onTopOfNode0,	-6352.171 Vmax onTopOfNode1,	-6675.164 Vmax onTopOfNode2,	-5362.578 Vmax onTopOfNode3,	-6352.171 Vmax onTopOfNode4,	-3450.8992 Vmax onTopOfNode5,	-8666.664 Vmax onTopOfNode6,	-3015.2703 Vmax onTopOfNode7,	
+
+Monitoring numerics of simulation at time 515.77185
+ PICVolDistrib photoElec: 6523 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec True from ambiant electrons: 847 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec BS from ambiant electrons: 3 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec from ambiant protons: 861 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ Last local volume potential change: 69.64795V maximum change, and 26.249527V average change (last plasma time step = 1.1922335E-6s)
+ Warning: last SC local surface potential change was rather large: 114.09473V maximum change, and 65.70331V average change
+    it may be due to too small a SC capacitance (1.0E-6F) or too large a time step (last one = 0.8186391s)
+Simulation time step control : dt is 0.7824696 s
+
+Time: 515.77185, Dt = 0.7824696 s
+
+ after SC integration TIME: 516.5543, dt = 0.7824696
+
+In this time interval: 
+  COLLECTED current: -0.001870494 A total,
+        -1.9243824E-4 A on node0,   	-1.6584598E-5 A on node1,   	-2.9730597E-6 A on node2,   	-1.599619E-5 A on node3,   	-2.7132011E-5 A on node4,   	-0.001499153 A on node5,   	-9.6938835E-5 A on node6,   	-1.9278197E-5 A on node7,   	
+  EMITTED current: -0.0017957488 A total,
+        -1.9105653E-4 A on node0,   	-8.374863E-6 A on node1,   	-2.8371555E-6 A on node2,   	-1.8595461E-5 A on node3,   	-1.199062E-5 A on node4,   	-0.0014939698 A on node5,   	-5.0339346E-5 A on node6,   	-1.8585042E-5 A on node7,   	
+
+Time 516.5543 s => POTENTIALS: 
+ -6401.4062 V on SC ground (node0),	-6401.4062 V on node1 ground,	-6401.4062 V on node2 ground,	-6401.4062 V on node3 ground,	-6401.4062 V on node4 ground,	-6401.4062 V on node5 ground,	-6401.4062 V on node6 ground,	-6401.4062 V on node7 ground,	
+      -6437.0586 V on top of node0,	-6401.4067 V on top of node1,	-6729.1406 V on top of node2,	-5536.823 V on top of node3,	-6401.4004 V on top of node4,	-3968.2632 V on top of node5,	-8752.085 V on top of node6,	-7358.492 V on top of node7,	
+      -8032.993 Vmin onTopOfNode0,	-6401.4062 Vmin onTopOfNode1,	-6732.751 Vmin onTopOfNode2,	-5643.7163 Vmin onTopOfNode3,	-6401.4062 Vmin onTopOfNode4,	-4631.155 Vmin onTopOfNode5,	-8830.022 Vmin onTopOfNode6,	-10686.054 Vmin onTopOfNode7,	
+      -4739.581 Vmax onTopOfNode0,	-6401.4062 Vmax onTopOfNode1,	-6725.484 Vmax onTopOfNode2,	-5415.0493 Vmax onTopOfNode3,	-6401.4062 Vmax onTopOfNode4,	-3504.8118 Vmax onTopOfNode5,	-8718.611 Vmax onTopOfNode6,	-3091.4336 Vmax onTopOfNode7,	
+
+Monitoring numerics of simulation at time 516.5543
+ PICVolDistrib photoElec: 6482 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec True from ambiant electrons: 852 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec BS from ambiant electrons: 5 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec from ambiant protons: 895 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ Last local volume potential change: 114.09473V maximum change, and 48.082485V average change (last plasma time step = 1.1922335E-6s)
+ Warning: last SC local surface potential change was rather large: 88.00391V maximum change, and 51.615208V average change
+    it may be due to too small a SC capacitance (1.0E-6F) or too large a time step (last one = 0.7824696s)
+Simulation time step control : dt is 7.8246956 s
+
+Time: 516.5543, Dt = 7.8246956 s
+
+ after SC integration TIME: 524.379, dt = 7.8246956
+
+In this time interval: 
+  COLLECTED current: -0.0018562913 A total,
+        -1.8886442E-4 A on node0,   	-1.6458402E-5 A on node1,   	-3.1181473E-6 A on node2,   	-1.592093E-5 A on node3,   	-2.7983753E-5 A on node4,   	-0.0014876182 A on node5,   	-9.628065E-5 A on node6,   	-2.0047079E-5 A on node7,   	
+  EMITTED current: -0.0017938237 A total,
+        -1.9088897E-4 A on node0,   	-8.382301E-6 A on node1,   	-2.834811E-6 A on node2,   	-1.8579105E-5 A on node3,   	-1.20669365E-5 A on node4,   	-0.00149237 A on node5,   	-5.0114417E-5 A on node6,   	-1.858717E-5 A on node7,   	
+
+Time 524.379 s => POTENTIALS: 
+ -6542.805 V on SC ground (node0),	-6542.805 V on node1 ground,	-6542.805 V on node2 ground,	-6542.805 V on node3 ground,	-6542.805 V on node4 ground,	-6542.805 V on node5 ground,	-6542.805 V on node6 ground,	-6542.805 V on node7 ground,	
+      -6568.3257 V on top of node0,	-6542.805 V on top of node1,	-6874.328 V on top of node2,	-5662.3975 V on top of node3,	-6542.803 V on top of node4,	-4105.1816 V on top of node5,	-8916.605 V on top of node6,	-7505.0947 V on top of node7,	
+      -8178.086 Vmin onTopOfNode0,	-6542.805 Vmin onTopOfNode1,	-6876.8345 Vmin onTopOfNode2,	-5830.985 Vmin onTopOfNode3,	-6542.805 Vmin onTopOfNode4,	-5097.0527 Vmin onTopOfNode5,	-8991.833 Vmin onTopOfNode6,	-10812.792 Vmin onTopOfNode7,	
+      -4802.883 Vmax onTopOfNode0,	-6542.805 Vmax onTopOfNode1,	-6870.522 Vmax onTopOfNode2,	-5443.8687 Vmax onTopOfNode3,	-6542.805 Vmax onTopOfNode4,	-3581.1062 Vmax onTopOfNode5,	-8883.238 Vmax onTopOfNode6,	-3277.6445 Vmax onTopOfNode7,	
+
+Monitoring numerics of simulation at time 524.379
+ PICVolDistrib photoElec: 6695 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec True from ambiant electrons: 853 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec BS from ambiant electrons: 5 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec from ambiant protons: 910 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ Last local volume potential change: 88.00391V maximum change, and 37.902626V average change (last plasma time step = 1.1922335E-6s)
+ Warning: last SC local surface potential change was rather large: 360.7876V maximum change, and 148.7853V average change
+    it may be due to too small a SC capacitance (1.0E-6F) or too large a time step (last one = 7.8246956s)
+Simulation time step control : dt is 78.246956 s
+
+Time: 524.379, Dt = 78.246956 s
+
+ WARNING: last SC local surface potential change was huge: 2402.126V maximum change, and 334.57144V average change
+    it may be due to too small a SC capacitance (1.0E-6F) or too large a time step (last one = 78.246956s)
+ after SC integration TIME: 602.626, dt = 78.246956
+
+In this time interval: 
+  COLLECTED current: -0.0018589988 A total,
+        -1.9212016E-4 A on node0,   	-1.6656351E-5 A on node1,   	-2.9717248E-6 A on node2,   	-1.6121397E-5 A on node3,   	-2.9635543E-5 A on node4,   	-0.0014860502 A on node5,   	-9.5243166E-5 A on node6,   	-2.0200408E-5 A on node7,   	
+  EMITTED current: -0.0017890483 A total,
+        -1.9067485E-4 A on node0,   	-8.181591E-6 A on node1,   	-2.7832664E-6 A on node2,   	-1.857287E-5 A on node3,   	-1.1925014E-5 A on node4,   	-0.0014887787 A on node5,   	-4.9585076E-5 A on node6,   	-1.8546909E-5 A on node7,   	
+
+Time 602.626 s => POTENTIALS: 
+ -6868.763 V on SC ground (node0),	-6868.763 V on node1 ground,	-6868.763 V on node2 ground,	-6868.763 V on node3 ground,	-6868.763 V on node4 ground,	-6868.763 V on node5 ground,	-6868.763 V on node6 ground,	-6868.763 V on node7 ground,	
+      -6827.4053 V on top of node0,	-6868.7637 V on top of node1,	-7218.418 V on top of node2,	-5840.874 V on top of node3,	-6868.762 V on top of node4,	-4166.869 V on top of node5,	-9462.783 V on top of node6,	-7889.503 V on top of node7,	
+      -8740.686 Vmin onTopOfNode0,	-6868.763 Vmin onTopOfNode1,	-7234.0444 Vmin onTopOfNode2,	-6227.2715 Vmin onTopOfNode3,	-6868.763 Vmin onTopOfNode4,	-5378.749 Vmin onTopOfNode5,	-9703.074 Vmin onTopOfNode6,	-14879.622 Vmin onTopOfNode7,	
+      -4656.2036 Vmax onTopOfNode0,	-6868.763 Vmax onTopOfNode1,	-7196.061 Vmax onTopOfNode2,	-5340.0825 Vmax onTopOfNode3,	-6868.763 Vmax onTopOfNode4,	-3607.9622 Vmax onTopOfNode5,	-9420.351 Vmax onTopOfNode6,	-2563.0999 Vmax onTopOfNode7,	
+
+Monitoring numerics of simulation at time 602.626
+ PICVolDistrib photoElec: 6628 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec True from ambiant electrons: 888 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec BS from ambiant electrons: 5 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec from ambiant protons: 857 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ Last local volume potential change: 360.7876V maximum change, and 109.287506V average change (last plasma time step = 1.1922335E-6s)
+ WARNING: last SC local surface potential change was huge: 2402.126V maximum change, and 334.57144V average change
+    it may be due to too small a SC capacitance (1.0E-6F) or too large a time step (last one = 78.246956s)
+Simulation time step control : dt is 100.0 s
+
+Time: 602.626, Dt = 100.0 s
+
+ after SC integration TIME: 603.2059, dt = 0.5798961
+
+In this time interval: 
+  COLLECTED current: -0.0018945829 A total,
+        -2.0697949E-4 A on node0,   	-1.5895539E-5 A on node1,   	-2.852915E-6 A on node2,   	-2.0852012E-5 A on node3,   	-2.7749453E-5 A on node4,   	-0.0015098022 A on node5,   	-9.105666E-5 A on node6,   	-1.9394944E-5 A on node7,   	
+  EMITTED current: -0.0017845583 A total,
+        -1.9008215E-4 A on node0,   	-8.019181E-6 A on node1,   	-2.7327044E-6 A on node2,   	-1.8529887E-5 A on node3,   	-1.1765475E-5 A on node4,   	-0.0014870121 A on node5,   	-4.7968984E-5 A on node6,   	-1.84477E-5 A on node7,   	
+
+Time 603.2059 s => POTENTIALS: 
+ -6927.198 V on SC ground (node0),	-6927.198 V on node1 ground,	-6927.198 V on node2 ground,	-6927.198 V on node3 ground,	-6927.198 V on node4 ground,	-6927.198 V on node5 ground,	-6927.198 V on node6 ground,	-6927.198 V on node7 ground,	
+      -6890.5474 V on top of node0,	-6927.196 V on top of node1,	-7277.2603 V on top of node2,	-5896.0967 V on top of node3,	-6927.1987 V on top of node4,	-4236.204 V on top of node5,	-9523.808 V on top of node6,	-7948.303 V on top of node7,	
+      -8777.533 Vmin onTopOfNode0,	-6927.198 Vmin onTopOfNode1,	-7290.1895 Vmin onTopOfNode2,	-6215.57 Vmin onTopOfNode3,	-6927.198 Vmin onTopOfNode4,	-5322.551 Vmin onTopOfNode5,	-9721.187 Vmin onTopOfNode6,	-13844.4375 Vmin onTopOfNode7,	
+      -4761.935 Vmax onTopOfNode0,	-6927.198 Vmax onTopOfNode1,	-7260.299 Vmax onTopOfNode2,	-5495.9204 Vmax onTopOfNode3,	-6927.198 Vmax onTopOfNode4,	-3675.1575 Vmax onTopOfNode5,	-9483.211 Vmax onTopOfNode6,	-2787.8098 Vmax onTopOfNode7,	
+
+Monitoring numerics of simulation at time 603.2059
+ PICVolDistrib photoElec: 5547 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec True from ambiant electrons: 791 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec BS from ambiant electrons: 5 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec from ambiant protons: 788 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ Last local volume potential change: 2402.126V maximum change, and 230.35619V average change (last plasma time step = 1.1922335E-6s)
+ Warning: last SC local surface potential change was rather large: 505.74414V maximum change, and 66.80064V average change
+    it may be due to too small a SC capacitance (1.0E-6F) or too large a time step (last one = 100.0s)
+Simulation time step control : dt is 0.754333 s
+
+Time: 603.2059, Dt = 0.754333 s
+
+ after SC integration TIME: 603.9602, dt = 0.754333
+
+In this time interval: 
+  COLLECTED current: -0.0018610188 A total,
+        -2.039551E-4 A on node0,   	-1.5832944E-5 A on node1,   	-2.8445515E-6 A on node2,   	-2.0258498E-5 A on node3,   	-2.8385672E-5 A on node4,   	-0.001480271 A on node5,   	-9.0251495E-5 A on node6,   	-1.9219857E-5 A on node7,   	
+  EMITTED current: -0.0017822064 A total,
+        -1.9001185E-4 A on node0,   	-8.099897E-6 A on node1,   	-2.7175843E-6 A on node2,   	-1.8619725E-5 A on node3,   	-1.1768564E-5 A on node4,   	-0.0014848793 A on node5,   	-4.7756967E-5 A on node6,   	-1.8352537E-5 A on node7,   	
+
+Time 603.9602 s => POTENTIALS: 
+ -6979.1963 V on SC ground (node0),	-6979.1963 V on node1 ground,	-6979.1963 V on node2 ground,	-6979.1963 V on node3 ground,	-6979.1963 V on node4 ground,	-6979.1963 V on node5 ground,	-6979.1963 V on node6 ground,	-6979.1963 V on node7 ground,	
+      -6947.406 V on top of node0,	-6979.195 V on top of node1,	-7329.5435 V on top of node2,	-5948.0396 V on top of node3,	-6979.192 V on top of node4,	-4297.286 V on top of node5,	-9578.383 V on top of node6,	-8000.549 V on top of node7,	
+      -8810.699 Vmin onTopOfNode0,	-6979.1963 Vmin onTopOfNode1,	-7340.7593 Vmin onTopOfNode2,	-6222.5454 Vmin onTopOfNode3,	-6979.1963 Vmin onTopOfNode4,	-5317.6123 Vmin onTopOfNode5,	-9745.697 Vmin onTopOfNode6,	-13397.144 Vmin onTopOfNode7,	
+      -4851.7334 Vmax onTopOfNode0,	-6979.1963 Vmax onTopOfNode1,	-7316.3345 Vmax onTopOfNode2,	-5623.9775 Vmax onTopOfNode3,	-6979.1963 Vmax onTopOfNode4,	-3734.4736 Vmax onTopOfNode5,	-9538.208 Vmax onTopOfNode6,	-2933.384 Vmax onTopOfNode7,	
+
+Monitoring numerics of simulation at time 603.9602
+ PICVolDistrib photoElec: 5791 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec True from ambiant electrons: 758 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec BS from ambiant electrons: 1 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec from ambiant protons: 807 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ Last local volume potential change: 505.74414V maximum change, and 45.5538V average change (last plasma time step = 1.1922335E-6s)
+ Warning: last SC local surface potential change was rather large: 221.60547V maximum change, and 56.712418V average change
+    it may be due to too small a SC capacitance (1.0E-6F) or too large a time step (last one = 0.754333s)
+Simulation time step control : dt is 7.54333 s
+
+Time: 603.9602, Dt = 7.54333 s
+
+ after SC integration TIME: 611.50354, dt = 7.54333
+
+In this time interval: 
+  COLLECTED current: -0.001856815 A total,
+        -2.0174283E-4 A on node0,   	-1.6603499E-5 A on node1,   	-2.900366E-6 A on node2,   	-1.806262E-5 A on node3,   	-2.5736026E-5 A on node4,   	-0.0014829236 A on node5,   	-8.992383E-5 A on node6,   	-1.8922568E-5 A on node7,   	
+  EMITTED current: -0.0017799318 A total,
+        -1.8989843E-4 A on node0,   	-7.995285E-6 A on node1,   	-2.699462E-6 A on node2,   	-1.8570281E-5 A on node3,   	-1.1753994E-5 A on node4,   	-0.0014830306 A on node5,   	-4.7616373E-5 A on node6,   	-1.836722E-5 A on node7,   	
+
+Time 611.50354 s => POTENTIALS: 
+ -7196.015 V on SC ground (node0),	-7196.015 V on node1 ground,	-7196.015 V on node2 ground,	-7196.015 V on node3 ground,	-7196.015 V on node4 ground,	-7196.015 V on node5 ground,	-7196.015 V on node6 ground,	-7196.015 V on node7 ground,	
+      -7189.5796 V on top of node0,	-7196.0156 V on top of node1,	-7548.8936 V on top of node2,	-6170.059 V on top of node3,	-7196.0107 V on top of node4,	-4522.397 V on top of node5,	-9815.994 V on top of node6,	-8218.335 V on top of node7,	
+      -9030.971 Vmin onTopOfNode0,	-7196.015 Vmin onTopOfNode1,	-7558.2393 Vmin onTopOfNode2,	-6452.9146 Vmin onTopOfNode3,	-7196.015 Vmin onTopOfNode4,	-6045.2163 Vmin onTopOfNode5,	-9968.156 Vmin onTopOfNode6,	-13316.127 Vmin onTopOfNode7,	
+      -5089.4688 Vmax onTopOfNode0,	-7196.015 Vmax onTopOfNode1,	-7536.7485 Vmax onTopOfNode2,	-5798.475 Vmax onTopOfNode3,	-7196.015 Vmax onTopOfNode4,	-3844.4348 Vmax onTopOfNode5,	-9776.201 Vmax onTopOfNode6,	-3077.9272 Vmax onTopOfNode7,	
+
+Monitoring numerics of simulation at time 611.50354
+ PICVolDistrib photoElec: 5809 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec True from ambiant electrons: 774 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec BS from ambiant electrons: 8 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec from ambiant protons: 799 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ Last local volume potential change: 221.60547V maximum change, and 40.408974V average change (last plasma time step = 1.1922335E-6s)
+ Warning: last SC local surface potential change was rather large: 561.5913V maximum change, and 235.09106V average change
+    it may be due to too small a SC capacitance (1.0E-6F) or too large a time step (last one = 7.54333s)
+Simulation time step control : dt is 75.433304 s
+
+Time: 611.50354, Dt = 75.433304 s
+
+ after SC integration TIME: 686.9368, dt = 75.433304
+
+In this time interval: 
+  COLLECTED current: -0.0018225071 A total,
+        -1.9514169E-4 A on node0,   	-1.5462732E-5 A on node1,   	-2.8569714E-6 A on node2,   	-1.9480205E-5 A on node3,   	-2.5245345E-5 A on node4,   	-0.0014569267 A on node5,   	-8.813967E-5 A on node6,   	-1.9253668E-5 A on node7,   	
+  EMITTED current: -0.0017730333 A total,
+        -1.8949926E-4 A on node0,   	-7.968812E-6 A on node1,   	-2.7060646E-6 A on node2,   	-1.8502446E-5 A on node3,   	-1.1683866E-5 A on node4,   	-0.0014774369 A on node5,   	-4.693737E-5 A on node6,   	-1.8298644E-5 A on node7,   	
+
+Time 686.9368 s => POTENTIALS: 
+ -7492.2026 V on SC ground (node0),	-7492.2026 V on node1 ground,	-7492.2026 V on node2 ground,	-7492.2026 V on node3 ground,	-7492.2026 V on node4 ground,	-7492.2026 V on node5 ground,	-7492.2026 V on node6 ground,	-7492.2026 V on node7 ground,	
+      -7511.968 V on top of node0,	-7492.2036 V on top of node1,	-7858.9263 V on top of node2,	-6617.6035 V on top of node3,	-7492.198 V on top of node4,	-4579.545 V on top of node5,	-10304.999 V on top of node6,	-8538.6875 V on top of node7,	
+      -9548.859 Vmin onTopOfNode0,	-7492.2026 Vmin onTopOfNode1,	-7886.706 Vmin onTopOfNode2,	-7006.3477 Vmin onTopOfNode3,	-7492.2026 Vmin onTopOfNode4,	-6257.2173 Vmin onTopOfNode5,	-10619.405 Vmin onTopOfNode6,	-13542.4375 Vmin onTopOfNode7,	
+      -5095.7485 Vmax onTopOfNode0,	-7492.2026 Vmax onTopOfNode1,	-7818.8584 Vmax onTopOfNode2,	-6032.945 Vmax onTopOfNode3,	-7492.2026 Vmax onTopOfNode4,	-3883.9778 Vmax onTopOfNode5,	-10221.705 Vmax onTopOfNode6,	-2756.2524 Vmax onTopOfNode7,	
+
+Monitoring numerics of simulation at time 686.9368
+ PICVolDistrib photoElec: 5883 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec True from ambiant electrons: 802 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec BS from ambiant electrons: 5 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec from ambiant protons: 787 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ Last local volume potential change: 561.5913V maximum change, and 170.6556V average change (last plasma time step = 1.1922335E-6s)
+ Warning: last SC local surface potential change was rather large: 652.97754V maximum change, and 305.93106V average change
+    it may be due to too small a SC capacitance (1.0E-6F) or too large a time step (last one = 75.433304s)
+Simulation time step control : dt is 100.0 s
+
+Time: 686.9368, Dt = 100.0 s
+
+ after SC integration TIME: 786.9368, dt = 100.0
+
+In this time interval: 
+  COLLECTED current: -0.0018388869 A total,
+        -1.9623706E-4 A on node0,   	-1.5944013E-5 A on node1,   	-2.6827202E-6 A on node2,   	-1.6869397E-5 A on node3,   	-2.4721581E-5 A on node4,   	-0.001479156 A on node5,   	-8.45536E-5 A on node6,   	-1.8722805E-5 A on node7,   	
+  EMITTED current: -0.0017682665 A total,
+        -1.8865074E-4 A on node0,   	-7.695911E-6 A on node1,   	-2.6118464E-6 A on node2,   	-1.8501272E-5 A on node3,   	-1.1557632E-5 A on node4,   	-0.001475599 A on node5,   	-4.5517503E-5 A on node6,   	-1.8132523E-5 A on node7,   	
+
+Time 786.9368 s => POTENTIALS: 
+ -7862.9614 V on SC ground (node0),	-7862.9614 V on node1 ground,	-7862.9614 V on node2 ground,	-7862.9614 V on node3 ground,	-7862.9614 V on node4 ground,	-7862.9614 V on node5 ground,	-7862.9614 V on node6 ground,	-7862.9614 V on node7 ground,	
+      -7893.6606 V on top of node0,	-7862.9604 V on top of node1,	-8228.78 V on top of node2,	-6885.1914 V on top of node3,	-7862.9536 V on top of node4,	-4670.5176 V on top of node5,	-10912.977 V on top of node6,	-8915.212 V on top of node7,	
+      -10227.365 Vmin onTopOfNode0,	-7862.9614 Vmin onTopOfNode1,	-8268.651 Vmin onTopOfNode2,	-7397.6665 Vmin onTopOfNode3,	-7862.9614 Vmin onTopOfNode4,	-6454.411 Vmin onTopOfNode5,	-11430.76 Vmin onTopOfNode6,	-13949.787 Vmin onTopOfNode7,	
+      -5382.637 Vmax onTopOfNode0,	-7862.9614 Vmax onTopOfNode1,	-8173.9546 Vmax onTopOfNode2,	-6136.8936 Vmax onTopOfNode3,	-7862.9614 Vmax onTopOfNode4,	-3933.9514 Vmax onTopOfNode5,	-10726.993 Vmax onTopOfNode6,	-1616.6488 Vmax onTopOfNode7,	
+
+Monitoring numerics of simulation at time 786.9368
+ PICVolDistrib photoElec: 5785 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec True from ambiant electrons: 794 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec BS from ambiant electrons: 2 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec from ambiant protons: 813 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ Last local volume potential change: 652.97754V maximum change, and 211.43056V average change (last plasma time step = 1.1922335E-6s)
+ Warning: last SC local surface potential change was rather large: 813.1885V maximum change, and 369.9262V average change
+    it may be due to too small a SC capacitance (1.0E-6F) or too large a time step (last one = 100.0s)
+Simulation time step control : dt is 100.0 s
+
+Time: 786.9368, Dt = 100.0 s
+
+ after SC integration TIME: 886.9368, dt = 100.0
+
+In this time interval: 
+  COLLECTED current: -0.0018394238 A total,
+        -1.9273194E-4 A on node0,   	-1.4564223E-5 A on node1,   	-2.6530813E-6 A on node2,   	-1.877446E-5 A on node3,   	-2.4034684E-5 A on node4,   	-0.001486948 A on node5,   	-8.0453385E-5 A on node6,   	-1.926427E-5 A on node7,   	
+  EMITTED current: -0.0017631283 A total,
+        -1.8801088E-4 A on node0,   	-7.607896E-6 A on node1,   	-2.5329743E-6 A on node2,   	-1.8470679E-5 A on node3,   	-1.1396301E-5 A on node4,   	-0.0014732289 A on node5,   	-4.3800886E-5 A on node6,   	-1.808022E-5 A on node7,   	
+
+Time 886.9368 s => POTENTIALS: 
+ -8278.132 V on SC ground (node0),	-8278.132 V on node1 ground,	-8278.132 V on node2 ground,	-8278.132 V on node3 ground,	-8278.132 V on node4 ground,	-8278.132 V on node5 ground,	-8278.132 V on node6 ground,	-8278.132 V on node7 ground,	
+      -8290.105 V on top of node0,	-8278.131 V on top of node1,	-8651.672 V on top of node2,	-7397.8394 V on top of node3,	-8278.124 V on top of node4,	-4836.8647 V on top of node5,	-11550.658 V on top of node6,	-9361.847 V on top of node7,	
+      -11036.645 Vmin onTopOfNode0,	-8278.132 Vmin onTopOfNode1,	-8709.358 Vmin onTopOfNode2,	-7955.951 Vmin onTopOfNode3,	-8278.132 Vmin onTopOfNode4,	-7234.0137 Vmin onTopOfNode5,	-12438.003 Vmin onTopOfNode6,	-14415.74 Vmin onTopOfNode7,	
+      -5313.1553 Vmax onTopOfNode0,	-8278.132 Vmax onTopOfNode1,	-8551.705 Vmax onTopOfNode2,	-6527.71 Vmax onTopOfNode3,	-8278.132 Vmax onTopOfNode4,	-3993.6658 Vmax onTopOfNode5,	-11095.252 Vmax onTopOfNode6,	-1067.0104 Vmax onTopOfNode7,	
+
+Monitoring numerics of simulation at time 886.9368
+ PICVolDistrib photoElec: 5341 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec True from ambiant electrons: 734 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec BS from ambiant electrons: 9 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ PICVolDistrib secondElec from ambiant protons: 754 particles, last numerical time step used = 1.1922335E-6s (max allowed = 1.1922335E-6s)
+ Last local volume potential change: 813.1885V maximum change, and 259.12747V average change (last plasma time step = 1.1922335E-6s)
+ Warning: last SC local surface potential change was rather large: 864.68164V maximum change, and 422.12582V average change
+    it may be due to too small a SC capacitance (1.0E-6F) or too large a time step (last one = 100.0s)
+Simulation time step control : dt is 100.0 s
+
+Time: 886.9368, Dt = 100.0 s
+
+ WARNING: last SC local surface potential change was huge: 1041.1187V maximum change, and 447.6292V average change
+    it may be due to too small a SC capacitance (1.0E-6F) or too large a time step (last one = 100.0s)
+ after SC integration TIME: 986.9368, dt = 100.0
+
+In this time interval: 
+  COLLECTED current: -0.0018387665 A total,
+        -1.9804122E-4 A on node0,   	-1.4163325E-5 A on node1,   	-2.8712373E-6 A on node2,   	-1.6557686E-5 A on node3,   	-2.3269688E-5 A on node4,   	-0.0014888828 A on node5,   	-7.608625E-5 A on node6,   	-1.8894068E-5 A on node7,   	
+  EMITTED current: -0.0017559485 A total,
+        -1.8731617E-4 A on node0,   	-7.295179E-6 A on node1,   	-2.4460398E-6 A on node2,   	-1.84448E-5 A on node3,   	-1.1300707E-5 A on node4,   	-0.0014691346 A on node5,   	-4.2099407E-5 A on node6,   	-1.7911418E-5 A on node7,   	
+
+Time 986.9368 s => POTENTIALS: 
+ -8714.973 V on SC ground (node0),	-8714.973 V on node1 ground,	-8714.973 V on node2 ground,	-8714.973 V on node3 ground,	-8714.973 V on node4 ground,	-8714.973 V on node5 ground,	-8714.973 V on node6 ground,	-8714.973 V on node7 ground,	
+      -8810.388 V on top of node0,	-8714.971 V on top of node1,	-9152.105 V on top of node2,	-7701.995 V on top of node3,	-8714.967 V on top of node4,	-5050.7954 V on top of node5,	-12192.319 V on top of node6,	-9816.275 V on top of node7,	
+      -11848.513 Vmin onTopOfNode0,	-8714.973 Vmin onTopOfNode1,	-9244.111 Vmin onTopOfNode2,	-8366.101 Vmin onTopOfNode3,	-8714.973 Vmin onTopOfNode4,	-8182.921 Vmin onTopOfNode5,	-13141.494 Vmin onTopOfNode6,	-14905.182 Vmin onTopOfNode7,	
+      -5866.63 Vmax onTopOfNode0,	-8714.973 Vmax onTopOfNode1,	-9005.13 Vmax onTopOfNode2,	-6733.7954 Vmax onTopOfNode3,	-8714.973 Vmax onTopOfNode4,	-4088.6533 Vmax onTopOfNode5,	-11682.472 Vmax onTopOfNode6,	-567.1363 V

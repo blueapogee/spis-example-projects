@@ -1,0 +1,3 @@
+Time (s), esn 4 net current (A), esn 4 collected current (A), esn 4 emitted current (A)
+65.86519, -6.470486E-5, -8.046153E-5, -1.5756676E-5
+83.34, -3.8089496E-5, -5.3773463E-5, -1.5683965E-5

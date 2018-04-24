@@ -1,0 +1,3 @@
+Time (s), esn 6 net current (A), esn 6 collected current (A), esn 6 emitted current (A)
+65.86519, -1.8405494E-4, -2.766111E-4, -9.255617E-5
+83.34, -1.457159E-4, -2.3846784E-4, -9.275194E-5

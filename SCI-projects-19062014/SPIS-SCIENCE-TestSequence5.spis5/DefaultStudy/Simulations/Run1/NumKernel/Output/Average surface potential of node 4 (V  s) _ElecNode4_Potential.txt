@@ -1,0 +1,1 @@
+Time (s), esn 4 average surface potential (V), esn 4 ground potential (V), esn 4 min surface potential (V), esn 4 max surface potential (V)

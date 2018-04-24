@@ -1,0 +1,1 @@
+Time (s), variation of the average surface potential of esn 0 (s-1.V)

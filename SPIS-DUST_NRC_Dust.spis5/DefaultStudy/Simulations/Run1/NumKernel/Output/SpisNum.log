@@ -1,0 +1,453 @@
+Default output path for SPIS/NUM set to /home/benj/Bureau/workspaces/workspacekeridwen/felix/data/SPIS-DUST_NRC_Dust.spis5/DefaultStudy/Simulations/Run1/NumKernel/Output/
+Default input path for SPIS/NUM set to /home/benj/Bureau/workspaces/workspacekeridwen/felix/data/SPIS-DUST_NRC_Dust.spis5/DefaultStudy/Simulations/Run1/NumKernel/Input/
+Serialising object of type [Lspis.Top.Default.GlobalParameter; in file /home/benj/Bureau/workspaces/workspacekeridwen/felix/data/SPIS-DUST_NRC_Dust.spis5/DefaultStudy/Simulations/Run1/NumKernel/Output/globalParOut.gp
+Serialising object of type [Lspis.Top.Default.LocalParameter; in file /home/benj/Bureau/workspaces/workspacekeridwen/felix/data/SPIS-DUST_NRC_Dust.spis5/DefaultStudy/Simulations/Run1/NumKernel/Output/localParOut.lp
+Serialising object of type [Lspis.Surf.SurfInteract.GenericParamSet; in file /home/benj/Bureau/workspaces/workspacekeridwen/felix/data/SPIS-DUST_NRC_Dust.spis5/DefaultStudy/Simulations/Run1/NumKernel/Output/genericParamSetsOut.gps
+Starting building simulation from UI parameters
+Parameter monitorVolInteractions not found in global parameter list = returning default value: 1
+Parameter spisGEO not found in global parameter list = returning default value: 0
+Local parameter Id 0 is BackGroundDens
+Local parameter Id 1 is VolInteracFlag
+Local parameter Id 2 is IncomPart
+Local parameter Id 3 is OutgoPart
+Local parameter Id 4 is BdDiriFlag
+Local parameter Id 5 is BdFourAlpha
+Local parameter Id 6 is BdDiriPot
+Local parameter Id 7 is BdFourValue
+Local parameter Id 8 is BdFourFlag
+Local parameter Id 9 is ElecSecEmisOnWire
+Local parameter Id 10 is ImposedEmittedCurrentFlag
+Local parameter Id 11 is SunFluxOnWire
+Local parameter Id 12 is ImposedCollectedCurrentDensityOnWire
+Local parameter Id 13 is PhotoEmisOnWire
+Local parameter Id 14 is ProtSecEmisOnWire
+Local parameter Id 15 is ImposedCollectedCurrentFlag
+Local parameter Id 16 is SunFlux
+Local parameter Id 17 is ImposedEmittedCurrentDensity
+Local parameter Id 18 is ProtSecEmis
+Local parameter Id 19 is ImposedEmittedCurrentDensityOnWire
+Local parameter Id 20 is ImposedEmittedCurrentFlagOnWire
+Local parameter Id 21 is ElecSecEmis
+Local parameter Id 22 is ImposedCollectedCurrentFlagOnWire
+Local parameter Id 23 is PhotoEmis
+Local parameter Id 24 is ImposedCollectedCurrentDensity
+Local parameter Id 25 is EdgeElecNodeId
+Local parameter Id 26 is ElecNodeId
+Local parameter Id 27 is IndConduct
+Local parameter Id 28 is VolConduct
+Local parameter Id 29 is SurfConduct
+Local parameter Id 30 is SCDiriFlag
+Local parameter Id 31 is SCDiriPot
+Local parameter Id 32 is SCFourAlpha
+Local parameter Id 33 is SCFourValue
+Local parameter Id 34 is SCDiriPotEdge
+Local parameter Id 35 is SCDiriPotSurf
+Local parameter Id 36 is SCFourFlag
+Local parameter Id 37 is Temperature
+Local parameter Id 38 is MatThickness
+Local parameter Id 39 is SurfThicknessS
+Local parameter Id 40 is EdgeRadiusS
+Local parameter Id 41 is SourceMachOnWire
+Local parameter Id 42 is SourceCurrent
+Local parameter Id 43 is SourceIdOnWire
+Local parameter Id 44 is SourceId
+Local parameter Id 45 is SourceTempOnWire
+Local parameter Id 46 is SourceIdOnWire
+Local parameter Id 47 is SourceMach
+Local parameter Id 48 is SourceTemp
+Local parameter Id 49 is MatModelId
+Local parameter Id 50 is MatModelIdOnEdge
+Local parameter Id 51 is InstrumentSupport
+Local parameter Id 52 is MatTypeId
+Local parameter Id 53 is MatTypeIdOnEdge
+Simulation was built from UI parameters
+spacecraft surface : 1523.8593m2
+Parameter magnetizedPlasmaFlag not found in global parameter list = returning default value: 1
+WARNING: non-linear Poisson solver was selected by the user (linearPoisson=0) while no non-zero-density Boltzmann electron population was selected 
+=> non-linear Poisson equation was meaningless and WAS CHANGED INTO LINEAR
+Parameter refPot not found in global parameter list = returning default value: 1.0 -
+Parameter ionMagnetized not found in global parameter list = returning default value: 1
+Parameter initPICSample not found in global parameter list = returning default value: 1
+Parameter scVeloX not found in global parameter list = returning default value: 0.0 m.s-1
+Parameter scVeloY not found in global parameter list = returning default value: 0.0 m.s-1
+Parameter scVeloZ not found in global parameter list = returning default value: 0.0 m.s-1
+Population ions1 --> spacecraft velocity included in population velocity in SC reference frame
+Number of threads runs in parallel for particle pushing: 4
+Parameter iterativePusherAbsTolPos not found in global parameter list = returning default value: 1.0E-5 m
+Parameter iterativePusherAbsTolVelo not found in global parameter list = returning default value: 1.0E12 m.s-1
+Parameter iterativePusherRelTolPos not found in global parameter list = returning default value: 1.0E-4 -
+Parameter iterativePusherRelTolVelo not found in global parameter list = returning default value: 0.001 -
+Parameter BFieldIterativePusher not found in global parameter list = returning default value: 0
+Parameter dimensionality not found in global parameter list = returning default value: 3
+Parameter iterativePusherAbsTolPos not found in global parameter list = returning default value: 1.0E-5 m
+Parameter iterativePusherAbsTolVelo not found in global parameter list = returning default value: 1.0E12 m.s-1
+Parameter iterativePusherRelTolPos not found in global parameter list = returning default value: 1.0E-4 -
+Parameter iterativePusherRelTolVelo not found in global parameter list = returning default value: 0.001 -
+Parameter BFieldIterativePusher not found in global parameter list = returning default value: 0
+Parameter dimensionality not found in global parameter list = returning default value: 3
+Parameter iterativePusherAbsTolPos not found in global parameter list = returning default value: 1.0E-5 m
+Parameter iterativePusherAbsTolVelo not found in global parameter list = returning default value: 1.0E12 m.s-1
+Parameter iterativePusherRelTolPos not found in global parameter list = returning default value: 1.0E-4 -
+Parameter iterativePusherRelTolVelo not found in global parameter list = returning default value: 0.001 -
+Parameter BFieldIterativePusher not found in global parameter list = returning default value: 0
+Parameter dimensionality not found in global parameter list = returning default value: 3
+Parameter iterativePusherAbsTolPos not found in global parameter list = returning default value: 1.0E-5 m
+Parameter iterativePusherAbsTolVelo not found in global parameter list = returning default value: 1.0E12 m.s-1
+Parameter iterativePusherRelTolPos not found in global parameter list = returning default value: 1.0E-4 -
+Parameter iterativePusherRelTolVelo not found in global parameter list = returning default value: 0.001 -
+Parameter BFieldIterativePusher not found in global parameter list = returning default value: 0
+Parameter dimensionality not found in global parameter list = returning default value: 3
+Parameter chargeDepositDuringIntegrationFlag not found in global parameter list = returning default value: 0
+Parameter taskDurationVerbose not found in global parameter list = returning default value: 3
+Population of ions1 successfully created (type spis.Vol.VolDistrib.PICVolDistribUpdatable)
+Parameter electronMagnetized not found in global parameter list = returning default value: 1
+Parameter initPICSample not found in global parameter list = returning default value: 1
+Parameter electronVy not found in global parameter list = returning default value: 0.0 m.s-1
+Parameter scVeloX not found in global parameter list = returning default value: 0.0 m.s-1
+Parameter scVeloY not found in global parameter list = returning default value: 0.0 m.s-1
+Parameter scVeloZ not found in global parameter list = returning default value: 0.0 m.s-1
+Population elec1 --> spacecraft velocity included in population velocity in SC reference frame
+Number of threads runs in parallel for particle pushing: 4
+Parameter iterativePusherAbsTolPos not found in global parameter list = returning default value: 1.0E-5 m
+Parameter iterativePusherAbsTolVelo not found in global parameter list = returning default value: 1.0E12 m.s-1
+Parameter iterativePusherRelTolPos not found in global parameter list = returning default value: 1.0E-4 -
+Parameter iterativePusherRelTolVelo not found in global parameter list = returning default value: 0.001 -
+Parameter BFieldIterativePusher not found in global parameter list = returning default value: 0
+Parameter dimensionality not found in global parameter list = returning default value: 3
+Parameter iterativePusherAbsTolPos not found in global parameter list = returning default value: 1.0E-5 m
+Parameter iterativePusherAbsTolVelo not found in global parameter list = returning default value: 1.0E12 m.s-1
+Parameter iterativePusherRelTolPos not found in global parameter list = returning default value: 1.0E-4 -
+Parameter iterativePusherRelTolVelo not found in global parameter list = returning default value: 0.001 -
+Parameter BFieldIterativePusher not found in global parameter list = returning default value: 0
+Parameter dimensionality not found in global parameter list = returning default value: 3
+Parameter iterativePusherAbsTolPos not found in global parameter list = returning default value: 1.0E-5 m
+Parameter iterativePusherAbsTolVelo not found in global parameter list = returning default value: 1.0E12 m.s-1
+Parameter iterativePusherRelTolPos not found in global parameter list = returning default value: 1.0E-4 -
+Parameter iterativePusherRelTolVelo not found in global parameter list = returning default value: 0.001 -
+Parameter BFieldIterativePusher not found in global parameter list = returning default value: 0
+Parameter dimensionality not found in global parameter list = returning default value: 3
+Parameter iterativePusherAbsTolPos not found in global parameter list = returning default value: 1.0E-5 m
+Parameter iterativePusherAbsTolVelo not found in global parameter list = returning default value: 1.0E12 m.s-1
+Parameter iterativePusherRelTolPos not found in global parameter list = returning default value: 1.0E-4 -
+Parameter iterativePusherRelTolVelo not found in global parameter list = returning default value: 0.001 -
+Parameter BFieldIterativePusher not found in global parameter list = returning default value: 0
+Parameter dimensionality not found in global parameter list = returning default value: 3
+Parameter chargeDepositDuringIntegrationFlag not found in global parameter list = returning default value: 0
+Parameter taskDurationVerbose not found in global parameter list = returning default value: 3
+Population of elec1 successfully created (type spis.Vol.VolDistrib.PICVolDistribUpdatable)
+Parameter ionMagnetized2 not found in global parameter list = returning default value: 1
+Population of ions2 not created because its density was defined as 0
+Parameter electronMagnetized2 not found in global parameter list = returning default value: 1
+Population of elec2 not created because its density was defined as 0
+Parameter taskDurationVerbose not found in global parameter list = returning default value: 3
+Missing properties from list :
+  1) SUBE
+GenericParamSet: input Erosion property is missing or inapropriate for Conductive Lunar dust material properties => this parameter is set to the default typical value (5 eV)
+Missing properties from list :
+  1) SUBE
+GenericParamSet: input Erosion property is missing or inapropriate for AL2K material properties => this parameter is set to the default typical value (5 eV)
+Missing properties from list :
+  1) SUBE
+GenericParamSet: input Erosion property is missing or inapropriate for KAPT material properties => this parameter is set to the default typical value (5 eV)
+Missing properties from list :
+  1) SUBE
+GenericParamSet: input Erosion property is missing or inapropriate for Lunar dust material properties => this parameter is set to the default typical value (5 eV)
+Missing properties from list :
+  1) SUBE
+GenericParamSet: input Erosion property is missing or inapropriate for CERS material properties => this parameter is set to the default typical value (5 eV)
+Parameter electronSecondaryTemperature not found in global parameter list = returning default value: 2.0 eV
+Parameter protonSecondaryTemperature not found in global parameter list = returning default value: 2.0 eV
+the Circuit File circuit.txt was read, and was found to have 0 components:
+Parameter implicitCircuitSolver not found in global parameter list = returning default value: 0
+Photo-emission is turned on from global sun directionNumber of threads runs in parallel for particle pushing: 4
+Parameter iterativePusherAbsTolPos not found in global parameter list = returning default value: 1.0E-5 m
+Parameter iterativePusherAbsTolVelo not found in global parameter list = returning default value: 1.0E12 m.s-1
+Parameter iterativePusherRelTolPos not found in global parameter list = returning default value: 1.0E-4 -
+Parameter iterativePusherRelTolVelo not found in global parameter list = returning default value: 0.001 -
+Parameter BFieldIterativePusher not found in global parameter list = returning default value: 0
+Parameter dimensionality not found in global parameter list = returning default value: 3
+Parameter iterativePusherAbsTolPos not found in global parameter list = returning default value: 1.0E-5 m
+Parameter iterativePusherAbsTolVelo not found in global parameter list = returning default value: 1.0E12 m.s-1
+Parameter iterativePusherRelTolPos not found in global parameter list = returning default value: 1.0E-4 -
+Parameter iterativePusherRelTolVelo not found in global parameter list = returning default value: 0.001 -
+Parameter BFieldIterativePusher not found in global parameter list = returning default value: 0
+Parameter dimensionality not found in global parameter list = returning default value: 3
+Parameter iterativePusherAbsTolPos not found in global parameter list = returning default value: 1.0E-5 m
+Parameter iterativePusherAbsTolVelo not found in global parameter list = returning default value: 1.0E12 m.s-1
+Parameter iterativePusherRelTolPos not found in global parameter list = returning default value: 1.0E-4 -
+Parameter iterativePusherRelTolVelo not found in global parameter list = returning default value: 0.001 -
+Parameter BFieldIterativePusher not found in global parameter list = returning default value: 0
+Parameter dimensionality not found in global parameter list = returning default value: 3
+Parameter iterativePusherAbsTolPos not found in global parameter list = returning default value: 1.0E-5 m
+Parameter iterativePusherAbsTolVelo not found in global parameter list = returning default value: 1.0E12 m.s-1
+Parameter iterativePusherRelTolPos not found in global parameter list = returning default value: 1.0E-4 -
+Parameter iterativePusherRelTolVelo not found in global parameter list = returning default value: 0.001 -
+Parameter BFieldIterativePusher not found in global parameter list = returning default value: 0
+Parameter dimensionality not found in global parameter list = returning default value: 3
+Parameter chargeDepositDuringIntegrationFlag not found in global parameter list = returning default value: 0
+Parameter taskDurationVerbose not found in global parameter list = returning default value: 3
+Parameter dimensionality not found in global parameter list = returning default value: 3
+Parameter btPartNbPerSurf not found in global parameter list = returning default value: 20
+Impossible to create a GenericPhotoEmInteractor a BasicPhotoEmInteractor has been created
+ with photo-electron dynamics simulation (PIC)
+Number of threads runs in parallel for particle pushing: 4
+Parameter iterativePusherAbsTolPos not found in global parameter list = returning default value: 1.0E-5 m
+Parameter iterativePusherAbsTolVelo not found in global parameter list = returning default value: 1.0E12 m.s-1
+Parameter iterativePusherRelTolPos not found in global parameter list = returning default value: 1.0E-4 -
+Parameter iterativePusherRelTolVelo not found in global parameter list = returning default value: 0.001 -
+Parameter BFieldIterativePusher not found in global parameter list = returning default value: 0
+Parameter dimensionality not found in global parameter list = returning default value: 3
+Parameter iterativePusherAbsTolPos not found in global parameter list = returning default value: 1.0E-5 m
+Parameter iterativePusherAbsTolVelo not found in global parameter list = returning default value: 1.0E12 m.s-1
+Parameter iterativePusherRelTolPos not found in global parameter list = returning default value: 1.0E-4 -
+Parameter iterativePusherRelTolVelo not found in global parameter list = returning default value: 0.001 -
+Parameter BFieldIterativePusher not found in global parameter list = returning default value: 0
+Parameter dimensionality not found in global parameter list = returning default value: 3
+Parameter iterativePusherAbsTolPos not found in global parameter list = returning default value: 1.0E-5 m
+Parameter iterativePusherAbsTolVelo not found in global parameter list = returning default value: 1.0E12 m.s-1
+Parameter iterativePusherRelTolPos not found in global parameter list = returning default value: 1.0E-4 -
+Parameter iterativePusherRelTolVelo not found in global parameter list = returning default value: 0.001 -
+Parameter BFieldIterativePusher not found in global parameter list = returning default value: 0
+Parameter dimensionality not found in global parameter list = returning default value: 3
+Parameter iterativePusherAbsTolPos not found in global parameter list = returning default value: 1.0E-5 m
+Parameter iterativePusherAbsTolVelo not found in global parameter list = returning default value: 1.0E12 m.s-1
+Parameter iterativePusherRelTolPos not found in global parameter list = returning default value: 1.0E-4 -
+Parameter iterativePusherRelTolVelo not found in global parameter list = returning default value: 0.001 -
+Parameter BFieldIterativePusher not found in global parameter list = returning default value: 0
+Parameter dimensionality not found in global parameter list = returning default value: 3
+Parameter chargeDepositDuringIntegrationFlag not found in global parameter list = returning default value: 0
+Parameter taskDurationVerbose not found in global parameter list = returning default value: 3
+Parameter spisGEO not found in global parameter list = returning default value: 0
+Parameter photoElectronSecondaryEmission not found in global parameter list = returning default value: 0
+Dust-emission is turned onParameter dustSpeedUp not found in global parameter list = returning default value: 1.0 -
+Parameter dustTrajFlag not found in global parameter list = returning default value: 1
+Number of threads runs in parallel for particle pushing: 4
+Parameter iterativePusherAbsTolPos not found in global parameter list = returning default value: 1.0E-5 m
+Parameter iterativePusherAbsTolVelo not found in global parameter list = returning default value: 1.0E12 m.s-1
+Parameter iterativePusherRelTolPos not found in global parameter list = returning default value: 1.0E-4 -
+Parameter iterativePusherRelTolVelo not found in global parameter list = returning default value: 0.001 -
+Parameter BFieldIterativePusher not found in global parameter list = returning default value: 0
+Parameter dimensionality not found in global parameter list = returning default value: 3
+Parameter iterativePusherAbsTolPos not found in global parameter list = returning default value: 1.0E-5 m
+Parameter iterativePusherAbsTolVelo not found in global parameter list = returning default value: 1.0E12 m.s-1
+Parameter iterativePusherRelTolPos not found in global parameter list = returning default value: 1.0E-4 -
+Parameter iterativePusherRelTolVelo not found in global parameter list = returning default value: 0.001 -
+Parameter BFieldIterativePusher not found in global parameter list = returning default value: 0
+Parameter dimensionality not found in global parameter list = returning default value: 3
+Parameter iterativePusherAbsTolPos not found in global parameter list = returning default value: 1.0E-5 m
+Parameter iterativePusherAbsTolVelo not found in global parameter list = returning default value: 1.0E12 m.s-1
+Parameter iterativePusherRelTolPos not found in global parameter list = returning default value: 1.0E-4 -
+Parameter iterativePusherRelTolVelo not found in global parameter list = returning default value: 0.001 -
+Parameter BFieldIterativePusher not found in global parameter list = returning default value: 0
+Parameter dimensionality not found in global parameter list = returning default value: 3
+Parameter iterativePusherAbsTolPos not found in global parameter list = returning default value: 1.0E-5 m
+Parameter iterativePusherAbsTolVelo not found in global parameter list = returning default value: 1.0E12 m.s-1
+Parameter iterativePusherRelTolPos not found in global parameter list = returning default value: 1.0E-4 -
+Parameter iterativePusherRelTolVelo not found in global parameter list = returning default value: 0.001 -
+Parameter BFieldIterativePusher not found in global parameter list = returning default value: 0
+Parameter dimensionality not found in global parameter list = returning default value: 3
+Parameter chargeDepositDuringIntegrationFlag not found in global parameter list = returning default value: 0
+Parameter taskDurationVerbose not found in global parameter list = returning default value: 3
+Parameter electronSecondaryTemperature not found in global parameter list = returning default value: 2.0 eV
+Parameter protonSecondaryTemperature not found in global parameter list = returning default value: 2.0 eV
+Parameter particleTrajectoriesStartTime not found in global parameter list = returning default value: 0.0 s
+=> 0.3872286
+=> 0.40441278
+1524.4409m2 // 1523.8593m2 with number of new dusts = 1865850
+Parameter dustChargingLawPower not found in global parameter list = returning default value: 1.0 -
+Number of dust MP on surface: 1865850 / Possibly emitted: 0
+Number of recollected dust: 0 / Cumulated: 0 / possibly emitted 0
+Number of dust MP emitted: 0 / max weight : -3.4028235E38 / avg. weight : NaN
+DustSurfaceInteractor End
+Warning: parameter not found to build volume interactor: Parameter volInteract not found in global parameter list (multiple volume interactors still possible)
+Number of threads runs in parallel for particle pushing: 4
+Parameter iterativePusherAbsTolPos not found in global parameter list = returning default value: 1.0E-5 m
+Parameter iterativePusherAbsTolVelo not found in global parameter list = returning default value: 1.0E12 m.s-1
+Parameter iterativePusherRelTolPos not found in global parameter list = returning default value: 1.0E-4 -
+Parameter iterativePusherRelTolVelo not found in global parameter list = returning default value: 0.001 -
+Parameter BFieldIterativePusher not found in global parameter list = returning default value: 0
+Parameter dimensionality not found in global parameter list = returning default value: 3
+Parameter iterativePusherAbsTolPos not found in global parameter list = returning default value: 1.0E-5 m
+Parameter iterativePusherAbsTolVelo not found in global parameter list = returning default value: 1.0E12 m.s-1
+Parameter iterativePusherRelTolPos not found in global parameter list = returning default value: 1.0E-4 -
+Parameter iterativePusherRelTolVelo not found in global parameter list = returning default value: 0.001 -
+Parameter BFieldIterativePusher not found in global parameter list = returning default value: 0
+Parameter dimensionality not found in global parameter list = returning default value: 3
+Parameter iterativePusherAbsTolPos not found in global parameter list = returning default value: 1.0E-5 m
+Parameter iterativePusherAbsTolVelo not found in global parameter list = returning default value: 1.0E12 m.s-1
+Parameter iterativePusherRelTolPos not found in global parameter list = returning default value: 1.0E-4 -
+Parameter iterativePusherRelTolVelo not found in global parameter list = returning default value: 0.001 -
+Parameter BFieldIterativePusher not found in global parameter list = returning default value: 0
+Parameter dimensionality not found in global parameter list = returning default value: 3
+Parameter iterativePusherAbsTolPos not found in global parameter list = returning default value: 1.0E-5 m
+Parameter iterativePusherAbsTolVelo not found in global parameter list = returning default value: 1.0E12 m.s-1
+Parameter iterativePusherRelTolPos not found in global parameter list = returning default value: 1.0E-4 -
+Parameter iterativePusherRelTolVelo not found in global parameter list = returning default value: 0.001 -
+Parameter BFieldIterativePusher not found in global parameter list = returning default value: 0
+Parameter dimensionality not found in global parameter list = returning default value: 3
+Parameter chargeDepositDuringIntegrationFlag not found in global parameter list = returning default value: 0
+Parameter taskDurationVerbose not found in global parameter list = returning default value: 3
+Parameter photonPressureFlag not found in global parameter list = returning default value: 1
+Parameter photonPressureFlag not found in global parameter list = returning default value: 1
+Parameter photonPressureFlag not found in global parameter list = returning default value: 1
+Parameter photonPressureFlag not found in global parameter list = returning default value: 1
+Number of threads runs in parallel for particle pushing: 4
+Parameter iterativePusherAbsTolPos not found in global parameter list = returning default value: 1.0E-5 m
+Parameter iterativePusherAbsTolVelo not found in global parameter list = returning default value: 1.0E12 m.s-1
+Parameter iterativePusherRelTolPos not found in global parameter list = returning default value: 1.0E-4 -
+Parameter iterativePusherRelTolVelo not found in global parameter list = returning default value: 0.001 -
+Parameter BFieldIterativePusher not found in global parameter list = returning default value: 0
+Parameter dimensionality not found in global parameter list = returning default value: 3
+Parameter iterativePusherAbsTolPos not found in global parameter list = returning default value: 1.0E-5 m
+Parameter iterativePusherAbsTolVelo not found in global parameter list = returning default value: 1.0E12 m.s-1
+Parameter iterativePusherRelTolPos not found in global parameter list = returning default value: 1.0E-4 -
+Parameter iterativePusherRelTolVelo not found in global parameter list = returning default value: 0.001 -
+Parameter BFieldIterativePusher not found in global parameter list = returning default value: 0
+Parameter dimensionality not found in global parameter list = returning default value: 3
+Parameter iterativePusherAbsTolPos not found in global parameter list = returning default value: 1.0E-5 m
+Parameter iterativePusherAbsTolVelo not found in global parameter list = returning default value: 1.0E12 m.s-1
+Parameter iterativePusherRelTolPos not found in global parameter list = returning default value: 1.0E-4 -
+Parameter iterativePusherRelTolVelo not found in global parameter list = returning default value: 0.001 -
+Parameter BFieldIterativePusher not found in global parameter list = returning default value: 0
+Parameter dimensionality not found in global parameter list = returning default value: 3
+Parameter iterativePusherAbsTolPos not found in global parameter list = returning default value: 1.0E-5 m
+Parameter iterativePusherAbsTolVelo not found in global parameter list = returning default value: 1.0E12 m.s-1
+Parameter iterativePusherRelTolPos not found in global parameter list = returning default value: 1.0E-4 -
+Parameter iterativePusherRelTolVelo not found in global parameter list = returning default value: 0.001 -
+Parameter BFieldIterativePusher not found in global parameter list = returning default value: 0
+Parameter dimensionality not found in global parameter list = returning default value: 3
+Parameter chargeDepositDuringIntegrationFlag not found in global parameter list = returning default value: 0
+Parameter taskDurationVerbose not found in global parameter list = returning default value: 3
+Number of threads runs in parallel for particle pushing: 4
+Parameter iterativePusherAbsTolPos not found in global parameter list = returning default value: 1.0E-5 m
+Parameter iterativePusherAbsTolVelo not found in global parameter list = returning default value: 1.0E12 m.s-1
+Parameter iterativePusherRelTolPos not found in global parameter list = returning default value: 1.0E-4 -
+Parameter iterativePusherRelTolVelo not found in global parameter list = returning default value: 0.001 -
+Parameter BFieldIterativePusher not found in global parameter list = returning default value: 0
+Parameter dimensionality not found in global parameter list = returning default value: 3
+Parameter iterativePusherAbsTolPos not found in global parameter list = returning default value: 1.0E-5 m
+Parameter iterativePusherAbsTolVelo not found in global parameter list = returning default value: 1.0E12 m.s-1
+Parameter iterativePusherRelTolPos not found in global parameter list = returning default value: 1.0E-4 -
+Parameter iterativePusherRelTolVelo not found in global parameter list = returning default value: 0.001 -
+Parameter BFieldIterativePusher not found in global parameter list = returning default value: 0
+Parameter dimensionality not found in global parameter list = returning default value: 3
+Parameter iterativePusherAbsTolPos not found in global parameter list = returning default value: 1.0E-5 m
+Parameter iterativePusherAbsTolVelo not found in global parameter list = returning default value: 1.0E12 m.s-1
+Parameter iterativePusherRelTolPos not found in global parameter list = returning default value: 1.0E-4 -
+Parameter iterativePusherRelTolVelo not found in global parameter list = returning default value: 0.001 -
+Parameter BFieldIterativePusher not found in global parameter list = returning default value: 0
+Parameter dimensionality not found in global parameter list = returning default value: 3
+Parameter iterativePusherAbsTolPos not found in global parameter list = returning default value: 1.0E-5 m
+Parameter iterativePusherAbsTolVelo not found in global parameter list = returning default value: 1.0E12 m.s-1
+Parameter iterativePusherRelTolPos not found in global parameter list = returning default value: 1.0E-4 -
+Parameter iterativePusherRelTolVelo not found in global parameter list = returning default value: 0.001 -
+Parameter BFieldIterativePusher not found in global parameter list = returning default value: 0
+Parameter dimensionality not found in global parameter list = returning default value: 3
+Parameter chargeDepositDuringIntegrationFlag not found in global parameter list = returning default value: 0
+Parameter taskDurationVerbose not found in global parameter list = returning default value: 3
+Parameter electronSecondaryTemperature not found in global parameter list = returning default value: 2.0 eV
+Number of threads runs in parallel for particle pushing: 4
+Parameter iterativePusherAbsTolPos not found in global parameter list = returning default value: 1.0E-5 m
+Parameter iterativePusherAbsTolVelo not found in global parameter list = returning default value: 1.0E12 m.s-1
+Parameter iterativePusherRelTolPos not found in global parameter list = returning default value: 1.0E-4 -
+Parameter iterativePusherRelTolVelo not found in global parameter list = returning default value: 0.001 -
+Parameter BFieldIterativePusher not found in global parameter list = returning default value: 0
+Parameter dimensionality not found in global parameter list = returning default value: 3
+Parameter iterativePusherAbsTolPos not found in global parameter list = returning default value: 1.0E-5 m
+Parameter iterativePusherAbsTolVelo not found in global parameter list = returning default value: 1.0E12 m.s-1
+Parameter iterativePusherRelTolPos not found in global parameter list = returning default value: 1.0E-4 -
+Parameter iterativePusherRelTolVelo not found in global parameter list = returning default value: 0.001 -
+Parameter BFieldIterativePusher not found in global parameter list = returning default value: 0
+Parameter dimensionality not found in global parameter list = returning default value: 3
+Parameter iterativePusherAbsTolPos not found in global parameter list = returning default value: 1.0E-5 m
+Parameter iterativePusherAbsTolVelo not found in global parameter list = returning default value: 1.0E12 m.s-1
+Parameter iterativePusherRelTolPos not found in global parameter list = returning default value: 1.0E-4 -
+Parameter iterativePusherRelTolVelo not found in global parameter list = returning default value: 0.001 -
+Parameter BFieldIterativePusher not found in global parameter list = returning default value: 0
+Parameter dimensionality not found in global parameter list = returning default value: 3
+Parameter iterativePusherAbsTolPos not found in global parameter list = returning default value: 1.0E-5 m
+Parameter iterativePusherAbsTolVelo not found in global parameter list = returning default value: 1.0E12 m.s-1
+Parameter iterativePusherRelTolPos not found in global parameter list = returning default value: 1.0E-4 -
+Parameter iterativePusherRelTolVelo not found in global parameter list = returning default value: 0.001 -
+Parameter BFieldIterativePusher not found in global parameter list = returning default value: 0
+Parameter dimensionality not found in global parameter list = returning default value: 3
+Parameter chargeDepositDuringIntegrationFlag not found in global parameter list = returning default value: 0
+Parameter taskDurationVerbose not found in global parameter list = returning default value: 3
+Parameter CEXcurrentScaler not found in global parameter list = returning default value: 1
+First population generated by volume interaction No1 of type DustChargingInteractorMCC1 was generated (its dynamics will be modelled by PIC method)
+Parameter outPop1VolInteractErosion1 not found in global parameter list = returning default value: 0
+Number of threads runs in parallel for particle pushing: 4
+Parameter iterativePusherAbsTolPos not found in global parameter list = returning default value: 1.0E-5 m
+Parameter iterativePusherAbsTolVelo not found in global parameter list = returning default value: 1.0E12 m.s-1
+Parameter iterativePusherRelTolPos not found in global parameter list = returning default value: 1.0E-4 -
+Parameter iterativePusherRelTolVelo not found in global parameter list = returning default value: 0.001 -
+Parameter BFieldIterativePusher not found in global parameter list = returning default value: 0
+Parameter dimensionality not found in global parameter list = returning default value: 3
+Parameter iterativePusherAbsTolPos not found in global parameter list = returning default value: 1.0E-5 m
+Parameter iterativePusherAbsTolVelo not found in global parameter list = returning default value: 1.0E12 m.s-1
+Parameter iterativePusherRelTolPos not found in global parameter list = returning default value: 1.0E-4 -
+Parameter iterativePusherRelTolVelo not found in global parameter list = returning default value: 0.001 -
+Parameter BFieldIterativePusher not found in global parameter list = returning default value: 0
+Parameter dimensionality not found in global parameter list = returning default value: 3
+Parameter iterativePusherAbsTolPos not found in global parameter list = returning default value: 1.0E-5 m
+Parameter iterativePusherAbsTolVelo not found in global parameter list = returning default value: 1.0E12 m.s-1
+Parameter iterativePusherRelTolPos not found in global parameter list = returning default value: 1.0E-4 -
+Parameter iterativePusherRelTolVelo not found in global parameter list = returning default value: 0.001 -
+Parameter BFieldIterativePusher not found in global parameter list = returning default value: 0
+Parameter dimensionality not found in global parameter list = returning default value: 3
+Parameter iterativePusherAbsTolPos not found in global parameter list = returning default value: 1.0E-5 m
+Parameter iterativePusherAbsTolVelo not found in global parameter list = returning default value: 1.0E12 m.s-1
+Parameter iterativePusherRelTolPos not found in global parameter list = returning default value: 1.0E-4 -
+Parameter iterativePusherRelTolVelo not found in global parameter list = returning default value: 0.001 -
+Parameter BFieldIterativePusher not found in global parameter list = returning default value: 0
+Parameter dimensionality not found in global parameter list = returning default value: 3
+Parameter chargeDepositDuringIntegrationFlag not found in global parameter list = returning default value: 0
+Parameter taskDurationVerbose not found in global parameter list = returning default value: 3
+Parameter CEXcurrentScaler not found in global parameter list = returning default value: 1
+Second population generated by volume interaction No1 of type DustChargingInteractorMCC1 was generated (its dynamics will be modelled by PIC method)
+Parameter outPop2VolInteractErosion1 not found in global parameter list = returning default value: 0
+Parameter convergenceFactorInteractor1 not found in global parameter list = returning default value: -1.0 -
+Interactor number 1, of type ElectronFluxFromPhotoEmission2 was turned on
+Parameter scVeloX not found in global parameter list = returning default value: 0.0 m.s-1
+Parameter scVeloY not found in global parameter list = returning default value: 0.0 m.s-1
+Parameter scVeloZ not found in global parameter list = returning default value: 0.0 m.s-1
+Parameter scVeloCrossBFlag not found in global parameter list = returning default value: 1
+maximal potential induced by the v cross b field on spacecraft surface : 0.0V
+minimal potential induced by the v cross b field on spacecraft surface : 0.0V
+Parameter magnetizedPlasmaFlag not found in global parameter list = returning default value: 1
+Parameter dustLogPlotFlag not found in global parameter list = returning default value: 1
+Parameter dustRadiusLogPlotCutoff not found in global parameter list = returning default value: 1.0E-10 m
+Parameter dustChargeLogPlotCutoff not found in global parameter list = returning default value: 1.0E-19 C
+Parameter dustObscurLogPlotCutoff not found in global parameter list = returning default value: 1.0E-10 -
+Parameter vectorMonitoringFlag not found in global parameter list = returning default value: 0
+Parameter momentsMonitoringFlag not found in global parameter list = returning default value: 0
+maximal potential induced by the v cross b field on plasma volume : 0.0V
+minimal potential induced by the v cross b field on plasma volume : 0.0V
+Parameter momentsMonitoringFlag not found in global parameter list = returning default value: 1
+Parameter taskDurationVerbose not found in global parameter list = returning default value: 3
+Parameter taskDurationVerbose not found in global parameter list = returning default value: 3
+Parameter taskDurationVerbose not found in global parameter list = returning default value: 3
+Parameter taskDurationVerbose not found in global parameter list = returning default value: 3
+Parameter taskDurationVerbose not found in global parameter list = returning default value: 3
+Parameter taskDurationVerbose not found in global parameter list = returning default value: 3
+Parameter taskDurationVerbose not found in global parameter list = returning default value: 3
+Parameter taskDurationVerbose not found in global parameter list = returning default value: 3
+Pop 0 is ions1 type spis.Vol.VolDistrib.PICVolDistribUpdatable particle type H+
+ -> with density 1.0E7m-3
+ -> with temperature 10.0eV
+Pop 1 is elec1 type spis.Vol.VolDistrib.PICVolDistribUpdatable particle type electron
+ -> with density 1.0E7m-3
+ -> with temperature 10.0eV
+Pop 2 is photoElec type spis.Vol.VolDistrib.PICVolDistrib particle type electron
+Pop 3 is dust type spis.Vol.VolDistrib.PICVolDistrib particle type Default_Dusts
+Pop 4 is DustPhEl_DustInteractor type spis.Vol.VolDistrib.PICVolDistrib particle type electron
+Pop 5 is DustSEEE_DustInteractor type spis.Vol.VolDistrib.PICVolDistrib particle type electron
+Plasma integration duration is : 0.1
+Plasma integration time step is : 0.01
+Parameter instrumentNb not found in global parameter list = returning default value: 0
+Sensor Dust Volume Distribution Sensor id66 is located at position (0.0, 0.0, 2.0) inside the cell of Id 25022 at position ( 0.19216855, 0.37692443, 1.9345489).
+Sensor Dust Volume Distribution Sensor id67 is located at position (0.0, 0.0, 80.0) inside the cell of Id 7346 at position ( -0.9628825, 2.0730867, 78.71445).
+Sensor Plasma potential sensor id45 is located at position (0.0, 0.0, 10.0) inside the cell of Id 28795 at position ( 0.032558516, -0.052238427, 10.788477).
+Sensor Plasma potential sensor id46 is located at position (0.0, 0.0, 60.0) inside the cell of Id 29352 at position ( -0.56274647, -0.4985863, 61.249107).
+Unit1.parse warning: unit [ecu] not recognized => considered as dimensionless
+Unit1.pars

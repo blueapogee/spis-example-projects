@@ -1,0 +1,321 @@
+<org.keridwen.modelling.global.parameters.GlobalParametersList>
+  <id>-1</id>
+  <name></name>
+  <description></description>
+  <category></category>
+  <list>
+    <GlobalParameter>
+      <keyName>instrumentSamplePeriod</keyName>
+      <category>Mandatory parameters</category>
+      <typeAString>float</typeAString>
+      <valueAsFloat>0.0020</valueAsFloat>
+      <valueAsDouble>0.0</valueAsDouble>
+      <valueAsInt>0</valueAsInt>
+      <valueAsBoolean>false</valueAsBoolean>
+      <unit>[s]</unit>
+      <description>sampling period</description>
+      <verbosityLevel>LOW</verbosityLevel>
+    </GlobalParameter>
+    <GlobalParameter>
+      <keyName>instrumentOutputLevel</keyName>
+      <category>Mandatory parameters</category>
+      <typeAString>int</typeAString>
+      <valueAsFloat>0.0</valueAsFloat>
+      <valueAsDouble>0.0</valueAsDouble>
+      <valueAsInt>1</valueAsInt>
+      <valueAsBoolean>false</valueAsBoolean>
+      <unit>[-]</unit>
+      <description>level of outputs (0 = nominal; 1 = extra ASCII files</description>
+      <verbosityLevel>LOW</verbosityLevel>
+    </GlobalParameter>
+    <GlobalParameter>
+      <keyName>instrument_Mode</keyName>
+      <category>Mandatory parameters</category>
+      <typeAString>int</typeAString>
+      <valueAsFloat>0.0</valueAsFloat>
+      <valueAsDouble>0.0</valueAsDouble>
+      <valueAsInt>0</valueAsInt>
+      <valueAsBoolean>false</valueAsBoolean>
+      <unit>[-]</unit>
+      <description>mode 0 : one DF for the whole detector and acceptance angle taken into account; mode 1 one DF by detector surface element, and acceptance angle are not taken into account</description>
+      <verbosityLevel>LOW</verbosityLevel>
+    </GlobalParameter>
+    <GlobalParameter>
+      <keyName>instrumentPop</keyName>
+      <category>Mandatory parameters</category>
+      <typeAString>String</typeAString>
+      <valueAsFloat>0.0</valueAsFloat>
+      <valueAsDouble>0.0</valueAsDouble>
+      <valueAsInt>0</valueAsInt>
+      <valueAsString>pop1</valueAsString>
+      <valueAsBoolean>false</valueAsBoolean>
+      <unit>[-]</unit>
+      <description>name of the population to observe</description>
+      <verbosityLevel>LOW</verbosityLevel>
+    </GlobalParameter>
+    <GlobalParameter>
+      <keyName>instrumentSupportId</keyName>
+      <category>Mandatory parameters</category>
+      <typeAString>int</typeAString>
+      <valueAsFloat>0.0</valueAsFloat>
+      <valueAsDouble>0.0</valueAsDouble>
+      <valueAsInt>1</valueAsInt>
+      <valueAsBoolean>false</valueAsBoolean>
+      <unit>[-]</unit>
+      <description>support index of a particle detector on the spacecraft</description>
+      <verbosityLevel>LOW</verbosityLevel>
+    </GlobalParameter>
+    <GlobalParameter>
+      <keyName>instrumentEmin</keyName>
+      <category>Mandatory parameters</category>
+      <typeAString>float</typeAString>
+      <valueAsFloat>0.0</valueAsFloat>
+      <valueAsDouble>0.0</valueAsDouble>
+      <valueAsInt>0</valueAsInt>
+      <valueAsBoolean>false</valueAsBoolean>
+      <unit>[eV]</unit>
+      <description>minimum energy</description>
+      <verbosityLevel>LOW</verbosityLevel>
+    </GlobalParameter>
+    <GlobalParameter>
+      <keyName>instrumentEmax</keyName>
+      <category>Mandatory parameters</category>
+      <typeAString>float</typeAString>
+      <valueAsFloat>1500.0</valueAsFloat>
+      <valueAsDouble>0.0</valueAsDouble>
+      <valueAsInt>0</valueAsInt>
+      <valueAsBoolean>false</valueAsBoolean>
+      <unit>[eV]</unit>
+      <description>maximum energy</description>
+      <verbosityLevel>LOW</verbosityLevel>
+    </GlobalParameter>
+    <GlobalParameter>
+      <keyName>instrumentEintervalNb</keyName>
+      <category>Mandatory parameters</category>
+      <typeAString>int</typeAString>
+      <valueAsFloat>0.0</valueAsFloat>
+      <valueAsDouble>0.0</valueAsDouble>
+      <valueAsInt>100</valueAsInt>
+      <valueAsBoolean>false</valueAsBoolean>
+      <unit>[-]</unit>
+      <description>number of energy interval</description>
+      <verbosityLevel>LOW</verbosityLevel>
+    </GlobalParameter>
+    <GlobalParameter>
+      <keyName>instrument_OutBasisVect1_X</keyName>
+      <category>Mandatory parameters</category>
+      <typeAString>float</typeAString>
+      <valueAsFloat>1.0</valueAsFloat>
+      <valueAsDouble>0.0</valueAsDouble>
+      <valueAsInt>0</valueAsInt>
+      <valueAsBoolean>false</valueAsBoolean>
+      <unit>[-]</unit>
+      <description>x coordinate of Vect1 defining the output basis</description>
+      <verbosityLevel>LOW</verbosityLevel>
+    </GlobalParameter>
+    <GlobalParameter>
+      <keyName>instrument_OutBasisVect1_Y</keyName>
+      <category>Mandatory parameters</category>
+      <typeAString>float</typeAString>
+      <valueAsFloat>0.0</valueAsFloat>
+      <valueAsDouble>0.0</valueAsDouble>
+      <valueAsInt>0</valueAsInt>
+      <valueAsBoolean>false</valueAsBoolean>
+      <unit>[-]</unit>
+      <description>y coordinate of Vect1 defining the output basis</description>
+      <verbosityLevel>LOW</verbosityLevel>
+    </GlobalParameter>
+    <GlobalParameter>
+      <keyName>instrument_OutBasisVect1_Z</keyName>
+      <category>Mandatory parameters</category>
+      <typeAString>float</typeAString>
+      <valueAsFloat>0.0</valueAsFloat>
+      <valueAsDouble>0.0</valueAsDouble>
+      <valueAsInt>0</valueAsInt>
+      <valueAsBoolean>false</valueAsBoolean>
+      <unit>[-]</unit>
+      <description>z coordinate of Vect1 defining the output basis</description>
+      <verbosityLevel>LOW</verbosityLevel>
+    </GlobalParameter>
+    <GlobalParameter>
+      <keyName>instrument_OutBasisVect2_X</keyName>
+      <category>Mandatory parameters</category>
+      <typeAString>float</typeAString>
+      <valueAsFloat>0.0</valueAsFloat>
+      <valueAsDouble>0.0</valueAsDouble>
+      <valueAsInt>0</valueAsInt>
+      <valueAsBoolean>false</valueAsBoolean>
+      <unit>[-]</unit>
+      <description>x coordinate of Vect2 defining the output basis</description>
+      <verbosityLevel>LOW</verbosityLevel>
+    </GlobalParameter>
+    <GlobalParameter>
+      <keyName>instrument_OutBasisVect2_Y</keyName>
+      <category>Mandatory parameters</category>
+      <typeAString>float</typeAString>
+      <valueAsFloat>1.0</valueAsFloat>
+      <valueAsDouble>0.0</valueAsDouble>
+      <valueAsInt>0</valueAsInt>
+      <valueAsBoolean>false</valueAsBoolean>
+      <unit>[-]</unit>
+      <description>y coordinate of Vect2 defining the output basis</description>
+      <verbosityLevel>LOW</verbosityLevel>
+    </GlobalParameter>
+    <GlobalParameter>
+      <keyName>instrument_OutBasisVect2_Z</keyName>
+      <category>Mandatory parameters</category>
+      <typeAString>float</typeAString>
+      <valueAsFloat>0.0</valueAsFloat>
+      <valueAsDouble>0.0</valueAsDouble>
+      <valueAsInt>0</valueAsInt>
+      <valueAsBoolean>false</valueAsBoolean>
+      <unit>[-]</unit>
+      <description>z coordinate of Vect2 defining the output basis</description>
+      <verbosityLevel>LOW</verbosityLevel>
+    </GlobalParameter>
+    <GlobalParameter>
+      <keyName>instrument_OriginOutBasis_X</keyName>
+      <category>Mandatory parameters</category>
+      <typeAString>float</typeAString>
+      <valueAsFloat>0.0</valueAsFloat>
+      <valueAsDouble>0.0</valueAsDouble>
+      <valueAsInt>0</valueAsInt>
+      <valueAsBoolean>false</valueAsBoolean>
+      <unit>[m]</unit>
+      <description>x coordinate of origin point defining the output basis</description>
+      <verbosityLevel>LOW</verbosityLevel>
+    </GlobalParameter>
+    <GlobalParameter>
+      <keyName>instrument_OriginOutBasis_Y</keyName>
+      <category>Mandatory parameters</category>
+      <typeAString>float</typeAString>
+      <valueAsFloat>0.0</valueAsFloat>
+      <valueAsDouble>0.0</valueAsDouble>
+      <valueAsInt>0</valueAsInt>
+      <valueAsBoolean>false</valueAsBoolean>
+      <unit>[m]</unit>
+      <description>y coordinate of origin point defining the output basis</description>
+      <verbosityLevel>LOW</verbosityLevel>
+    </GlobalParameter>
+    <GlobalParameter>
+      <keyName>instrument_OriginOutBasis_Z</keyName>
+      <category>Mandatory parameters</category>
+      <typeAString>float</typeAString>
+      <valueAsFloat>0.0</valueAsFloat>
+      <valueAsDouble>0.0</valueAsDouble>
+      <valueAsInt>0</valueAsInt>
+      <valueAsBoolean>false</valueAsBoolean>
+      <unit>[m]</unit>
+      <description>z coordinate of origin point defining the output basis</description>
+      <verbosityLevel>LOW</verbosityLevel>
+    </GlobalParameter>
+    <GlobalParameter>
+      <keyName>instrumentTrajNb</keyName>
+      <category>Mandatory parameters</category>
+      <typeAString>int</typeAString>
+      <valueAsFloat>0.0</valueAsFloat>
+      <valueAsDouble>0.0</valueAsDouble>
+      <valueAsInt>10</valueAsInt>
+      <valueAsBoolean>false</valueAsBoolean>
+      <unit>[-]</unit>
+      <description>number of trajectories plotted</description>
+      <verbosityLevel>LOW</verbosityLevel>
+    </GlobalParameter>
+    <GlobalParameter>
+      <keyName>instrument_LocalBasis_theta</keyName>
+      <category>Mandatory parameters</category>
+      <typeAString>float</typeAString>
+      <valueAsFloat>0.0</valueAsFloat>
+      <valueAsDouble>0.0</valueAsDouble>
+      <valueAsInt>0</valueAsInt>
+      <valueAsBoolean>false</valueAsBoolean>
+      <unit>[-]</unit>
+      <description>first rotation angle from output basis (around Z) to local acceptance basis</description>
+      <verbosityLevel>LOW</verbosityLevel>
+    </GlobalParameter>
+    <GlobalParameter>
+      <keyName>instrument_LocalBasis_phi</keyName>
+      <category>Mandatory parameters</category>
+      <typeAString>float</typeAString>
+      <valueAsFloat>3.1415927</valueAsFloat>
+      <valueAsDouble>0.0</valueAsDouble>
+      <valueAsInt>0</valueAsInt>
+      <valueAsBoolean>false</valueAsBoolean>
+      <unit>[-]</unit>
+      <description>second rotation angle from output basis (around Y&apos;) to local acceptance basis</description>
+      <verbosityLevel>LOW</verbosityLevel>
+    </GlobalParameter>
+    <GlobalParameter>
+      <keyName>instrument_AcceptanceAngle_Alpha</keyName>
+      <category>Mandatory parameters</category>
+      <typeAString>float</typeAString>
+      <valueAsFloat>3.1415927</valueAsFloat>
+      <valueAsDouble>0.0</valueAsDouble>
+      <valueAsInt>0</valueAsInt>
+      <valueAsBoolean>false</valueAsBoolean>
+      <unit>[-]</unit>
+      <description>half-angle of acceptance versus the first direction of the instrument local basis</description>
+      <verbosityLevel>LOW</verbosityLevel>
+    </GlobalParameter>
+    <GlobalParameter>
+      <keyName>instrument_AcceptanceAngle_Beta</keyName>
+      <category>Mandatory parameters</category>
+      <typeAString>float</typeAString>
+      <valueAsFloat>3.1415927</valueAsFloat>
+      <valueAsDouble>0.0</valueAsDouble>
+      <valueAsInt>0</valueAsInt>
+      <valueAsBoolean>false</valueAsBoolean>
+      <unit>[-]</unit>
+      <description>half-angle of acceptance versus the second direction of the instrument local basis</description>
+      <verbosityLevel>LOW</verbosityLevel>
+    </GlobalParameter>
+    <GlobalParameter>
+      <keyName>instrument_UserInteractiveMode</keyName>
+      <category>Mandatory parameters</category>
+      <typeAString>int</typeAString>
+      <valueAsFloat>0.0</valueAsFloat>
+      <valueAsDouble>0.0</valueAsDouble>
+      <valueAsInt>1</valueAsInt>
+      <valueAsBoolean>false</valueAsBoolean>
+      <unit>[-]</unit>
+      <description>interaction level (1: user can change parameters and run a new measurement; 0: no interaction with user</description>
+      <verbosityLevel>LOW</verbosityLevel>
+    </GlobalParameter>
+    <GlobalParameter>
+      <keyName>instrument_EnergySlice</keyName>
+      <category>Mandatory parameters</category>
+      <typeAString>float</typeAString>
+      <valueAsFloat>150.0</valueAsFloat>
+      <valueAsDouble>0.0</valueAsDouble>
+      <valueAsInt>0</valueAsInt>
+      <valueAsBoolean>false</valueAsBoolean>
+      <unit>[eV]</unit>
+      <description>default particle energy for 2D slice of 3D distribution function monitoring (possible to change in interactive mode)</description>
+      <verbosityLevel>LOW</verbosityLevel>
+    </GlobalParameter>
+    <GlobalParameter>
+      <keyName>instrument_NbOctreeMax</keyName>
+      <category>Mandatory parameters</category>
+      <typeAString>int</typeAString>
+      <valueAsFloat>0.0</valueAsFloat>
+      <valueAsDouble>0.0</valueAsDouble>
+      <valueAsInt>12000</valueAsInt>
+      <valueAsBoolean>false</valueAsBoolean>
+      <unit>[-]</unit>
+      <description>number of OcTree max created during optimization process of TP method</description>
+      <verbosityLevel>LOW</verbosityLevel>
+    </GlobalParameter>
+    <GlobalParameter>
+      <keyName>instrument_NbPartMax</keyName>
+      <category>Mandatory parameters</category>
+      <typeAString>int</typeAString>
+      <valueAsFloat>0.0</valueAsFloat>
+      <valueAsDouble>0.0</valueAsDouble>
+      <valueAsInt>100000</valueAsInt>
+      <valueAsBoolean>false</valueAsBoolean>
+      <unit>[-]</unit>
+      <description>number of particle max tracked during backtracking mode of TP method</description>
+      <verbosityLevel>LOW</verbosityLevel>
+    </GlobalParameter>
+  </list>
+</org.keridwen.modelling.global.parameters.GlobalParametersList>

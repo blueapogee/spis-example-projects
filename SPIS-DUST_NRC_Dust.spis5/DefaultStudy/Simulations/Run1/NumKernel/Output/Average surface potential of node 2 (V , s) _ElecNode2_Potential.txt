@@ -1,0 +1,2 @@
+Time (s), esn 2 average surface potential (V), esn 2 ground potential (V), esn 2 min surface potential (V), esn 2 max surface potential (V)
+1.8067176, 2.2828465, 0.07688561, 1.8342489, 2.8894353

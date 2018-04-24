@@ -1,0 +1,1 @@
+Time (s), esn 1 net current (-), esn 1 collected current (-), esn 1 emitted current (-)

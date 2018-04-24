@@ -1,0 +1,118 @@
+Default output path for SPIS/NUM set to /home/benj/Bureau/workspaces/workspacekeridwen/felix/data/SCI-projects-19062014/SPIS-SCIENCE-TestSequence4.spis5/DefaultStudy/Simulations/Run1/NumKernel/Output/
+Default input path for SPIS/NUM set to /home/benj/Bureau/workspaces/workspacekeridwen/felix/data/SCI-projects-19062014/SPIS-SCIENCE-TestSequence4.spis5/DefaultStudy/Simulations/Run1/NumKernel/Input/
+Serialising object of type [Lspis.Top.Default.GlobalParameter; in file /home/benj/Bureau/workspaces/workspacekeridwen/felix/data/SCI-projects-19062014/SPIS-SCIENCE-TestSequence4.spis5/DefaultStudy/Simulations/Run1/NumKernel/Output/globalParOut.gp
+Serialising object of type [Lspis.Top.Default.LocalParameter; in file /home/benj/Bureau/workspaces/workspacekeridwen/felix/data/SCI-projects-19062014/SPIS-SCIENCE-TestSequence4.spis5/DefaultStudy/Simulations/Run1/NumKernel/Output/localParOut.lp
+Serialising object of type [Lspis.Surf.SurfInteract.GenericParamSet; in file /home/benj/Bureau/workspaces/workspacekeridwen/felix/data/SCI-projects-19062014/SPIS-SCIENCE-TestSequence4.spis5/DefaultStudy/Simulations/Run1/NumKernel/Output/genericParamSetsOut.gps
+Starting building simulation from UI parameters
+Parameter monitorVolInteractions not found in global parameter list = returning default value: 1
+SPIS-GEO Automatic settings will be applied to this simulation
+Parameter maxPotVariations not found in global parameter list = returning default value: -1.0 V
+SPIS-GEO mode > 1 : limitation of maximal potential variations to -1.0 V
+Local parameter Id 0 is BackGroundDens
+Local parameter Id 1 is VolInteracFlag
+Local parameter Id 2 is ElecSecEmisOnWire
+Local parameter Id 3 is ImposedEmittedCurrentFlag
+Local parameter Id 4 is SunFluxOnWire
+Local parameter Id 5 is ImposedCollectedCurrentDensityOnWire
+Local parameter Id 6 is PhotoEmisOnWire
+Local parameter Id 7 is ProtSecEmisOnWire
+Local parameter Id 8 is ImposedCollectedCurrentFlag
+Local parameter Id 9 is SunFlux
+Local parameter Id 10 is ImposedEmittedCurrentDensity
+Local parameter Id 11 is ProtSecEmis
+Local parameter Id 12 is ImposedEmittedCurrentDensityOnWire
+Local parameter Id 13 is ImposedEmittedCurrentFlagOnWire
+Local parameter Id 14 is ElecSecEmis
+Local parameter Id 15 is ImposedCollectedCurrentFlagOnWire
+Local parameter Id 16 is PhotoEmis
+Local parameter Id 17 is ImposedCollectedCurrentDensity
+Local parameter Id 18 is EdgeElecNodeId
+Local parameter Id 19 is ElecNodeId
+Local parameter Id 20 is IndConduct
+Local parameter Id 21 is VolConduct
+Local parameter Id 22 is SurfConduct
+Local parameter Id 23 is SCDiriFlag
+Local parameter Id 24 is SCDiriPot
+Local parameter Id 25 is SCFourAlpha
+Local parameter Id 26 is SCFourValue
+Local parameter Id 27 is SCDiriPotEdge
+Local parameter Id 28 is SCDiriPotSurf
+Local parameter Id 29 is SCFourFlag
+Local parameter Id 30 is Temperature
+Local parameter Id 31 is MatThickness
+Local parameter Id 32 is SurfThicknessS
+Local parameter Id 33 is EdgeRadiusS
+Local parameter Id 34 is SourceMachOnWire
+Local parameter Id 35 is SourceCurrent
+Local parameter Id 36 is SourceIdOnWire
+Local parameter Id 37 is SourceId
+Local parameter Id 38 is SourceTempOnWire
+Local parameter Id 39 is SourceIdOnWire
+Local parameter Id 40 is SourceMach
+Local parameter Id 41 is SourceTemp
+Local parameter Id 42 is MatModelId
+Local parameter Id 43 is MatModelIdOnEdge
+Local parameter Id 44 is InstrumentSupport
+Local parameter Id 45 is IncomPart
+Local parameter Id 46 is OutgoPart
+Local parameter Id 47 is BdDiriFlag
+Local parameter Id 48 is BdFourAlpha
+Local parameter Id 49 is BdDiriPot
+Local parameter Id 50 is BdFourValue
+Local parameter Id 51 is BdFourFlag
+Local parameter Id 52 is MatTypeId
+Local parameter Id 53 is MatTypeIdOnEdge
+Local parameter Id 54 is MatTypeId
+Local parameter Id 55 is MatTypeIdOnEdge
+Simulation was built from UI parameters
+spacecraft surface : 19.108452m2
+Parameter MagMomentx not found in global parameter list = returning default value: 0.0 m-3.T
+Parameter MagMomenty not found in global parameter list = returning default value: 0.0 m-3.T
+Parameter MagMomentz not found in global parameter list = returning default value: 0.0 m-3.T
+Parameter Gx not found in global parameter list = returning default value: 0.0 m.s-2
+Parameter Gy not found in global parameter list = returning default value: 0.0 m.s-2
+Parameter Gz not found in global parameter list = returning default value: 0.0 m.s-2
+Parameter SeismicNormalFrequency not found in global parameter list = returning default value: 0.0 s-1
+Parameter SeismicTransverseFrequency1 not found in global parameter list = returning default value: 0.0 s-1
+Parameter SeismicTransverseFrequency2 not found in global parameter list = returning default value: 0.0 s-1
+Parameter SeismicNormalPhase not found in global parameter list = returning default value: 0.0 -
+Parameter SeismicTransversePhase1 not found in global parameter list = returning default value: 0.0 -
+Parameter SeismicTransversePhase2 not found in global parameter list = returning default value: 0.0 -
+Parameter SeismicNormalAmplitude not found in global parameter list = returning default value: 0.0 m
+Parameter SeismicTransverseAmplitude1 not found in global parameter list = returning default value: 0.0 m
+Parameter SeismicTransverseAmplitude2 not found in global parameter list = returning default value: 0.0 m
+Parameter refPot not found in global parameter list = returning default value: 1.0 -
+Parameter ionMagnetized not found in global parameter list = returning default value: 1
+Parameter initPICSample not found in global parameter list = returning default value: 1
+Population ions1 --> spacecraft velocity included in population velocity in SC reference frame
+Number of threads runs in parallel for particle pushing: 4
+Population of ions1 successfully created (type spis.Vol.VolDistrib.BackTrackingVolDistrib)
+Parameter electronMagnetized not found in global parameter list = returning default value: 1
+Population of elec1 (type GlobalMaxwellBoltzmannVolDistrib) could not be created with an EField (electric field with singularity handling close to wires and thin plates),
+ which is not necessarily a problem for some types (e.g. GlobalMaxwellBoltzmannVolDistrib)
+ => Trying now to create it with a basic VolField as electric field (no singularity handling)
+Population elec1 --> spacecraft velocity included in population velocity in SC reference frame
+Population of elec1 successfully created (type spis.Vol.VolDistrib.GlobalMaxwellBoltzmannVolDistrib)
+Parameter ionMagnetized2 not found in global parameter list = returning default value: 1
+Parameter initPICSample not found in global parameter list = returning default value: 1
+Population ions2 --> spacecraft velocity included in population velocity in SC reference frame
+Number of threads runs in parallel for particle pushing: 4
+Population of ions2 successfully created (type spis.Vol.VolDistrib.BackTrackingVolDistrib)
+Parameter electronMagnetized2 not found in global parameter list = returning default value: 1
+Population of elec2 (type GlobalMaxwellBoltzmannVolDistrib) could not be created with an EField (electric field with singularity handling close to wires and thin plates),
+ which is not necessarily a problem for some types (e.g. GlobalMaxwellBoltzmannVolDistrib)
+ => Trying now to create it with a basic VolField as electric field (no singularity handling)
+Population elec2 --> spacecraft velocity included in population velocity in SC reference frame
+Population of elec2 successfully created (type spis.Vol.VolDistrib.GlobalMaxwellBoltzmannVolDistrib)
+Missing properties from list :
+  1) SUBE
+GenericParamSet: input Erosion property is missing or inapropriate for ITOC-NASCAP => this parameter is set to the default typical value (5 eV)
+Missing properties from list :
+  1) SUBE
+GenericParamSet: input Erosion property is missing or inapropriate for CERS-NASCAP => this parameter is set to the default typical value (5 eV)
+Missing properties from list :
+  1) SUBE
+GenericParamSet: input Erosion property is missing or inapropriate for CFRP-NASCAP => this parameter is set to the default typical value (5 eV)
+Missing properties from list :
+  1) SUBE
+GenericParamSet: input Erosion property is missi

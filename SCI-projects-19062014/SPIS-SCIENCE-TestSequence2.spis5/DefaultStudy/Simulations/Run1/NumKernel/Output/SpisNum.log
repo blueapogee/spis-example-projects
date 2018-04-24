@@ -1,0 +1,209 @@
+Default output path for SPIS/NUM set to /home/benj/Bureau/workspaces/workspacekeridwen/felix/data/SCI-projects-19062014/SPIS-SCIENCE-TestSequence2.spis5/DefaultStudy/Simulations/Run1/NumKernel/Output/
+Default input path for SPIS/NUM set to /home/benj/Bureau/workspaces/workspacekeridwen/felix/data/SCI-projects-19062014/SPIS-SCIENCE-TestSequence2.spis5/DefaultStudy/Simulations/Run1/NumKernel/Input/
+Serialising object of type [Lspis.Top.Default.GlobalParameter; in file /home/benj/Bureau/workspaces/workspacekeridwen/felix/data/SCI-projects-19062014/SPIS-SCIENCE-TestSequence2.spis5/DefaultStudy/Simulations/Run1/NumKernel/Output/globalParOut.gp
+Serialising object of type [Lspis.Top.Default.LocalParameter; in file /home/benj/Bureau/workspaces/workspacekeridwen/felix/data/SCI-projects-19062014/SPIS-SCIENCE-TestSequence2.spis5/DefaultStudy/Simulations/Run1/NumKernel/Output/localParOut.lp
+Serialising object of type [Lspis.Surf.SurfInteract.GenericParamSet; in file /home/benj/Bureau/workspaces/workspacekeridwen/felix/data/SCI-projects-19062014/SPIS-SCIENCE-TestSequence2.spis5/DefaultStudy/Simulations/Run1/NumKernel/Output/genericParamSetsOut.gps
+Starting building simulation from UI parameters
+Parameter monitorVolInteractions not found in global parameter list = returning default value: 1
+SPIS-GEO Automatic settings will be applied to this simulation
+Parameter maxPotVariations not found in global parameter list = returning default value: -1.0 V
+SPIS-GEO mode > 1 : limitation of maximal potential variations to -1.0 V
+Local parameter Id 0 is BackGroundDens
+Local parameter Id 1 is VolInteracFlag
+Local parameter Id 2 is IncomPart
+Local parameter Id 3 is OutgoPart
+Local parameter Id 4 is BdDiriFlag
+Local parameter Id 5 is BdFourAlpha
+Local parameter Id 6 is BdDiriPot
+Local parameter Id 7 is BdFourValue
+Local parameter Id 8 is BdFourFlag
+Local parameter Id 9 is ElecSecEmisOnWire
+Local parameter Id 10 is ImposedEmittedCurrentFlag
+Local parameter Id 11 is SunFluxOnWire
+Local parameter Id 12 is ImposedCollectedCurrentDensityOnWire
+Local parameter Id 13 is PhotoEmisOnWire
+Local parameter Id 14 is ProtSecEmisOnWire
+Local parameter Id 15 is ImposedCollectedCurrentFlag
+Local parameter Id 16 is SunFlux
+Local parameter Id 17 is ImposedEmittedCurrentDensity
+Local parameter Id 18 is ProtSecEmis
+Local parameter Id 19 is ImposedEmittedCurrentDensityOnWire
+Local parameter Id 20 is ImposedEmittedCurrentFlagOnWire
+Local parameter Id 21 is ElecSecEmis
+Local parameter Id 22 is ImposedCollectedCurrentFlagOnWire
+Local parameter Id 23 is PhotoEmis
+Local parameter Id 24 is ImposedCollectedCurrentDensity
+Local parameter Id 25 is EdgeElecNodeId
+Local parameter Id 26 is ElecNodeId
+Local parameter Id 27 is IndConduct
+Local parameter Id 28 is VolConduct
+Local parameter Id 29 is SurfConduct
+Local parameter Id 30 is SCDiriFlag
+Local parameter Id 31 is SCDiriPot
+Local parameter Id 32 is SCFourAlpha
+Local parameter Id 33 is SCFourValue
+Local parameter Id 34 is SCDiriPotEdge
+Local parameter Id 35 is SCDiriPotSurf
+Local parameter Id 36 is SCFourFlag
+Local parameter Id 37 is Temperature
+Local parameter Id 38 is MatThickness
+Local parameter Id 39 is SurfThicknessS
+Local parameter Id 40 is EdgeRadiusS
+Local parameter Id 41 is SourceMachOnWire
+Local parameter Id 42 is SourceCurrent
+Local parameter Id 43 is SourceIdOnWire
+Local parameter Id 44 is SourceId
+Local parameter Id 45 is SourceTempOnWire
+Local parameter Id 46 is SourceMach
+Local parameter Id 47 is SourceIdOnWire
+Local parameter Id 48 is SourceTemp
+Local parameter Id 49 is MatModelId
+Local parameter Id 50 is MatModelIdOnEdge
+Local parameter Id 51 is InstrumentSupport
+Local parameter Id 52 is GridPhotoEmis
+Local parameter Id 53 is GridTransparency
+Local parameter Id 54 is GridProtSecEmis
+Local parameter Id 55 is GridElecSecEmis
+Local parameter Id 56 is GridElecNodeId
+Local parameter Id 57 is GridDiriPot
+Local parameter Id 58 is MatTypeId
+Local parameter Id 59 is MatTypeIdOnEdge
+Local parameter Id 60 is GridMatTypeId
+Simulation was built from UI parameters
+spacecraft surface : 0.004060947m2
+Parameter MagMomentx not found in global parameter list = returning default value: 0.0 m-3.T
+Parameter MagMomenty not found in global parameter list = returning default value: 0.0 m-3.T
+Parameter MagMomentz not found in global parameter list = returning default value: 0.0 m-3.T
+Parameter Gx not found in global parameter list = returning default value: 0.0 m.s-2
+Parameter Gy not found in global parameter list = returning default value: 0.0 m.s-2
+Parameter Gz not found in global parameter list = returning default value: 0.0 m.s-2
+Parameter SeismicNormalFrequency not found in global parameter list = returning default value: 0.0 s-1
+Parameter SeismicTransverseFrequency1 not found in global parameter list = returning default value: 0.0 s-1
+Parameter SeismicTransverseFrequency2 not found in global parameter list = returning default value: 0.0 s-1
+Parameter SeismicNormalPhase not found in global parameter list = returning default value: 0.0 -
+Parameter SeismicTransversePhase1 not found in global parameter list = returning default value: 0.0 -
+Parameter SeismicTransversePhase2 not found in global parameter list = returning default value: 0.0 -
+Parameter SeismicNormalAmplitude not found in global parameter list = returning default value: 0.0 m
+Parameter SeismicTransverseAmplitude1 not found in global parameter list = returning default value: 0.0 m
+Parameter SeismicTransverseAmplitude2 not found in global parameter list = returning default value: 0.0 m
+Parameter refPot not found in global parameter list = returning default value: 1.0 -
+Parameter ionMagnetized not found in global parameter list = returning default value: 1
+Parameter initPICSample not found in global parameter list = returning default value: 1
+Population ions1 --> spacecraft velocity included in population velocity in SC reference frame
+Number of threads runs in parallel for particle pushing: 4
+Population of ions1 successfully created (type spis.Vol.VolDistrib.BackTrackingVolDistrib)
+Parameter electronMagnetized not found in global parameter list = returning default value: 1
+Population of elec1 (type GlobalMaxwellBoltzmannVolDistrib) could not be created with an EField (electric field with singularity handling close to wires and thin plates),
+ which is not necessarily a problem for some types (e.g. GlobalMaxwellBoltzmannVolDistrib)
+ => Trying now to create it with a basic VolField as electric field (no singularity handling)
+Population elec1 --> spacecraft velocity included in population velocity in SC reference frame
+Population of elec1 successfully created (type spis.Vol.VolDistrib.GlobalMaxwellBoltzmannVolDistrib)
+Parameter ionMagnetized2 not found in global parameter list = returning default value: 1
+Parameter initPICSample not found in global parameter list = returning default value: 1
+Population ions2 --> spacecraft velocity included in population velocity in SC reference frame
+Number of threads runs in parallel for particle pushing: 4
+Population of ions2 successfully created (type spis.Vol.VolDistrib.BackTrackingVolDistrib)
+Parameter electronMagnetized2 not found in global parameter list = returning default value: 1
+Population of elec2 (type GlobalMaxwellBoltzmannVolDistrib) could not be created with an EField (electric field with singularity handling close to wires and thin plates),
+ which is not necessarily a problem for some types (e.g. GlobalMaxwellBoltzmannVolDistrib)
+ => Trying now to create it with a basic VolField as electric field (no singularity handling)
+Population elec2 --> spacecraft velocity included in population velocity in SC reference frame
+Population of elec2 successfully created (type spis.Vol.VolDistrib.GlobalMaxwellBoltzmannVolDistrib)
+Missing properties from list :
+  1) SUBE
+GenericParamSet: input Erosion property is missing or inapropriate for al2k-NASCAP => this parameter is set to the default typical value (5 eV)
+Missing properties from list :
+  1) SUBE
+GenericParamSet: input Erosion property is missing or inapropriate for al2k-NASCAP => this parameter is set to the default typical value (5 eV)
+the Circuit File circuit.txt was read, and was found to have 3 components:
+V between node 0 and node 1, value = 0.0
+V between node 0 and node 2, value = -5.0
+V between node 0 and node 3, value = 0.0
+Photo-emission is turned on from global sun directionNumber of threads runs in parallel for particle pushing: 4
+Parameter photoElecTailKurtosis not found in global parameter list = returning default value: 1000.0 -
+Parameter photoElecCoreKurtosis not found in global parameter list = returning default value: 0.0 -
+Parameter photoElecSkewness not found in global parameter list = returning default value: 0.0 -
+Parameter photoElecLowVAttenuation not found in global parameter list = returning default value: 0.0 -
+Impossible to create a GenericPhotoEmInteractor a BasicPhotoEmInteractor has been created
+Parameter photoElecTailKurtosis not found in global parameter list = returning default value: 1000.0 -
+Parameter photoElecCoreKurtosis not found in global parameter list = returning default value: 0.0 -
+Parameter photoElecSkewness not found in global parameter list = returning default value: 0.0 -
+Parameter photoElecLowVAttenuation not found in global parameter list = returning default value: 0.0 -
+Impossible to create a GenericPhotoEmInteractor a BasicPhotoEmInteractor has been created
+ with photo-electron dynamics simulation (PIC)
+Number of threads runs in parallel for particle pushing: 4
+|----- SPIS-GEO : Integration duration and time step of photoElec automatically set to 1.1922335E-6 s
+|----- SPIS-GEO : Integration duration of plasma automatically set to 1.1922335E-6 s
+|----- SPIS-GEO : Integration time steps of plasma automatically set to 1.1922335E-6 s
+Parameter photoElectronSecondaryEmission not found in global parameter list = returning default value: 0
+Number of threads runs in parallel for particle pushing: 4
+|----- SPIS-GEO : Integration duration and time step of photoElec_FromGrid automatically set to 1.1922335E-6 s
+|----- SPIS-GEO : Integration duration of plasma automatically set to 1.1922335E-6 s
+|----- SPIS-GEO : Integration time steps of plasma automatically set to 1.1922335E-6 s
+Parameter dustEmissionFlag not found in global parameter list = returning default value: 1
+Parameter dustAutoSource not found in global parameter list = returning default value: 1
+Secondary emission from electron impact is turned onImpossible to create a GenericSEEEInteractor a BasicSEEEInteractor has been created
+ secondary-electron dynamics is simulated (PIC) for ambiant electrons
+Number of threads runs in parallel for particle pushing: 4
+Number of threads runs in parallel for particle pushing: 4
+|----- SPIS-GEO : Integration duration and time step of secondElec True from ambiant electrons automatically set to 1.1922335E-6 s
+|----- SPIS-GEO : Integration duration of plasma automatically set to 1.1922335E-6 s
+|----- SPIS-GEO : Integration time steps of plasma automatically set to 1.1922335E-6 s
+|----- SPIS-GEO : Integration duration and time step of secondElec BS from ambiant electrons automatically set to 1.1922335E-6 s
+|----- SPIS-GEO : Integration duration of plasma automatically set to 1.1922335E-6 s
+|----- SPIS-GEO : Integration time steps of plasma automatically set to 1.1922335E-6 s
+ secondary emission from secondary-electrons is not modelled for ambiant electrons
+Secondary emission from electron impact is turned on on GridsImpossible to create a GenericSEEEInteractor a BasicSEEEInteractor has been created
+ secondary-electron (on grid) dynamics is simulated (PIC) for ambiant electrons on grids
+Number of threads runs in parallel for particle pushing: 4
+|----- SPIS-GEO : Integration duration and time step of secondElec from ambiant electrons on grids automatically set to 1.1922335E-6 s
+|----- SPIS-GEO : Integration duration of plasma automatically set to 1.1922335E-6 s
+|----- SPIS-GEO : Integration time steps of plasma automatically set to 1.1922335E-6 s
+ secondary emission from secondary-electrons is not modelled for ambiant electrons on grids
+Secondary emission from proton impact is turned on for the bi-maxwellian environment ("ion1" and "ion2" populations)
+Impossible to create a GenericSEEPInteractor a BasicSEEPInteractor has been created
+ secondary-electron under proton impact dynamics is simulated (PIC) for ambiant protons
+Number of threads runs in parallel for particle pushing: 4
+|----- SPIS-GEO : Integration duration and time step of secondElec from ambiant protons automatically set to 1.1922335E-6 s
+|----- SPIS-GEO : Integration duration of plasma automatically set to 1.1922335E-6 s
+|----- SPIS-GEO : Integration time steps of plasma automatically set to 1.1922335E-6 s
+ secondary emission from secondary-electrons is not modelled for ambiant protons
+Secondary emission from proton impact is turned on for the bi-maxwellian environment ("ion1" and "ion2" populations)
+Impossible to create a GenericSEEPInteractor a BasicSEEPInteractor has been created
+ secondary-electron under proton impact dynamics is simulated (PIC) for ambiant protons on grids
+Number of threads runs in parallel for particle pushing: 4
+|----- SPIS-GEO : Integration duration and time step of secondElec from ambiant protons on grids automatically set to 1.1922335E-6 s
+|----- SPIS-GEO : Integration duration of plasma automatically set to 1.1922335E-6 s
+|----- SPIS-GEO : Integration time steps of plasma automatically set to 1.1922335E-6 s
+ secondary emission from secondary-electrons is not modelled for ambiant protons on grids
+FunctionOfDistribFromFuncOfPart.compute: incoming flux had zero summation duration (may be possible at simulation start)
+FunctionOfDistribFromFuncOfPart.compute: incoming flux had zero summation duration (may be possible at simulation start)
+FunctionOfDistribFromFuncOfPart.compute: incoming flux had zero summation duration (may be possible at simulation start)
+FunctionOfDistribFromFuncOfPart.compute: incoming flux had zero summation duration (may be possible at simulation start)
+FunctionOfDistribFromFuncOfPart.compute: incoming flux had zero summation duration (may be possible at simulation start)
+FunctionOfDistribFromFuncOfPart.compute: incoming flux had zero summation duration (may be possible at simulation start)
+Warning: parameter not found to build volume interactor: Parameter volInteract not found in global parameter list (multiple volume interactors still possible)
+maximal potential induced by the v cross b field on spacecraft surface : 0.0V
+minimal potential induced by the v cross b field on spacecraft surface : 0.0V
+Parameter dustMapsMonitorStep not found in global parameter list = returning default value: 0.0 s
+Parameter dustEmissionFlag not found in global parameter list = returning default value: 1
+Parameter dustAutoSource not found in global parameter list = returning default value: 1
+Parameter vectorMonitoringFlag not found in global parameter list = returning default value: 0
+Parameter momentsMonitoringFlag not found in global parameter list = returning default value: 0
+maximal potential induced by the v cross b field on plasma volume : 0.0V
+minimal potential induced by the v cross b field on plasma volume : 0.0V
+Pop 0 is ions1 type spis.Vol.VolDistrib.BackTrackingVolDistrib particle type H+
+ -> with density 600000.0m-3
+ -> with temperature 200.0eV
+Pop 1 is elec1 type spis.Vol.VolDistrib.GlobalMaxwellBoltzmannVolDistrib particle type electron
+Pop 2 is ions2 type spis.Vol.VolDistrib.BackTrackingVolDistrib particle type H+
+ -> with density 1300000.0m-3
+ -> with temperature 28000.0eV
+Pop 3 is elec2 type spis.Vol.VolDistrib.GlobalMaxwellBoltzmannVolDistrib particle type electron
+Pop 4 is photoElec type spis.Vol.VolDistrib.PICVolDistrib particle type electron
+Pop 5 is photoElec_FromGrid type spis.Vol.VolDistrib.PICVolDistrib particle type electron
+Pop 6 is secondElec True from ambiant electrons type spis.Vol.VolDistrib.PICVolDistrib particle type electron
+Pop 7 is secondElec BS from ambiant electrons type spis.Vol.VolDistrib.PICVolDistrib particle type electron
+Pop 8 is secondElec from ambiant electrons on grids type spis.Vol.VolDistrib.PICVolDistrib particle type electron
+Pop 9 is secondElec from ambiant protons type spis.Vol.VolDistrib.PICVolDistrib particle type electron
+Pop 10 is secondElec from ambiant protons on g

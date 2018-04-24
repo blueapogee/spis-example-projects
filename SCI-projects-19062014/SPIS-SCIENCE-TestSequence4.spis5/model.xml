@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpisModel xsi:noNamespaceSchemaLocation="org-spis-science-5.2.1-SNAPSHOT.xsd" version="1.0.0"
+creationDate="2016/09/30-10:06:05:648" lastUpdate="2016/09/30-10:06:24:339" owner="benj"
+group="benj" permission="777" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Project projectName="DefaultProject" projectState="org.spis.ui.simulation" currentProject="true">
+        <Description/>
+        <Study studyName="DefaultStudy">
+            <Description/>
+            <Preprocessing>
+                <Geometry>
+                    <GeometricalSystem>
+                        <Geometry name="ThinElSC.geo" format="gmsh.geo-2.6.0" creationDate="2016/09/30-10:06:05:662"
+                        lastUpdate="2016/09/30-10:06:24:339" owner="benj" group="benj"
+                        permission="777" main="true" isLocal="true">DefaultStudy/Preprocessing/Geometry/GeometricalSystem/ThinElSC.geo</Geometry>
+                        <Geometry name="Sphere.geo" format="gmsh.geo-2.6.0" creationDate="2016/09/30-10:06:05:663"
+                        lastUpdate="2016/09/30-10:06:24:339" owner="benj" group="benj"
+                        permission="777" main="false" isLocal="true">DefaultStudy/Preprocessing/Geometry/GeometricalSystem/Sphere.geo</Geometry>
+                        <Geometry name="2DThinPlate.geo" format="gmsh.geo-2.6.0"
+                        creationDate="2016/09/30-10:06:05:664" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" main="false" isLocal="true">DefaultStudy/Preprocessing/Geometry/GeometricalSystem/2DThinPlate.geo</Geometry>
+                        <Geometry name="wire.geo" format="gmsh.geo-2.6.0" creationDate="2016/09/30-10:06:05:664"
+                        lastUpdate="2016/09/30-10:06:24:339" owner="benj" group="benj"
+                        permission="777" main="false" isLocal="true">DefaultStudy/Preprocessing/Geometry/GeometricalSystem/wire.geo</Geometry>
+                        <Geometry name="SphereExt.geo" format="gmsh.geo-2.6.0" creationDate="2016/09/30-10:06:05:664"
+                        lastUpdate="2016/09/30-10:06:24:339" owner="benj" group="benj"
+                        permission="777" main="false" isLocal="true">DefaultStudy/Preprocessing/Geometry/GeometricalSystem/SphereExt.geo</Geometry>
+                    </GeometricalSystem>
+                    <Instruments/>
+                </Geometry>
+                <Mesh>
+                    <GeometricalSystem>
+                        <Mesh name="ThinElSCBackup.msh" format="gmsh.msh-2.2" creationDate="2016/09/30-10:06:05:667"
+                        lastUpdate="2016/09/30-10:06:24:339" owner="benj" group="benj"
+                        permission="777" main="false" isLocal="true">DefaultStudy/Preprocessing/Mesh/GeometricalSystem/ThinElSCBackup.msh</Mesh>
+                        <Mesh name="ThinElSCBackup.msh" format="gmsh.msh-2.2" creationDate="2016/09/30-10:06:05:668"
+                        lastUpdate="2016/09/30-10:06:24:339" owner="benj" group="benj"
+                        permission="777" main="true" isLocal="true">DefaultStudy/Preprocessing/Mesh/GeometricalSystem/ThinElSCBackup.msh</Mesh>
+                    </GeometricalSystem>
+                    <Instruments/>
+                </Mesh>
+                <Datafields>
+                    <Datafield name="duplicatedThinPlateToOriginalIdFace" meshNode="ThinElSCBackup.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:06:05:670"
+                    lastUpdate="2016/09/30-10:06:24:339" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/duplicatedThinPlateToOriginalIdFace.nc</Datafield>
+                    <Datafield name="noPhysicalDuplicatedThinPlateToOriginalIdFace"
+                    meshNode="ThinElSCBackup.msh" format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1"
+                    creationDate="2016/09/30-10:06:05:703" lastUpdate="2016/09/30-10:06:24:339"
+                    owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/noPhysicalDuplicatedThinPlateToOriginalIdFace.nc</Datafield>
+                    <Datafield name="duplicatedThinPlateToOriginalIdEdge" meshNode="ThinElSCBackup.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:06:05:703"
+                    lastUpdate="2016/09/30-10:06:24:339" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/duplicatedThinPlateToOriginalIdEdge.nc</Datafield>
+                    <Datafield name="noPhysicalDuplicatedThinSurfaceToOriginalIdEdge"
+                    meshNode="ThinElSCBackup.msh" format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1"
+                    creationDate="2016/09/30-10:06:05:704" lastUpdate="2016/09/30-10:06:24:339"
+                    owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/noPhysicalDuplicatedThinSurfaceToOriginalIdEdge.nc</Datafield>
+                    <Datafield name="duplicatedThinPlateToOriginalIdVertex" meshNode="ThinElSCBackup.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:06:05:704"
+                    lastUpdate="2016/09/30-10:06:24:339" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/duplicatedThinPlateToOriginalIdVertex.nc</Datafield>
+                    <Datafield name="BackGroundDens" meshNode="ThinElSCBackup.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:06:05:704"
+                    lastUpdate="2016/09/30-10:06:24:339" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/BackGroundDens.nc</Datafield>
+                    <Datafield name="VolInteracFlag" meshNode="ThinElSCBackup.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:06:05:705"
+                    lastUpdate="2016/09/30-10:06:24:339" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/VolInteracFlag.nc</Datafield>
+                    <Datafield name="SurfFlag" meshNode="ThinElSCBackup.msh" format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1"
+                    creationDate="2016/09/30-10:06:05:705" lastUpdate="2016/09/30-10:06:24:339"
+                    owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/SurfFlag.nc</Datafield>
+                    <Datafield name="Xyz" meshNode="ThinElSCBackup.msh" format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1"
+                    creationDate="2016/09/30-10:06:05:705" lastUpdate="2016/09/30-10:06:24:339"
+                    owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/Xyz.nc</Datafield>
+                    <Datafield name="NodeFlag" meshNode="ThinElSCBackup.msh" format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1"
+                    creationDate="2016/09/30-10:06:05:706" lastUpdate="2016/09/30-10:06:24:339"
+                    owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/NodeFlag.nc</Datafield>
+                    <Datafield name="EdgeFlag" meshNode="ThinElSCBackup.msh" format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1"
+                    creationDate="2016/09/30-10:06:05:706" lastUpdate="2016/09/30-10:06:24:339"
+                    owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/EdgeFlag.nc</Datafield>
+                    <Datafield name="ElecSecEmisOnWire" meshNode="ThinElSCBackup.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:06:05:706"
+                    lastUpdate="2016/09/30-10:06:24:339" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/ElecSecEmisOnWire.nc</Datafield>
+                    <Datafield name="ImposedEmittedCurrentFlag" meshNode="ThinElSCBackup.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:06:05:707"
+                    lastUpdate="2016/09/30-10:06:24:339" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/ImposedEmittedCurrentFlag.nc</Datafield>
+                    <Datafield name="SunFluxOnWire" meshNode="ThinElSCBackup.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:06:05:707"
+                    lastUpdate="2016/09/30-10:06:24:339" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/SunFluxOnWire.nc</Datafield>
+                    <Datafield name="ImposedCollectedCurrentDensityOnWire" meshNode="ThinElSCBackup.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:06:05:707"
+                    lastUpdate="2016/09/30-10:06:24:339" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/ImposedCollectedCurrentDensityOnWire.nc</Datafield>
+                    <Datafield name="PhotoEmisOnWire" meshNode="ThinElSCBackup.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:06:05:708"
+                    lastUpdate="2016/09/30-10:06:24:339" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/PhotoEmisOnWire.nc</Datafield>
+                    <Datafield name="ProtSecEmisOnWire" meshNode="ThinElSCBackup.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:06:05:708"
+                    lastUpdate="2016/09/30-10:06:24:339" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/ProtSecEmisOnWire.nc</Datafield>
+                    <Datafield name="ImposedCollectedCurrentFlag" meshNode="ThinElSCBackup.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:06:05:708"
+                    lastUpdate="2016/09/30-10:06:24:339" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/ImposedCollectedCurrentFlag.nc</Datafield>
+                    <Datafield name="SunFlux" meshNode="ThinElSCBackup.msh" format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1"
+                    creationDate="2016/09/30-10:06:05:709" lastUpdate="2016/09/30-10:06:24:339"
+                    owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/SunFlux.nc</Datafield>
+                    <Datafield name="ImposedEmittedCurrentDensity" meshNode="ThinElSCBackup.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:06:05:709"
+                    lastUpdate="2016/09/30-10:06:24:339" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/ImposedEmittedCurrentDensity.nc</Datafield>
+                    <Datafield name="ProtSecEmis" meshNode="ThinElSCBackup.msh" format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1"
+                    creationDate="2016/09/30-10:06:05:709" lastUpdate="2016/09/30-10:06:24:339"
+                    owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/ProtSecEmis.nc</Datafield>
+                    <Datafield name="ImposedEmittedCurrentDensityOnWire" meshNode="ThinElSCBackup.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:06:05:709"
+                    lastUpdate="2016/09/30-10:06:24:339" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/ImposedEmittedCurrentDensityOnWire.nc</Datafield>
+                    <Datafield name="ImposedEmittedCurrentFlagOnWire" meshNode="ThinElSCBackup.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:06:05:710"
+                    lastUpdate="2016/09/30-10:06:24:339" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/ImposedEmittedCurrentFlagOnWire.nc</Datafield>
+                    <Datafield name="ElecSecEmis" meshNode="ThinElSCBackup.msh" format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1"
+                    creationDate="2016/09/30-10:06:05:711" lastUpdate="2016/09/30-10:06:24:339"
+                    owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/ElecSecEmis.nc</Datafield>
+                    <Datafield name="ImposedCollectedCurrentFlagOnWire" meshNode="ThinElSCBackup.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:06:05:711"
+                    lastUpdate="2016/09/30-10:06:24:339" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/ImposedCollectedCurrentFlagOnWire.nc</Datafield>
+                    <Datafield name="PhotoEmis" meshNode="ThinElSCBackup.msh" format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1"
+                    creationDate="2016/09/30-10:06:05:711" lastUpdate="2016/09/30-10:06:24:339"
+                    owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/PhotoEmis.nc</Datafield>
+                    <Datafield name="ImposedCollectedCurrentDensity" meshNode="ThinElSCBackup.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:06:05:712"
+                    lastUpdate="2016/09/30-10:06:24:339" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/ImposedCollectedCurrentDensity.nc</Datafield>
+                    <Datafield name="EdgeElecNodeId" meshNode="ThinElSCBackup.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:06:05:712"
+                    lastUpdate="2016/09/30-10:06:24:339" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/EdgeElecNodeId.nc</Datafield>
+                    <Datafield name="ElecNodeId" meshNode="ThinElSCBackup.msh" format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1"
+                    creationDate="2016/09/30-10:06:05:712" lastUpdate="2016/09/30-10:06:24:339"
+                    owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/ElecNodeId.nc</Datafield>
+                    <Datafield name="IndConduct" meshNode="ThinElSCBackup.msh" format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1"
+                    creationDate="2016/09/30-10:06:05:712" lastUpdate="2016/09/30-10:06:24:339"
+                    owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/IndConduct.nc</Datafield>
+                    <Datafield name="VolConduct" meshNode="ThinElSCBackup.msh" format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1"
+                    creationDate="2016/09/30-10:06:05:713" lastUpdate="2016/09/30-10:06:24:339"
+                    owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/VolConduct.nc</Datafield>
+                    <Datafield name="SurfConduct" meshNode="ThinElSCBackup.msh" format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1"
+                    creationDate="2016/09/30-10:06:05:713" lastUpdate="2016/09/30-10:06:24:339"
+                    owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/SurfConduct.nc</Datafield>
+                    <Datafield name="SCDiriFlag" meshNode="ThinElSCBackup.msh" format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1"
+                    creationDate="2016/09/30-10:06:05:713" lastUpdate="2016/09/30-10:06:24:339"
+                    owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/SCDiriFlag.nc</Datafield>
+                    <Datafield name="SCDiriPot" meshNode="ThinElSCBackup.msh" format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1"
+                    creationDate="2016/09/30-10:06:05:714" lastUpdate="2016/09/30-10:06:24:339"
+                    owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/SCDiriPot.nc</Datafield>
+                    <Datafield name="SCFourAlpha" meshNode="ThinElSCBackup.msh" format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1"
+                    creationDate="2016/09/30-10:06:05:714" lastUpdate="2016/09/30-10:06:24:339"
+                    owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/SCFourAlpha.nc</Datafield>
+                    <Datafield name="SCFourValue" meshNode="ThinElSCBackup.msh" format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1"
+                    creationDate="2016/09/30-10:06:05:714" lastUpdate="2016/09/30-10:06:24:339"
+                    owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/SCFourValue.nc</Datafield>
+                    <Datafield name="SCDiriPotEdge" meshNode="ThinElSCBackup.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:06:05:715"
+                    lastUpdate="2016/09/30-10:06:24:339" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/SCDiriPotEdge.nc</Datafield>
+                    <Datafield name="SCDiriPotSurf" meshNode="ThinElSCBackup.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:06:05:715"
+                    lastUpdate="2016/09/30-10:06:24:339" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/SCDiriPotSurf.nc</Datafield>
+                    <Datafield name="SCFourFlag" meshNode="ThinElSCBackup.msh" format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1"
+                    creationDate="2016/09/30-10:06:05:715" lastUpdate="2016/09/30-10:06:24:339"
+                    owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/SCFourFlag.nc</Datafield>
+                    <Datafield name="Temperature" meshNode="ThinElSCBackup.msh" format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1"
+                    creationDate="2016/09/30-10:06:05:715" lastUpdate="2016/09/30-10:06:24:339"
+                    owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/Temperature.nc</Datafield>
+                    <Datafield name="MatThickness" meshNode="ThinElSCBackup.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:06:05:716"
+                    lastUpdate="2016/09/30-10:06:24:339" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/MatThickness.nc</Datafield>
+                    <Datafield name="SurfThicknessS" meshNode="ThinElSCBackup.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:06:05:716"
+                    lastUpdate="2016/09/30-10:06:24:339" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/SurfThicknessS.nc</Datafield>
+                    <Datafield name="EdgeRadiusS" meshNode="ThinElSCBackup.msh" format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1"
+                    creationDate="2016/09/30-10:06:05:716" lastUpdate="2016/09/30-10:06:24:339"
+                    owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/EdgeRadiusS.nc</Datafield>
+                    <Datafield name="SourceMachOnWire" meshNode="ThinElSCBackup.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:06:05:717"
+                    lastUpdate="2016/09/30-10:06:24:339" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/SourceMachOnWire.nc</Datafield>
+                    <Datafield name="SourceCurrent" meshNode="ThinElSCBackup.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:06:05:717"
+                    lastUpdate="2016/09/30-10:06:24:339" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/SourceCurrent.nc</Datafield>
+                    <Datafield name="SourceCurrentOnWire" meshNode="ThinElSCBackup.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:06:05:717"
+                    lastUpdate="2016/09/30-10:06:24:339" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/SourceCurrentOnWire.nc</Datafield>
+                    <Datafield name="SourceId" meshNode="ThinElSCBackup.msh" format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1"
+                    creationDate="2016/09/30-10:06:05:718" lastUpdate="2016/09/30-10:06:24:339"
+                    owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/SourceId.nc</Datafield>
+                    <Datafield name="SourceTempOnWire" meshNode="ThinElSCBackup.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:06:05:718"
+                    lastUpdate="2016/09/30-10:06:24:339" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/SourceTempOnWire.nc</Datafield>
+                    <Datafield name="SourceIdOnWire" meshNode="ThinElSCBackup.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:06:05:718"
+                    lastUpdate="2016/09/30-10:06:24:339" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/SourceIdOnWire.nc</Datafield>
+                    <Datafield name="SourceMach" meshNode="ThinElSCBackup.msh" format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1"
+                    creationDate="2016/09/30-10:06:05:719" lastUpdate="2016/09/30-10:06:24:339"
+                    owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/SourceMach.nc</Datafield>
+                    <Datafield name="SourceTemp" meshNode="ThinElSCBackup.msh" format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1"
+                    creationDate="2016/09/30-10:06:05:719" lastUpdate="2016/09/30-10:06:24:339"
+                    owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/SourceTemp.nc</Datafield>
+                    <Datafield name="MatModelId" meshNode="ThinElSCBackup.msh" format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1"
+                    creationDate="2016/09/30-10:06:05:720" lastUpdate="2016/09/30-10:06:24:339"
+                    owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/MatModelId.nc</Datafield>
+                    <Datafield name="MatModelIdOnEdge" meshNode="ThinElSCBackup.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:06:05:720"
+                    lastUpdate="2016/09/30-10:06:24:339" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/MatModelIdOnEdge.nc</Datafield>
+                    <Datafield name="MatTypeId" meshNode="ThinElSCBackup.msh" format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1"
+                    creationDate="2016/09/30-10:06:05:720" lastUpdate="2016/09/30-10:06:24:339"
+                    owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/MatTypeId.nc</Datafield>
+                    <Datafield name="MatTypeIdOnEdge" meshNode="ThinElSCBackup.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:06:05:720"
+                    lastUpdate="2016/09/30-10:06:24:339" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/MatTypeIdOnEdge.nc</Datafield>
+                    <Datafield name="XyzS" meshNode="ThinElSCBackup.msh" format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1"
+                    creationDate="2016/09/30-10:06:05:721" lastUpdate="2016/09/30-10:06:24:339"
+                    owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/XyzS.nc</Datafield>
+                    <Datafield name="NodeFlagS" meshNode="ThinElSCBackup.msh" format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1"
+                    creationDate="2016/09/30-10:06:05:721" lastUpdate="2016/09/30-10:06:24:339"
+                    owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/NodeFlagS.nc</Datafield>
+                    <Datafield name="EdgeFlagS" meshNode="ThinElSCBackup.msh" format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1"
+                    creationDate="2016/09/30-10:06:05:721" lastUpdate="2016/09/30-10:06:24:339"
+                    owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/EdgeFlagS.nc</Datafield>
+                    <Datafield name="SurfFlagS" meshNode="ThinElSCBackup.msh" format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1"
+                    creationDate="2016/09/30-10:06:05:722" lastUpdate="2016/09/30-10:06:24:339"
+                    owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/SurfFlagS.nc</Datafield>
+                    <Datafield name="InstrumentSupport" meshNode="ThinElSCBackup.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:06:05:722"
+                    lastUpdate="2016/09/30-10:06:24:339" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/InstrumentSupport.nc</Datafield>
+                    <Datafield name="IncomPart" meshNode="ThinElSCBackup.msh" format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1"
+                    creationDate="2016/09/30-10:06:05:722" lastUpdate="2016/09/30-10:06:24:339"
+                    owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/IncomPart.nc</Datafield>
+                    <Datafield name="OutgoPart" meshNode="ThinElSCBackup.msh" format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1"
+                    creationDate="2016/09/30-10:06:05:722" lastUpdate="2016/09/30-10:06:24:339"
+                    owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/OutgoPart.nc</Datafield>
+                    <Datafield name="BdDiriFlag" meshNode="ThinElSCBackup.msh" format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1"
+                    creationDate="2016/09/30-10:06:05:723" lastUpdate="2016/09/30-10:06:24:339"
+                    owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/BdDiriFlag.nc</Datafield>
+                    <Datafield name="BdFourAlpha" meshNode="ThinElSCBackup.msh" format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1"
+                    creationDate="2016/09/30-10:06:05:723" lastUpdate="2016/09/30-10:06:24:339"
+                    owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/BdFourAlpha.nc</Datafield>
+                    <Datafield name="BdDiriPot" meshNode="ThinElSCBackup.msh" format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1"
+                    creationDate="2016/09/30-10:06:05:723" lastUpdate="2016/09/30-10:06:24:339"
+                    owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/BdDiriPot.nc</Datafield>
+                    <Datafield name="BdFourValue" meshNode="ThinElSCBackup.msh" format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1"
+                    creationDate="2016/09/30-10:06:05:724" lastUpdate="2016/09/30-10:06:24:339"
+                    owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/BdFourValue.nc</Datafield>
+                    <Datafield name="NodeFlagBd" meshNode="ThinElSCBackup.msh" format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1"
+                    creationDate="2016/09/30-10:06:05:724" lastUpdate="2016/09/30-10:06:24:339"
+                    owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/NodeFlagBd.nc</Datafield>
+                    <Datafield name="BdFourFlag" meshNode="ThinElSCBackup.msh" format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1"
+                    creationDate="2016/09/30-10:06:05:724" lastUpdate="2016/09/30-10:06:24:339"
+                    owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/BdFourFlag.nc</Datafield>
+                    <Datafield name="EdgeFlagBd" meshNode="ThinElSCBackup.msh" format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1"
+                    creationDate="2016/09/30-10:06:05:724" lastUpdate="2016/09/30-10:06:24:339"
+                    owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/EdgeFlagBd.nc</Datafield>
+                    <Datafield name="XyzBd" meshNode="ThinElSCBackup.msh" format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1"
+                    creationDate="2016/09/30-10:06:05:725" lastUpdate="2016/09/30-10:06:24:339"
+                    owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/XyzBd.nc</Datafield>
+                    <Datafield name="SurfFlagBd" meshNode="ThinElSCBackup.msh" format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1"
+                    creationDate="2016/09/30-10:06:05:725" lastUpdate="2016/09/30-10:06:24:339"
+                    owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/SurfFlagBd.nc</Datafield>
+                    <Datafield name="MatTypeIdForNum" meshNode="ThinElSCBackup.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:06:05:725"
+                    lastUpdate="2016/09/30-10:06:24:339" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/MatTypeIdForNum.nc</Datafield>
+                    <Datafield name="MatTypeIdOnEdgeForNum" meshNode="ThinElSCBackup.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:06:05:726"
+                    lastUpdate="2016/09/30-10:06:24:339" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/MatTypeIdOnEdgeForNum.nc</Datafield>
+                    <Datafield name="MatTypeIdForNum" meshNode="ThinElSCBackup.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:06:09:443"
+                    lastUpdate="2016/09/30-10:06:24:339" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/MatTypeIdForNum.nc</Datafield>
+                    <Datafield name="MatTypeIdOnEdgeForNum" meshNode="ThinElSCBackup.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:06:09:444"
+                    lastUpdate="2016/09/30-10:06:24:339" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/MatTypeIdOnEdgeForNum.nc</Datafield>
+                </Datafields>
+                <ElectricalCircuit>
+                    <ElectricalCircuit name="circuit.txt" format="org.keridwen.modelling.electrical.Circuit-5.0.0"
+                    creationDate="2016/09/30-10:06:05:727" lastUpdate="2016/09/30-10:06:24:339"
+                    owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Preprocessing/ElectricalCircuit/circuit.txt</ElectricalCircuit>
+                </ElectricalCircuit>
+                <Groups format="com.artenum.frida.Groups-0.0.1" creationDate="2016/09/30-10:06:05:728"
+                lastUpdate="2016/09/30-10:06:24:339" owner="benj" group="benj" permission="777"
+                isLocal="true">DefaultStudy/Preprocessing/Groups//groups.xml</Groups>
+            </Preprocessing>
+            <Simulations>
+                <Run name="Run1" currentNode="false">
+                    <GlobalParameters format="org.keridwen.modelling.global.parameters.GlobalParameter-0.0.1"
+                    creationDate="2016/09/30-10:06:05:730" lastUpdate="2016/09/30-10:06:24:339"
+                    owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/GlobalParameters//globalParameters.xml</GlobalParameters>
+                    <OutputFolder>
+                        <DataFieldMonitored/>
+                        <DataFieldExtracted/>
+                        <Export/>
+                    </OutputFolder>
+                    <DefaultInstruments>
+                        <Instrument name="Individual_current_on_node_3_-_Collected_ions1_(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_individual_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Individual_currents_on_node_3"
+                        creationDate="2016/09/30-10:06:06:511" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Individual_current_on_node_3_-_Collected_ions1_(A_._s)_.xml</Instrument>
+                        <Instrument name="Individual_current_on_node_3_-_Collected_elec1_(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_individual_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Individual_currents_on_node_3"
+                        creationDate="2016/09/30-10:06:06:513" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Individual_current_on_node_3_-_Collected_elec1_(A_._s)_.xml</Instrument>
+                        <Instrument name="Individual_current_on_node_3_-_Collected_ions2_(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_individual_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Individual_currents_on_node_3"
+                        creationDate="2016/09/30-10:06:06:513" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Individual_current_on_node_3_-_Collected_ions2_(A_._s)_.xml</Instrument>
+                        <Instrument name="Individual_current_on_node_3_-_Collected_elec2_(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_individual_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Individual_currents_on_node_3"
+                        creationDate="2016/09/30-10:06:06:513" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Individual_current_on_node_3_-_Collected_elec2_(A_._s)_.xml</Instrument>
+                        <Instrument name="Individual_current_on_node_3_-_Collected_photoElec_(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_individual_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Individual_currents_on_node_3"
+                        creationDate="2016/09/30-10:06:06:514" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Individual_current_on_node_3_-_Collected_photoElec_(A_._s)_.xml</Instrument>
+                        <Instrument name="Individual_current_on_node_3_-_Collected_secondElec_True_from_ambiant_electrons_(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_individual_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Individual_currents_on_node_3"
+                        creationDate="2016/09/30-10:06:06:514" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Individual_current_on_node_3_-_Collected_secondElec_True_from_ambiant_electrons_(A_._s)_.xml</Instrument>
+                        <Instrument name="Individual_current_on_node_3_-_Collected_secondElec_BS_from_ambiant_electrons_(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_individual_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Individual_currents_on_node_3"
+                        creationDate="2016/09/30-10:06:06:514" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Individual_current_on_node_3_-_Collected_secondElec_BS_from_ambiant_electrons_(A_._s)_.xml</Instrument>
+                        <Instrument name="Individual_current_on_node_3_-_Collected_secondElec_from_ambiant_protons_(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_individual_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Individual_currents_on_node_3"
+                        creationDate="2016/09/30-10:06:06:515" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Individual_current_on_node_3_-_Collected_secondElec_from_ambiant_protons_(A_._s)_.xml</Instrument>
+                        <Instrument name="Individual_current_on_node_3_-_Interactor_photoemission_(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_individual_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Individual_currents_on_node_3"
+                        creationDate="2016/09/30-10:06:06:515" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Individual_current_on_node_3_-_Interactor_photoemission_(A_._s)_.xml</Instrument>
+                        <Instrument name="Individual_current_on_node_3_-_Interactor_secondary_emission_from_electrons_of_Ambiant_Electrons_(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_individual_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Individual_currents_on_node_3"
+                        creationDate="2016/09/30-10:06:06:516" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Individual_current_on_node_3_-_Interactor_secondary_emission_from_electrons_of_Ambiant_Electrons_(A_._s)_.xml</Instrument>
+                        <Instrument name="Individual_current_on_node_3_-_Interactor_secondary_emission_from_protons_of_Ambiant_Protons_(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_individual_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Individual_currents_on_node_3"
+                        creationDate="2016/09/30-10:06:06:516" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Individual_current_on_node_3_-_Interactor_secondary_emission_from_protons_of_Ambiant_Protons_(A_._s)_.xml</Instrument>
+                        <Instrument name="Individual_current_on_node_3_-_Interactor_Interactor1__SolarArrayInteractor2_(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_individual_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Individual_currents_on_node_3"
+                        creationDate="2016/09/30-10:06:06:516" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Individual_current_on_node_3_-_Interactor_Interactor1__SolarArrayInteractor2_(A_._s)_.xml</Instrument>
+                        <Instrument name="Individual_current_on_node_0_-_Collected_ions1_(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_individual_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Individual_currents_on_node_0"
+                        creationDate="2016/09/30-10:06:06:517" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Individual_current_on_node_0_-_Collected_ions1_(A_._s)_.xml</Instrument>
+                        <Instrument name="Individual_current_on_node_0_-_Collected_elec1_(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_individual_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Individual_currents_on_node_0"
+                        creationDate="2016/09/30-10:06:06:517" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Individual_current_on_node_0_-_Collected_elec1_(A_._s)_.xml</Instrument>
+                        <Instrument name="Individual_current_on_node_0_-_Collected_ions2_(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_individual_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Individual_currents_on_node_0"
+                        creationDate="2016/09/30-10:06:06:517" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Individual_current_on_node_0_-_Collected_ions2_(A_._s)_.xml</Instrument>
+                        <Instrument name="Individual_current_on_node_0_-_Collected_elec2_(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_individual_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Individual_currents_on_node_0"
+                        creationDate="2016/09/30-10:06:06:518" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Individual_current_on_node_0_-_Collected_elec2_(A_._s)_.xml</Instrument>
+                        <Instrument name="Individual_current_on_node_0_-_Collected_photoElec_(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_individual_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Individual_currents_on_node_0"
+                        creationDate="2016/09/30-10:06:06:518" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Individual_current_on_node_0_-_Collected_photoElec_(A_._s)_.xml</Instrument>
+                        <Instrument name="Individual_current_on_node_0_-_Collected_secondElec_True_from_ambiant_electrons_(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_individual_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Individual_currents_on_node_0"
+                        creationDate="2016/09/30-10:06:06:518" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Individual_current_on_node_0_-_Collected_secondElec_True_from_ambiant_electrons_(A_._s)_.xml</Instrument>
+                        <Instrument name="Individual_current_on_node_0_-_Collected_secondElec_BS_from_ambiant_electrons_(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_individual_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Individual_currents_on_node_0"
+                        creationDate="2016/09/30-10:06:06:519" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Individual_current_on_node_0_-_Collected_secondElec_BS_from_ambiant_electrons_(A_._s)_.xml</Instrument>
+                        <Instrument name="Individual_current_on_node_0_-_Collected_secondElec_from_ambiant_protons_(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_individual_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Individual_currents_on_node_0"
+                        creationDate="2016/09/30-10:06:06:519" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Individual_current_on_node_0_-_Collected_secondElec_from_ambiant_protons_(A_._s)_.xml</Instrument>
+                        <Instrument name="Individual_current_on_node_0_-_Interactor_photoemission_(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_individual_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Individual_currents_on_node_0"
+                        creationDate="2016/09/30-10:06:06:519" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Individual_current_on_node_0_-_Interactor_photoemission_(A_._s)_.xml</Instrument>
+                        <Instrument name="Individual_current_on_node_0_-_Interactor_secondary_emission_from_electrons_of_Ambiant_Electrons_(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_individual_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Individual_currents_on_node_0"
+                        creationDate="2016/09/30-10:06:06:520" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Individual_current_on_node_0_-_Interactor_secondary_emission_from_electrons_of_Ambiant_Electrons_(A_._s)_.xml</Instrument>
+                        <Instrument name="Individual_current_on_node_0_-_Interactor_secondary_emission_from_protons_of_Ambiant_Protons_(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_individual_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Individual_currents_on_node_0"
+                        creationDate="2016/09/30-10:06:06:520" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Individual_current_on_node_0_-_Interactor_secondary_emission_from_protons_of_Ambiant_Protons_(A_._s)_.xml</Instrument>
+                        <Instrument name="Individual_current_on_node_0_-_Interactor_Interactor1__SolarArrayInteractor2_(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_individual_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Individual_currents_on_node_0"
+                        creationDate="2016/09/30-10:06:06:520" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Individual_current_on_node_0_-_Interactor_Interactor1__SolarArrayInteractor2_(A_._s)_.xml</Instrument>
+                        <Instrument name="Spacecraft_average_differential_potential_(V_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Average_differential_spacecraft_potential_monitor_(dV)"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Spacecraft_average_differential_potential"
+                        creationDate="2016/09/30-10:06:06:521" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Spacecraft_average_differential_potential_(V_._s)_.xml</Instrument>
+                        <Instrument name="Individual_current_on_node_2_-_Collected_ions1_(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_individual_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Individual_currents_on_node_2"
+                        creationDate="2016/09/30-10:06:06:521" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Individual_current_on_node_2_-_Collected_ions1_(A_._s)_.xml</Instrument>
+                        <Instrument name="Individual_current_on_node_2_-_Collected_elec1_(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_individual_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Individual_currents_on_node_2"
+                        creationDate="2016/09/30-10:06:06:521" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Individual_current_on_node_2_-_Collected_elec1_(A_._s)_.xml</Instrument>
+                        <Instrument name="Individual_current_on_node_2_-_Collected_ions2_(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_individual_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Individual_currents_on_node_2"
+                        creationDate="2016/09/30-10:06:06:522" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Individual_current_on_node_2_-_Collected_ions2_(A_._s)_.xml</Instrument>
+                        <Instrument name="Individual_current_on_node_2_-_Collected_elec2_(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_individual_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Individual_currents_on_node_2"
+                        creationDate="2016/09/30-10:06:06:522" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Individual_current_on_node_2_-_Collected_elec2_(A_._s)_.xml</Instrument>
+                        <Instrument name="Individual_current_on_node_2_-_Collected_photoElec_(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_individual_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Individual_currents_on_node_2"
+                        creationDate="2016/09/30-10:06:06:522" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Individual_current_on_node_2_-_Collected_photoElec_(A_._s)_.xml</Instrument>
+                        <Instrument name="Individual_current_on_node_2_-_Collected_secondElec_True_from_ambiant_electrons_(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_individual_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Individual_currents_on_node_2"
+                        creationDate="2016/09/30-10:06:06:523" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Individual_current_on_node_2_-_Collected_secondElec_True_from_ambiant_electrons_(A_._s)_.xml</Instrument>
+                        <Instrument name="Individual_current_on_node_2_-_Collected_secondElec_BS_from_ambiant_electrons_(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_individual_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Individual_currents_on_node_2"
+                        creationDate="2016/09/30-10:06:06:523" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Individual_current_on_node_2_-_Collected_secondElec_BS_from_ambiant_electrons_(A_._s)_.xml</Instrument>
+                        <Instrument name="Individual_current_on_node_2_-_Collected_secondElec_from_ambiant_protons_(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_individual_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Individual_currents_on_node_2"
+                        creationDate="2016/09/30-10:06:06:523" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Individual_current_on_node_2_-_Collected_secondElec_from_ambiant_protons_(A_._s)_.xml</Instrument>
+                        <Instrument name="Individual_current_on_node_2_-_Interactor_photoemission_(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_individual_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Individual_currents_on_node_2"
+                        creationDate="2016/09/30-10:06:06:524" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Individual_current_on_node_2_-_Interactor_photoemission_(A_._s)_.xml</Instrument>
+                        <Instrument name="Individual_current_on_node_2_-_Interactor_secondary_emission_from_electrons_of_Ambiant_Electrons_(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_individual_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Individual_currents_on_node_2"
+                        creationDate="2016/09/30-10:06:06:524" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Individual_current_on_node_2_-_Interactor_secondary_emission_from_electrons_of_Ambiant_Electrons_(A_._s)_.xml</Instrument>
+                        <Instrument name="Individual_current_on_node_2_-_Interactor_secondary_emission_from_protons_of_Ambiant_Protons_(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_individual_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Individual_currents_on_node_2"
+                        creationDate="2016/09/30-10:06:06:524" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Individual_current_on_node_2_-_Interactor_secondary_emission_from_protons_of_Ambiant_Protons_(A_._s)_.xml</Instrument>
+                        <Instrument name="Individual_current_on_node_2_-_Interactor_Interactor1__SolarArrayInteractor2_(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_individual_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Individual_currents_on_node_2"
+                        creationDate="2016/09/30-10:06:06:525" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Individual_current_on_node_2_-_Interactor_Interactor1__SolarArrayInteractor2_(A_._s)_.xml</Instrument>
+                        <Instrument name="log10_of_Simulation_time_steps_(s_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Simulation_time_step"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Time_steps"
+                        creationDate="2016/09/30-10:06:06:525" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/log10_of_Simulation_time_steps_(s_._s)_.xml</Instrument>
+                        <Instrument name="Energy_of_ions1_(m-3.eV_._s)_" format="org.spis.instruments.Instrument-0.0.1"
+                        instrumentType="Total_energy_sensor" instrumentCatalogueType="Plasma_Sensor"
+                        instrumentCategoryType="Total_energy" creationDate="2016/09/30-10:06:06:525"
+                        lastUpdate="2016/09/30-10:06:24:339" owner="benj" group="benj"
+                        permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Energy_of_ions1_(m-3.eV_._s)_.xml</Instrument>
+                        <Instrument name="Energy_of_ions2_(m-3.eV_._s)_" format="org.spis.instruments.Instrument-0.0.1"
+                        instrumentType="Total_energy_sensor" instrumentCatalogueType="Plasma_Sensor"
+                        instrumentCategoryType="Total_energy" creationDate="2016/09/30-10:06:06:526"
+                        lastUpdate="2016/09/30-10:06:24:339" owner="benj" group="benj"
+                        permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Energy_of_ions2_(m-3.eV_._s)_.xml</Instrument>
+                        <Instrument name="Energy_of_photoElec_(m-3.eV_._s)_" format="org.spis.instruments.Instrument-0.0.1"
+                        instrumentType="Total_energy_sensor" instrumentCatalogueType="Plasma_Sensor"
+                        instrumentCategoryType="Total_energy" creationDate="2016/09/30-10:06:06:526"
+                        lastUpdate="2016/09/30-10:06:24:339" owner="benj" group="benj"
+                        permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Energy_of_photoElec_(m-3.eV_._s)_.xml</Instrument>
+                        <Instrument name="Energy_of_secondElec_True_from_ambiant_electrons_(m-3.eV_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Total_energy_sensor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Total_energy"
+                        creationDate="2016/09/30-10:06:06:526" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Energy_of_secondElec_True_from_ambiant_electrons_(m-3.eV_._s)_.xml</Instrument>
+                        <Instrument name="Energy_of_secondElec_BS_from_ambiant_electrons_(m-3.eV_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Total_energy_sensor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Total_energy"
+                        creationDate="2016/09/30-10:06:06:526" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Energy_of_secondElec_BS_from_ambiant_electrons_(m-3.eV_._s)_.xml</Instrument>
+                        <Instrument name="Energy_of_secondElec_from_ambiant_protons_(m-3.eV_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Total_energy_sensor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Total_energy"
+                        creationDate="2016/09/30-10:06:06:527" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Energy_of_secondElec_from_ambiant_protons_(m-3.eV_._s)_.xml</Instrument>
+                        <Instrument name="Average_surface_potential_of_node_0_(V_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Surface_potential_of_an_electrical_super_node_:_average_(V)"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Average_surface_potential_on_nodes"
+                        creationDate="2016/09/30-10:06:06:527" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Average_surface_potential_of_node_0_(V_._s)_.xml</Instrument>
+                        <Instrument name="Average_surface_potential_of_node_1_(V_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Surface_potential_of_an_electrical_super_node_:_average_(V)"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Average_surface_potential_on_nodes"
+                        creationDate="2016/09/30-10:06:06:527" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Average_surface_potential_of_node_1_(V_._s)_.xml</Instrument>
+                        <Instrument name="Average_surface_potential_of_node_2_(V_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Surface_potential_of_an_electrical_super_node_:_average_(V)"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Average_surface_potential_on_nodes"
+                        creationDate="2016/09/30-10:06:06:528" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Average_surface_potential_of_node_2_(V_._s)_.xml</Instrument>
+                        <Instrument name="Average_surface_potential_of_node_3_(V_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Surface_potential_of_an_electrical_super_node_:_average_(V)"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Average_surface_potential_on_nodes"
+                        creationDate="2016/09/30-10:06:06:528" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Average_surface_potential_of_node_3_(V_._s)_.xml</Instrument>
+                        <Instrument name="Average_differential_potential_of_node_0_(V_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Surface_potential_of_an_electrical_super_node_:_difference_wrt_local_ground_(dV)"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Average_surface_potential_on_nodes:_difference_wrt_to_local_ground"
+                        creationDate="2016/09/30-10:06:06:528" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Average_differential_potential_of_node_0_(V_._s)_.xml</Instrument>
+                        <Instrument name="Average_differential_potential_of_node_1_(V_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Surface_potential_of_an_electrical_super_node_:_difference_wrt_local_ground_(dV)"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Average_surface_potential_on_nodes:_difference_wrt_to_local_ground"
+                        creationDate="2016/09/30-10:06:06:529" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Average_differential_potential_of_node_1_(V_._s)_.xml</Instrument>
+                        <Instrument name="Average_differential_potential_of_node_2_(V_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Surface_potential_of_an_electrical_super_node_:_difference_wrt_local_ground_(dV)"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Average_surface_potential_on_nodes:_difference_wrt_to_local_ground"
+                        creationDate="2016/09/30-10:06:06:529" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Average_differential_potential_of_node_2_(V_._s)_.xml</Instrument>
+                        <Instrument name="Average_differential_potential_of_node_3_(V_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Surface_potential_of_an_electrical_super_node_:_difference_wrt_local_ground_(dV)"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Average_surface_potential_on_nodes:_difference_wrt_to_local_ground"
+                        creationDate="2016/09/30-10:06:06:529" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Average_differential_potential_of_node_3_(V_._s)_.xml</Instrument>
+                        <Instrument name="Total_current_on_spacecraft_(A_._s)_" format="org.spis.instruments.Instrument-0.0.1"
+                        instrumentType="Total_current_on_spacecraft" instrumentCatalogueType="Plasma_Sensor"
+                        instrumentCategoryType="Total_currents_on_spacecraft" creationDate="2016/09/30-10:06:06:530"
+                        lastUpdate="2016/09/30-10:06:24:339" owner="benj" group="benj"
+                        permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Total_current_on_spacecraft_(A_._s)_.xml</Instrument>
+                        <Instrument name="Total_current_on_node_0_-_on_SC__(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Total_currents_on_spacecraft"
+                        creationDate="2016/09/30-10:06:06:530" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Total_current_on_node_0_-_on_SC__(A_._s)_.xml</Instrument>
+                        <Instrument name="Total_current_on_node_1_-_on_SC__(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Total_currents_on_spacecraft"
+                        creationDate="2016/09/30-10:06:06:530" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Total_current_on_node_1_-_on_SC__(A_._s)_.xml</Instrument>
+                        <Instrument name="Total_current_on_node_2_-_on_SC__(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Total_currents_on_spacecraft"
+                        creationDate="2016/09/30-10:06:06:531" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Total_current_on_node_2_-_on_SC__(A_._s)_.xml</Instrument>
+                        <Instrument name="Total_current_on_node_3_-_on_SC__(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Total_currents_on_spacecraft"
+                        creationDate="2016/09/30-10:06:06:531" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Total_current_on_node_3_-_on_SC__(A_._s)_.xml</Instrument>
+                        <Instrument name="Individual_current_on_node_1_-_Collected_ions1_(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_individual_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Individual_currents_on_node_1"
+                        creationDate="2016/09/30-10:06:06:531" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Individual_current_on_node_1_-_Collected_ions1_(A_._s)_.xml</Instrument>
+                        <Instrument name="Individual_current_on_node_1_-_Collected_elec1_(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_individual_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Individual_currents_on_node_1"
+                        creationDate="2016/09/30-10:06:06:531" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Individual_current_on_node_1_-_Collected_elec1_(A_._s)_.xml</Instrument>
+                        <Instrument name="Individual_current_on_node_1_-_Collected_ions2_(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_individual_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Individual_currents_on_node_1"
+                        creationDate="2016/09/30-10:06:06:532" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Individual_current_on_node_1_-_Collected_ions2_(A_._s)_.xml</Instrument>
+                        <Instrument name="Individual_current_on_node_1_-_Collected_elec2_(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_individual_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Individual_currents_on_node_1"
+                        creationDate="2016/09/30-10:06:06:532" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Individual_current_on_node_1_-_Collected_elec2_(A_._s)_.xml</Instrument>
+                        <Instrument name="Individual_current_on_node_1_-_Collected_photoElec_(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_individual_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Individual_currents_on_node_1"
+                        creationDate="2016/09/30-10:06:06:532" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Individual_current_on_node_1_-_Collected_photoElec_(A_._s)_.xml</Instrument>
+                        <Instrument name="Individual_current_on_node_1_-_Collected_secondElec_True_from_ambiant_electrons_(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_individual_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Individual_currents_on_node_1"
+                        creationDate="2016/09/30-10:06:06:533" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Individual_current_on_node_1_-_Collected_secondElec_True_from_ambiant_electrons_(A_._s)_.xml</Instrument>
+                        <Instrument name="Individual_current_on_node_1_-_Collected_secondElec_BS_from_ambiant_electrons_(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_individual_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Individual_currents_on_node_1"
+                        creationDate="2016/09/30-10:06:06:533" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Individual_current_on_node_1_-_Collected_secondElec_BS_from_ambiant_electrons_(A_._s)_.xml</Instrument>
+                        <Instrument name="Individual_current_on_node_1_-_Collected_secondElec_from_ambiant_protons_(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_individual_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Individual_currents_on_node_1"
+                        creationDate="2016/09/30-10:06:06:533" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Individual_current_on_node_1_-_Collected_secondElec_from_ambiant_protons_(A_._s)_.xml</Instrument>
+                        <Instrument name="Individual_current_on_node_1_-_Interactor_photoemission_(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_individual_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Individual_currents_on_node_1"
+                        creationDate="2016/09/30-10:06:06:534" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Individual_current_on_node_1_-_Interactor_photoemission_(A_._s)_.xml</Instrument>
+                        <Instrument name="Individual_current_on_node_1_-_Interactor_secondary_emission_from_electrons_of_Ambiant_Electrons_(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_individual_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Individual_currents_on_node_1"
+                        creationDate="2016/09/30-10:06:06:534" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Individual_current_on_node_1_-_Interactor_secondary_emission_from_electrons_of_Ambiant_Electrons_(A_._s)_.xml</Instrument>
+                        <Instrument name="Individual_current_on_node_1_-_Interactor_secondary_emission_from_protons_of_Ambiant_Protons_(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_individual_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Individual_currents_on_node_1"
+                        creationDate="2016/09/30-10:06:06:534" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Individual_current_on_node_1_-_Interactor_secondary_emission_from_protons_of_Ambiant_Protons_(A_._s)_.xml</Instrument>
+                        <Instrument name="Individual_current_on_node_1_-_Interactor_Interactor1__SolarArrayInteractor2_(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_individual_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Individual_currents_on_node_1"
+                        creationDate="2016/09/30-10:06:06:534" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Individual_current_on_node_1_-_Interactor_Interactor1__SolarArrayInteractor2_(A_._s)_.xml</Instrument>
+                        <Instrument name="Number_of_ions1" format="org.spis.instruments.Instrument-0.0.1"
+                        instrumentType="Total_super_particle_number_sensor" instrumentCatalogueType="Plasma_Sensor"
+                        instrumentCategoryType="Number_of_macro_particles" creationDate="2016/09/30-10:06:06:535"
+                        lastUpdate="2016/09/30-10:06:24:339" owner="benj" group="benj"
+                        permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Number_of_ions1.xml</Instrument>
+                        <Instrument name="Number_of_ions2" format="org.spis.instruments.Instrument-0.0.1"
+                        instrumentType="Total_super_particle_number_sensor" instrumentCatalogueType="Plasma_Sensor"
+                        instrumentCategoryType="Number_of_macro_particles" creationDate="2016/09/30-10:06:06:535"
+                        lastUpdate="2016/09/30-10:06:24:339" owner="benj" group="benj"
+                        permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Number_of_ions2.xml</Instrument>
+                        <Instrument name="Number_of_photoElec" format="org.spis.instruments.Instrument-0.0.1"
+                        instrumentType="Total_super_particle_number_sensor" instrumentCatalogueType="Plasma_Sensor"
+                        instrumentCategoryType="Number_of_macro_particles" creationDate="2016/09/30-10:06:06:535"
+                        lastUpdate="2016/09/30-10:06:24:339" owner="benj" group="benj"
+                        permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Number_of_photoElec.xml</Instrument>
+                        <Instrument name="Number_of_secondElec_True_from_ambiant_electrons"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Total_super_particle_number_sensor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Number_of_macro_particles"
+                        creationDate="2016/09/30-10:06:06:535" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Number_of_secondElec_True_from_ambiant_electrons.xml</Instrument>
+                        <Instrument name="Number_of_secondElec_BS_from_ambiant_electrons"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Total_super_particle_number_sensor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Number_of_macro_particles"
+                        creationDate="2016/09/30-10:06:06:536" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Number_of_secondElec_BS_from_ambiant_electrons.xml</Instrument>
+                        <Instrument name="Number_of_secondElec_from_ambiant_protons"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Total_super_particle_number_sensor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Number_of_macro_particles"
+                        creationDate="2016/09/30-10:06:06:536" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Number_of_secondElec_from_ambiant_protons.xml</Instrument>
+                        <Instrument name="Variation_of_average_surface_potential_on_node_0_(s-1.V_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Surface_potential_of_an_electrical_super_node_:_time_variation_(V/s)"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Average_surface_potential_on_nodes:_time_variation"
+                        creationDate="2016/09/30-10:06:06:536" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Variation_of_average_surface_potential_on_node_0_(s-1.V_._s)_.xml</Instrument>
+                        <Instrument name="Variation_of_average_surface_potential_on_node_1_(s-1.V_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Surface_potential_of_an_electrical_super_node_:_time_variation_(V/s)"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Average_surface_potential_on_nodes:_time_variation"
+                        creationDate="2016/09/30-10:06:06:536" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Variation_of_average_surface_potential_on_node_1_(s-1.V_._s)_.xml</Instrument>
+                        <Instrument name="Variation_of_average_surface_potential_on_node_2_(s-1.V_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Surface_potential_of_an_electrical_super_node_:_time_variation_(V/s)"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Average_surface_potential_on_nodes:_time_variation"
+                        creationDate="2016/09/30-10:06:06:537" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Variation_of_average_surface_potential_on_node_2_(s-1.V_._s)_.xml</Instrument>
+                        <Instrument name="Variation_of_average_surface_potential_on_node_3_(s-1.V_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Surface_potential_of_an_electrical_super_node_:_time_variation_(V/s)"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Average_surface_potential_on_nodes:_time_variation"
+                        creationDate="2016/09/30-10:06:06:537" lastUpdate="2016/09/30-10:06:24:339"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Variation_of_average_surface_potential_on_node_3_(s-1.V_._s)_.xml</Instrument>
+                    </DefaultInstruments>
+                    <UserInstruments/>
+                    <NumTopFromUI format="org-spis-num-NumTopFromUI-Serialization"
+                    creationDate="2016/09/30-10:06:21:394" lastUpdate="2016/09/30-10:06:24:339"
+                    owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/NumericalCoreAPI</NumTopFromUI>
+                </Run>
+            </Simulations>
+        </Study>
+    </Project>
+</SpisModel>

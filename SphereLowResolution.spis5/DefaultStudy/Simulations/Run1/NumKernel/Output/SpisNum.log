@@ -1,0 +1,2536 @@
+Default output path for SPIS/NUM set to /home/simon/spis/Spis-5.2.4/../data/SphereLowResolution.spis5/DefaultStudy/Simulations/Run1/NumKernel/Output/
+Default input path for SPIS/NUM set to /home/simon/spis/Spis-5.2.4/../data/SphereLowResolution.spis5/DefaultStudy/Simulations/Run1/NumKernel/Input/
+Serialising object of type [Lspis.Top.Default.GlobalParameter; in file /home/simon/spis/Spis-5.2.4/../data/SphereLowResolution.spis5/DefaultStudy/Simulations/Run1/NumKernel/Output/globalParOut.gp
+Serialising object of type [Lspis.Top.Default.LocalParameter; in file /home/simon/spis/Spis-5.2.4/../data/SphereLowResolution.spis5/DefaultStudy/Simulations/Run1/NumKernel/Output/localParOut.lp
+Serialising object of type [Lspis.Surf.SurfInteract.GenericParamSet; in file /home/simon/spis/Spis-5.2.4/../data/SphereLowResolution.spis5/DefaultStudy/Simulations/Run1/NumKernel/Output/genericParamSetsOut.gps
+Starting building simulation from UI parameters
+Local parameter Id 0 is BackGroundDens
+Local parameter Id 1 is VolInteracFlag
+Local parameter Id 2 is IncomPart
+Local parameter Id 3 is OutgoPart
+Local parameter Id 4 is BdDiriFlag
+Local parameter Id 5 is BdFourAlpha
+Local parameter Id 6 is BdDiriPot
+Local parameter Id 7 is BdFourValue
+Local parameter Id 8 is BdFourFlag
+Local parameter Id 9 is ElecSecEmisOnWire
+Local parameter Id 10 is ImposedEmittedCurrentFlag
+Local parameter Id 11 is SunFluxOnWire
+Local parameter Id 12 is ImposedCollectedCurrentDensityOnWire
+Local parameter Id 13 is PhotoEmisOnWire
+Local parameter Id 14 is ProtSecEmisOnWire
+Local parameter Id 15 is ImposedCollectedCurrentFlag
+Local parameter Id 16 is SunFlux
+Local parameter Id 17 is ImposedEmittedCurrentDensity
+Local parameter Id 18 is ProtSecEmis
+Local parameter Id 19 is ImposedEmittedCurrentDensityOnWire
+Local parameter Id 20 is ImposedEmittedCurrentFlagOnWire
+Local parameter Id 21 is ElecSecEmis
+Local parameter Id 22 is ImposedCollectedCurrentFlagOnWire
+Local parameter Id 23 is PhotoEmis
+Local parameter Id 24 is ImposedCollectedCurrentDensity
+Local parameter Id 25 is EdgeElecNodeId
+Local parameter Id 26 is ElecNodeId
+Local parameter Id 27 is IndConduct
+Local parameter Id 28 is VolConduct
+Local parameter Id 29 is SurfConduct
+Local parameter Id 30 is SCDiriFlag
+Local parameter Id 31 is SCDiriPot
+Local parameter Id 32 is SCFourAlpha
+Local parameter Id 33 is SCFourValue
+Local parameter Id 34 is SCDiriPotEdge
+Local parameter Id 35 is SCDiriPotSurf
+Local parameter Id 36 is SCFourFlag
+Local parameter Id 37 is Temperature
+Local parameter Id 38 is MatThickness
+Local parameter Id 39 is SurfThicknessS
+Local parameter Id 40 is EdgeRadiusS
+Local parameter Id 41 is SourceMachOnWire
+Local parameter Id 42 is SourceCurrent
+Local parameter Id 43 is SourceIdOnWire
+Local parameter Id 44 is SourceId
+Local parameter Id 45 is SourceTempOnWire
+Local parameter Id 46 is SourceMach
+Local parameter Id 47 is SourceIdOnWire
+Local parameter Id 48 is SourceTemp
+Local parameter Id 49 is MatModelId
+Local parameter Id 50 is MatModelIdOnEdge
+Local parameter Id 51 is InstrumentSupport
+Local parameter Id 52 is MatTypeId
+Local parameter Id 53 is MatTypeIdOnEdge
+Local parameter Id 54 is MatTypeId
+Local parameter Id 55 is MatTypeIdOnEdge
+Simulation was built from UI parameters
+spacecraft surface : 12.430482m2
+Population ions1 --> spacecraft velocity included in population velocity in SC reference frame
+Number of threads runs in parallel for particle pushing: 1
+Population of ions1 successfully created (type spis.Vol.VolDistrib.PICVolDistrib)
+Population elec1 --> spacecraft velocity included in population velocity in SC reference frame
+Number of threads runs in parallel for particle pushing: 1
+Population of elec1 successfully created (type spis.Vol.VolDistrib.PICVolDistrib)
+Population of ions2 not created because its density was defined as 0
+Population of elec2 not created because its density was defined as 0
+Missing properties from list :
+  1) SUBE
+GenericParamSet: input Erosion property is missing or inapropriate for CERS-NASCAP => this parameter is set to the default typical value (5 eV)
+the Circuit File circuit.txt was read, and was found to have 0 components:
+Warning: parameter not found to build volume interactor: Parameter volInteract1 not found in global parameter list
+Warning: parameter not found to build volume interactor: Parameter volInteract2 not found in global parameter list
+maximal potential induced by the v cross b field on spacecraft surface : 0.0V
+minimal potential induced by the v cross b field on spacecraft surface : 0.0V
+maximal potential induced by the v cross b field on plasma volume : 0.0V
+minimal potential induced by the v cross b field on plasma volume : 0.0V
+Pop 0 is ions1 type spis.Vol.VolDistrib.PICVolDistrib particle type H+
+ -> with density 1000000.0m-3
+ -> with temperature 1.0eV
+Pop 1 is elec1 type spis.Vol.VolDistrib.PICVolDistrib particle type electron
+ -> with density 1000000.0m-3
+ -> with temperature 1.0eV
+Plasma integration duration is : 0.0
+Plasma integration time step is : 2.6128671E-7
+Unit1.parse warning: unit [] not recognized => considered as dimensionless
+
+Time 0.0 s => POTENTIALS: 
+ 0.0 V on SC ground (node0),	
+      0.0 V on top of node0,	
+      0.0 Vmin onTopOfNode0,	
+      0.0 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 0.0
+ ThreeDUnstructVolMesh: 6077 tetrahedra, 12730 triangles, 7905 edges, 1254 nodes
+  Mesh quality (best = 1): min = 0.0078030047, max = 0.97583574, average = 0.60392964
+   histogram of mesh quality: number per interval between min = 0.0078030047 and max = 0.97583574 (unit -): 42.0, 89.0, 179.0, 410.0, 692.0, 1065.0, 1495.0, 1293.0, 696.0, 116.0 
+ PICVolDistrib ions1: 20509 particles, last numerical time step used = 0.0s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 20512 particles, last numerical time step used = 0.0s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.0V maximum change, and 0.0V average change (last plasma time step = 0.0s)
+
+Time: 0.0, Dt = 2.6128671E-7 s
+
+Time: 2.6128671E-7, Dt = 2.6128671E-7 s
+
+Time: 5.2257343E-7, Dt = 2.6128671E-7 s
+
+Time: 7.838602E-7, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -3.4962258E-7 A total,
+        -3.4962258E-7 A on node0,   	
+
+Time 1.0451469E-6 s => POTENTIALS: 
+ -0.03661455 V on SC ground (node0),	
+      -0.036602885 V on top of node0,	
+      -0.03661122 Vmin onTopOfNode0,	
+      -0.036601294 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 1.0451469E-6
+ PICVolDistrib ions1: 22670 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 23426 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.0056436732V maximum change, and 0.0026847657V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.00845341V maximum change, and 0.008452352V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 1.0451469E-6, Dt = 2.6128671E-7 s
+
+Time: 1.3064335E-6, Dt = 2.6128671E-7 s
+
+Time: 1.5677203E-6, Dt = 2.6128671E-7 s
+
+Time: 1.829007E-6, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -3.5068612E-7 A total,
+        -3.5068612E-7 A on node0,   	
+
+Time 2.0902937E-6 s => POTENTIALS: 
+ -0.073257186 V on SC ground (node0),	
+      -0.07324567 V on top of node0,	
+      -0.07325403 Vmin onTopOfNode0,	
+      -0.07324393 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 2.0902937E-6
+ PICVolDistrib ions1: 24835 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 26272 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.014227405V maximum change, and 0.006544316V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0028264374V maximum change, and 0.0028254918V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 2.0902937E-6, Dt = 2.6128671E-7 s
+
+Time: 2.3515804E-6, Dt = 2.6128671E-7 s
+
+Time: 2.612867E-6, Dt = 2.6128671E-7 s
+
+Time: 2.8741538E-6, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -3.0835858E-7 A total,
+        -3.0835858E-7 A on node0,   	
+
+Time 3.1354407E-6 s => POTENTIALS: 
+ -0.10552612 V on SC ground (node0),	
+      -0.10551461 V on top of node0,	
+      -0.10552485 Vmin onTopOfNode0,	
+      -0.10551287 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 3.1354407E-6
+ PICVolDistrib ions1: 26994 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 28997 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.0053701224V maximum change, and 0.0014268693V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.005644299V maximum change, and 0.005642905V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 3.1354407E-6, Dt = 2.6128671E-7 s
+
+Time: 3.3967274E-6, Dt = 2.6128671E-7 s
+
+Time: 3.658014E-6, Dt = 2.6128671E-7 s
+
+Time: 3.9193005E-6, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -3.0710228E-7 A total,
+        -3.0710228E-7 A on node0,   	
+
+Time 4.1805874E-6 s => POTENTIALS: 
+ -0.13769527 V on SC ground (node0),	
+      -0.13768396 V on top of node0,	
+      -0.13769689 Vmin onTopOfNode0,	
+      -0.13768202 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 4.1805874E-6
+ PICVolDistrib ions1: 29146 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 31661 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.01035355V maximum change, and 0.004675626V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0097821355V maximum change, and 0.009780434V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 4.1805874E-6, Dt = 2.6128671E-7 s
+
+Time: 4.4418744E-6, Dt = 2.6128671E-7 s
+
+Time: 4.703161E-6, Dt = 2.6128671E-7 s
+
+Time: 4.9644477E-6, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -3.8540563E-7 A total,
+        -3.8540563E-7 A on node0,   	
+
+Time 5.225734E-6 s => POTENTIALS: 
+ -0.1778927 V on SC ground (node0),	
+      -0.17788151 V on top of node0,	
+      -0.17789906 Vmin onTopOfNode0,	
+      -0.17787945 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 5.225734E-6
+ PICVolDistrib ions1: 31302 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 34031 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.0106704235V maximum change, and 0.0044360915V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.006321013V maximum change, and 0.006318945V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 5.225734E-6, Dt = 2.6128671E-7 s
+
+Time: 5.487021E-6, Dt = 2.6128671E-7 s
+
+Time: 5.7483076E-6, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -3.523689E-7 A total,
+        -3.523689E-7 A on node0,   	
+
+Time 6.0095945E-6 s => POTENTIALS: 
+ -0.20556074 V on SC ground (node0),	
+      -0.20554955 V on top of node0,	
+      -0.2055671 Vmin onTopOfNode0,	
+      -0.2055475 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 6.0095945E-6
+ PICVolDistrib ions1: 32910 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 35879 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.012550339V maximum change, and 0.0055581676V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0061957985V maximum change, and 0.006193772V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 6.0095945E-6, Dt = 2.6128671E-7 s
+
+Time: 6.2708814E-6, Dt = 2.6128671E-7 s
+
+Time: 6.532168E-6, Dt = 2.6128671E-7 s
+
+Time: 6.7934548E-6, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -4.7246448E-7 A total,
+        -4.7246448E-7 A on node0,   	
+
+Time 7.054741E-6 s => POTENTIALS: 
+ -0.25486517 V on SC ground (node0),	
+      -0.2548543 V on top of node0,	
+      -0.25487477 Vmin onTopOfNode0,	
+      -0.25484642 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 7.054741E-6
+ PICVolDistrib ions1: 35064 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 38210 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.009505704V maximum change, and 0.004166681V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0062181056V maximum change, and 0.0062156804V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 7.054741E-6, Dt = 2.6128671E-7 s
+
+Time: 7.316028E-6, Dt = 2.6128671E-7 s
+
+Time: 7.5773146E-6, Dt = 2.6128671E-7 s
+
+Time: 7.838601E-6, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -2.5249386E-7 A total,
+        -2.5249386E-7 A on node0,   	
+
+Time 8.099888E-6 s => POTENTIALS: 
+ -0.28134078 V on SC ground (node0),	
+      -0.28132996 V on top of node0,	
+      -0.28135037 Vmin onTopOfNode0,	
+      -0.28132203 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 8.099888E-6
+ PICVolDistrib ions1: 37212 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 40475 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.006582588V maximum change, and 0.0029758972V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0067359507V maximum change, and 0.006734022V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 8.099888E-6, Dt = 2.6128671E-7 s
+
+Time: 8.361175E-6, Dt = 2.6128671E-7 s
+
+Time: 8.622462E-6, Dt = 2.6128671E-7 s
+
+Time: 8.883749E-6, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -1.9711999E-7 A total,
+        -1.9711999E-7 A on node0,   	
+
+Time 9.145035E-6 s => POTENTIALS: 
+ -0.301966 V on SC ground (node0),	
+      -0.3019552 V on top of node0,	
+      -0.3019756 Vmin onTopOfNode0,	
+      -0.30194727 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 9.145035E-6
+ PICVolDistrib ions1: 39362 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 42665 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.01303567V maximum change, and 0.0059314035V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0V maximum change, and 0.0V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 9.145035E-6, Dt = 2.6128671E-7 s
+
+Time: 9.406322E-6, Dt = 2.6128671E-7 s
+
+Time: 9.6676085E-6, Dt = 2.6128671E-7 s
+
+Time: 9.928895E-6, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -2.829635E-7 A total,
+        -2.829635E-7 A on node0,   	
+
+Time 1.01901815E-5 s => POTENTIALS: 
+ -0.3316176 V on SC ground (node0),	
+      -0.3316069 V on top of node0,	
+      -0.3316272 Vmin onTopOfNode0,	
+      -0.33159885 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 1.01901815E-5
+ PICVolDistrib ions1: 41510 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 44742 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.010892928V maximum change, and 0.004823407V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.006227076V maximum change, and 0.0062253634V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 1.01901815E-5, Dt = 2.6128671E-7 s
+
+Time: 1.0451468E-5, Dt = 2.6128671E-7 s
+
+Time: 1.0712755E-5, Dt = 2.6128671E-7 s
+
+Time: 1.0974042E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -4.0087227E-7 A total,
+        -4.0087227E-7 A on node0,   	
+
+Time 1.1235329E-5 s => POTENTIALS: 
+ -0.37349743 V on SC ground (node0),	
+      -0.37348697 V on top of node0,	
+      -0.37350702 Vmin onTopOfNode0,	
+      -0.37347868 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 1.1235329E-5
+ PICVolDistrib ions1: 43650 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 46693 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.0066767335V maximum change, and 0.0030440714V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.003520131V maximum change, and 0.003519124V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 1.1235329E-5, Dt = 2.6128671E-7 s
+
+Time: 1.1496615E-5, Dt = 2.6128671E-7 s
+
+Time: 1.1757902E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -3.7047957E-7 A total,
+        -3.7047957E-7 A on node0,   	
+
+Time 1.2019189E-5 s => POTENTIALS: 
+ -0.4025274 V on SC ground (node0),	
+      -0.40251666 V on top of node0,	
+      -0.402537 Vmin onTopOfNode0,	
+      -0.40250865 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 1.2019189E-5
+ PICVolDistrib ions1: 45255 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 48077 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.0052277427V maximum change, and 0.002102276V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.005989462V maximum change, and 0.0059874556V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 1.2019189E-5, Dt = 2.6128671E-7 s
+
+Time: 1.2280476E-5, Dt = 2.6128671E-7 s
+
+Time: 1.2541763E-5, Dt = 2.6128671E-7 s
+
+Time: 1.2803049E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -1.01824206E-7 A total,
+        -1.01824206E-7 A on node0,   	
+
+Time 1.3064336E-5 s => POTENTIALS: 
+ -0.4132115 V on SC ground (node0),	
+      -0.41320097 V on top of node0,	
+      -0.4132211 Vmin onTopOfNode0,	
+      -0.41319275 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 1.3064336E-5
+ PICVolDistrib ions1: 47389 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 49807 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.0063464046V maximum change, and 0.0026792851V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.00468269V maximum change, and 0.0046815868V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 1.3064336E-5, Dt = 2.6128671E-7 s
+
+Time: 1.3325623E-5, Dt = 2.6128671E-7 s
+
+Time: 1.35869095E-5, Dt = 2.6128671E-7 s
+
+Time: 1.38481955E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -2.196319E-7 A total,
+        -2.196319E-7 A on node0,   	
+
+Time 1.4109482E-5 s => POTENTIALS: 
+ -0.4361855 V on SC ground (node0),	
+      -0.43617478 V on top of node0,	
+      -0.4361951 Vmin onTopOfNode0,	
+      -0.43616676 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 1.4109482E-5
+ PICVolDistrib ions1: 49526 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 51467 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.0052247876V maximum change, and 3.9549178E-4V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.011023462V maximum change, and 0.011019819V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 1.4109482E-5, Dt = 2.6128671E-7 s
+
+Time: 1.4370769E-5, Dt = 2.6128671E-7 s
+
+Time: 1.4632056E-5, Dt = 2.6128671E-7 s
+
+Time: 1.4893343E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -2.620484E-7 A total,
+        -2.620484E-7 A on node0,   	
+
+Time 1.5154629E-5 s => POTENTIALS: 
+ -0.4636076 V on SC ground (node0),	
+      -0.46359742 V on top of node0,	
+      -0.4636172 Vmin onTopOfNode0,	
+      -0.46359438 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 1.5154629E-5
+ PICVolDistrib ions1: 51658 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 53164 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.0040917993V maximum change, and 0.0018298097V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.012745231V maximum change, and 0.012742141V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 1.5154629E-5, Dt = 2.6128671E-7 s
+
+Time: 1.5415917E-5, Dt = 2.6128671E-7 s
+
+Time: 1.5677202E-5, Dt = 2.6128671E-7 s
+
+Time: 1.5938489E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -2.2810413E-7 A total,
+        -2.2810413E-7 A on node0,   	
+
+Time 1.6199776E-5 s => POTENTIALS: 
+ -0.48753348 V on SC ground (node0),	
+      -0.48752332 V on top of node0,	
+      -0.48754308 Vmin onTopOfNode0,	
+      -0.48752025 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 1.6199776E-5
+ PICVolDistrib ions1: 53786 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 54762 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.006118812V maximum change, and 0.002459892V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0065909624V maximum change, and 0.0065886863V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 1.6199776E-5, Dt = 2.6128671E-7 s
+
+Time: 1.6461063E-5, Dt = 2.6128671E-7 s
+
+Time: 1.672235E-5, Dt = 2.6128671E-7 s
+
+Time: 1.6983637E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -1.9720103E-7 A total,
+        -1.9720103E-7 A on node0,   	
+
+Time 1.7244924E-5 s => POTENTIALS: 
+ -0.5081611 V on SC ground (node0),	
+      -0.50815076 V on top of node0,	
+      -0.5081707 Vmin onTopOfNode0,	
+      -0.5081479 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 1.7244924E-5
+ PICVolDistrib ions1: 55907 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 56219 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.00424169V maximum change, and 3.464233E-4V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.006664455V maximum change, and 0.0066618836V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 1.7244924E-5, Dt = 2.6128671E-7 s
+
+Time: 1.750621E-5, Dt = 2.6128671E-7 s
+
+Time: 1.7767497E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -3.73464E-7 A total,
+        -3.73464E-7 A on node0,   	
+
+Time 1.8028783E-5 s => POTENTIALS: 
+ -0.5374389 V on SC ground (node0),	
+      -0.537429 V on top of node0,	
+      -0.5374485 Vmin onTopOfNode0,	
+      -0.5374257 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 1.8028783E-5
+ PICVolDistrib ions1: 57512 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 57222 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.006620099V maximum change, and 0.0014058449V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.009672403V maximum change, and 0.009670368V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 1.8028783E-5, Dt = 2.6128671E-7 s
+
+Time: 1.829007E-5, Dt = 2.6128671E-7 s
+
+Time: 1.8551356E-5, Dt = 2.6128671E-7 s
+
+Time: 1.8812643E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -1.0150437E-7 A total,
+        -1.0150437E-7 A on node0,   	
+
+Time 1.907393E-5 s => POTENTIALS: 
+ -0.54808944 V on SC ground (node0),	
+      -0.5480794 V on top of node0,	
+      -0.5481013 Vmin onTopOfNode0,	
+      -0.5480762 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 1.907393E-5
+ PICVolDistrib ions1: 59645 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 58593 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.0047606025V maximum change, and 3.862059E-4V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0V maximum change, and 0.0V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 1.907393E-5, Dt = 2.6128671E-7 s
+
+Time: 1.9335217E-5, Dt = 2.6128671E-7 s
+
+Time: 1.9596504E-5, Dt = 2.6128671E-7 s
+
+Time: 1.985779E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -6.2577996E-8 A total,
+        -6.2577996E-8 A on node0,   	
+
+Time 2.0119078E-5 s => POTENTIALS: 
+ -0.5546644 V on SC ground (node0),	
+      -0.55465394 V on top of node0,	
+      -0.55467623 Vmin onTopOfNode0,	
+      -0.5546484 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 2.0119078E-5
+ PICVolDistrib ions1: 61765 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 59897 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.00412919V maximum change, and 0.0015280361V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0V maximum change, and 0.0V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 2.0119078E-5, Dt = 2.6128671E-7 s
+
+Time: 2.0380363E-5, Dt = 2.6128671E-7 s
+
+Time: 2.064165E-5, Dt = 2.6128671E-7 s
+
+Time: 2.0902937E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -7.973521E-8 A total,
+        -7.973521E-8 A on node0,   	
+
+Time 2.1164224E-5 s => POTENTIALS: 
+ -0.5630137 V on SC ground (node0),	
+      -0.5630035 V on top of node0,	
+      -0.56302553 Vmin onTopOfNode0,	
+      -0.56299627 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 2.1164224E-5
+ PICVolDistrib ions1: 63885 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 61163 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.005234503V maximum change, and 3.6983262E-4V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.008861303V maximum change, and 0.008859869V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 2.1164224E-5, Dt = 2.6128671E-7 s
+
+Time: 2.142551E-5, Dt = 2.6128671E-7 s
+
+Time: 2.1686797E-5, Dt = 2.6128671E-7 s
+
+Time: 2.1948084E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -7.3858125E-8 A total,
+        -7.3858125E-8 A on node0,   	
+
+Time 2.2209371E-5 s => POTENTIALS: 
+ -0.57075626 V on SC ground (node0),	
+      -0.5707465 V on top of node0,	
+      -0.5707681 Vmin onTopOfNode0,	
+      -0.57073885 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 2.2209371E-5
+ PICVolDistrib ions1: 66000 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 62292 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.004843339V maximum change, and 0.0012832938V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 4.3153763E-4V maximum change, and 4.308806E-4V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 2.2209371E-5, Dt = 2.6128671E-7 s
+
+Time: 2.2470658E-5, Dt = 2.6128671E-7 s
+
+Time: 2.2731943E-5, Dt = 2.6128671E-7 s
+
+Time: 2.299323E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -1.8801438E-7 A total,
+        -1.8801438E-7 A on node0,   	
+
+Time 2.3254517E-5 s => POTENTIALS: 
+ -0.5904342 V on SC ground (node0),	
+      -0.59042424 V on top of node0,	
+      -0.59044605 Vmin onTopOfNode0,	
+      -0.5904168 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 2.3254517E-5
+ PICVolDistrib ions1: 68129 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 63291 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.0050346013V maximum change, and 3.7219946E-4V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.012057126V maximum change, and 0.012055212V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 2.3254517E-5, Dt = 2.6128671E-7 s
+
+Time: 2.3515804E-5, Dt = 2.6128671E-7 s
+
+Time: 2.3777091E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -2.169287E-7 A total,
+        -2.169287E-7 A on node0,   	
+
+Time 2.4038378E-5 s => POTENTIALS: 
+ -0.60749805 V on SC ground (node0),	
+      -0.6074881 V on top of node0,	
+      -0.6075099 Vmin onTopOfNode0,	
+      -0.60748065 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 2.4038378E-5
+ PICVolDistrib ions1: 69719 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 64082 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.0057482654V maximum change, and 0.0026877564V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.00620389V maximum change, and 0.006202716V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 2.4038378E-5, Dt = 2.6128671E-7 s
+
+Time: 2.4299665E-5, Dt = 2.6128671E-7 s
+
+Time: 2.4560952E-5, Dt = 2.6128671E-7 s
+
+Time: 2.4822239E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -1.6429291E-7 A total,
+        -1.6429291E-7 A on node0,   	
+
+Time 2.5083526E-5 s => POTENTIALS: 
+ -0.62468064 V on SC ground (node0),	
+      -0.6246709 V on top of node0,	
+      -0.6246925 Vmin onTopOfNode0,	
+      -0.6246619 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 2.5083526E-5
+ PICVolDistrib ions1: 71829 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 65019 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.006880042V maximum change, and 0.001271929V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0028871298V maximum change, and 0.0028854164V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 2.5083526E-5, Dt = 2.6128671E-7 s
+
+Time: 2.534481E-5, Dt = 2.6128671E-7 s
+
+Time: 2.5606098E-5, Dt = 2.6128671E-7 s
+
+Time: 2.5867384E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -1.3037632E-7 A total,
+        -1.3037632E-7 A on node0,   	
+
+Time 2.6128671E-5 s => POTENTIALS: 
+ -0.6383041 V on SC ground (node0),	
+      -0.6382946 V on top of node0,	
+      -0.638316 Vmin onTopOfNode0,	
+      -0.6382854 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 2.6128671E-5
+ PICVolDistrib ions1: 73948 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 66045 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.0036715614V maximum change, and 3.2766486E-4V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0V maximum change, and 0.0V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 2.6128671E-5, Dt = 2.6128671E-7 s
+
+Time: 2.6389958E-5, Dt = 2.6128671E-7 s
+
+Time: 2.6651245E-5, Dt = 2.6128671E-7 s
+
+Time: 2.6912532E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -1.6679661E-7 A total,
+        -1.6679661E-7 A on node0,   	
+
+Time 2.7173819E-5 s => POTENTIALS: 
+ -0.65579814 V on SC ground (node0),	
+      -0.6557883 V on top of node0,	
+      -0.65581 Vmin onTopOfNode0,	
+      -0.6557787 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 2.7173819E-5
+ PICVolDistrib ions1: 76045 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 66929 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.0067799687V maximum change, and 0.0029767328V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0021702647V maximum change, and 0.002169615V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 2.7173819E-5, Dt = 2.6128671E-7 s
+
+Time: 2.7435106E-5, Dt = 2.6128671E-7 s
+
+Time: 2.7696391E-5, Dt = 2.6128671E-7 s
+
+Time: 2.7957678E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -2.4243846E-7 A total,
+        -2.4243846E-7 A on node0,   	
+
+Time 2.8218965E-5 s => POTENTIALS: 
+ -0.6811989 V on SC ground (node0),	
+      -0.6811886 V on top of node0,	
+      -0.68121076 Vmin onTopOfNode0,	
+      -0.68117946 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 2.8218965E-5
+ PICVolDistrib ions1: 78165 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 67616 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.0035379198V maximum change, and 0.0012940023V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.010510623V maximum change, and 0.010509438V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 2.8218965E-5, Dt = 2.6128671E-7 s
+
+Time: 2.8480252E-5, Dt = 2.6128671E-7 s
+
+Time: 2.8741539E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -8.814537E-8 A total,
+        -8.814537E-8 A on node0,   	
+
+Time 2.9002826E-5 s => POTENTIALS: 
+ -0.688142 V on SC ground (node0),	
+      -0.6881323 V on top of node0,	
+      -0.68815386 Vmin onTopOfNode0,	
+      -0.6881226 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 2.9002826E-5
+ PICVolDistrib ions1: 79746 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 68229 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.005530372V maximum change, and 0.0017615948V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0035315752V maximum change, and 0.0035304578V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 2.9002826E-5, Dt = 2.6128671E-7 s
+
+Time: 2.9264113E-5, Dt = 2.6128671E-7 s
+
+Time: 2.95254E-5, Dt = 2.6128671E-7 s
+
+Time: 2.9786686E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -1.07149404E-7 A total,
+        -1.07149404E-7 A on node0,   	
+
+Time 3.0047971E-5 s => POTENTIALS: 
+ -0.6993931 V on SC ground (node0),	
+      -0.69938344 V on top of node0,	
+      -0.69940495 Vmin onTopOfNode0,	
+      -0.69937366 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 3.0047971E-5
+ PICVolDistrib ions1: 81859 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 68939 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.004579842V maximum change, and 0.0021443074V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0V maximum change, and 0.0V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 3.0047971E-5, Dt = 2.6128671E-7 s
+
+Time: 3.0309258E-5, Dt = 2.6128671E-7 s
+
+Time: 3.0570547E-5, Dt = 2.6128671E-7 s
+
+Time: 3.0831834E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -1.8152267E-7 A total,
+        -1.8152267E-7 A on node0,   	
+
+Time 3.1093117E-5 s => POTENTIALS: 
+ -0.71837604 V on SC ground (node0),	
+      -0.718367 V on top of node0,	
+      -0.7183879 Vmin onTopOfNode0,	
+      -0.7183566 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 3.1093117E-5
+ PICVolDistrib ions1: 83965 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 69633 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.01439929V maximum change, and 0.006493735V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0V maximum change, and 0.0V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 3.1093117E-5, Dt = 2.6128671E-7 s
+
+Time: 3.1354404E-5, Dt = 2.6128671E-7 s
+
+Time: 3.161569E-5, Dt = 2.6128671E-7 s
+
+Time: 3.1876978E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -9.916097E-8 A total,
+        -9.916097E-8 A on node0,   	
+
+Time 3.2138265E-5 s => POTENTIALS: 
+ -0.7287767 V on SC ground (node0),	
+      -0.72876745 V on top of node0,	
+      -0.72878855 Vmin onTopOfNode0,	
+      -0.72875726 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 3.2138265E-5
+ PICVolDistrib ions1: 86055 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 70215 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.0044326726V maximum change, and 3.4832113E-4V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0V maximum change, and 0.0V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 3.2138265E-5, Dt = 2.6128671E-7 s
+
+Time: 3.2399552E-5, Dt = 2.6128671E-7 s
+
+Time: 3.266084E-5, Dt = 2.6128671E-7 s
+
+Time: 3.2922126E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -1.482913E-7 A total,
+        -1.482913E-7 A on node0,   	
+
+Time 3.3183413E-5 s => POTENTIALS: 
+ -0.7443458 V on SC ground (node0),	
+      -0.74433607 V on top of node0,	
+      -0.74435765 Vmin onTopOfNode0,	
+      -0.74432635 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 3.3183413E-5
+ PICVolDistrib ions1: 88156 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 70741 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.004028093V maximum change, and 0.0010727821V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0035443306V maximum change, and 0.003543622V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 3.3183413E-5, Dt = 2.6128671E-7 s
+
+Time: 3.34447E-5, Dt = 2.6128671E-7 s
+
+Time: 3.3705986E-5, Dt = 2.6128671E-7 s
+
+Time: 3.3967273E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -1.109244E-7 A total,
+        -1.109244E-7 A on node0,   	
+
+Time 3.422856E-5 s => POTENTIALS: 
+ -0.7559916 V on SC ground (node0),	
+      -0.75598186 V on top of node0,	
+      -0.75600344 Vmin onTopOfNode0,	
+      -0.75597215 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 3.422856E-5
+ PICVolDistrib ions1: 90265 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 71273 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.0041987915V maximum change, and 0.0016234722V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0V maximum change, and 0.0V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 3.422856E-5, Dt = 2.6128671E-7 s
+
+Time: 3.4489847E-5, Dt = 2.6128671E-7 s
+
+Time: 3.4751134E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -2.6615515E-7 A total,
+        -2.6615515E-7 A on node0,   	
+
+Time 3.501242E-5 s => POTENTIALS: 
+ -0.77689654 V on SC ground (node0),	
+      -0.7768866 V on top of node0,	
+      -0.7769084 Vmin onTopOfNode0,	
+      -0.7768771 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 3.501242E-5
+ PICVolDistrib ions1: 91844 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 71652 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.0038258797V maximum change, and 0.0010271699V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.011168897V maximum change, and 0.011167953V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 3.501242E-5, Dt = 2.6128671E-7 s
+
+Time: 3.5273708E-5, Dt = 2.6128671E-7 s
+
+Time: 3.5534995E-5, Dt = 2.6128671E-7 s
+
+Time: 3.579628E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -2.7818453E-7 A total,
+        -2.7818453E-7 A on node0,   	
+
+Time 3.6057565E-5 s => POTENTIALS: 
+ -0.8060137 V on SC ground (node0),	
+      -0.8060037 V on top of node0,	
+      -0.80602914 Vmin onTopOfNode0,	
+      -0.8059943 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 3.6057565E-5
+ PICVolDistrib ions1: 93930 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 72189 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.008539438V maximum change, and 0.0038463438V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.014315128V maximum change, and 0.014312249V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 3.6057565E-5, Dt = 2.6128671E-7 s
+
+Time: 3.6318852E-5, Dt = 2.6128671E-7 s
+
+Time: 3.658014E-5, Dt = 2.6128671E-7 s
+
+Time: 3.6841426E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -1.3529309E-7 A total,
+        -1.3529309E-7 A on node0,   	
+
+Time 3.7102713E-5 s => POTENTIALS: 
+ -0.8202111 V on SC ground (node0),	
+      -0.82020193 V on top of node0,	
+      -0.82022655 Vmin onTopOfNode0,	
+      -0.8201917 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 3.7102713E-5
+ PICVolDistrib ions1: 96008 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 72588 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.0068534017V maximum change, and 0.0030678322V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0032531023V maximum change, and 0.0032520385V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 3.7102713E-5, Dt = 2.6128671E-7 s
+
+Time: 3.7364E-5, Dt = 2.6128671E-7 s
+
+Time: 3.7625286E-5, Dt = 2.6128671E-7 s
+
+Time: 3.7886573E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -1.955889E-7 A total,
+        -1.955889E-7 A on node0,   	
+
+Time 3.814786E-5 s => POTENTIALS: 
+ -0.8407218 V on SC ground (node0),	
+      -0.84071267 V on top of node0,	
+      -0.8407372 Vmin onTopOfNode0,	
+      -0.84070235 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 3.814786E-5
+ PICVolDistrib ions1: 98089 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 72909 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.0049835946V maximum change, and 0.0019172012V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0036854148V maximum change, and 0.0036845293V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 3.814786E-5, Dt = 2.6128671E-7 s
+
+Time: 3.8409147E-5, Dt = 2.6128671E-7 s
+
+Time: 3.8670434E-5, Dt = 2.6128671E-7 s
+
+Time: 3.893172E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -1.8276062E-7 A total,
+        -1.8276062E-7 A on node0,   	
+
+Time 3.9193008E-5 s => POTENTIALS: 
+ -0.8599003 V on SC ground (node0),	
+      -0.8598912 V on top of node0,	
+      -0.85991573 Vmin onTopOfNode0,	
+      -0.85988086 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 3.9193008E-5
+ PICVolDistrib ions1: 100184 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 73317 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.0035108943V maximum change, and 0.0013618126V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0060990453V maximum change, and 0.006097812V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 3.9193008E-5, Dt = 2.6128671E-7 s
+
+Time: 3.9454295E-5, Dt = 2.6128671E-7 s
+
+Time: 3.971558E-5, Dt = 2.6128671E-7 s
+
+Time: 3.997687E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -3.2169517E-8 A total,
+        -3.2169517E-8 A on node0,   	
+
+Time 4.0238156E-5 s => POTENTIALS: 
+ -0.86327904 V on SC ground (node0),	
+      -0.86326987 V on top of node0,	
+      -0.8632945 Vmin onTopOfNode0,	
+      -0.8632596 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 4.0238156E-5
+ PICVolDistrib ions1: 102266 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 73684 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.0037090667V maximum change, and 3.4000713E-4V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0V maximum change, and 0.0V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 4.0238156E-5, Dt = 2.6128671E-7 s
+
+Time: 4.0499443E-5, Dt = 2.6128671E-7 s
+
+Time: 4.0760726E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -2.168462E-7 A total,
+        -2.168462E-7 A on node0,   	
+
+Time 4.1022013E-5 s => POTENTIALS: 
+ -0.8803294 V on SC ground (node0),	
+      -0.8803201 V on top of node0,	
+      -0.8803448 Vmin onTopOfNode0,	
+      -0.88030994 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 4.1022013E-5
+ PICVolDistrib ions1: 103829 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 73981 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.004554881V maximum change, and 0.001589705V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0038495064V maximum change, and 0.003848613V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 4.1022013E-5, Dt = 2.6128671E-7 s
+
+Time: 4.12833E-5, Dt = 2.6128671E-7 s
+
+Time: 4.1544587E-5, Dt = 2.6128671E-7 s
+
+Time: 4.1805873E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -1.13423894E-7 A total,
+        -1.13423894E-7 A on node0,   	
+
+Time 4.206716E-5 s => POTENTIALS: 
+ -0.8922351 V on SC ground (node0),	
+      -0.8922261 V on top of node0,	
+      -0.89225614 Vmin onTopOfNode0,	
+      -0.89221567 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 4.206716E-5
+ PICVolDistrib ions1: 105924 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 74351 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.0045186225V maximum change, and 3.8415438E-4V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.002444923V maximum change, and 0.0024438002V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 4.206716E-5, Dt = 2.6128671E-7 s
+
+Time: 4.2328447E-5, Dt = 2.6128671E-7 s
+
+Time: 4.2589734E-5, Dt = 2.6128671E-7 s
+
+Time: 4.285102E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -1.1997453E-7 A total,
+        -1.1997453E-7 A on node0,   	
+
+Time 4.3112308E-5 s => POTENTIALS: 
+ -0.9048169 V on SC ground (node0),	
+      -0.9048077 V on top of node0,	
+      -0.90483797 Vmin onTopOfNode0,	
+      -0.9047975 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 4.3112308E-5
+ PICVolDistrib ions1: 108012 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 74652 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.0071277022V maximum change, and 0.0029403716V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0V maximum change, and 0.0V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 4.3112308E-5, Dt = 2.6128671E-7 s
+
+Time: 4.3373595E-5, Dt = 2.6128671E-7 s
+
+Time: 4.3634882E-5, Dt = 2.6128671E-7 s
+
+Time: 4.389617E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -2.4832676E-7 A total,
+        -2.4832676E-7 A on node0,   	
+
+Time 4.4157456E-5 s => POTENTIALS: 
+ -0.9307591 V on SC ground (node0),	
+      -0.9307505 V on top of node0,	
+      -0.9307801 Vmin onTopOfNode0,	
+      -0.93073964 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 4.4157456E-5
+ PICVolDistrib ions1: 110088 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 75022 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.01760912V maximum change, and 0.007837364V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0V maximum change, and 0.0V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 4.4157456E-5, Dt = 2.6128671E-7 s
+
+Time: 4.4418743E-5, Dt = 2.6128671E-7 s
+
+Time: 4.468003E-5, Dt = 2.6128671E-7 s
+
+Time: 4.4941316E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -1.2948638E-7 A total,
+        -1.2948638E-7 A on node0,   	
+
+Time 4.5202603E-5 s => POTENTIALS: 
+ -0.94433576 V on SC ground (node0),	
+      -0.94432765 V on top of node0,	
+      -0.9443568 Vmin onTopOfNode0,	
+      -0.9443163 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 4.5202603E-5
+ PICVolDistrib ions1: 112165 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 75152 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.0065101385V maximum change, and 0.0026774122V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0V maximum change, and 0.0V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 4.5202603E-5, Dt = 2.6128671E-7 s
+
+Time: 4.5463887E-5, Dt = 2.6128671E-7 s
+
+Time: 4.5725174E-5, Dt = 2.6128671E-7 s
+
+Time: 4.598646E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -1.2191559E-7 A total,
+        -1.2191559E-7 A on node0,   	
+
+Time 4.6247747E-5 s => POTENTIALS: 
+ -0.95713407 V on SC ground (node0),	
+      -0.95712525 V on top of node0,	
+      -0.9571551 Vmin onTopOfNode0,	
+      -0.95711464 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 4.6247747E-5
+ PICVolDistrib ions1: 114259 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 75375 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.0047852993V maximum change, and 0.002302523V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0V maximum change, and 0.0V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 4.6247747E-5, Dt = 2.6128671E-7 s
+
+Time: 4.6509034E-5, Dt = 2.6128671E-7 s
+
+Time: 4.677032E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -3.3894544E-8 A total,
+        -3.3894544E-8 A on node0,   	
+
+Time 4.7031608E-5 s => POTENTIALS: 
+ -0.95980495 V on SC ground (node0),	
+      -0.95979553 V on top of node0,	
+      -0.959826 Vmin onTopOfNode0,	
+      -0.9597855 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 4.7031608E-5
+ PICVolDistrib ions1: 115829 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 75518 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.005116588V maximum change, and 0.0012128482V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0V maximum change, and 0.0V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 4.7031608E-5, Dt = 2.6128671E-7 s
+
+Time: 4.7292895E-5, Dt = 2.6128671E-7 s
+
+Time: 4.7554182E-5, Dt = 2.6128671E-7 s
+
+Time: 4.781547E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -1.3455082E-7 A total,
+        -1.3455082E-7 A on node0,   	
+
+Time 4.8076756E-5 s => POTENTIALS: 
+ -0.97391826 V on SC ground (node0),	
+      -0.9739097 V on top of node0,	
+      -0.9739393 Vmin onTopOfNode0,	
+      -0.9738988 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 4.8076756E-5
+ PICVolDistrib ions1: 117896 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 75777 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.0045517944V maximum change, and 0.0012844141V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0V maximum change, and 0.0V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 4.8076756E-5, Dt = 2.6128671E-7 s
+
+Time: 4.8338043E-5, Dt = 2.6128671E-7 s
+
+Time: 4.859933E-5, Dt = 2.6128671E-7 s
+
+Time: 4.8860617E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -2.6437098E-7 A total,
+        -2.6437098E-7 A on node0,   	
+
+Time 4.9121903E-5 s => POTENTIALS: 
+ -1.001596 V on SC ground (node0),	
+      -1.0015881 V on top of node0,	
+      -1.001617 Vmin onTopOfNode0,	
+      -1.0015765 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 4.9121903E-5
+ PICVolDistrib ions1: 119965 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 75794 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.010148048V maximum change, and 0.004499986V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.006033361V maximum change, and 0.006032355V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 4.9121903E-5, Dt = 2.6128671E-7 s
+
+Time: 4.938319E-5, Dt = 2.6128671E-7 s
+
+Time: 4.9644477E-5, Dt = 2.6128671E-7 s
+
+Time: 4.9905764E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -1.6399159E-7 A total,
+        -1.6399159E-7 A on node0,   	
+
+Time 5.016705E-5 s => POTENTIALS: 
+ -1.0187682 V on SC ground (node0),	
+      -1.0187595 V on top of node0,	
+      -1.0187892 Vmin onTopOfNode0,	
+      -1.0187488 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 5.016705E-5
+ PICVolDistrib ions1: 122028 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 76047 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.0030195022V maximum change, and 3.4598933E-4V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.00655365V maximum change, and 0.006551644V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 5.016705E-5, Dt = 2.6128671E-7 s
+
+Time: 5.0428334E-5, Dt = 2.6128671E-7 s
+
+Time: 5.068962E-5, Dt = 2.6128671E-7 s
+
+Time: 5.095091E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -1.6124335E-7 A total,
+        -1.6124335E-7 A on node0,   	
+
+Time 5.1212195E-5 s => POTENTIALS: 
+ -1.0356649 V on SC ground (node0),	
+      -1.0356561 V on top of node0,	
+      -1.0356859 Vmin onTopOfNode0,	
+      -1.0356455 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 5.1212195E-5
+ PICVolDistrib ions1: 124116 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 76235 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.010905743V maximum change, and 0.004790566V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0V maximum change, and 0.0V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 5.1212195E-5, Dt = 2.6128671E-7 s
+
+Time: 5.1473482E-5, Dt = 2.6128671E-7 s
+
+Time: 5.173477E-5, Dt = 2.6128671E-7 s
+
+Time: 5.1996056E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -1.7058532E-8 A total,
+        -1.7058532E-8 A on node0,   	
+
+Time 5.2257343E-5 s => POTENTIALS: 
+ -1.0374566 V on SC ground (node0),	
+      -1.0374478 V on top of node0,	
+      -1.0374776 Vmin onTopOfNode0,	
+      -1.0374372 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 5.2257343E-5
+ PICVolDistrib ions1: 126168 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 76350 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.00380373V maximum change, and 0.0014611246V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0026750565V maximum change, and 0.0026745836V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 5.2257343E-5, Dt = 2.6128671E-7 s
+
+Time: 5.251863E-5, Dt = 2.6128671E-7 s
+
+Time: 5.2779917E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -2.1519483E-7 A total,
+        -2.1519483E-7 A on node0,   	
+
+Time 5.3041204E-5 s => POTENTIALS: 
+ -1.0543758 V on SC ground (node0),	
+      -1.0543671 V on top of node0,	
+      -1.0543967 Vmin onTopOfNode0,	
+      -1.0543563 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 5.3041204E-5
+ PICVolDistrib ions1: 127717 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 76379 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.0072351694V maximum change, and 0.0029891117V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.002408862V maximum change, and 0.0024079056V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 5.3041204E-5, Dt = 2.6128671E-7 s
+
+Time: 5.330249E-5, Dt = 2.6128671E-7 s
+
+Time: 5.3563777E-5, Dt = 2.6128671E-7 s
+
+Time: 5.3825064E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: 1.6426526E-8 A total,
+        1.6426526E-8 A on node0,   	
+
+Time 5.408635E-5 s => POTENTIALS: 
+ -1.0526415 V on SC ground (node0),	
+      -1.0526327 V on top of node0,	
+      -1.0526625 Vmin onTopOfNode0,	
+      -1.0526221 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 5.408635E-5
+ PICVolDistrib ions1: 129788 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 76518 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.004136862V maximum change, and 0.0012573397V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0V maximum change, and 0.0V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 5.408635E-5, Dt = 2.6128671E-7 s
+
+Time: 5.4347638E-5, Dt = 2.6128671E-7 s
+
+Time: 5.4608925E-5, Dt = 2.6128671E-7 s
+
+Time: 5.4870212E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -7.2233945E-8 A total,
+        -7.2233945E-8 A on node0,   	
+
+Time 5.5131495E-5 s => POTENTIALS: 
+ -1.0602238 V on SC ground (node0),	
+      -1.0602155 V on top of node0,	
+      -1.0602448 Vmin onTopOfNode0,	
+      -1.0602044 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 5.5131495E-5
+ PICVolDistrib ions1: 131838 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 76647 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.0039599957V maximum change, and 3.3270215E-4V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0020791292V maximum change, and 0.00207795V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 5.5131495E-5, Dt = 2.6128671E-7 s
+
+Time: 5.5392782E-5, Dt = 2.6128671E-7 s
+
+Time: 5.565407E-5, Dt = 2.6128671E-7 s
+
+Time: 5.5915356E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -8.0701994E-8 A total,
+        -8.0701994E-8 A on node0,   	
+
+Time 5.6176643E-5 s => POTENTIALS: 
+ -1.0686527 V on SC ground (node0),	
+      -1.0686445 V on top of node0,	
+      -1.0686737 Vmin onTopOfNode0,	
+      -1.0686333 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 5.6176643E-5
+ PICVolDistrib ions1: 133915 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 76748 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.0048828404V maximum change, and 3.2810474E-4V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0112576485V maximum change, and 0.011256321V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 5.6176643E-5, Dt = 2.6128671E-7 s
+
+Time: 5.643793E-5, Dt = 2.6128671E-7 s
+
+Time: 5.6699217E-5, Dt = 2.6128671E-7 s
+
+Time: 5.6960504E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -4.4821768E-8 A total,
+        -4.4821768E-8 A on node0,   	
+
+Time 5.722179E-5 s => POTENTIALS: 
+ -1.0733578 V on SC ground (node0),	
+      -1.0733497 V on top of node0,	
+      -1.0733788 Vmin onTopOfNode0,	
+      -1.0733384 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 5.722179E-5
+ PICVolDistrib ions1: 135977 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 76844 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.0045247423V maximum change, and 3.7088944E-4V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0V maximum change, and 0.0V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 5.722179E-5, Dt = 2.6128671E-7 s
+
+Time: 5.7483077E-5, Dt = 2.6128671E-7 s
+
+Time: 5.7744364E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -9.6946884E-8 A total,
+        -9.6946884E-8 A on node0,   	
+
+Time 5.800565E-5 s => POTENTIALS: 
+ -1.0809928 V on SC ground (node0),	
+      -1.0809838 V on top of node0,	
+      -1.0810138 Vmin onTopOfNode0,	
+      -1.0809734 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 5.800565E-5
+ PICVolDistrib ions1: 137530 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 76879 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.0039298898V maximum change, and 3.0759475E-4V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0036674738V maximum change, and 0.0036664107V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 5.800565E-5, Dt = 2.6128671E-7 s
+
+Time: 5.8266938E-5, Dt = 2.6128671E-7 s
+
+Time: 5.8528225E-5, Dt = 2.6128671E-7 s
+
+Time: 5.8789512E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -6.5189035E-8 A total,
+        -6.5189035E-8 A on node0,   	
+
+Time 5.90508E-5 s => POTENTIALS: 
+ -1.0878282 V on SC ground (node0),	
+      -1.0878195 V on top of node0,	
+      -1.0878491 Vmin onTopOfNode0,	
+      -1.0878087 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 5.90508E-5
+ PICVolDistrib ions1: 139562 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 76996 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.0069276094V maximum change, and 0.003135466V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0V maximum change, and 0.0V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 5.90508E-5, Dt = 2.6128671E-7 s
+
+Time: 5.9312086E-5, Dt = 2.6128671E-7 s
+
+Time: 5.9573373E-5, Dt = 2.6128671E-7 s
+
+Time: 5.9834656E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -1.0566136E-7 A total,
+        -1.0566136E-7 A on node0,   	
+
+Time 6.0095943E-5 s => POTENTIALS: 
+ -1.0989127 V on SC ground (node0),	
+      -1.0989045 V on top of node0,	
+      -1.0989337 Vmin onTopOfNode0,	
+      -1.0988933 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 6.0095943E-5
+ PICVolDistrib ions1: 141612 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 77080 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.0065916777V maximum change, and 0.0030889846V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0V maximum change, and 0.0V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 6.0095943E-5, Dt = 2.6128671E-7 s
+
+Time: 6.035723E-5, Dt = 2.6128671E-7 s
+
+Time: 6.0618517E-5, Dt = 2.6128671E-7 s
+
+Time: 6.0879804E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -1.446877E-7 A total,
+        -1.446877E-7 A on node0,   	
+
+Time 6.1141094E-5 s => POTENTIALS: 
+ -1.1140159 V on SC ground (node0),	
+      -1.1140072 V on top of node0,	
+      -1.1140369 Vmin onTopOfNode0,	
+      -1.1139965 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 6.1141094E-5
+ PICVolDistrib ions1: 143631 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 77204 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.015411496V maximum change, and 0.0066294502V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0V maximum change, and 0.0V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 6.1141094E-5, Dt = 2.6128671E-7 s
+
+Time: 6.140238E-5, Dt = 2.6128671E-7 s
+
+Time: 6.166367E-5, Dt = 2.6128671E-7 s
+
+Time: 6.1924955E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -5.7801852E-8 A total,
+        -5.7801852E-8 A on node0,   	
+
+Time 6.2186235E-5 s => POTENTIALS: 
+ -1.1200868 V on SC ground (node0),	
+      -1.1200789 V on top of node0,	
+      -1.1201078 Vmin onTopOfNode0,	
+      -1.1200674 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 6.2186235E-5
+ PICVolDistrib ions1: 145679 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 77179 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.0057133688V maximum change, and 3.0309526E-4V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0040385723V maximum change, and 0.004037271V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 6.2186235E-5, Dt = 2.6128671E-7 s
+
+Time: 6.244752E-5, Dt = 2.6128671E-7 s
+
+Time: 6.270881E-5, Dt = 2.6128671E-7 s
+
+Time: 6.2970095E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -2.0686176E-7 A total,
+        -2.0686176E-7 A on node0,   	
+
+Time 6.323138E-5 s => POTENTIALS: 
+ -1.1417538 V on SC ground (node0),	
+      -1.1417453 V on top of node0,	
+      -1.1417748 Vmin onTopOfNode0,	
+      -1.1417344 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 6.323138E-5
+ PICVolDistrib ions1: 147738 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 77223 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.0032148361V maximum change, and 0.001407777V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.011067271V maximum change, and 0.0110647995V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 6.323138E-5, Dt = 2.6128671E-7 s
+
+Time: 6.349267E-5, Dt = 2.6128671E-7 s
+
+Time: 6.3753956E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -5.796508E-8 A total,
+        -5.796508E-8 A on node0,   	
+
+Time 6.401524E-5 s => POTENTIALS: 
+ -1.1463171 V on SC ground (node0),	
+      -1.146309 V on top of node0,	
+      -1.1463381 Vmin onTopOfNode0,	
+      -1.1462977 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 6.401524E-5
+ PICVolDistrib ions1: 149263 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 77324 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.0051073628V maximum change, and 3.8158122E-4V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0V maximum change, and 0.0V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 6.401524E-5, Dt = 2.6128671E-7 s
+
+Time: 6.427653E-5, Dt = 2.6128671E-7 s
+
+Time: 6.453782E-5, Dt = 2.6128671E-7 s
+
+Time: 6.4799104E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -1.4373866E-7 A total,
+        -1.4373866E-7 A on node0,   	
+
+Time 6.506039E-5 s => POTENTIALS: 
+ -1.1809186 V on SC ground (node0),	
+      -1.1809075 V on top of node0,	
+      -1.1828912 Vmin onTopOfNode0,	
+      -1.1722835 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 6.506039E-5
+ PICVolDistrib ions1: 151309 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 77346 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.0036844015V maximum change, and 0.0015806815V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.006234169V maximum change, and 0.006233107V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 6.506039E-5, Dt = 2.6128671E-7 s
+
+Time: 6.532168E-5, Dt = 2.6128671E-7 s
+
+Time: 6.5582964E-5, Dt = 2.6128671E-7 s
+
+Time: 6.584425E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -4.4208306E-8 A total,
+        -4.4208306E-8 A on node0,   	
+
+Time 6.610554E-5 s => POTENTIALS: 
+ -1.185559 V on SC ground (node0),	
+      -1.1855476 V on top of node0,	
+      -1.1875317 Vmin onTopOfNode0,	
+      -1.176924 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 6.610554E-5
+ PICVolDistrib ions1: 153349 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 77484 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.0027724784V maximum change, and 3.140454E-4V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0V maximum change, and 0.0V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 6.610554E-5, Dt = 2.6128671E-7 s
+
+Time: 6.6366825E-5, Dt = 2.6128671E-7 s
+
+Time: 6.662811E-5, Dt = 2.6128671E-7 s
+
+Time: 6.68894E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -8.229863E-8 A total,
+        -8.229863E-8 A on node0,   	
+
+Time 6.7150686E-5 s => POTENTIALS: 
+ -1.1942015 V on SC ground (node0),	
+      -1.1941891 V on top of node0,	
+      -1.1961741 Vmin onTopOfNode0,	
+      -1.1855664 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 6.7150686E-5
+ PICVolDistrib ions1: 155401 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 77524 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.003244657V maximum change, and 3.1539198E-4V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0053362846V maximum change, and 0.0053349845V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 6.7150686E-5, Dt = 2.6128671E-7 s
+
+Time: 6.741197E-5, Dt = 2.6128671E-7 s
+
+Time: 6.767326E-5, Dt = 2.6128671E-7 s
+
+Time: 6.793455E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -1.11685026E-7 A total,
+        -1.11685026E-7 A on node0,   	
+
+Time 6.819583E-5 s => POTENTIALS: 
+ -1.2058917 V on SC ground (node0),	
+      -1.2058805 V on top of node0,	
+      -1.2078644 Vmin onTopOfNode0,	
+      -1.1972567 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 6.819583E-5
+ PICVolDistrib ions1: 157443 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 77653 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.010668993V maximum change, and 0.0046439045V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0010240078V maximum change, and 0.0010229337V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 6.819583E-5, Dt = 2.6128671E-7 s
+
+Time: 6.845712E-5, Dt = 2.6128671E-7 s
+
+Time: 6.871841E-5, Dt = 2.6128671E-7 s
+
+Time: 6.8979694E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -6.934764E-10 A total,
+        -6.934764E-10 A on node0,   	
+
+Time 6.924098E-5 s => POTENTIALS: 
+ -1.2059624 V on SC ground (node0),	
+      -1.205951 V on top of node0,	
+      -1.2079351 Vmin onTopOfNode0,	
+      -1.1973274 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 6.924098E-5
+ PICVolDistrib ions1: 159507 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 77664 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.004319243V maximum change, and 3.0714629E-4V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0V maximum change, and 0.0V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 6.924098E-5, Dt = 2.6128671E-7 s
+
+Time: 6.950227E-5, Dt = 2.6128671E-7 s
+
+Time: 6.9763555E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: 0.0 A total,
+        0.0 A on node0,   	
+
+Time 7.002484E-5 s => POTENTIALS: 
+ -1.2059624 V on SC ground (node0),	
+      -1.205951 V on top of node0,	
+      -1.2079351 Vmin onTopOfNode0,	
+      -1.1973274 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 7.002484E-5
+ PICVolDistrib ions1: 161044 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 77593 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.0042196084V maximum change, and 4.3832965E-4V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0V maximum change, and 0.0V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 7.002484E-5, Dt = 2.6128671E-7 s
+
+Time: 7.028613E-5, Dt = 2.6128671E-7 s
+
+Time: 7.0547416E-5, Dt = 2.6128671E-7 s
+
+Time: 7.08087E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -4.007655E-8 A total,
+        -4.007655E-8 A on node0,   	
+
+Time 7.106999E-5 s => POTENTIALS: 
+ -1.2101704 V on SC ground (node0),	
+      -1.2101587 V on top of node0,	
+      -1.2121431 Vmin onTopOfNode0,	
+      -1.2015353 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 7.106999E-5
+ PICVolDistrib ions1: 163084 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 77636 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.004022684V maximum change, and 0.0016138037V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 3.322363E-4V maximum change, and 3.3140456E-4V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 7.106999E-5, Dt = 2.6128671E-7 s
+
+Time: 7.133128E-5, Dt = 2.6128671E-7 s
+
+Time: 7.159256E-5, Dt = 2.6128671E-7 s
+
+Time: 7.185384E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -8.509184E-8 A total,
+        -8.509184E-8 A on node0,   	
+
+Time 7.211513E-5 s => POTENTIALS: 
+ -1.219097 V on SC ground (node0),	
+      -1.2190856 V on top of node0,	
+      -1.2210697 Vmin onTopOfNode0,	
+      -1.2104619 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 7.211513E-5
+ PICVolDistrib ions1: 165092 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 77622 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.0034605162V maximum change, and 5.3871673E-4V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0V maximum change, and 0.0V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 7.211513E-5, Dt = 2.6128671E-7 s
+
+Time: 7.237642E-5, Dt = 2.6128671E-7 s
+
+Time: 7.2637704E-5, Dt = 2.6128671E-7 s
+
+Time: 7.289899E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -6.3139034E-8 A total,
+        -6.3139034E-8 A on node0,   	
+
+Time 7.316028E-5 s => POTENTIALS: 
+ -1.2257178 V on SC ground (node0),	
+      -1.2257062 V on top of node0,	
+      -1.2276905 Vmin onTopOfNode0,	
+      -1.2170826 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 7.316028E-5
+ PICVolDistrib ions1: 167105 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 77567 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.002765756V maximum change, and 2.5189662E-4V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0V maximum change, and 0.0V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 7.316028E-5, Dt = 2.6128671E-7 s
+
+Time: 7.3421565E-5, Dt = 2.6128671E-7 s
+
+Time: 7.368285E-5, Dt = 2.6128671E-7 s
+
+Time: 7.394414E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -6.090633E-8 A total,
+        -6.090633E-8 A on node0,   	
+
+Time 7.4205425E-5 s => POTENTIALS: 
+ -1.2320937 V on SC ground (node0),	
+      -1.2320818 V on top of node0,	
+      -1.2340664 Vmin onTopOfNode0,	
+      -1.2234585 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 7.4205425E-5
+ PICVolDistrib ions1: 169124 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 77591 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.0036327336V maximum change, and 0.0013109093V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0052785873V maximum change, and 0.005277523V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 7.4205425E-5, Dt = 2.6128671E-7 s
+
+Time: 7.446671E-5, Dt = 2.6128671E-7 s
+
+Time: 7.4728E-5, Dt = 2.6128671E-7 s
+
+Time: 7.4989286E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -1.5127266E-7 A total,
+        -1.5127266E-7 A on node0,   	
+
+Time 7.525057E-5 s => POTENTIALS: 
+ -1.2479665 V on SC ground (node0),	
+      -1.2479552 V on top of node0,	
+      -1.2499392 Vmin onTopOfNode0,	
+      -1.2393314 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 7.525057E-5
+ PICVolDistrib ions1: 171189 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 77642 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.0049443245V maximum change, and 0.0022034154V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0051732063V maximum change, and 0.0051720254V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 7.525057E-5, Dt = 2.6128671E-7 s
+
+Time: 7.551186E-5, Dt = 2.6128671E-7 s
+
+Time: 7.577315E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -1.5058147E-8 A total,
+        -1.5058147E-8 A on node0,   	
+
+Time 7.6034434E-5 s => POTENTIALS: 
+ -1.2491488 V on SC ground (node0),	
+      -1.249138 V on top of node0,	
+      -1.2511215 Vmin onTopOfNode0,	
+      -1.2405137 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 7.6034434E-5
+ PICVolDistrib ions1: 172709 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 77563 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.0054672984V maximum change, and 0.0015460338V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.004011035V maximum change, and 0.0040097362V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 7.6034434E-5, Dt = 2.6128671E-7 s
+
+Time: 7.629572E-5, Dt = 2.6128671E-7 s
+
+Time: 7.655701E-5, Dt = 2.6128671E-7 s
+
+Time: 7.6818294E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -1.0357067E-7 A total,
+        -1.0357067E-7 A on node0,   	
+
+Time 7.707958E-5 s => POTENTIALS: 
+ -1.260009 V on SC ground (node0),	
+      -1.2599981 V on top of node0,	
+      -1.2619817 Vmin onTopOfNode0,	
+      -1.2513739 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 7.707958E-5
+ PICVolDistrib ions1: 174727 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 77609 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.0030501988V maximum change, and 3.8007248E-4V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0V maximum change, and 0.0V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 7.707958E-5, Dt = 2.6128671E-7 s
+
+Time: 7.734087E-5, Dt = 2.6128671E-7 s
+
+Time: 7.7602155E-5, Dt = 2.6128671E-7 s
+
+Time: 7.786344E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -7.02055E-8 A total,
+        -7.02055E-8 A on node0,   	
+
+Time 7.812473E-5 s => POTENTIALS: 
+ -1.2673681 V on SC ground (node0),	
+      -1.267357 V on top of node0,	
+      -1.2693408 Vmin onTopOfNode0,	
+      -1.2587329 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 7.812473E-5
+ PICVolDistrib ions1: 176743 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 77658 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.005035002V maximum change, and 3.260043E-4V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.007361412V maximum change, and 0.0073590484V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 7.812473E-5, Dt = 2.6128671E-7 s
+
+Time: 7.8386016E-5, Dt = 2.6128671E-7 s
+
+Time: 7.86473E-5, Dt = 2.6128671E-7 s
+
+Time: 7.890859E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -7.9243385E-8 A total,
+        -7.9243385E-8 A on node0,   	
+
+Time 7.916988E-5 s => POTENTIALS: 
+ -1.2756723 V on SC ground (node0),	
+      -1.27566 V on top of node0,	
+      -1.277645 Vmin onTopOfNode0,	
+      -1.2670372 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 7.916988E-5
+ PICVolDistrib ions1: 178758 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 77481 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.0043060016V maximum change, and 4.0971776E-4V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0V maximum change, and 0.0V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 7.916988E-5, Dt = 2.6128671E-7 s
+
+Time: 7.943116E-5, Dt = 2.6128671E-7 s
+
+Time: 7.969245E-5, Dt = 2.6128671E-7 s
+
+Time: 7.995374E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -3.3021873E-8 A total,
+        -3.3021873E-8 A on node0,   	
+
+Time 8.0215024E-5 s => POTENTIALS: 
+ -1.2791404 V on SC ground (node0),	
+      -1.2791295 V on top of node0,	
+      -1.281113 Vmin onTopOfNode0,	
+      -1.2705052 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 8.0215024E-5
+ PICVolDistrib ions1: 180792 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 77457 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.0035526939V maximum change, and 2.971306E-4V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0034691095V maximum change, and 0.0034680464V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 8.0215024E-5, Dt = 2.6128671E-7 s
+
+Time: 8.047631E-5, Dt = 2.6128671E-7 s
+
+Time: 8.07376E-5, Dt = 2.6128671E-7 s
+
+Time: 8.0998885E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -7.307313E-8 A total,
+        -7.307313E-8 A on node0,   	
+
+Time 8.1260165E-5 s => POTENTIALS: 
+ -1.2867988 V on SC ground (node0),	
+      -1.2867873 V on top of node0,	
+      -1.2887715 Vmin onTopOfNode0,	
+      -1.2781637 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 8.1260165E-5
+ PICVolDistrib ions1: 182800 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 77549 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.0076595545V maximum change, and 0.0035632232V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0V maximum change, and 0.0V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 8.1260165E-5, Dt = 2.6128671E-7 s
+
+Time: 8.152145E-5, Dt = 2.6128671E-7 s
+
+Time: 8.178274E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -1.2676624E-7 A total,
+        -1.2676624E-7 A on node0,   	
+
+Time 8.2044025E-5 s => POTENTIALS: 
+ -1.2967668 V on SC ground (node0),	
+      -1.2967548 V on top of node0,	
+      -1.2987394 Vmin onTopOfNode0,	
+      -1.2881316 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 8.2044025E-5
+ PICVolDistrib ions1: 184312 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 77470 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.0048666V maximum change, and 0.002022768V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.005105257V maximum change, and 0.0051038396V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 8.2044025E-5, Dt = 2.6128671E-7 s
+
+Time: 8.230531E-5, Dt = 2.6128671E-7 s
+
+Time: 8.25666E-5, Dt = 2.6128671E-7 s
+
+Time: 8.2827886E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -6.941108E-8 A total,
+        -6.941108E-8 A on node0,   	
+
+Time 8.308917E-5 s => POTENTIALS: 
+ -1.3040403 V on SC ground (node0),	
+      -1.304029 V on top of node0,	
+      -1.306013 Vmin onTopOfNode0,	
+      -1.2954051 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 8.308917E-5
+ PICVolDistrib ions1: 186319 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 77440 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.007829785V maximum change, and 0.0034371624V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 5.545616E-4V maximum change, and 5.536134E-4V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 8.308917E-5, Dt = 2.6128671E-7 s
+
+Time: 8.335046E-5, Dt = 2.6128671E-7 s
+
+Time: 8.361175E-5, Dt = 2.6128671E-7 s
+
+Time: 8.3873034E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: 0.0 A total,
+        0.0 A on node0,   	
+
+Time 8.413432E-5 s => POTENTIALS: 
+ -1.3040403 V on SC ground (node0),	
+      -1.304029 V on top of node0,	
+      -1.306013 Vmin onTopOfNode0,	
+      -1.2954051 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 8.413432E-5
+ PICVolDistrib ions1: 188327 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 77328 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.0053652236V maximum change, and 3.4996812E-4V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0V maximum change, and 0.0V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 8.413432E-5, Dt = 2.6128671E-7 s
+
+Time: 8.439561E-5, Dt = 2.6128671E-7 s
+
+Time: 8.4656895E-5, Dt = 2.6128671E-7 s
+
+Time: 8.491818E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -4.6095632E-8 A total,
+        -4.6095632E-8 A on node0,   	
+
+Time 8.517947E-5 s => POTENTIALS: 
+ -1.308878 V on SC ground (node0),	
+      -1.3088664 V on top of node0,	
+      -1.3108506 Vmin onTopOfNode0,	
+      -1.3002428 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 8.517947E-5
+ PICVolDistrib ions1: 190333 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 77385 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.005437428V maximum change, and 2.978117E-4V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0V maximum change, and 0.0V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 8.517947E-5, Dt = 2.6128671E-7 s
+
+Time: 8.5440755E-5, Dt = 2.6128671E-7 s
+
+Time: 8.570204E-5, Dt = 2.6128671E-7 s
+
+Time: 8.596333E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -6.816816E-8 A total,
+        -6.816816E-8 A on node0,   	
+
+Time 8.6224616E-5 s => POTENTIALS: 
+ -1.3160306 V on SC ground (node0),	
+      -1.3160201 V on top of node0,	
+      -1.3180033 Vmin onTopOfNode0,	
+      -1.3073955 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 8.6224616E-5
+ PICVolDistrib ions1: 192336 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 77286 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.0030751638V maximum change, and 2.5820296E-4V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0V maximum change, and 0.0V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 8.6224616E-5, Dt = 2.6128671E-7 s
+
+Time: 8.64859E-5, Dt = 2.6128671E-7 s
+
+Time: 8.674719E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -2.3069406E-7 A total,
+        -2.3069406E-7 A on node0,   	
+
+Time 8.700848E-5 s => POTENTIALS: 
+ -1.3341573 V on SC ground (node0),	
+      -1.3341463 V on top of node0,	
+      -1.33613 Vmin onTopOfNode0,	
+      -1.3255222 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 8.700848E-5
+ PICVolDistrib ions1: 193848 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 77318 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.011364579V maximum change, and 0.005285855V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0034974813V maximum change, and 0.0034965524V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 8.700848E-5, Dt = 2.6128671E-7 s
+
+Time: 8.7269764E-5, Dt = 2.6128671E-7 s
+
+Time: 8.753105E-5, Dt = 2.6128671E-7 s
+
+Time: 8.779234E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: 0.0 A total,
+        0.0 A on node0,   	
+
+Time 8.8053624E-5 s => POTENTIALS: 
+ -1.3341573 V on SC ground (node0),	
+      -1.3341463 V on top of node0,	
+      -1.33613 Vmin onTopOfNode0,	
+      -1.3255222 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 8.8053624E-5
+ PICVolDistrib ions1: 195843 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 77286 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.00636202V maximum change, and 3.213789E-4V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0V maximum change, and 0.0V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 8.8053624E-5, Dt = 2.6128671E-7 s
+
+Time: 8.831491E-5, Dt = 2.6128671E-7 s
+
+Time: 8.85762E-5, Dt = 2.6128671E-7 s
+
+Time: 8.8837485E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -7.002339E-8 A total,
+        -7.002339E-8 A on node0,   	
+
+Time 8.909877E-5 s => POTENTIALS: 
+ -1.3415099 V on SC ground (node0),	
+      -1.3414985 V on top of node0,	
+      -1.3434826 Vmin onTopOfNode0,	
+      -1.3328748 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 8.909877E-5
+ PICVolDistrib ions1: 197853 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 77268 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.0031654024V maximum change, and 2.8969985E-4V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0V maximum change, and 0.0V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 8.909877E-5, Dt = 2.6128671E-7 s
+
+Time: 8.936006E-5, Dt = 2.6128671E-7 s
+
+Time: 8.9621346E-5, Dt = 2.6128671E-7 s
+
+Time: 8.988263E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -7.29937E-8 A total,
+        -7.29937E-8 A on node0,   	
+
+Time 9.014392E-5 s => POTENTIALS: 
+ -1.3491662 V on SC ground (node0),	
+      -1.3491547 V on top of node0,	
+      -1.3511388 Vmin onTopOfNode0,	
+      -1.340531 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 9.014392E-5
+ PICVolDistrib ions1: 199847 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 77185 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.0044612717V maximum change, and 3.093632E-4V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.006460786V maximum change, and 0.006458901V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 9.014392E-5, Dt = 2.6128671E-7 s
+
+Time: 9.040521E-5, Dt = 2.6128671E-7 s
+
+Time: 9.066649E-5, Dt = 2.6128671E-7 s
+
+Time: 9.092777E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -6.9030925E-8 A total,
+        -6.9030925E-8 A on node0,   	
+
+Time 9.118906E-5 s => POTENTIALS: 
+ -1.3564024 V on SC ground (node0),	
+      -1.3563906 V on top of node0,	
+      -1.3583751 Vmin onTopOfNode0,	
+      -1.3477672 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 9.118906E-5
+ PICVolDistrib ions1: 201839 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 77206 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.007238269V maximum change, and 0.0031544287V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0V maximum change, and 0.0V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 9.118906E-5, Dt = 2.6128671E-7 s
+
+Time: 9.145035E-5, Dt = 2.6128671E-7 s
+
+Time: 9.1711634E-5, Dt = 2.6128671E-7 s
+
+Time: 9.197292E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: 2.717484E-8 A total,
+        2.717484E-8 A on node0,   	
+
+Time 9.223421E-5 s => POTENTIALS: 
+ -1.3535455 V on SC ground (node0),	
+      -1.3535348 V on top of node0,	
+      -1.3555182 Vmin onTopOfNode0,	
+      -1.3449104 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 9.223421E-5
+ PICVolDistrib ions1: 203855 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 77185 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.0040851794V maximum change, and 3.032288E-4V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0066082478V maximum change, and 0.0066069476V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 9.223421E-5, Dt = 2.6128671E-7 s
+
+Time: 9.2495495E-5, Dt = 2.6128671E-7 s
+
+Time: 9.275678E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -1.4681406E-7 A total,
+        -1.4681406E-7 A on node0,   	
+
+Time 9.301807E-5 s => POTENTIALS: 
+ -1.3677025 V on SC ground (node0),	
+      -1.3676921 V on top of node0,	
+      -1.3696752 Vmin onTopOfNode0,	
+      -1.3590673 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 9.301807E-5
+ PICVolDistrib ions1: 205368 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 77248 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.0044480544V maximum change, and 3.150752E-4V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0102728605V maximum change, and 0.010271017V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 9.301807E-5, Dt = 2.6128671E-7 s
+
+Time: 9.3279355E-5, Dt = 2.6128671E-7 s
+
+Time: 9.354064E-5, Dt = 2.6128671E-7 s
+
+Time: 9.380193E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -1.052508E-7 A total,
+        -1.052508E-7 A on node0,   	
+
+Time 9.4063216E-5 s => POTENTIALS: 
+ -1.378743 V on SC ground (node0),	
+      -1.3787317 V on top of node0,	
+      -1.3807157 Vmin onTopOfNode0,	
+      -1.3701079 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 9.4063216E-5
+ PICVolDistrib ions1: 207336 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 77211 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.003973484V maximum change, and 0.0017109596V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0V maximum change, and 0.0V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 9.4063216E-5, Dt = 2.6128671E-7 s
+
+Time: 9.43245E-5, Dt = 2.6128671E-7 s
+
+Time: 9.458579E-5, Dt = 2.6128671E-7 s
+
+Time: 9.484708E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -7.820183E-8 A total,
+        -7.820183E-8 A on node0,   	
+
+Time 9.5108364E-5 s => POTENTIALS: 
+ -1.3869368 V on SC ground (node0),	
+      -1.3869268 V on top of node0,	
+      -1.3889095 Vmin onTopOfNode0,	
+      -1.3783016 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 9.5108364E-5
+ PICVolDistrib ions1: 209336 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 77258 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.0052215243V maximum change, and 3.568331E-4V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.008195281V maximum change, and 0.008193753V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 9.5108364E-5, Dt = 2.6128671E-7 s
+
+Time: 9.536965E-5, Dt = 2.6128671E-7 s
+
+Time: 9.563094E-5, Dt = 2.6128671E-7 s
+
+Time: 9.5892225E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -8.411561E-8 A total,
+        -8.411561E-8 A on node0,   	
+
+Time 9.615351E-5 s => POTENTIALS: 
+ -1.3957669 V on SC ground (node0),	
+      -1.3957549 V on top of node0,	
+      -1.3977395 Vmin onTopOfNode0,	
+      -1.3871317 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 9.615351E-5
+ PICVolDistrib ions1: 211329 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 77271 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.0055287387V maximum change, and 3.0722693E-4V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0044585466V maximum change, and 0.0044570123V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 9.615351E-5, Dt = 2.6128671E-7 s
+
+Time: 9.64148E-5, Dt = 2.6128671E-7 s
+
+Time: 9.6676085E-5, Dt = 2.6128671E-7 s
+
+Time: 9.693737E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: 0.0 A total,
+        0.0 A on node0,   	
+
+Time 9.719866E-5 s => POTENTIALS: 
+ -1.3957669 V on SC ground (node0),	
+      -1.3957549 V on top of node0,	
+      -1.3977395 Vmin onTopOfNode0,	
+      -1.3871317 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 9.719866E-5
+ PICVolDistrib ions1: 213318 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 77256 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.0039911037V maximum change, and 3.2433638E-4V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.0V maximum change, and 0.0V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 9.719866E-5, Dt = 2.6128671E-7 s
+
+Time: 9.7459946E-5, Dt = 2.6128671E-7 s
+
+Time: 9.772123E-5, Dt = 2.6128671E-7 s
+
+Time: 9.798252E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -8.491733E-8 A total,
+        -8.491733E-8 A on node0,   	
+
+Time 9.824381E-5 s => POTENTIALS: 
+ -1.4046794 V on SC ground (node0),	
+      -1.4046682 V on top of node0,	
+      -1.4066521 Vmin onTopOfNode0,	
+      -1.3960443 Vmax onTopOfNode0,	
+
+Monitoring numerics of simulation at time 9.824381E-5
+ PICVolDistrib ions1: 215307 particles, last numerical time step used = 2.6128671E-7s (max allowed = 1.1155712E-5s)
+ PICVolDistrib elec1: 77155 particles, last numerical time step used = 2.6128671E-7s (max allowed = 2.6128671E-7s)
+ Last local volume potential change: 0.003570512V maximum change, and 0.0011922978V average change (last plasma time step = 2.6128671E-7s)
+ SC local surface potential change: 0.003412962V maximum change, and 0.0034120164V average change
+  SC capacitance = 1.0E-11F, last time step = 2.6128671E-7s
+
+Time: 9.824381E-5, Dt = 2.6128671E-7 s
+
+Time: 9.8505094E-5, Dt = 2.6128671E-7 s
+
+Time: 9.876638E-5, Dt = 2.6128671E-7 s
+
+In this time interval: 
+  COLLECTED current: -9.46858E-8 A total,
+        -9.46858E-8 A on node0,   	
+
+Time 9.902767E-5 s => POTENTIALS: 
+ -1.4121205 V on SC 

@@ -1,0 +1,7 @@
+# Data for basic eclipse exit
+# 1 st column is time (Unit: [s]), 2nd column is relative sun flux wrt to global definition (Unit : [-])
+0.0     0.0
+1000.0  0.0
+1060.0  1.0
+10000.0 1.0
+

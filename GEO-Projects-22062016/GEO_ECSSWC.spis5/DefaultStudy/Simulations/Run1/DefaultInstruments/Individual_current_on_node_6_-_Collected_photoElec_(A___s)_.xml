@@ -1,0 +1,80 @@
+<org.keridwen.modelling.global.parameters.GlobalParametersList>
+  <id>-1</id>
+  <name></name>
+  <description></description>
+  <category></category>
+  <list>
+    <GlobalParameter>
+      <keyName>instrumentSamplePeriod</keyName>
+      <category>Mandatory parameters</category>
+      <typeAString>float</typeAString>
+      <valueAsFloat>100.0</valueAsFloat>
+      <valueAsDouble>0.0</valueAsDouble>
+      <valueAsInt>0</valueAsInt>
+      <valueAsBoolean>false</valueAsBoolean>
+      <unit>[s]</unit>
+      <description>sampling period</description>
+      <verbosityLevel>LOW</verbosityLevel>
+    </GlobalParameter>
+    <GlobalParameter>
+      <keyName>instrumentOutputLevel</keyName>
+      <category>Mandatory parameters</category>
+      <typeAString>int</typeAString>
+      <valueAsFloat>0.0</valueAsFloat>
+      <valueAsDouble>0.0</valueAsDouble>
+      <valueAsInt>0</valueAsInt>
+      <valueAsBoolean>false</valueAsBoolean>
+      <unit>[-]</unit>
+      <description>level of outputs (0 = nominal; 1 = extra ASCII files</description>
+      <verbosityLevel>LOW</verbosityLevel>
+    </GlobalParameter>
+    <GlobalParameter>
+      <keyName>instrumentObservationDuration</keyName>
+      <category>Mandatory parameters</category>
+      <typeAString>float</typeAString>
+      <valueAsFloat>100.0</valueAsFloat>
+      <valueAsDouble>0.0</valueAsDouble>
+      <valueAsInt>0</valueAsInt>
+      <valueAsBoolean>false</valueAsBoolean>
+      <unit>[s]</unit>
+      <description>observation duration</description>
+      <verbosityLevel>LOW</verbosityLevel>
+    </GlobalParameter>
+    <GlobalParameter>
+      <keyName>instrumentESN</keyName>
+      <category>Mandatory parameters</category>
+      <typeAString>int</typeAString>
+      <valueAsFloat>0.0</valueAsFloat>
+      <valueAsDouble>0.0</valueAsDouble>
+      <valueAsInt>6</valueAsInt>
+      <valueAsBoolean>false</valueAsBoolean>
+      <unit>[-]</unit>
+      <description>SC electrical super node Id of the instrument </description>
+      <verbosityLevel>LOW</verbosityLevel>
+    </GlobalParameter>
+    <GlobalParameter>
+      <keyName>instrumentCollectedDistribId</keyName>
+      <category>Mandatory parameters</category>
+      <typeAString>int</typeAString>
+      <valueAsFloat>0.0</valueAsFloat>
+      <valueAsDouble>0.0</valueAsDouble>
+      <valueAsInt>2</valueAsInt>
+      <valueAsBoolean>false</valueAsBoolean>
+      <unit>[-]</unit>
+      <description>collected distribution to monitor, index in the list of populations</description>
+      <verbosityLevel>LOW</verbosityLevel>
+    </GlobalParameter>
+    <GlobalParameter>
+      <keyName>instrumentEmittedDistribId</keyName>
+      <category>Mandatory parameters</category>
+      <typeAString>int</typeAString>
+      <valueAsFloat>0.0</valueAsFloat>
+      <valueAsDouble>0.0</valueAsDouble>
+      <valueAsInt>-1</valueAsInt>
+      <valueAsBoolean>false</valueAsBoolean>
+      <unit>[-]</unit>
+      <description>collected distribution to monitor, index in the list of populations</description>
+      <verbosityLevel>LOW</verbosityLevel>
+    </GlobalParameter>
+  </list>
+</org.keridwen.modelling.global.parameters.GlobalParametersList>

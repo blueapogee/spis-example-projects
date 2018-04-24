@@ -1,0 +1,150 @@
+Default output path for SPIS/NUM set to /d/mateo/scr1/Felix/data/SPIS-SCIENCE-TestSequence5.spis5/DefaultStudy/Simulations/Run1/NumKernel/Output/
+Default input path for SPIS/NUM set to /d/mateo/scr1/Felix/data/SPIS-SCIENCE-TestSequence5.spis5/DefaultStudy/Simulations/Run1/NumKernel/Input/
+Serialising object of type [Lspis.Top.Default.GlobalParameter; in file /d/mateo/scr1/Felix/data/SPIS-SCIENCE-TestSequence5.spis5/DefaultStudy/Simulations/Run1/NumKernel/Output/globalParOut.gp
+Serialising object of type [Lspis.Top.Default.LocalParameter; in file /d/mateo/scr1/Felix/data/SPIS-SCIENCE-TestSequence5.spis5/DefaultStudy/Simulations/Run1/NumKernel/Output/localParOut.lp
+Serialising object of type [Lspis.Surf.SurfInteract.GenericParamSet; in file /d/mateo/scr1/Felix/data/SPIS-SCIENCE-TestSequence5.spis5/DefaultStudy/Simulations/Run1/NumKernel/Output/genericParamSetsOut.gps
+Starting building simulation from UI parameters
+Local parameter Id 0 is VolInteracFlag
+Local parameter Id 1 is BackGroundDens
+Local parameter Id 2 is ImposedEmittedCurrentFlagOnWire
+Local parameter Id 3 is ImposedCollectedCurrentDensityOnWire
+Local parameter Id 4 is ElecSecEmisOnWire
+Local parameter Id 5 is ImposedEmittedCurrentFlag
+Local parameter Id 6 is ImposedEmittedCurrentDensity
+Local parameter Id 7 is ImposedCollectedCurrentFlagOnWire
+Local parameter Id 8 is ProtSecEmis
+Local parameter Id 9 is ImposedCollectedCurrentFlag
+Local parameter Id 10 is ImposedEmittedCurrentDensityOnWire
+Local parameter Id 11 is ProtSecEmisOnWire
+Local parameter Id 12 is ElecSecEmis
+Local parameter Id 13 is PhotoEmisOnWire
+Local parameter Id 14 is ImposedCollectedCurrentDensity
+Local parameter Id 15 is SunFluxOnWire
+Local parameter Id 16 is PhotoEmis
+Local parameter Id 17 is SunFlux
+Local parameter Id 18 is ElecNodeId
+Local parameter Id 19 is EdgeElecNodeId
+Local parameter Id 20 is VolConduct
+Local parameter Id 21 is IndConduct
+Local parameter Id 22 is SurfConduct
+Local parameter Id 23 is SCFourAlpha
+Local parameter Id 24 is SCDiriFlag
+Local parameter Id 25 is SCFourValue
+Local parameter Id 26 is SCDiriPot
+Local parameter Id 27 is SCFourFlag
+Local parameter Id 28 is SCDiriPotSurf
+Local parameter Id 29 is SCDiriPotEdge
+Local parameter Id 30 is Temperature
+Local parameter Id 31 is MatThickness
+Local parameter Id 32 is EdgeRadiusS
+Local parameter Id 33 is SurfThicknessS
+Local parameter Id 34 is SourceMachOnWire
+Local parameter Id 35 is SourceMach
+Local parameter Id 36 is SourceIdOnWire
+Local parameter Id 37 is SourceTemp
+Local parameter Id 38 is SourceCurrent
+Local parameter Id 39 is SourceId
+Local parameter Id 40 is SourceIdOnWire
+Local parameter Id 41 is SourceTempOnWire
+Local parameter Id 42 is MatModelId
+Local parameter Id 43 is MatModelIdOnEdge
+Local parameter Id 44 is InstrumentSupport
+Local parameter Id 45 is OutgoPart
+Local parameter Id 46 is IncomPart
+Local parameter Id 47 is BdFourValue
+Local parameter Id 48 is BdFourAlpha
+Local parameter Id 49 is BdFourFlag
+Local parameter Id 50 is BdDiriPot
+Local parameter Id 51 is BdDiriFlag
+Local parameter Id 52 is MatTypeIdOnEdge
+Local parameter Id 53 is MatTypeId
+Local parameter Id 54 is MatTypeIdOnEdge
+Local parameter Id 55 is MatTypeId
+Local parameter Id 56 is MatTypeIdOnEdge
+Local parameter Id 57 is MatTypeId
+Local parameter Id 58 is MatTypeIdOnEdge
+Local parameter Id 59 is MatTypeId
+Local parameter Id 60 is MatTypeIdOnEdge
+Local parameter Id 61 is MatTypeId
+Local parameter Id 62 is MatTypeIdOnEdge
+Local parameter Id 63 is MatTypeId
+Local parameter Id 64 is MatTypeIdOnEdge
+Local parameter Id 65 is MatTypeId
+Local parameter Id 66 is MatTypeIdOnEdge
+Local parameter Id 67 is MatTypeId
+Local parameter Id 68 is MatTypeIdOnEdge
+Local parameter Id 69 is MatTypeId
+Local parameter Id 70 is MatTypeIdOnEdge
+Local parameter Id 71 is MatTypeId
+Local parameter Id 72 is MatTypeIdOnEdge
+Local parameter Id 73 is MatTypeId
+Local parameter Id 74 is MatTypeIdOnEdge
+Local parameter Id 75 is MatTypeId
+Local parameter Id 76 is MatTypeIdOnEdge
+Local parameter Id 77 is MatTypeId
+Local parameter Id 78 is MatTypeIdOnEdge
+Local parameter Id 79 is MatTypeId
+Local parameter Id 80 is MatTypeIdOnEdge
+Local parameter Id 81 is MatTypeId
+Local parameter Id 82 is MatTypeIdOnEdge
+Local parameter Id 83 is MatTypeId
+Local parameter Id 84 is MatTypeIdOnEdge
+Local parameter Id 85 is MatTypeId
+Local parameter Id 86 is MatTypeIdOnEdge
+Local parameter Id 87 is MatTypeId
+Local parameter Id 88 is MatTypeIdOnEdge
+Local parameter Id 89 is MatTypeId
+Local parameter Id 90 is MatTypeIdOnEdge
+Local parameter Id 91 is MatTypeId
+Local parameter Id 92 is MatTypeIdOnEdge
+Local parameter Id 93 is MatTypeId
+Local parameter Id 94 is MatTypeIdOnEdge
+Local parameter Id 95 is MatTypeId
+Local parameter Id 96 is MatTypeIdOnEdge
+Local parameter Id 97 is MatTypeId
+Local parameter Id 98 is MatTypeIdOnEdge
+Local parameter Id 99 is MatTypeId
+Local parameter Id 100 is MatTypeIdOnEdge
+Local parameter Id 101 is MatTypeId
+Local parameter Id 102 is MatTypeIdOnEdge
+Local parameter Id 103 is MatTypeId
+Local parameter Id 104 is MatTypeIdOnEdge
+Local parameter Id 105 is MatTypeId
+Simulation was built from UI parameters
+spacecraft surface : 0.059999973m2
+Parameter refPot not found in global parameter list = returning default value: 1.0 
+Parameter ionMagnetized not found in global parameter list = returning default value: 1
+Large spacecraft velocity wrt to population ions1 --> included in population velocity in SC reference frame
+Number of threads runs in parallel for particle pushing: 4
+Population of ions1 successfully created (type spis.Vol.VolDistrib.PICVolDistrib)
+Parameter electronMagnetized not found in global parameter list = returning default value: 1
+Population of elec1 (type GlobalMaxwellBoltzmannVolDistrib) could not be created with an EField (electric field with singularity handling close to wires and thin plates),
+ which is not necessarily a problem for some types (e.g. GlobalMaxwellBoltzmannVolDistrib)
+ => Trying now to create it with a basic VolField as electric field (no singularity handling)
+Large spacecraft velocity wrt to population elec1 --> included in population velocity in SC reference frame
+Population of elec1 successfully created (type spis.Vol.VolDistrib.GlobalMaxwellBoltzmannVolDistrib)
+Parameter ionMagnetized2 not found in global parameter list = returning default value: 1
+Population of ions2 not created because its density was defined as 0
+Parameter electronMagnetized2 not found in global parameter list = returning default value: 1
+Population of elec2 not created because its density was defined as 0
+Missing properties from list :
+  1) SUBE
+GenericParamSet: input Erosion property is missing or inapropriate for ITOC-NASCAP => this parameter is set to the default typical value (5 eV)
+Circuit file nocircuit.txt not found, => no component between electrical nodes
+Warning: parameter not found to build volume interactor: Parameter volInteract not found in global parameter list (multiple volume interactors still possible)
+maximal potential induced by the v cross b field on spacecraft surface : 0.0V
+minimal potential induced by the v cross b field on spacecraft surface : 0.0V
+maximal potential induced by the v cross b field on plasma volume : 0.0V
+minimal potential induced by the v cross b field on plasma volume : 0.0V
+Transition : transition1SpinningSpacecraft is turned onPop 0 is ions1 type spis.Vol.VolDistrib.PICVolDistrib particle type H+
+ -> with density 1.0E9m-3
+ -> with temperature 0.1eV
+Pop 1 is elec1 type spis.Vol.VolDistrib.GlobalMaxwellBoltzmannVolDistrib particle type electron
+Plasma integration duration is : 0.0010
+Plasma integration time step is : 2.0E-4
+Parameter instrumentNb not found in global parameter list = returning default value: 0
+Particle detector Langmuir probe id34 successfully built => effective area = 2.2500001E-4 m2 on 24 surface elements
+Particle detector Langmuir probe id34 IV sweeps re-initialized (from saved project)
+Particle detector Langmuir probe id35 successfully built => effective area = 2.25E-4 m2 on 24 surface elements
+Particle detector Langmuir probe id35 IV sweeps re-initialized (from saved project)
+Particle detector Langmuir probe id36 successfully built => eff

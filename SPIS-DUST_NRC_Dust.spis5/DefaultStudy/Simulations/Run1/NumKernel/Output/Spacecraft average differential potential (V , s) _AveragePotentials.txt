@@ -1,0 +1,2 @@
+Time (s), average differential potential (V), average absolute potential (V)
+1.8067176, 0.039767563, 2.2787316

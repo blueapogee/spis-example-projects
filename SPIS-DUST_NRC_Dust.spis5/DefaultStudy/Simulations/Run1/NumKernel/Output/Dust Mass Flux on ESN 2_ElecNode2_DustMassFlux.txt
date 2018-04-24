@@ -1,0 +1,1 @@
+Time (s), esn 2 net current (amu), esn 2 collected current (amu), esn 2 emitted current (amu)

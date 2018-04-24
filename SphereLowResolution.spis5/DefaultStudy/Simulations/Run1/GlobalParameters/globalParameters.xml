@@ -1,0 +1,1517 @@
+<list>
+  <GlobalParameter>
+    <keyName>scPotMonitorStep</keyName>
+    <category>Outputs</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>-100.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[s]</unit>
+    <description>time step for spacecraft ground potential monitoring (0 =&gt; none, -n =&gt; n times)</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>densityLogPlotCutoff</keyName>
+    <category>Outputs</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0010</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[ecu/m3]</unit>
+    <description>cutoff for density log plots</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>plasmaPotMapMonitorStep</keyName>
+    <category>Outputs</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>-10.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[s]</unit>
+    <description>time step for plasma potential monitoring (0 =&gt; none, -n =&gt; n times)</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>poissonVerbose</keyName>
+    <category>Outputs</category>
+    <typeAString>int</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>3</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>None</unit>
+    <description>Same as verbose, but specific to Poisson solver</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>verbose</keyName>
+    <category>Outputs</category>
+    <typeAString>int</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>3</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>None</unit>
+    <description>Verbosity level (level of screen messages about code execution)</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>scPotMapMonitorStep</keyName>
+    <category>Outputs</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>-10.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[s]</unit>
+    <description>time step for spacecraft local potential monitoring (0 =&gt; none, -n =&gt; n times)</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>finalCumulation</keyName>
+    <category>Outputs</category>
+    <typeAString>int</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>2</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>None</unit>
+    <description>cumulate currents and densities at the end of simulation ? 0=no, 1or2=yes</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>exportAllDataFields</keyName>
+    <category>Outputs</category>
+    <typeAString>String</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsString>None</valueAsString>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>None</unit>
+    <description>Select the export mode for all data fields (None=no export, ASCII=ASCII multi-files)</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>exportDensity</keyName>
+    <category>Outputs</category>
+    <typeAString>String</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsString>None</valueAsString>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>None</unit>
+    <description>Select the export mode for density data fields (None=no export, ASCII=ASCII multi-files)</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>currentLogPlotFlag</keyName>
+    <category>Outputs</category>
+    <typeAString>int</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>2</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>None</unit>
+    <description>plot log10 of currents? 0=no, 1=yes(log only), 2=both</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>densitiesMapsMonitorStep</keyName>
+    <category>Outputs</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>-10.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[s]</unit>
+    <description>time step for densities monitoring (0 =&gt; none, -n =&gt; n times)</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>particleTrajectoriesNb</keyName>
+    <category>Outputs</category>
+    <typeAString>int</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>None</unit>
+    <description>number of particle trajectories per PIC population</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>finalCumulationStartTime</keyName>
+    <category>Outputs</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.5</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[s] or [-]</unit>
+    <description>if finalCumulation=1 starting time for final dens-current cumulation, if finalCumulation=2 fraction of the simulation at which cumulation starts</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>densityLogPlotFlag</keyName>
+    <category>Outputs</category>
+    <typeAString>int</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>2</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>None</unit>
+    <description>plot log10 of densities? 0=no, 1=yes(log only), 2=both</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>scCurrentMapMonitorStep</keyName>
+    <category>Outputs</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>-10.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[s]</unit>
+    <description>time step for spacecraft local currents monitoring (0 =&gt; none, -n =&gt; n times)</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>numericsMonitorStep</keyName>
+    <category>Outputs</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>-100.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[s]</unit>
+    <description>time step for numerical behaviour monitoring (0.0 =&gt; none, -n =&gt; n times)</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>currentLogPlotCutoff</keyName>
+    <category>Outputs</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>1.0E-12</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[A/m2]</unit>
+    <description>cutoff for current log plots</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>exportPotential</keyName>
+    <category>Outputs</category>
+    <typeAString>String</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsString>None</valueAsString>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>None</unit>
+    <description>Select the export mode for potential data fields (None=no export, ASCII=ASCII multi-files)</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>materialPropertyPlots</keyName>
+    <category>Outputs</category>
+    <typeAString>int</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>1</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>None</unit>
+    <description>flag for plotting material properties: 0=no, 1=yes</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>cumulateBetweenSteps</keyName>
+    <category>Outputs</category>
+    <typeAString>int</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>1</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>None</unit>
+    <description>cumulate currents and densities between monitoring steps for improved statistics (0=no, 1=yes(improved only), 2=both)?</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>inPop2VolInteract</keyName>
+    <category>Volume Interactions</category>
+    <typeAString>String</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsString>fractionOfFirstPopSource</valueAsString>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>None</unit>
+    <description>Defines second interacting population (e.g. neutrals for CEX), must be one of ions1, ions2, elec1, elec2, source1... source4, photoElec, secondElec</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>crossSectionVolInteract</keyName>
+    <category>Volume Interactions</category>
+    <typeAString>String</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsString>1.0e-18</valueAsString>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[m2] or None</unit>
+    <description>Cross section for volume interaction, either a float (its value [m2]) or the name of the file describing sigma(E)</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>outPop2DtVolInteract</keyName>
+    <category>Volume Interactions</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>-1.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[s]</unit>
+    <description>Maximum integration time step for first population produced in volume interaction (automatic if negative)</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>outPart2VolInteract</keyName>
+    <category>Volume Interactions</category>
+    <typeAString>String</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsString>Xe</valueAsString>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>None</unit>
+    <description>Type of particles for second population produced in volume interaction</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>volInteract</keyName>
+    <category>Volume Interactions</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>None</unit>
+    <description>Flag to turn on volume interaction: 0 =&gt; off, 1 =&gt; on, x&gt;0 =&gt; on, superparticles densified by x</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>outPop1DtVolInteract</keyName>
+    <category>Volume Interactions</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>-1.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[s]</unit>
+    <description>Maximum integration time step for first population produced in volume interaction (automatic if negative)</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>parameter3VolInteract</keyName>
+    <category>Volume Interactions</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[variable]</unit>
+    <description>3rd parameter of volume interactor</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>outPop1SpeedUpVolInteract</keyName>
+    <category>Volume Interactions</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>1.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[-]</unit>
+    <description>Numerical times speed-up factor for first population produced in volume interaction</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>outPop2SpeedUpVolInteract</keyName>
+    <category>Volume Interactions</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>1.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[-]</unit>
+    <description>Numerical times speed-up factor for first population produced in volume interaction</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>inPop1VolInteract</keyName>
+    <category>Volume Interactions</category>
+    <typeAString>String</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsString>source1</valueAsString>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>None</unit>
+    <description>Defines first interacting population (e.g. ions for CEX), must be one of ions1, ions2, elec1, elec2, source1... source4, photoElec, secondElec</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>inPart2VolInteract</keyName>
+    <category>Volume Interactions</category>
+    <typeAString>String</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsString>Xe</valueAsString>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>None</unit>
+    <description>Type of particles for second interacting population</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>parameter2VolInteract</keyName>
+    <category>Volume Interactions</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.1</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[variable]</unit>
+    <description>2nd parameter of volume interactor</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>parameter1VolInteract</keyName>
+    <category>Volume Interactions</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.05</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[variable]</unit>
+    <description>1st parameter of volume interactor</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>inPart1VolInteract</keyName>
+    <category>Volume Interactions</category>
+    <typeAString>String</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsString>Xe+</valueAsString>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>None</unit>
+    <description>Type of particles for first interacting population</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>outPart1VolInteract</keyName>
+    <category>Volume Interactions</category>
+    <typeAString>String</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsString>Xe+</valueAsString>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>None</unit>
+    <description>Type of particles for first population produced in volume interaction</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>volInteractType</keyName>
+    <category>Volume Interactions</category>
+    <typeAString>String</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsString>CEXInteractor</valueAsString>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>None</unit>
+    <description>Type of volume interaction, UI-buildable class name derived from VolInteract</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>electronDistrib2</keyName>
+    <category>Plasma</category>
+    <typeAString>String</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsString>PICVolDistrib</valueAsString>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>None</unit>
+    <description>Name of the VolDistrib class to be used for the 2nd electron population</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>ionVx2</keyName>
+    <category>Plasma</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[m/s]</unit>
+    <description>Ion drift velocity along x axis (2nd population)</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>ionDensity</keyName>
+    <category>Plasma</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>1000000.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[m-3]</unit>
+    <description>Ion density (1st population)</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>ionDistrib</keyName>
+    <category>Plasma</category>
+    <typeAString>String</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsString>PICVolDistrib</valueAsString>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>None</unit>
+    <description>Name of the VolDistrib class to be used for ions</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>ionType2</keyName>
+    <category>Plasma</category>
+    <typeAString>String</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsString>H+</valueAsString>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>None</unit>
+    <description>Second ion population</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>ionType</keyName>
+    <category>Plasma</category>
+    <typeAString>String</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsString>H+</valueAsString>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>None</unit>
+    <description>First ion population</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>ionVz</keyName>
+    <category>Plasma</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[m/s]</unit>
+    <description>Ion drift velocity along z axis (1st population)</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>electronDt2</keyName>
+    <category>Plasma</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>-1.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[s]</unit>
+    <description>Maximum integration time step for electron 2nd population (automatic if negative)</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>ionDt2</keyName>
+    <category>Plasma</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>-1.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[s]</unit>
+    <description>Maximum integration time step for ion 2nd population (automatic if negative)</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>avPartNbPerCell</keyName>
+    <category>Plasma</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>5.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>None</unit>
+    <description>average number of super-particle per cell</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>ionSpeedUp</keyName>
+    <category>Plasma</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>1.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[-]</unit>
+    <description>Numerical times speed-up factor for ion 1st population</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>environmentType</keyName>
+    <category>Plasma</category>
+    <typeAString>String</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsString>BiMaxwellianEnvironment</valueAsString>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>None</unit>
+    <description>Name of the Environment class to be used</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>electronDensity</keyName>
+    <category>Plasma</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>1000000.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[m-3]</unit>
+    <description>Electron density (1st population)</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>ionDensity2</keyName>
+    <category>Plasma</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[#/m3]</unit>
+    <description>Ion density (2nd population)</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>ionTemperature</keyName>
+    <category>Plasma</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>1.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[eV]</unit>
+    <description>Ion temperature (1st population)</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>electronTemperature2</keyName>
+    <category>Plasma</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>1000.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[eV]</unit>
+    <description>Electron temperature(2nd population)</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>ionVy</keyName>
+    <category>Plasma</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[m/s]</unit>
+    <description>Ion drift velocity along y axis (1st population)</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>ionVy2</keyName>
+    <category>Plasma</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[m/s]</unit>
+    <description>Ion drift velocity along y axis (2nd population)</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>ionVx</keyName>
+    <category>Plasma</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[m/s]</unit>
+    <description>Ion drift velocity along x axis (1st population)</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>electronDt</keyName>
+    <category>Plasma</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>-1.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[s]</unit>
+    <description>Maximum integration time step for electron 1st population (automatic if negative)</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>electronDensity2</keyName>
+    <category>Plasma</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[#/m3]</unit>
+    <description>Electron density (2nd population)</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>ionDistrib2</keyName>
+    <category>Plasma</category>
+    <typeAString>String</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsString>PICVolDistrib</valueAsString>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>None</unit>
+    <description>Name of the VolDistrib class to be used for ions 2nd population</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>ionVz2</keyName>
+    <category>Plasma</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[m/s]</unit>
+    <description>Ion drift velocity along z axis (2nd population)</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>electronDistrib</keyName>
+    <category>Plasma</category>
+    <typeAString>String</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsString>PICVolDistrib</valueAsString>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>None</unit>
+    <description>Name of the VolDistrib class to be used for electrons</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>ionTemperature2</keyName>
+    <category>Plasma</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>1000.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[eV]</unit>
+    <description>Ion temperature (2nd population)</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>ionSpeedUp2</keyName>
+    <category>Plasma</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>1.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[-]</unit>
+    <description>Numerical times speed-up factor for ion 2nd population</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>ionDt</keyName>
+    <category>Plasma</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>-1.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[s]</unit>
+    <description>Maximum integration time step for ion 1st population (automatic if negative)</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>electronTemperature</keyName>
+    <category>Plasma</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>1.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[eV]</unit>
+    <description>Electron temperature(1st population)</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>electronSpeedUp</keyName>
+    <category>Plasma</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>1.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[-]</unit>
+    <description>Numerical times speed-up factor for electron 1st population</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>electronSpeedUp2</keyName>
+    <category>Plasma</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>1.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[-]</unit>
+    <description>Numerical times speed-up factor for electron 2nd population</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>poissonBCParameter2</keyName>
+    <category>Poisson equation</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[varies]</unit>
+    <description>2nd parameter that can be used by some BC types</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>tolGradientNl</keyName>
+    <category>Poisson equation</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>1.0E-4</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[-]</unit>
+    <description>Tolerance for conjugate gradient Poisson Solver when non-linear solving</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>linearPoisson</keyName>
+    <category>Poisson equation</category>
+    <typeAString>int</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>1</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>None</unit>
+    <description>if 1 linear Poisson solver, if 0 non-linear</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>iterGradient</keyName>
+    <category>Poisson equation</category>
+    <typeAString>int</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>100</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>None</unit>
+    <description>Maximum iteration number for conjugate gradient Poisson Solver</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>iterNewton</keyName>
+    <category>Poisson equation</category>
+    <typeAString>int</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>50</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>None</unit>
+    <description>Maximum iteration number for Newton algorithm in non-linear Poisson solving</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>poissonBCParameter1</keyName>
+    <category>Poisson equation</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[varies]</unit>
+    <description>Parameter that can be used by some BC types (e.g. 1/rn exponent)</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>tolNewton</keyName>
+    <category>Poisson equation</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.02</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[-]</unit>
+    <description>Tolerance for Newton algorithm loop in non-linear Poisson solving</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>tolGradient</keyName>
+    <category>Poisson equation</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>1.0E-4</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[-]</unit>
+    <description>Tolerance for conjugate gradient Poisson Solver</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>iterGradientNl</keyName>
+    <category>Poisson equation</category>
+    <typeAString>int</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>100</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>None</unit>
+    <description>Maximum iteration number for conjugate gradient non-linear Poisson Solver</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>poissonBCType</keyName>
+    <category>Poisson equation</category>
+    <typeAString>int</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>2</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>None</unit>
+    <description>Poisson boundary conditions type, see documentation</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>Bz</keyName>
+    <category>B Field</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[T]</unit>
+    <description>z-component of the magnetic field</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>Bx</keyName>
+    <category>B Field</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[T]</unit>
+    <description>x-component of the magnetic field (uniform over the computation box)</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>By</keyName>
+    <category>B Field</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[T]</unit>
+    <description>y-component of the magnetic field</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>volumeConductivity</keyName>
+    <category>Surface Interactions</category>
+    <typeAString>int</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>None</unit>
+    <description>if 0 no volume conductivity, if 1 volume conductivity turned on</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>secondarySpeedUp</keyName>
+    <category>Surface Interactions</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>1.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[-]</unit>
+    <description>Numerical times speed-up factor for all types of secondary electrons</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>photoElectronTemperature</keyName>
+    <category>Surface Interactions</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>2.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[eV]</unit>
+    <description>photo-electron temperature</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>electronSecondaryEmission</keyName>
+    <category>Surface Interactions</category>
+    <typeAString>int</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>None</unit>
+    <description>bits go by groups of 3 (bit0=on/off, bit1=simulate_secondary_elec_dynamics/don t, bit2=allow_secondaries_of-secondaries/don t), while groups of 3 bits are for ambient population 1, ambient population 2, source 1, source 2, source 3 and source 4 resp.</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>secondaryDt</keyName>
+    <category>Surface Interactions</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>-1.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[s]</unit>
+    <description>Maximum integration time step for all types of secondary electrons (automatic if negative)</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>surfaceConductivity</keyName>
+    <category>Surface Interactions</category>
+    <typeAString>int</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>None</unit>
+    <description>if 0 no surface conductivity, if 1 surface conductivity turned on</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>secondaryTemperature</keyName>
+    <category>Surface Interactions</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>2.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[eV]</unit>
+    <description>secondary electron temperature (from electron impact)</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>sunX</keyName>
+    <category>Surface Interactions</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[-]</unit>
+    <description>x-component of sun direction</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>sunZ</keyName>
+    <category>Surface Interactions</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>1.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[-]</unit>
+    <description>z-component of sun direction</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>protonSecondaryEmission</keyName>
+    <category>Surface Interactions</category>
+    <typeAString>int</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>None</unit>
+    <description>if 0, no secondary emission, if 1, secondary emission turned on</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>secondaryFromProtonTemperature</keyName>
+    <category>Surface Interactions</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>2.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[eV]</unit>
+    <description>secondary electron temperature (from proton impact)</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>photoEmission</keyName>
+    <category>Surface Interactions</category>
+    <typeAString>int</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>None</unit>
+    <description>if 0 no photo-emission, if 1 photo-emission turned on, if 3 turned on with photo-electron dynamics modelling, iF 4 more (hence 5 or 7) uses user-locally-defined sun flux instead of sun direction</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>sunY</keyName>
+    <category>Surface Interactions</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[-]</unit>
+    <description>y-component of sun direction</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>inducedConductivity</keyName>
+    <category>Surface Interactions</category>
+    <typeAString>int</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>None</unit>
+    <description>if 0 no induced conductivity, if 1 induced conductivity turned on</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>plasmaSpeedUp</keyName>
+    <category>Simulation control</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>1.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[-]</unit>
+    <description>Numerical times speed-up factor for plasma (plasma dynamics is only integrated over a fraction 1/plasmaSpeedUp of actual physical time )</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>simulationDt</keyName>
+    <category>Simulation control</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[s]</unit>
+    <description>Time step for global simulation dynamics (semi-automatic if 0: determined by lower level time step = plasmaDt)</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>plasmaDt</keyName>
+    <category>Simulation control</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[s]</unit>
+    <description>Time step for global plasma dynamics (semi-automatic if 0: determined by lower level time step = smallest matter dt)</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>duration</keyName>
+    <category>Simulation control</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>1.0E-4</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[s]</unit>
+    <description>Duration of the simulation</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>plasmaUnderRelaxTimeCstt</keyName>
+    <category>Simulation control</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[s]</unit>
+    <description>under-relaxation time constant for plasma (default=0 =&gt; no under-relaxation)</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>initPot</keyName>
+    <category>Spacecraft</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[V]</unit>
+    <description>initial potential</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>sourceFlag3</keyName>
+    <category>Spacecraft</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[-]</unit>
+    <description>Flag for defining artificial source No 3 on the spacecraft: 0 =&gt; none, 1 =&gt; yes, x =&gt; number of super-particles densified by x</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>sourceFlag1</keyName>
+    <category>Spacecraft</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[-]</unit>
+    <description>Flag for defining artificial source No 1 on the spacecraft: 0 =&gt; none, 1 =&gt; yes, x =&gt; number of super-particles densified by x</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>sourceType1</keyName>
+    <category>Spacecraft</category>
+    <typeAString>String</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsString>LocalMaxwellSurfDistrib</valueAsString>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>None</unit>
+    <description>Name of the SurfDistrib class to be used on the spacecraft as source No 1</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>CSat</keyName>
+    <category>Spacecraft</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>1.0E-11</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[F]</unit>
+    <description>absolute spacecraft capacitance</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>electricCircuitFilename</keyName>
+    <category>Spacecraft</category>
+    <typeAString>String</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsString>circuit.txt</valueAsString>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>None</unit>
+    <description>File name of extra electric devices (RLCV)</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>sourceParticleType1</keyName>
+    <category>Spacecraft</category>
+    <typeAString>String</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsString>Xe+</valueAsString>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>None</unit>
+    <description>Type of particles emitted by source 1</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>sourceDt4</keyName>
+    <category>Spacecraft</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>-1.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[s]</unit>
+    <description>Maximum integration time step for particles from 4th source (automatic if negative)</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>sourceType2</keyName>
+    <category>Spacecraft</category>
+    <typeAString>String</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsString>MaxwellianThruster</valueAsString>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>None</unit>
+    <description>Name of the SurfDistrib class to be used on the spacecraft as source No 2</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>sourceFlag4</keyName>
+    <category>Spacecraft</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[-]</unit>
+    <description>Flag for defining artificial source No 4 on the spacecraft: 0 =&gt; none, 1 =&gt; yes, x =&gt; number of super-particles densified by x</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>electricCircuitIntegrate</keyName>
+    <category>Spacecraft</category>
+    <typeAString>int</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>1</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>None</unit>
+    <description>SC electric circuit integration: 0=no change, 1=floating</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>sourceFlag2</keyName>
+    <category>Spacecraft</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[-]</unit>
+    <description>Flag for defining artificial source No 2 on the spacecraft: 0 =&gt; none, 1 =&gt; yes, x =&gt; number of super-particles densified by x</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>sourceParticleType2</keyName>
+    <category>Spacecraft</category>
+    <typeAString>String</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsString>electron</valueAsString>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>None</unit>
+    <description>Type of particles emitted by source 2</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>sourceNb</keyName>
+    <category>Spacecraft</category>
+    <typeAString>int</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>4</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>None</unit>
+    <description>Number of particle sources: not to be modified in UI, but only in defaultGlobalParam.py if the number of sources is modified in defaultGlobalParam.py</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>sourceSpeedUp4</keyName>
+    <category>Spacecraft</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>1.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[-]</unit>
+    <description>Numerical times speed-up factor for 4th source population</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>sourceDt2</keyName>
+    <category>Spacecraft</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>-1.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[s]</unit>
+    <description>Maximum integration time step for particles from 2nd source (automatic if negative)</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>sourceSpeedUp2</keyName>
+    <category>Spacecraft</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>1.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[-]</unit>
+    <description>Numerical times speed-up factor for 2nd source population</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>sourceDt3</keyName>
+    <category>Spacecraft</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>-1.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[s]</unit>
+    <description>Maximum integration time step for particles from 3rd source (automatic if negative)</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>sourceDt1</keyName>
+    <category>Spacecraft</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>-1.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[s]</unit>
+    <description>Maximum integration time step for particles from 1st source (automatic if negative)</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>sourceType4</keyName>
+    <category>Spacecraft</category>
+    <typeAString>String</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsString>LocalMaxwellSurfDistrib</valueAsString>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>None</unit>
+    <description>Name of the SurfDistrib class to be used on the spacecraft as source No 4</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>sourceType3</keyName>
+    <category>Spacecraft</category>
+    <typeAString>String</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsString>LocalMaxwellSurfDistrib</valueAsString>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>None</unit>
+    <description>Name of the SurfDistrib class to be used on the spacecraft as source No 3</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>sourceParticleType3</keyName>
+    <category>Spacecraft</category>
+    <typeAString>String</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsString>Cs+</valueAsString>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>None</unit>
+    <description>Type of particles emitted by source 3</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>sourceParticleType4</keyName>
+    <category>Spacecraft</category>
+    <typeAString>String</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsString>In+</valueAsString>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>None</unit>
+    <description>Type of particles emitted by source 4</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>initPotFlag</keyName>
+    <category>Spacecraft</category>
+    <typeAString>int</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>0.0</valueAsDouble>
+    <valueAsInt>1</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>None</unit>
+    <description>flag to define initial pot: 0 =&gt; set to 0, 1 =&gt; set to global initPot, 2 =&gt; set to local potential defined as SC Dirichlet condition</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>sourceSpeedUp1</keyName>
+    <category>Spacecraft</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>1.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[-]</unit>
+    <description>Numerical times speed-up factor for 1st source population</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+  <GlobalParameter>
+    <keyName>sourceSpeedUp3</keyName>
+    <category>Spacecraft</category>
+    <typeAString>double</typeAString>
+    <valueAsFloat>0.0</valueAsFloat>
+    <valueAsDouble>1.0</valueAsDouble>
+    <valueAsInt>0</valueAsInt>
+    <valueAsBoolean>false</valueAsBoolean>
+    <unit>[-]</unit>
+    <description>Numerical times speed-up factor for 3rd source population</description>
+    <verbosityLevel>LOW</verbosityLevel>
+  </GlobalParameter>
+</list>

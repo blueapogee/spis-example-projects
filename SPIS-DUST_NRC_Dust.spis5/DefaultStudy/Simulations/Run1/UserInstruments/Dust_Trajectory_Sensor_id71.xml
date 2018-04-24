@@ -1,0 +1,177 @@
+<org.keridwen.modelling.global.parameters.GlobalParametersList>
+  <id>-1</id>
+  <name></name>
+  <description></description>
+  <category></category>
+  <list>
+    <GlobalParameter>
+      <keyName>instrumentSamplePeriod</keyName>
+      <category>Mandatory parameters</category>
+      <typeAString>float</typeAString>
+      <valueAsFloat>5.0</valueAsFloat>
+      <valueAsDouble>0.0</valueAsDouble>
+      <valueAsInt>0</valueAsInt>
+      <valueAsBoolean>false</valueAsBoolean>
+      <unit>[s]</unit>
+      <description>sampling period</description>
+      <verbosityLevel>LOW</verbosityLevel>
+    </GlobalParameter>
+    <GlobalParameter>
+      <keyName>instrumentOutputLevel</keyName>
+      <category>Mandatory parameters</category>
+      <typeAString>int</typeAString>
+      <valueAsFloat>0.0</valueAsFloat>
+      <valueAsDouble>0.0</valueAsDouble>
+      <valueAsInt>0</valueAsInt>
+      <valueAsBoolean>false</valueAsBoolean>
+      <unit>[-]</unit>
+      <description>level of outputs (0 = nominal; 1 = extra ASCII files)</description>
+      <verbosityLevel>LOW</verbosityLevel>
+    </GlobalParameter>
+    <GlobalParameter>
+      <keyName>instrumentPop</keyName>
+      <category>Mandatory parameters</category>
+      <typeAString>String</typeAString>
+      <valueAsFloat>0.0</valueAsFloat>
+      <valueAsDouble>0.0</valueAsDouble>
+      <valueAsInt>0</valueAsInt>
+      <valueAsString>dust</valueAsString>
+      <valueAsBoolean>false</valueAsBoolean>
+      <unit>[-]</unit>
+      <description>name of the population to observe</description>
+      <verbosityLevel>LOW</verbosityLevel>
+    </GlobalParameter>
+    <GlobalParameter>
+      <keyName>dustDefaultRadius</keyName>
+      <category>Mandatory parameters</category>
+      <typeAString>float</typeAString>
+      <valueAsFloat>5.0E-7</valueAsFloat>
+      <valueAsDouble>0.0</valueAsDouble>
+      <valueAsInt>0</valueAsInt>
+      <valueAsBoolean>false</valueAsBoolean>
+      <unit>[m]</unit>
+      <description>Dust radius</description>
+      <verbosityLevel>LOW</verbosityLevel>
+    </GlobalParameter>
+    <GlobalParameter>
+      <keyName>dustDefaultMass</keyName>
+      <category>Mandatory parameters</category>
+      <typeAString>float</typeAString>
+      <valueAsFloat>1.0E-15</valueAsFloat>
+      <valueAsDouble>0.0</valueAsDouble>
+      <valueAsInt>0</valueAsInt>
+      <valueAsBoolean>false</valueAsBoolean>
+      <unit>[kg]</unit>
+      <description>Dust mass</description>
+      <verbosityLevel>LOW</verbosityLevel>
+    </GlobalParameter>
+    <GlobalParameter>
+      <keyName>dustDefaultShape</keyName>
+      <category>Mandatory parameters</category>
+      <typeAString>float</typeAString>
+      <valueAsFloat>1.0</valueAsFloat>
+      <valueAsDouble>0.0</valueAsDouble>
+      <valueAsInt>0</valueAsInt>
+      <valueAsBoolean>false</valueAsBoolean>
+      <unit>[-]</unit>
+      <description>Dust shape factor</description>
+      <verbosityLevel>LOW</verbosityLevel>
+    </GlobalParameter>
+    <GlobalParameter>
+      <keyName>dustInitialPosition_x</keyName>
+      <category>Mandatory parameters</category>
+      <typeAString>float</typeAString>
+      <valueAsFloat>0.0</valueAsFloat>
+      <valueAsDouble>0.0</valueAsDouble>
+      <valueAsInt>0</valueAsInt>
+      <valueAsBoolean>false</valueAsBoolean>
+      <unit>[m]</unit>
+      <description>Dust initial x-coordinate</description>
+      <verbosityLevel>LOW</verbosityLevel>
+    </GlobalParameter>
+    <GlobalParameter>
+      <keyName>dustInitialPosition_y</keyName>
+      <category>Mandatory parameters</category>
+      <typeAString>float</typeAString>
+      <valueAsFloat>0.0</valueAsFloat>
+      <valueAsDouble>0.0</valueAsDouble>
+      <valueAsInt>0</valueAsInt>
+      <valueAsBoolean>false</valueAsBoolean>
+      <unit>[m]</unit>
+      <description>Dust initial y-coordinate</description>
+      <verbosityLevel>LOW</verbosityLevel>
+    </GlobalParameter>
+    <GlobalParameter>
+      <keyName>dustInitialPosition_z</keyName>
+      <category>Mandatory parameters</category>
+      <typeAString>float</typeAString>
+      <valueAsFloat>0.0</valueAsFloat>
+      <valueAsDouble>0.0</valueAsDouble>
+      <valueAsInt>0</valueAsInt>
+      <valueAsBoolean>false</valueAsBoolean>
+      <unit>[m]</unit>
+      <description>Dust initial z-coordinate</description>
+      <verbosityLevel>LOW</verbosityLevel>
+    </GlobalParameter>
+    <GlobalParameter>
+      <keyName>dustInitialVelocity_x</keyName>
+      <category>Mandatory parameters</category>
+      <typeAString>float</typeAString>
+      <valueAsFloat>0.0</valueAsFloat>
+      <valueAsDouble>0.0</valueAsDouble>
+      <valueAsInt>0</valueAsInt>
+      <valueAsBoolean>false</valueAsBoolean>
+      <unit>[m/s]</unit>
+      <description>Dust initial x-velocity</description>
+      <verbosityLevel>LOW</verbosityLevel>
+    </GlobalParameter>
+    <GlobalParameter>
+      <keyName>dustInitialVelocity_y</keyName>
+      <category>Mandatory parameters</category>
+      <typeAString>float</typeAString>
+      <valueAsFloat>0.0</valueAsFloat>
+      <valueAsDouble>0.0</valueAsDouble>
+      <valueAsInt>0</valueAsInt>
+      <valueAsBoolean>false</valueAsBoolean>
+      <unit>[m/s]</unit>
+      <description>Dust initial y-velocity</description>
+      <verbosityLevel>LOW</verbosityLevel>
+    </GlobalParameter>
+    <GlobalParameter>
+      <keyName>dustInitialVelocity_z</keyName>
+      <category>Mandatory parameters</category>
+      <typeAString>float</typeAString>
+      <valueAsFloat>1.0</valueAsFloat>
+      <valueAsDouble>0.0</valueAsDouble>
+      <valueAsInt>0</valueAsInt>
+      <valueAsBoolean>false</valueAsBoolean>
+      <unit>[m/s]</unit>
+      <description>Dust initial z-velocity</description>
+      <verbosityLevel>LOW</verbosityLevel>
+    </GlobalParameter>
+    <GlobalParameter>
+      <keyName>dustInitialCharge</keyName>
+      <category>Mandatory parameters</category>
+      <typeAString>float</typeAString>
+      <valueAsFloat>1.0E-14</valueAsFloat>
+      <valueAsDouble>0.0</valueAsDouble>
+      <valueAsInt>0</valueAsInt>
+      <valueAsBoolean>false</valueAsBoolean>
+      <unit>[C]</unit>
+      <description>Dust initial charge</description>
+      <verbosityLevel>LOW</verbosityLevel>
+    </GlobalParameter>
+    <GlobalParameter>
+      <keyName>instrumentSupportId</keyName>
+      <category>Mandatory parameters</category>
+      <typeAString>int</typeAString>
+      <valueAsFloat>0.0</valueAsFloat>
+      <valueAsDouble>0.0</valueAsDouble>
+      <valueAsInt>2</valueAsInt>
+      <valueAsBoolean>false</valueAsBoolean>
+      <unit>[-]</unit>
+      <description>index of the surface of origin used to set material ppties onto the dust (&quot; instrument&quot; support )</description>
+      <verbosityLevel>LOW</verbosityLevel>
+    </GlobalParameter>
+  </list>
+</org.keridwen.modelling.global.parameters.GlobalParametersList>

@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpisModel xsi:noNamespaceSchemaLocation="org-spis-dust-5.2.1-SNAPSHOT.xsd" version="1.0.0"
+creationDate="2016/09/30-10:32:16:847" lastUpdate="2016/09/30-10:32:39:475" owner="benj"
+group="benj" permission="777" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Project projectName="SPIS-DUST_NRC_Sheath2.spis5" projectState="org.spis.ui.data.mining"
+    currentProject="true">
+        <Description/>
+        <Study studyName="DefaultStudy">
+            <Description/>
+            <Preprocessing>
+                <Geometry>
+                    <GeometricalSystem/>
+                    <Instruments/>
+                </Geometry>
+                <Mesh>
+                    <GeometricalSystem>
+                        <Mesh name="3D_Crater_square_half.msh" format="gmsh.msh-2.2"
+                        creationDate="2016/09/30-10:32:16:856" lastUpdate="2016/09/30-10:32:39:475"
+                        owner="benj" group="benj" permission="777" main="false" isLocal="true">DefaultStudy/Preprocessing/Mesh/GeometricalSystem/3D_Crater_square_half.msh</Mesh>
+                        <Mesh name="3D_Crater_square_half.msh" format="gmsh.msh-2.2"
+                        creationDate="2016/09/30-10:32:16:863" lastUpdate="2016/09/30-10:32:39:475"
+                        owner="benj" group="benj" permission="777" main="true" isLocal="true">DefaultStudy/Preprocessing/Mesh/GeometricalSystem/3D_Crater_square_half.msh</Mesh>
+                    </GeometricalSystem>
+                    <Instruments/>
+                </Mesh>
+                <Datafields>
+                    <Datafield name="BackGroundDens" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:731"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/BackGroundDens.nc</Datafield>
+                    <Datafield name="VolInteracFlag" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:732"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/VolInteracFlag.nc</Datafield>
+                    <Datafield name="SurfFlag" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:732"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/SurfFlag.nc</Datafield>
+                    <Datafield name="Xyz" meshNode="3D_Crater_square_half.msh" format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1"
+                    creationDate="2016/09/30-10:32:23:732" lastUpdate="2016/09/30-10:32:39:475"
+                    owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/Xyz.nc</Datafield>
+                    <Datafield name="NodeFlag" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:732"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/NodeFlag.nc</Datafield>
+                    <Datafield name="EdgeFlag" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:732"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/EdgeFlag.nc</Datafield>
+                    <Datafield name="IncomPart" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:732"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/IncomPart.nc</Datafield>
+                    <Datafield name="OutgoPart" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:732"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/OutgoPart.nc</Datafield>
+                    <Datafield name="BdDiriFlag" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:732"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/BdDiriFlag.nc</Datafield>
+                    <Datafield name="BdFourAlpha" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:732"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/BdFourAlpha.nc</Datafield>
+                    <Datafield name="BdDiriPot" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:732"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/BdDiriPot.nc</Datafield>
+                    <Datafield name="BdFourValue" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:732"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/BdFourValue.nc</Datafield>
+                    <Datafield name="NodeFlagBd" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:732"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/NodeFlagBd.nc</Datafield>
+                    <Datafield name="BdFourFlag" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:732"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/BdFourFlag.nc</Datafield>
+                    <Datafield name="EdgeFlagBd" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:732"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/EdgeFlagBd.nc</Datafield>
+                    <Datafield name="XyzBd" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:732"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/XyzBd.nc</Datafield>
+                    <Datafield name="SurfFlagBd" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:732"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/SurfFlagBd.nc</Datafield>
+                    <Datafield name="ElecSecEmisOnWire" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:732"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/ElecSecEmisOnWire.nc</Datafield>
+                    <Datafield name="ImposedEmittedCurrentFlag" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:732"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/ImposedEmittedCurrentFlag.nc</Datafield>
+                    <Datafield name="SunFluxOnWire" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:732"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/SunFluxOnWire.nc</Datafield>
+                    <Datafield name="ImposedCollectedCurrentDensityOnWire" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:732"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/ImposedCollectedCurrentDensityOnWire.nc</Datafield>
+                    <Datafield name="PhotoEmisOnWire" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:733"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/PhotoEmisOnWire.nc</Datafield>
+                    <Datafield name="ProtSecEmisOnWire" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:733"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/ProtSecEmisOnWire.nc</Datafield>
+                    <Datafield name="ImposedCollectedCurrentFlag" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:733"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/ImposedCollectedCurrentFlag.nc</Datafield>
+                    <Datafield name="SunFlux" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:733"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/SunFlux.nc</Datafield>
+                    <Datafield name="ImposedEmittedCurrentDensity" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:733"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/ImposedEmittedCurrentDensity.nc</Datafield>
+                    <Datafield name="ProtSecEmis" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:733"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/ProtSecEmis.nc</Datafield>
+                    <Datafield name="ImposedEmittedCurrentDensityOnWire" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:733"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/ImposedEmittedCurrentDensityOnWire.nc</Datafield>
+                    <Datafield name="ImposedEmittedCurrentFlagOnWire" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:733"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/ImposedEmittedCurrentFlagOnWire.nc</Datafield>
+                    <Datafield name="ElecSecEmis" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:733"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/ElecSecEmis.nc</Datafield>
+                    <Datafield name="ImposedCollectedCurrentFlagOnWire" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:733"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/ImposedCollectedCurrentFlagOnWire.nc</Datafield>
+                    <Datafield name="PhotoEmis" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:733"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/PhotoEmis.nc</Datafield>
+                    <Datafield name="ImposedCollectedCurrentDensity" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:733"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/ImposedCollectedCurrentDensity.nc</Datafield>
+                    <Datafield name="EdgeElecNodeId" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:733"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/EdgeElecNodeId.nc</Datafield>
+                    <Datafield name="ElecNodeId" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:733"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/ElecNodeId.nc</Datafield>
+                    <Datafield name="IndConduct" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:733"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/IndConduct.nc</Datafield>
+                    <Datafield name="VolConduct" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:733"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/VolConduct.nc</Datafield>
+                    <Datafield name="SurfConduct" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:733"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/SurfConduct.nc</Datafield>
+                    <Datafield name="SCDiriFlag" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:733"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/SCDiriFlag.nc</Datafield>
+                    <Datafield name="SCDiriPot" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:733"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/SCDiriPot.nc</Datafield>
+                    <Datafield name="SCFourAlpha" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:733"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/SCFourAlpha.nc</Datafield>
+                    <Datafield name="SCFourValue" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:734"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/SCFourValue.nc</Datafield>
+                    <Datafield name="SCDiriPotEdge" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:734"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/SCDiriPotEdge.nc</Datafield>
+                    <Datafield name="SCDiriPotSurf" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:734"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/SCDiriPotSurf.nc</Datafield>
+                    <Datafield name="SCFourFlag" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:734"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/SCFourFlag.nc</Datafield>
+                    <Datafield name="Temperature" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:734"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/Temperature.nc</Datafield>
+                    <Datafield name="MatThickness" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:734"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/MatThickness.nc</Datafield>
+                    <Datafield name="SurfThicknessS" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:734"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/SurfThicknessS.nc</Datafield>
+                    <Datafield name="EdgeRadiusS" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:734"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/EdgeRadiusS.nc</Datafield>
+                    <Datafield name="SourceMachOnWire" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:734"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/SourceMachOnWire.nc</Datafield>
+                    <Datafield name="SourceCurrent" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:734"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/SourceCurrent.nc</Datafield>
+                    <Datafield name="SourceCurrentOnWire" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:734"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/SourceCurrentOnWire.nc</Datafield>
+                    <Datafield name="SourceId" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:734"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/SourceId.nc</Datafield>
+                    <Datafield name="SourceTempOnWire" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:734"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/SourceTempOnWire.nc</Datafield>
+                    <Datafield name="SourceMach" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:734"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/SourceMach.nc</Datafield>
+                    <Datafield name="SourceIdOnWire" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:734"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/SourceIdOnWire.nc</Datafield>
+                    <Datafield name="SourceTemp" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:734"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/SourceTemp.nc</Datafield>
+                    <Datafield name="MatModelId" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:734"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/MatModelId.nc</Datafield>
+                    <Datafield name="MatModelIdOnEdge" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:734"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/MatModelIdOnEdge.nc</Datafield>
+                    <Datafield name="MatTypeId" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:734"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/MatTypeId.nc</Datafield>
+                    <Datafield name="MatTypeIdOnEdge" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:734"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/MatTypeIdOnEdge.nc</Datafield>
+                    <Datafield name="XyzS" meshNode="3D_Crater_square_half.msh" format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1"
+                    creationDate="2016/09/30-10:32:23:735" lastUpdate="2016/09/30-10:32:39:475"
+                    owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/XyzS.nc</Datafield>
+                    <Datafield name="NodeFlagS" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:735"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/NodeFlagS.nc</Datafield>
+                    <Datafield name="EdgeFlagS" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:735"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/EdgeFlagS.nc</Datafield>
+                    <Datafield name="SurfFlagS" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:735"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/SurfFlagS.nc</Datafield>
+                    <Datafield name="InstrumentSupport" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:23:735"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/InstrumentSupport.nc</Datafield>
+                    <Datafield name="MatTypeIdForNum" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:33:118"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/MatTypeIdForNum.nc</Datafield>
+                    <Datafield name="MatTypeIdOnEdgeForNum" meshNode="3D_Crater_square_half.msh"
+                    format="com.artenum.penelope.plugin.netcdf.DataField-0.0.1" creationDate="2016/09/30-10:32:33:120"
+                    lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                    permission="777" isLocal="true">DefaultStudy/Preprocessing/Datafields/MatTypeIdOnEdgeForNum.nc</Datafield>
+                </Datafields>
+                <ElectricalCircuit>
+                    <ElectricalCircuit name="circuit.txt" format="org.keridwen.modelling.electrical.Circuit-5.0.0"
+                    creationDate="2016/09/30-10:32:16:930" lastUpdate="2016/09/30-10:32:39:475"
+                    owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Preprocessing/ElectricalCircuit/circuit.txt</ElectricalCircuit>
+                </ElectricalCircuit>
+                <Groups format="com.artenum.frida.Groups-0.0.1" creationDate="2016/09/30-10:32:23:735"
+                lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj" permission="777"
+                isLocal="true">DefaultStudy/Preprocessing/Groups//groups.xml</Groups>
+            </Preprocessing>
+            <Simulations>
+                <Run name="Run1" currentNode="false">
+                    <GlobalParameters format="org.keridwen.modelling.global.parameters.GlobalParameter-0.0.1"
+                    creationDate="2016/09/30-10:32:16:933" lastUpdate="2016/09/30-10:32:39:475"
+                    owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/GlobalParameters//globalParameters.xml</GlobalParameters>
+                    <OutputFolder>
+                        <DataFieldMonitored/>
+                        <DataFieldExtracted/>
+                        <Export/>
+                    </OutputFolder>
+                    <DefaultInstruments>
+                        <Instrument name="Number_of_ions1" format="org.spis.instruments.Instrument-0.0.1"
+                        instrumentType="Total_super_particle_number_sensor" instrumentCatalogueType="Plasma_Sensor"
+                        instrumentCategoryType="Number_of_macro_particles" creationDate="2016/09/30-10:32:17:656"
+                        lastUpdate="2016/09/30-10:32:39:475" owner="benj" group="benj"
+                        permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Number_of_ions1.xml</Instrument>
+                        <Instrument name="Number_of_elec1" format="org.spis.instruments.Instrument-0.0.1"
+                        instrumentType="Total_super_particle_number_sensor" instrumentCatalogueType="Plasma_Sensor"
+                        instrumentCategoryType="Number_of_macro_particles" creationDate="2016/09/30-10:32:17:657"
+                        lastUpdate="2016/09/30-10:32:39:476" owner="benj" group="benj"
+                        permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Number_of_elec1.xml</Instrument>
+                        <Instrument name="Number_of_photoElec" format="org.spis.instruments.Instrument-0.0.1"
+                        instrumentType="Total_super_particle_number_sensor" instrumentCatalogueType="Plasma_Sensor"
+                        instrumentCategoryType="Number_of_macro_particles" creationDate="2016/09/30-10:32:17:657"
+                        lastUpdate="2016/09/30-10:32:39:476" owner="benj" group="benj"
+                        permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Number_of_photoElec.xml</Instrument>
+                        <Instrument name="log10_of_Simulation_time_steps_(s_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Simulation_time_step"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Time_steps"
+                        creationDate="2016/09/30-10:32:17:658" lastUpdate="2016/09/30-10:32:39:476"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/log10_of_Simulation_time_steps_(s_._s)_.xml</Instrument>
+                        <Instrument name="Average_surface_potential_of_node_0_(V_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Surface_potential_of_an_electrical_super_node_:_average_(V)"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Average_surface_potential_on_nodes"
+                        creationDate="2016/09/30-10:32:17:658" lastUpdate="2016/09/30-10:32:39:476"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Average_surface_potential_of_node_0_(V_._s)_.xml</Instrument>
+                        <Instrument name="Average_surface_potential_of_node_1_(V_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Surface_potential_of_an_electrical_super_node_:_average_(V)"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Average_surface_potential_on_nodes"
+                        creationDate="2016/09/30-10:32:17:658" lastUpdate="2016/09/30-10:32:39:476"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Average_surface_potential_of_node_1_(V_._s)_.xml</Instrument>
+                        <Instrument name="Individual_current_on_node_0_-_Collected_ions1_(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_individual_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Individual_currents_on_node_0"
+                        creationDate="2016/09/30-10:32:17:659" lastUpdate="2016/09/30-10:32:39:476"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Individual_current_on_node_0_-_Collected_ions1_(A_._s)_.xml</Instrument>
+                        <Instrument name="Individual_current_on_node_0_-_Collected_elec1_(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_individual_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Individual_currents_on_node_0"
+                        creationDate="2016/09/30-10:32:17:660" lastUpdate="2016/09/30-10:32:39:476"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Individual_current_on_node_0_-_Collected_elec1_(A_._s)_.xml</Instrument>
+                        <Instrument name="Individual_current_on_node_0_-_Collected_photoElec_(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_individual_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Individual_currents_on_node_0"
+                        creationDate="2016/09/30-10:32:17:660" lastUpdate="2016/09/30-10:32:39:476"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Individual_current_on_node_0_-_Collected_photoElec_(A_._s)_.xml</Instrument>
+                        <Instrument name="Individual_current_on_node_0_-_Interactor_photoemission_(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_individual_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Individual_currents_on_node_0"
+                        creationDate="2016/09/30-10:32:17:660" lastUpdate="2016/09/30-10:32:39:476"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Individual_current_on_node_0_-_Interactor_photoemission_(A_._s)_.xml</Instrument>
+                        <Instrument name="Total_current_on_spacecraft_(A_._s)_" format="org.spis.instruments.Instrument-0.0.1"
+                        instrumentType="Total_current_on_spacecraft" instrumentCatalogueType="Plasma_Sensor"
+                        instrumentCategoryType="Total_currents_on_spacecraft" creationDate="2016/09/30-10:32:17:661"
+                        lastUpdate="2016/09/30-10:32:39:476" owner="benj" group="benj"
+                        permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Total_current_on_spacecraft_(A_._s)_.xml</Instrument>
+                        <Instrument name="Total_current_on_node_0_-_on_SC__(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Total_currents_on_spacecraft"
+                        creationDate="2016/09/30-10:32:17:661" lastUpdate="2016/09/30-10:32:39:476"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Total_current_on_node_0_-_on_SC__(A_._s)_.xml</Instrument>
+                        <Instrument name="Total_current_on_node_1_-_on_SC__(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Total_currents_on_spacecraft"
+                        creationDate="2016/09/30-10:32:17:661" lastUpdate="2016/09/30-10:32:39:476"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Total_current_on_node_1_-_on_SC__(A_._s)_.xml</Instrument>
+                        <Instrument name="Energy_of_ions1_(m-3.eV_._s)_" format="org.spis.instruments.Instrument-0.0.1"
+                        instrumentType="Total_energy_sensor" instrumentCatalogueType="Plasma_Sensor"
+                        instrumentCategoryType="Total_energy" creationDate="2016/09/30-10:32:17:662"
+                        lastUpdate="2016/09/30-10:32:39:476" owner="benj" group="benj"
+                        permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Energy_of_ions1_(m-3.eV_._s)_.xml</Instrument>
+                        <Instrument name="Energy_of_elec1_(m-3.eV_._s)_" format="org.spis.instruments.Instrument-0.0.1"
+                        instrumentType="Total_energy_sensor" instrumentCatalogueType="Plasma_Sensor"
+                        instrumentCategoryType="Total_energy" creationDate="2016/09/30-10:32:17:662"
+                        lastUpdate="2016/09/30-10:32:39:476" owner="benj" group="benj"
+                        permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Energy_of_elec1_(m-3.eV_._s)_.xml</Instrument>
+                        <Instrument name="Energy_of_photoElec_(m-3.eV_._s)_" format="org.spis.instruments.Instrument-0.0.1"
+                        instrumentType="Total_energy_sensor" instrumentCatalogueType="Plasma_Sensor"
+                        instrumentCategoryType="Total_energy" creationDate="2016/09/30-10:32:17:662"
+                        lastUpdate="2016/09/30-10:32:39:476" owner="benj" group="benj"
+                        permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Energy_of_photoElec_(m-3.eV_._s)_.xml</Instrument>
+                        <Instrument name="Variation_of_average_surface_potential_on_node_0_(s-1.V_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Surface_potential_of_an_electrical_super_node_:_time_variation_(V/s)"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Average_surface_potential_on_nodes:_time_variation"
+                        creationDate="2016/09/30-10:32:17:663" lastUpdate="2016/09/30-10:32:39:476"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Variation_of_average_surface_potential_on_node_0_(s-1.V_._s)_.xml</Instrument>
+                        <Instrument name="Variation_of_average_surface_potential_on_node_1_(s-1.V_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Surface_potential_of_an_electrical_super_node_:_time_variation_(V/s)"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Average_surface_potential_on_nodes:_time_variation"
+                        creationDate="2016/09/30-10:32:17:663" lastUpdate="2016/09/30-10:32:39:476"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Variation_of_average_surface_potential_on_node_1_(s-1.V_._s)_.xml</Instrument>
+                        <Instrument name="Spacecraft_average_differential_potential_(V_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Average_differential_spacecraft_potential_monitor_(dV)"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Spacecraft_average_differential_potential"
+                        creationDate="2016/09/30-10:32:17:663" lastUpdate="2016/09/30-10:32:39:476"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Spacecraft_average_differential_potential_(V_._s)_.xml</Instrument>
+                        <Instrument name="Individual_current_on_node_1_-_Collected_ions1_(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_individual_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Individual_currents_on_node_1"
+                        creationDate="2016/09/30-10:32:17:665" lastUpdate="2016/09/30-10:32:39:476"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Individual_current_on_node_1_-_Collected_ions1_(A_._s)_.xml</Instrument>
+                        <Instrument name="Individual_current_on_node_1_-_Collected_elec1_(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_individual_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Individual_currents_on_node_1"
+                        creationDate="2016/09/30-10:32:17:666" lastUpdate="2016/09/30-10:32:39:476"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Individual_current_on_node_1_-_Collected_elec1_(A_._s)_.xml</Instrument>
+                        <Instrument name="Individual_current_on_node_1_-_Collected_photoElec_(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_individual_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Individual_currents_on_node_1"
+                        creationDate="2016/09/30-10:32:17:666" lastUpdate="2016/09/30-10:32:39:476"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Individual_current_on_node_1_-_Collected_photoElec_(A_._s)_.xml</Instrument>
+                        <Instrument name="Individual_current_on_node_1_-_Interactor_photoemission_(A_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Electrical_super_node_individual_current_monitor"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Individual_currents_on_node_1"
+                        creationDate="2016/09/30-10:32:17:667" lastUpdate="2016/09/30-10:32:39:476"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Individual_current_on_node_1_-_Interactor_photoemission_(A_._s)_.xml</Instrument>
+                        <Instrument name="Average_differential_potential_of_node_0_(V_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Surface_potential_of_an_electrical_super_node_:_difference_wrt_local_ground_(dV)"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Average_surface_potential_on_nodes:_difference_wrt_to_local_ground"
+                        creationDate="2016/09/30-10:32:17:667" lastUpdate="2016/09/30-10:32:39:476"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Average_differential_potential_of_node_0_(V_._s)_.xml</Instrument>
+                        <Instrument name="Average_differential_potential_of_node_1_(V_._s)_"
+                        format="org.spis.instruments.Instrument-0.0.1" instrumentType="Surface_potential_of_an_electrical_super_node_:_difference_wrt_local_ground_(dV)"
+                        instrumentCatalogueType="Plasma_Sensor" instrumentCategoryType="Average_surface_potential_on_nodes:_difference_wrt_to_local_ground"
+                        creationDate="2016/09/30-10:32:17:667" lastUpdate="2016/09/30-10:32:39:476"
+                        owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/DefaultInstruments/Average_differential_potential_of_node_1_(V_._s)_.xml</Instrument>
+                    </DefaultInstruments>
+                    <UserInstruments/>
+                    <NumTopFromUI format="org-spis-num-NumTopFromUI-Serialization"
+                    creationDate="2016/09/30-10:32:38:38" lastUpdate="2016/09/30-10:32:39:476"
+                    owner="benj" group="benj" permission="777" isLocal="true">DefaultStudy/Simulations/Run1/NumericalCoreAPI/</NumTopFromUI>
+                </Run>
+            </Simulations>
+        </Study>
+    </Project>
+</SpisModel>

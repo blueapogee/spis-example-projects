@@ -1,0 +1,57 @@
+<org.keridwen.modelling.global.parameters.GlobalParametersList>
+  <id>-1</id>
+  <name></name>
+  <description></description>
+  <category></category>
+  <list>
+    <GlobalParameter>
+      <keyName>instrumentSamplePeriod</keyName>
+      <category>Mandatory parameters</category>
+      <typeAString>float</typeAString>
+      <valueAsFloat>1.0E-6</valueAsFloat>
+      <valueAsDouble>0.0</valueAsDouble>
+      <valueAsInt>0</valueAsInt>
+      <valueAsBoolean>false</valueAsBoolean>
+      <unit>[s]</unit>
+      <description>sampling period</description>
+      <verbosityLevel>LOW</verbosityLevel>
+    </GlobalParameter>
+    <GlobalParameter>
+      <keyName>instrumentOutputLevel</keyName>
+      <category>Mandatory parameters</category>
+      <typeAString>int</typeAString>
+      <valueAsFloat>0.0</valueAsFloat>
+      <valueAsDouble>0.0</valueAsDouble>
+      <valueAsInt>0</valueAsInt>
+      <valueAsBoolean>false</valueAsBoolean>
+      <unit>[-]</unit>
+      <description>level of outputs (0 = nominal; 1 = extra ASCII files)</description>
+      <verbosityLevel>LOW</verbosityLevel>
+    </GlobalParameter>
+    <GlobalParameter>
+      <keyName>instrumentObservationDuration</keyName>
+      <category>Mandatory parameters</category>
+      <typeAString>float</typeAString>
+      <valueAsFloat>1.0E-6</valueAsFloat>
+      <valueAsDouble>0.0</valueAsDouble>
+      <valueAsInt>0</valueAsInt>
+      <valueAsBoolean>false</valueAsBoolean>
+      <unit>[s]</unit>
+      <description>observation duration</description>
+      <verbosityLevel>LOW</verbosityLevel>
+    </GlobalParameter>
+    <GlobalParameter>
+      <keyName>instrumentPop</keyName>
+      <category>Mandatory parameters</category>
+      <typeAString>String</typeAString>
+      <valueAsFloat>0.0</valueAsFloat>
+      <valueAsDouble>0.0</valueAsDouble>
+      <valueAsInt>0</valueAsInt>
+      <valueAsString>ions1</valueAsString>
+      <valueAsBoolean>false</valueAsBoolean>
+      <unit>[-]</unit>
+      <description>name of the population to observe</description>
+      <verbosityLevel>LOW</verbosityLevel>
+    </GlobalParameter>
+  </list>
+</org.keridwen.modelling.global.parameters.GlobalParametersList>

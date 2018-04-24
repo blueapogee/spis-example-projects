@@ -1,0 +1,2 @@
+Time (s), esn 2 net current (A), esn 2 collected current (A), esn 2 emitted current (A)
+1.8067176, 9.014157E-8, -6.331383E-5, -6.3403975E-5

@@ -1,0 +1,2 @@
+Time s, Total volumic energy [kinetic plus potential]m-3.eV
+1.8067176, 1.83082803E9

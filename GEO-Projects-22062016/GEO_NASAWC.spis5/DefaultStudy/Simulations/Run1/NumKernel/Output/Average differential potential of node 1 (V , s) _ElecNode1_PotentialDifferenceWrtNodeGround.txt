@@ -1,0 +1,3 @@
+Time (s), esn 1 surface potential difference wrt to esn ground(V)
+65.86519, -3.5760522E-7
+83.34, 7.610646E-6

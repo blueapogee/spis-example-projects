@@ -1,0 +1,3816 @@
+<com.artenum.frida.group.OrderedGroupList>
+  <groupList>
+    <com.artenum.frida.group.DefaultIBCGroup>
+      <name>FaceGroup</name>
+      <id>3100</id>
+      <description></description>
+      <priorityLevel>0</priorityLevel>
+      <allowSubGroup>false</allowSubGroup>
+      <mandatoryTypesList/>
+      <allowedTypesList/>
+      <propertiesList>
+        <Property>
+          <id>4</id>
+          <name>Plasma Population BC - Spacecraft default</name>
+          <description>Default SC settings: All interactions activated</description>
+          <characteristicList>
+            <entry>
+              <string>ElecSecEmisOnWire</string>
+              <IntegerCharacteristic>
+                <id>26</id>
+                <name>ElecSecEmisOnWire</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>1</localisation>
+                <informationLink></informationLink>
+                <value>1</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>ImposedEmittedCurrentFlag</string>
+              <IntegerCharacteristic>
+                <id>27</id>
+                <name>ImposedEmittedCurrentFlag</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>0</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>SunFluxOnWire</string>
+              <DoubleCharacteristic>
+                <id>37</id>
+                <name>SunFluxOnWire</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[-]</unit>
+                  <standardUnit>-</standardUnit>
+                </unit>
+                <localisation>1</localisation>
+                <informationLink></informationLink>
+                <value>300.0</value>
+              </DoubleCharacteristic>
+            </entry>
+            <entry>
+              <string>ImposedCollectedCurrentDensityOnWire</string>
+              <DoubleCharacteristic>
+                <id>25</id>
+                <name>ImposedCollectedCurrentDensityOnWire</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[A/m2]</unit>
+                  <standardUnit>A/m2</standardUnit>
+                </unit>
+                <localisation>1</localisation>
+                <informationLink></informationLink>
+                <value>0.0</value>
+              </DoubleCharacteristic>
+            </entry>
+            <entry>
+              <string>PhotoEmisOnWire</string>
+              <IntegerCharacteristic>
+                <id>35</id>
+                <name>PhotoEmisOnWire</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>1</localisation>
+                <informationLink></informationLink>
+                <value>1</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>ProtSecEmisOnWire</string>
+              <IntegerCharacteristic>
+                <id>33</id>
+                <name>ProtSecEmisOnWire</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>1</localisation>
+                <informationLink></informationLink>
+                <value>1</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>ImposedCollectedCurrentFlag</string>
+              <IntegerCharacteristic>
+                <id>31</id>
+                <name>ImposedCollectedCurrentFlag</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>0</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>SunFlux</string>
+              <DoubleCharacteristic>
+                <id>39</id>
+                <name>SunFlux</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[-]</unit>
+                  <standardUnit>-</standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>300.0</value>
+              </DoubleCharacteristic>
+            </entry>
+            <entry>
+              <string>ImposedEmittedCurrentDensity</string>
+              <DoubleCharacteristic>
+                <id>28</id>
+                <name>ImposedEmittedCurrentDensity</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[A/m2]</unit>
+                  <standardUnit>A/m2</standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>0.0</value>
+              </DoubleCharacteristic>
+            </entry>
+            <entry>
+              <string>ProtSecEmis</string>
+              <IntegerCharacteristic>
+                <id>30</id>
+                <name>ProtSecEmis</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>1</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>ImposedEmittedCurrentDensityOnWire</string>
+              <DoubleCharacteristic>
+                <id>32</id>
+                <name>ImposedEmittedCurrentDensityOnWire</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[A/m2]</unit>
+                  <standardUnit>A/m2</standardUnit>
+                </unit>
+                <localisation>1</localisation>
+                <informationLink></informationLink>
+                <value>0.0</value>
+              </DoubleCharacteristic>
+            </entry>
+            <entry>
+              <string>ImposedEmittedCurrentFlagOnWire</string>
+              <IntegerCharacteristic>
+                <id>24</id>
+                <name>ImposedEmittedCurrentFlagOnWire</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>1</localisation>
+                <informationLink></informationLink>
+                <value>0</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>ElecSecEmis</string>
+              <IntegerCharacteristic>
+                <id>34</id>
+                <name>ElecSecEmis</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>1</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>ImposedCollectedCurrentFlagOnWire</string>
+              <IntegerCharacteristic>
+                <id>29</id>
+                <name>ImposedCollectedCurrentFlagOnWire</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>1</localisation>
+                <informationLink></informationLink>
+                <value>0</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>PhotoEmis</string>
+              <IntegerCharacteristic>
+                <id>38</id>
+                <name>PhotoEmis</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>1</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>ImposedCollectedCurrentDensity</string>
+              <DoubleCharacteristic>
+                <id>36</id>
+                <name>ImposedCollectedCurrentDensity</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[A/m2]</unit>
+                  <standardUnit>A/m2</standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>0.0</value>
+              </DoubleCharacteristic>
+            </entry>
+          </characteristicList>
+          <isCompound>false</isCompound>
+          <type>S/C plasma population BC</type>
+        </Property>
+        <Property>
+          <id>18</id>
+          <name>Spacecraft ground (ElecNode-0)</name>
+          <description>electric node 0 (SC ground)</description>
+          <characteristicList>
+            <entry>
+              <string>EdgeElecNodeId</string>
+              <IntegerCharacteristic>
+                <id>47</id>
+                <name>EdgeElecNodeId</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>1</localisation>
+                <informationLink></informationLink>
+                <value>0</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>ElecNodeId</string>
+              <IntegerCharacteristic>
+                <id>46</id>
+                <name>ElecNodeId</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>0</value>
+              </IntegerCharacteristic>
+            </entry>
+          </characteristicList>
+          <isCompound>false</isCompound>
+          <type>Electrical node model</type>
+        </Property>
+        <Property>
+          <id>0</id>
+          <name>Default conductivity model - Spacecraft default</name>
+          <description>Default S/C settings</description>
+          <characteristicList>
+            <entry>
+              <string>IndConduct</string>
+              <IntegerCharacteristic>
+                <id>2</id>
+                <name>IndConduct</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>1</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>VolConduct</string>
+              <IntegerCharacteristic>
+                <id>1</id>
+                <name>VolConduct</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>1</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>SurfConduct</string>
+              <IntegerCharacteristic>
+                <id>3</id>
+                <name>SurfConduct</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>1</value>
+              </IntegerCharacteristic>
+            </entry>
+          </characteristicList>
+          <isCompound>false</isCompound>
+          <type>S/C conductivity model</type>
+        </Property>
+        <Property>
+          <id>2</id>
+          <name>Electric Field BC - Spacecraft default</name>
+          <description>Default SC settings: 0 Dirichlet potential</description>
+          <characteristicList>
+            <entry>
+              <string>SCDiriFlag</string>
+              <IntegerCharacteristic>
+                <id>13</id>
+                <name>SCDiriFlag</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>0</localisation>
+                <informationLink></informationLink>
+                <value>1</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>SCDiriPot</string>
+              <DoubleCharacteristic>
+                <id>16</id>
+                <name>SCDiriPot</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[V]</unit>
+                  <standardUnit>V</standardUnit>
+                </unit>
+                <localisation>0</localisation>
+                <informationLink></informationLink>
+                <value>0.0</value>
+              </DoubleCharacteristic>
+            </entry>
+            <entry>
+              <string>SCFourAlpha</string>
+              <DoubleCharacteristic>
+                <id>14</id>
+                <name>SCFourAlpha</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[m-1]</unit>
+                  <standardUnit>m-1</standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>1.0</value>
+              </DoubleCharacteristic>
+            </entry>
+            <entry>
+              <string>SCFourValue</string>
+              <DoubleCharacteristic>
+                <id>15</id>
+                <name>SCFourValue</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[V/m]</unit>
+                  <standardUnit>V/m</standardUnit>
+                </unit>
+                <localisation>0</localisation>
+                <informationLink></informationLink>
+                <value>0.0</value>
+              </DoubleCharacteristic>
+            </entry>
+            <entry>
+              <string>SCDiriPotEdge</string>
+              <DoubleCharacteristic>
+                <id>19</id>
+                <name>SCDiriPotEdge</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[V]</unit>
+                  <standardUnit>V</standardUnit>
+                </unit>
+                <localisation>1</localisation>
+                <informationLink></informationLink>
+                <value>0.0</value>
+              </DoubleCharacteristic>
+            </entry>
+            <entry>
+              <string>SCDiriPotSurf</string>
+              <DoubleCharacteristic>
+                <id>18</id>
+                <name>SCDiriPotSurf</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[V]</unit>
+                  <standardUnit>V</standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>0.0</value>
+              </DoubleCharacteristic>
+            </entry>
+            <entry>
+              <string>SCFourFlag</string>
+              <IntegerCharacteristic>
+                <id>17</id>
+                <name>SCFourFlag</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>0</value>
+              </IntegerCharacteristic>
+            </entry>
+          </characteristicList>
+          <isCompound>false</isCompound>
+          <type>S/C electric field BC</type>
+        </Property>
+        <Property>
+          <id>0</id>
+          <name>Macroscopic Characteristics - Spacecraft default</name>
+          <description>Default SC settings: 0 Dirichlet potential</description>
+          <characteristicList>
+            <entry>
+              <string>Temperature</string>
+              <DoubleCharacteristic>
+                <id>4</id>
+                <name>Temperature</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[K]</unit>
+                  <standardUnit>K</standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>300.0</value>
+              </DoubleCharacteristic>
+            </entry>
+            <entry>
+              <string>MatThickness</string>
+              <DoubleCharacteristic>
+                <id>5</id>
+                <name>MatThickness</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[m]</unit>
+                  <standardUnit>m</standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>1.25E-4</value>
+              </DoubleCharacteristic>
+            </entry>
+          </characteristicList>
+          <isCompound>false</isCompound>
+          <type>S/C macroscopic characteristics</type>
+        </Property>
+        <Property>
+          <id>0</id>
+          <name>Default - No thin elements</name>
+          <description>Default SC settings: no thin element</description>
+          <characteristicList>
+            <entry>
+              <string>SurfThicknessS</string>
+              <DoubleCharacteristic>
+                <id>72</id>
+                <name>SurfThicknessS</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[m]</unit>
+                  <standardUnit>m</standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>0.0</value>
+              </DoubleCharacteristic>
+            </entry>
+            <entry>
+              <string>EdgeRadiusS</string>
+              <DoubleCharacteristic>
+                <id>71</id>
+                <name>EdgeRadiusS</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[m]</unit>
+                  <standardUnit>m</standardUnit>
+                </unit>
+                <localisation>1</localisation>
+                <informationLink></informationLink>
+                <value>0.0</value>
+              </DoubleCharacteristic>
+            </entry>
+          </characteristicList>
+          <isCompound>false</isCompound>
+          <type>S/C thin elements</type>
+        </Property>
+        <Property>
+          <id>0</id>
+          <name>No source - Spacecraft default</name>
+          <description>Default SC settings: no source</description>
+          <characteristicList>
+            <entry>
+              <string>SourceMachOnWire</string>
+              <DoubleCharacteristic>
+                <id>63</id>
+                <name>SourceMachOnWire</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[-]</unit>
+                  <standardUnit>-</standardUnit>
+                </unit>
+                <localisation>1</localisation>
+                <informationLink></informationLink>
+                <value>0.0</value>
+              </DoubleCharacteristic>
+            </entry>
+            <entry>
+              <string>SourceCurrent</string>
+              <DoubleCharacteristic>
+                <id>67</id>
+                <name>SourceCurrent</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[A/m2]</unit>
+                  <standardUnit>A/m2</standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>600.0</value>
+              </DoubleCharacteristic>
+            </entry>
+            <entry>
+              <string>SourceCurrentOnWire</string>
+              <DoubleCharacteristic>
+                <id>70</id>
+                <name>SourceCurrentOnWire</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[A/m2]</unit>
+                  <standardUnit>A/m2</standardUnit>
+                </unit>
+                <localisation>1</localisation>
+                <informationLink></informationLink>
+                <value>600.0</value>
+              </DoubleCharacteristic>
+            </entry>
+            <entry>
+              <string>SourceId</string>
+              <IntegerCharacteristic>
+                <id>68</id>
+                <name>SourceId</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>0</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>SourceTempOnWire</string>
+              <DoubleCharacteristic>
+                <id>69</id>
+                <name>SourceTempOnWire</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[eV]</unit>
+                  <standardUnit>eV</standardUnit>
+                </unit>
+                <localisation>1</localisation>
+                <informationLink></informationLink>
+                <value>30.0</value>
+              </DoubleCharacteristic>
+            </entry>
+            <entry>
+              <string>SourceIdOnWire</string>
+              <IntegerCharacteristic>
+                <id>64</id>
+                <name>SourceIdOnWire</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>1</localisation>
+                <informationLink></informationLink>
+                <value>0</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>SourceMach</string>
+              <DoubleCharacteristic>
+                <id>65</id>
+                <name>SourceMach</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[-]</unit>
+                  <standardUnit>-</standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>0.0</value>
+              </DoubleCharacteristic>
+            </entry>
+            <entry>
+              <string>SourceTemp</string>
+              <DoubleCharacteristic>
+                <id>66</id>
+                <name>SourceTemp</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[eV]</unit>
+                  <standardUnit>eV</standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>30.0</value>
+              </DoubleCharacteristic>
+            </entry>
+          </characteristicList>
+          <isCompound>false</isCompound>
+          <type>S/C sources and interactors</type>
+        </Property>
+        <Property>
+          <id>15</id>
+          <name>Conductive Lunar dust material properties</name>
+          <description>Material properties loaded during the initilization of SPIS group editor</description>
+          <characteristicList>
+            <entry>
+              <string>MatModelId</string>
+              <IntegerCharacteristic>
+                <id>73</id>
+                <name>MatModelId</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[-]</unit>
+                  <standardUnit>-</standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>0</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>MatModelIdOnEdge</string>
+              <IntegerCharacteristic>
+                <id>74</id>
+                <name>MatModelIdOnEdge</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[-]</unit>
+                  <standardUnit>-</standardUnit>
+                </unit>
+                <localisation>1</localisation>
+                <informationLink></informationLink>
+                <value>0</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>MatTypeId</string>
+              <IntegerCharacteristic>
+                <id>21</id>
+                <name>MatTypeId</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[-]</unit>
+                  <standardUnit>-</standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>16</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>MatTypeIdOnEdge</string>
+              <IntegerCharacteristic>
+                <id>75</id>
+                <name>MatTypeIdOnEdge</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[-]</unit>
+                  <standardUnit>-</standardUnit>
+                </unit>
+                <localisation>1</localisation>
+                <informationLink></informationLink>
+                <value>16</value>
+              </IntegerCharacteristic>
+            </entry>
+          </characteristicList>
+          <subPropertiesList>
+            <entry>
+              <string>Conductive Lunar dust material properties</string>
+              <Property>
+                <id>16</id>
+                <name>Conductive Lunar dust material properties</name>
+                <description>SPIS default material properties of conductive lunar dust from Lunar source book (Cambridge Univ. Press 1991): 71501-1 Mare for dust radius DF </description>
+                <characteristicList>
+                  <entry>
+                    <string>MPD</string>
+                    <DoubleCharacteristic>
+                      <id>15</id>
+                      <name>MPD</name>
+                      <description>[param:15] Maximum potential difference between surface and underlying conductor before a discharge occurs.</description>
+                      <parentProperty class="Property" reference="../../../.."/>
+                      <unit class="SimpleStringUnit">
+                        <unit>[V]</unit>
+                        <standardUnit>V</standardUnit>
+                      </unit>
+                      <localisation>-1</localisation>
+                      <informationLink></informationLink>
+                      <value>2000.0</value>
+                    </DoubleCharacteristic>
+                  </entry>
+                  <entry>
+                    <string>RPN2</string>
+                    <DoubleCharacteristic>
+                      <id>9</id>
+                      <name>RPN2</name>
+                      <description>[param:9] Range parameter n2 [-].</description>
+                      <parentProperty class="Property" reference="../../../.."/>
+                      <unit class="SimpleStringUnit">
+                        <unit>[-]</unit>
+                        <standardUnit>-</standardUnit>
+                      </unit>
+                      <localisation>-1</localisation>
+                      <informationLink></informationLink>
+                      <value>1.75</value>
+                    </DoubleCharacteristic>
+                  </entry>
+                  <entry>
+                    <string>PEY</string>
+                    <DoubleCharacteristic>
+                      <id>12</id>
+                      <name>PEY</name>
+                      <description>[param:12] Photoelectron current for normally incident sunlight [A/m2 at 1 AU].</description>
+                      <parentProperty class="Property" reference="../../../.."/>
+                      <unit class="SimpleStringUnit">
+                        <unit>[A/m2]</unit>
+                        <standardUnit>A/m2</standardUnit>
+                      </unit>
+                      <localisation>-1</localisation>
+                      <informationLink></informationLink>
+                      <value>4.5E-6</value>
+                    </DoubleCharacteristic>
+                  </entry>
+                  <entry>
+                    <string>SEY</string>
+                    <DoubleCharacteristic>
+                      <id>10</id>
+                      <name>SEY</name>
+                      <description>[param:10] Secondary electron yield due to impact of 1 keV protons [-].</description>
+                      <parentProperty class="Property" reference="../../../.."/>
+                      <unit class="SimpleStringUnit">
+                        <unit>[-]</unit>
+                        <standardUnit>-</standardUnit>
+                      </unit>
+                      <localisation>-1</localisation>
+                      <informationLink></informationLink>
+                      <value>0.455</value>
+                    </DoubleCharacteristic>
+                  </entry>
+                  <entry>
+                    <string>SRE</string>
+                    <DoubleCharacteristic>
+                      <id>13</id>
+                      <name>SRE</name>
+                      <description>[param:13] Surface resistivity [ohm].</description>
+                      <parentProperty class="Property" reference="../../../.."/>
+                      <unit class="SimpleStringUnit">
+                        <unit>[ohm]</unit>
+                        <standardUnit>ohm</standardUnit>
+                      </unit>
+                      <localisation>-1</localisation>
+                      <informationLink></informationLink>
+                      <value>-1.0</value>
+                    </DoubleCharacteristic>
+                  </entry>
+                  <entry>
+                    <string>RPN1</string>
+                    <DoubleCharacteristic>
+                      <id>7</id>
+                      <name>RPN1</name>
+                      <description>[param:7] Range parameter n1 [-].</description>
+                      <parentProperty class="Property" reference="../../../.."/>
+                      <unit class="SimpleStringUnit">
+                        <unit>[-]</unit>
+                        <standardUnit>-</standardUnit>
+                      </unit>
+                      <localisation>-1</localisation>
+                      <informationLink></informationLink>
+                      <value>0.6</value>
+                    </DoubleCharacteristic>
+                  </entry>
+                  <entry>
+                    <string>SEEYa</string>
+                    <DoubleCharacteristic>
+                      <id>-1</id>
+                      <name>dustSEEYa</name>
+                      <description></description>
+                      <parentProperty class="Property" reference="../../../.."/>
+                      <unit class="SimpleStringUnit">
+                        <unit></unit>
+                        <standardUnit></standardUnit>
+                      </unit>
+                      <localisation>-1</localisation>
+                      <informationLink></informationLink>
+                      <value>1.0E14</value>
+                    </DoubleCharacteristic>
+                  </entry>
+                  <entry>
+                    <string>DMT</string>
+                    <DoubleCharacteristic>
+                      <id>1</id>
+                      <name>DMT</name>
+                      <description>[param:1] UNUSED. Please use MatThickness characteristic in the &apos;Macroscopic Characteristics&apos; property in place of.</description>
+                      <parentProperty class="Property" reference="../../../.."/>
+                      <unit class="SimpleStringUnit">
+                        <unit>[m]</unit>
+                        <standardUnit>m</standardUnit>
+                      </unit>
+                      <localisation>-1</localisation>
+                      <informationLink></informationLink>
+                      <value>1.0E-4</value>
+                    </DoubleCharacteristic>
+                  </entry>
+                  <entry>
+                    <string>dustRadiusDF</string>
+                    <SeriesOfDoubleCharacteristic>
+                      <id>-1</id>
+                      <name>dustRadiusDF</name>
+                      <description></description>
+                      <parentProperty class="Property" reference="../../../.."/>
+                      <unit class="SimpleStringUnit">
+                        <unit>[m]</unit>
+                        <standardUnit>m</standardUnit>
+                      </unit>
+                      <localisation>-1</localisation>
+                      <informationLink></informationLink>
+                      <value>
+                        <double-array>
+                          <double>1.91E-9</double>
+                          <double>3.81E-9</double>
+                          <double>7.63E-9</double>
+                          <double>1.53E-8</double>
+                          <double>3.05E-8</double>
+                          <double>6.1E-8</double>
+                          <double>1.22E-7</double>
+                          <double>2.44E-7</double>
+                          <double>4.88E-7</double>
+                          <double>9.77E-7</double>
+                          <double>1.95E-6</double>
+                          <double>3.91E-6</double>
+                          <double>7.81E-6</double>
+                          <double>1.56E-5</double>
+                          <double>3.13E-5</double>
+                          <double>6.25E-5</double>
+                          <double>1.25E-4</double>
+                          <double>2.5E-4</double>
+                          <double>5.0E-4</double>
+                          <double>0.001</double>
+                          <double>0.002</double>
+                          <double>0.004</double>
+                          <double>0.008</double>
+                          <double>0.016</double>
+                          <double>0.032</double>
+                          <double>0.064</double>
+                        </double-array>
+                        <double-array>
+                          <double>5.11E-5</double>
+                          <double>2.05E-4</double>
+                          <double>8.18E-4</double>
+                          <double>0.00327</double>
+                          <double>0.0131</double>
+                          <double>0.0523</double>
+                          <double>0.209</double>
+                          <double>0.835</double>
+                          <double>3.31</double>
+                          <double>12.8</double>
+                          <double>44.3</double>
+                          <double>70.6</double>
+                          <double>84.7</double>
+                          <double>100.0</double>
+                          <double>73.5</double>
+                          <double>41.2</double>
+                          <double>19.9</double>
+                          <double>7.35</double>
+                          <double>2.21</double>
+                          <double>0.643</double>
+                          <double>0.23</double>
+                          <double>0.0689</double>
+                          <double>0.0253</double>
+                          <double>0.0115</double>
+                          <double>0.0023</double>
+                          <double>0.0</double>
+                        </double-array>
+                      </value>
+                      <xSerie reference="../value/double-array"/>
+                      <seriesAbscissa>
+                        <null/>
+                        <double>1.0</double>
+                        <double>2.0</double>
+                      </seriesAbscissa>
+                      <ySeriesLabel>
+                        <string>X series</string>
+                        <string>Series1</string>
+                      </ySeriesLabel>
+                      <seriesUnit>
+                        <SimpleStringUnit>
+                          <unit>[m]</unit>
+                          <standardUnit>m</standardUnit>
+                        </SimpleStringUnit>
+                        <SimpleStringUnit>
+                          <unit>[-]</unit>
+                          <standardUnit>-</standardUnit>
+                        </SimpleStringUnit>
+                      </seriesUnit>
+                      <size>26</size>
+                    </SeriesOfDoubleCharacteristic>
+                  </entry>
+                  <entry>
+                    <string>SEEYAlpha</string>
+                    <DoubleCharacteristic>
+                      <id>-1</id>
+                      <name>dustSEEYAlpha</name>
+                      <description></description>
+                      <parentProperty class="Property" reference="../../../.."/>
+                      <unit class="SimpleStringUnit">
+                        <unit></unit>
+                        <standardUnit></standardUnit>
+                      </unit>
+                      <localisation>-1</localisation>
+                      <informationLink></informationLink>
+                      <value>1.0E8</value>
+                    </DoubleCharacteristic>
+                  </entry>
+                  <entry>
+                    <string>RDC</string>
+                    <DoubleCharacteristic>
+                      <id>0</id>
+                      <name>RDC</name>
+                      <description>[param:0] Relative dielectric constant [-] (keep it positive even though irrelevant for a conductor).</description>
+                      <parentProperty class="Property" reference="../../../.."/>
+                      <unit class="SimpleStringUnit">
+                        <unit>[-]</unit>
+                        <standardUnit>-</standardUnit>
+                      </unit>
+                      <localisation>-1</localisation>
+                      <informationLink></informationLink>
+                      <value>3.0</value>
+                    </DoubleCharacteristic>
+                  </entry>
+                  <entry>
+                    <string>BUC</string>
+                    <DoubleCharacteristic>
+                      <id>2</id>
+                      <name>BUC</name>
+                      <description>[param:2] Bulk conductivity [ohm-1.m-1], must be set negative if a conductor (in place of infinite for a perfect conductor).</description>
+                      <parentProperty class="Property" reference="../../../.."/>
+                      <unit class="SimpleStringUnit">
+                        <unit>[ohm-1.m-1]</unit>
+                        <standardUnit>ohm-1.m-1</standardUnit>
+                      </unit>
+                      <localisation>-1</localisation>
+                      <informationLink></informationLink>
+                      <value>-1.0</value>
+                    </DoubleCharacteristic>
+                  </entry>
+                  <entry>
+                    <string>MAD</string>
+                    <DoubleCharacteristic>
+                      <id>18</id>
+                      <name>MAD</name>
+                      <description>[param:18] Material density [kg/m3]</description>
+                      <parentProperty class="Property" reference="../../../.."/>
+                      <unit class="SimpleStringUnit">
+                        <unit>[kg/m3]</unit>
+                        <standardUnit>kg/m3</standardUnit>
+                      </unit>
+                      <localisation>-1</localisation>
+                      <informationLink></informationLink>
+                      <value>1000.0</value>
+                    </DoubleCharacteristic>
+                  </entry>
+                  <entry>
+                    <string>PEE</string>
+                    <DoubleCharacteristic>
+                      <id>5</id>
+                      <name>PEE</name>
+                      <description>[param:5] Primary electron energy that produces maximum (SEE) yield [keV].</description>
+                      <parentProperty class="Property" reference="../../../.."/>
+                      <unit class="SimpleStringUnit">
+                        <unit>[keV]</unit>
+                        <standardUnit>keV</standardUnit>
+                      </unit>
+                      <localisation>-1</localisation>
+                      <informationLink></informationLink>
+                      <value>0.2</value>
+                    </DoubleCharacteristic>
+                  </entry>
+                  <entry>
+                    <string>RCC</string>
+                    <DoubleCharacteristic>
+                      <id>16</id>
+                      <name>RCC</name>
+                      <description>[param:16] Radiation induced conductivity coefficient K [ohm-1.m-1] in the law K*(rate/rate0)^D, with rate0 = 1 Rad/s (TBC), (or equivalently with no rate0 coefficient and rate expressed in Rad/s).</description>
+                      <parentProperty class="Property" reference="../../../.."/>
+                      <unit class="SimpleStringUnit">
+                        <unit>[ohm-1.m-1]</unit>
+                        <standardUnit>ohm-1.m-1</standardUnit>
+                      </unit>
+                      <localisation>-1</localisation>
+                      <informationLink></informationLink>
+                      <value>1.0E-13</value>
+                    </DoubleCharacteristic>
+                  </entry>
+                  <entry>
+                    <string>SEEYK</string>
+                    <DoubleCharacteristic>
+                      <id>-1</id>
+                      <name>dustSEEYK</name>
+                      <description></description>
+                      <parentProperty class="Property" reference="../../../.."/>
+                      <unit class="SimpleStringUnit">
+                        <unit></unit>
+                        <standardUnit></standardUnit>
+                      </unit>
+                      <localisation>-1</localisation>
+                      <informationLink></informationLink>
+                      <value>0.01</value>
+                    </DoubleCharacteristic>
+                  </entry>
+                  <entry>
+                    <string>dustMassDensity</string>
+                    <DoubleCharacteristic>
+                      <id>-1</id>
+                      <name>dustMassDensity</name>
+                      <description></description>
+                      <parentProperty class="Property" reference="../../../.."/>
+                      <unit class="SimpleStringUnit">
+                        <unit>[kg/m3]</unit>
+                        <standardUnit>kg/m3</standardUnit>
+                      </unit>
+                      <localisation>-1</localisation>
+                      <informationLink></informationLink>
+                      <value>3000.0</value>
+                    </DoubleCharacteristic>
+                  </entry>
+                  <entry>
+                    <string>RPR2</string>
+                    <DoubleCharacteristic>
+                      <id>8</id>
+                      <name>RPR2</name>
+                      <description>[param:8] Range parameter r2 [Angstrom].</description>
+                      <parentProperty class="Property" reference="../../../.."/>
+                      <unit class="SimpleStringUnit">
+                        <unit>[Angstrom]</unit>
+                        <standardUnit>Angstrom</standardUnit>
+                      </unit>
+                      <localisation>-1</localisation>
+                      <informationLink></informationLink>
+                      <value>300.0</value>
+                    </DoubleCharacteristic>
+                  </entry>
+                  <entry>
+                    <string>RPR1</string>
+                    <DoubleCharacteristic>
+                      <id>6</id>
+                      <name>RPR1</name>
+                      <description>[param:6] Range parameter r1 [Angstrom] in the range expression r1 (E/E0)^n1 + r2 (E/E0)^n2, with E0 = 1 kEv (or equivalently with no E0 coefficient and E expressed in keV).</description>
+                      <parentProperty class="Property" reference="../../../.."/>
+                      <unit class="SimpleStringUnit">
+                        <unit>[Angstrom]</unit>
+                        <standardUnit>Angstrom</standardUnit>
+                      </unit>
+                      <localisation>-1</localisation>
+                      <informationLink></informationLink>
+                      <value>70.0</value>
+                    </DoubleCharacteristic>
+                  </entry>
+                  <entry>
+                    <string>ATN</string>
+                    <DoubleCharacteristic>
+                      <id>3</id>
+                      <name>ATN</name>
+                      <description>[param:3] Atomic number [-].</description>
+                      <parentProperty class="Property" reference="../../../.."/>
+                      <unit class="SimpleStringUnit">
+                        <unit>[-]</unit>
+                        <standardUnit>-</standardUnit>
+                      </unit>
+                      <localisation>-1</localisation>
+                      <informationLink></informationLink>
+                      <value>5.0</value>
+                    </DoubleCharacteristic>
+                  </entry>
+                  <entry>
+                    <string>MAP</string>
+                    <DoubleCharacteristic>
+                      <id>14</id>
+                      <name>MAP</name>
+                      <description>[param:14] Maximum (absolute) potential attainable before a discharge occurs.</description>
+                      <parentProperty class="Property" reference="../../../.."/>
+                      <unit class="SimpleStringUnit">
+                        <unit>[V]</unit>
+                        <standardUnit>V</standardUnit>
+                      </unit>
+                      <localisation>-1</localisation>
+                      <informationLink></informationLink>
+                      <value>10000.0</value>
+                    </DoubleCharacteristic>
+                  </entry>
+                  <entry>
+                    <string>MSEY</string>
+                    <DoubleCharacteristic>
+                      <id>4</id>
+                      <name>MSEY</name>
+                      <description>[param:4] Maximum secondary electron emission (SEE) yield for electron impact [-].</description>
+                      <parentProperty class="Property" reference="../../../.."/>
+                      <unit class="SimpleStringUnit">
+                        <unit>[-]</unit>
+                        <standardUnit>-</standardUnit>
+                      </unit>
+                      <localisation>-1</localisation>
+                      <informationLink></informationLink>
+                      <value>1.9</value>
+                    </DoubleCharacteristic>
+                  </entry>
+                  <entry>
+                    <string>RCP</string>
+                    <DoubleCharacteristic>
+                      <id>17</id>
+                      <name>RCP</name>
+                      <description>[param:17] Radiation induced conductivity power (D) [-].</description>
+                      <parentProperty class="Property" reference="../../../.."/>
+                      <unit class="SimpleStringUnit">
+                        <unit>[-]</unit>
+                        <standardUnit>-</standardUnit>
+                      </unit>
+                      <localisation>-1</localisation>
+                      <informationLink></informationLink>
+                      <value>1.0</value>
+                    </DoubleCharacteristic>
+                  </entry>
+                  <entry>
+                    <string>IPE</string>
+                    <DoubleCharacteristic>
+                      <id>11</id>
+                      <name>IPE</name>
+                      <description>[param:11] Incident proton energy that produces maximum secondaryelectron yield [keV].</description>
+                      <parentProperty class="Property" reference="../../../.."/>
+                      <unit class="SimpleStringUnit">
+                        <unit>[keV]</unit>
+                        <standardUnit>keV</standardUnit>
+                      </unit>
+                      <localisation>-1</localisation>
+                      <informationLink></informationLink>
+                      <value>140.0</value>
+                    </DoubleCharacteristic>
+                  </entry>
+                </characteristicList>
+                <isCompound>false</isCompound>
+                <type>Material properties</type>
+              </Property>
+            </entry>
+          </subPropertiesList>
+          <isCompound>true</isCompound>
+          <type>S/C material</type>
+        </Property>
+        <Property>
+          <id>8</id>
+          <name>Mesh Model - Spacecraft default</name>
+          <description>Default SC settings: 0 Dirichlet potential</description>
+          <characteristicList>
+            <entry>
+              <string>XyzS</string>
+              <TupleOfIntegerCharacteristic>
+                <id>58</id>
+                <name>XyzS</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[m]</unit>
+                  <standardUnit>m</standardUnit>
+                </unit>
+                <localisation>0</localisation>
+                <informationLink></informationLink>
+                <value>
+                  <int>0</int>
+                  <int>0</int>
+                  <int>0</int>
+                </value>
+              </TupleOfIntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>SurfFlag</string>
+              <IntegerCharacteristic>
+                <id>55</id>
+                <name>SurfFlag</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>1</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>NodeFlagS</string>
+              <IntegerCharacteristic>
+                <id>57</id>
+                <name>NodeFlagS</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>0</localisation>
+                <informationLink></informationLink>
+                <value>0</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>EdgeFlagS</string>
+              <IntegerCharacteristic>
+                <id>56</id>
+                <name>EdgeFlagS</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>1</localisation>
+                <informationLink></informationLink>
+                <value>0</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>Xyz</string>
+              <TupleOfIntegerCharacteristic>
+                <id>52</id>
+                <name>Xyz</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[m]</unit>
+                  <standardUnit>m</standardUnit>
+                </unit>
+                <localisation>0</localisation>
+                <informationLink></informationLink>
+                <value>
+                  <int>0</int>
+                  <int>0</int>
+                  <int>0</int>
+                </value>
+              </TupleOfIntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>SurfFlagS</string>
+              <IntegerCharacteristic>
+                <id>59</id>
+                <name>SurfFlagS</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>0</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>NodeFlag</string>
+              <IntegerCharacteristic>
+                <id>51</id>
+                <name>NodeFlag</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>0</localisation>
+                <informationLink></informationLink>
+                <value>1</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>EdgeFlag</string>
+              <IntegerCharacteristic>
+                <id>53</id>
+                <name>EdgeFlag</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>1</localisation>
+                <informationLink></informationLink>
+                <value>1</value>
+              </IntegerCharacteristic>
+            </entry>
+          </characteristicList>
+          <isCompound>false</isCompound>
+          <type>S/C mesh properties</type>
+        </Property>
+        <Property>
+          <id>0</id>
+          <name>No Actual Instrument Support</name>
+          <description>No instrument support for thi S/C surface.</description>
+          <characteristicList>
+            <entry>
+              <string>InstrumentSupport</string>
+              <IntegerCharacteristic>
+                <id>20</id>
+                <name>InstrumentSupport</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>0</value>
+              </IntegerCharacteristic>
+            </entry>
+          </characteristicList>
+          <isCompound>false</isCompound>
+          <type>S/C instrument support</type>
+        </Property>
+      </propertiesList>
+      <subGroupsList/>
+      <linkedMeshMaskIds>
+        <int>3100</int>
+      </linkedMeshMaskIds>
+      <type>Spacecraft surface group</type>
+    </com.artenum.frida.group.DefaultIBCGroup>
+    <com.artenum.frida.group.DefaultIBCGroup>
+      <name>FaceGroup</name>
+      <id>3200</id>
+      <description></description>
+      <priorityLevel>1</priorityLevel>
+      <allowSubGroup>false</allowSubGroup>
+      <mandatoryTypesList/>
+      <allowedTypesList/>
+      <propertiesList>
+        <Property>
+          <id>4</id>
+          <name>Plasma Population BC - Spacecraft default</name>
+          <description>Default SC settings: All interactions activated</description>
+          <characteristicList>
+            <entry>
+              <string>ElecSecEmisOnWire</string>
+              <IntegerCharacteristic>
+                <id>26</id>
+                <name>ElecSecEmisOnWire</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>1</localisation>
+                <informationLink></informationLink>
+                <value>1</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>ImposedEmittedCurrentFlag</string>
+              <IntegerCharacteristic>
+                <id>27</id>
+                <name>ImposedEmittedCurrentFlag</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>0</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>SunFluxOnWire</string>
+              <DoubleCharacteristic>
+                <id>37</id>
+                <name>SunFluxOnWire</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[-]</unit>
+                  <standardUnit>-</standardUnit>
+                </unit>
+                <localisation>1</localisation>
+                <informationLink></informationLink>
+                <value>300.0</value>
+              </DoubleCharacteristic>
+            </entry>
+            <entry>
+              <string>ImposedCollectedCurrentDensityOnWire</string>
+              <DoubleCharacteristic>
+                <id>25</id>
+                <name>ImposedCollectedCurrentDensityOnWire</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[A/m2]</unit>
+                  <standardUnit>A/m2</standardUnit>
+                </unit>
+                <localisation>1</localisation>
+                <informationLink></informationLink>
+                <value>0.0</value>
+              </DoubleCharacteristic>
+            </entry>
+            <entry>
+              <string>PhotoEmisOnWire</string>
+              <IntegerCharacteristic>
+                <id>35</id>
+                <name>PhotoEmisOnWire</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>1</localisation>
+                <informationLink></informationLink>
+                <value>1</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>ProtSecEmisOnWire</string>
+              <IntegerCharacteristic>
+                <id>33</id>
+                <name>ProtSecEmisOnWire</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>1</localisation>
+                <informationLink></informationLink>
+                <value>1</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>ImposedCollectedCurrentFlag</string>
+              <IntegerCharacteristic>
+                <id>31</id>
+                <name>ImposedCollectedCurrentFlag</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>0</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>SunFlux</string>
+              <DoubleCharacteristic>
+                <id>39</id>
+                <name>SunFlux</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[-]</unit>
+                  <standardUnit>-</standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>300.0</value>
+              </DoubleCharacteristic>
+            </entry>
+            <entry>
+              <string>ImposedEmittedCurrentDensity</string>
+              <DoubleCharacteristic>
+                <id>28</id>
+                <name>ImposedEmittedCurrentDensity</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[A/m2]</unit>
+                  <standardUnit>A/m2</standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>0.0</value>
+              </DoubleCharacteristic>
+            </entry>
+            <entry>
+              <string>ProtSecEmis</string>
+              <IntegerCharacteristic>
+                <id>30</id>
+                <name>ProtSecEmis</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>1</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>ImposedEmittedCurrentDensityOnWire</string>
+              <DoubleCharacteristic>
+                <id>32</id>
+                <name>ImposedEmittedCurrentDensityOnWire</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[A/m2]</unit>
+                  <standardUnit>A/m2</standardUnit>
+                </unit>
+                <localisation>1</localisation>
+                <informationLink></informationLink>
+                <value>0.0</value>
+              </DoubleCharacteristic>
+            </entry>
+            <entry>
+              <string>ImposedEmittedCurrentFlagOnWire</string>
+              <IntegerCharacteristic>
+                <id>24</id>
+                <name>ImposedEmittedCurrentFlagOnWire</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>1</localisation>
+                <informationLink></informationLink>
+                <value>0</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>ElecSecEmis</string>
+              <IntegerCharacteristic>
+                <id>34</id>
+                <name>ElecSecEmis</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>1</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>ImposedCollectedCurrentFlagOnWire</string>
+              <IntegerCharacteristic>
+                <id>29</id>
+                <name>ImposedCollectedCurrentFlagOnWire</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>1</localisation>
+                <informationLink></informationLink>
+                <value>0</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>PhotoEmis</string>
+              <IntegerCharacteristic>
+                <id>38</id>
+                <name>PhotoEmis</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>1</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>ImposedCollectedCurrentDensity</string>
+              <DoubleCharacteristic>
+                <id>36</id>
+                <name>ImposedCollectedCurrentDensity</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[A/m2]</unit>
+                  <standardUnit>A/m2</standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>0.0</value>
+              </DoubleCharacteristic>
+            </entry>
+          </characteristicList>
+          <isCompound>false</isCompound>
+          <type>S/C plasma population BC</type>
+        </Property>
+        <Property>
+          <id>2</id>
+          <name>ElecNode-1</name>
+          <description>1th electric node</description>
+          <characteristicList>
+            <entry>
+              <string>EdgeElecNodeId</string>
+              <IntegerCharacteristic>
+                <id>47</id>
+                <name>EdgeElecNodeId</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>1</localisation>
+                <informationLink></informationLink>
+                <value>1</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>ElecNodeId</string>
+              <IntegerCharacteristic>
+                <id>46</id>
+                <name>ElecNodeId</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>1</value>
+              </IntegerCharacteristic>
+            </entry>
+          </characteristicList>
+          <isCompound>false</isCompound>
+          <type>Electrical node model</type>
+        </Property>
+        <Property>
+          <id>0</id>
+          <name>Default conductivity model - Spacecraft default</name>
+          <description>Default S/C settings</description>
+          <characteristicList>
+            <entry>
+              <string>IndConduct</string>
+              <IntegerCharacteristic>
+                <id>2</id>
+                <name>IndConduct</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>1</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>VolConduct</string>
+              <IntegerCharacteristic>
+                <id>1</id>
+                <name>VolConduct</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>1</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>SurfConduct</string>
+              <IntegerCharacteristic>
+                <id>3</id>
+                <name>SurfConduct</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>1</value>
+              </IntegerCharacteristic>
+            </entry>
+          </characteristicList>
+          <isCompound>false</isCompound>
+          <type>S/C conductivity model</type>
+        </Property>
+        <Property>
+          <id>2</id>
+          <name>Electric Field BC - Spacecraft default</name>
+          <description>Default SC settings: 0 Dirichlet potential</description>
+          <characteristicList>
+            <entry>
+              <string>SCDiriFlag</string>
+              <IntegerCharacteristic>
+                <id>13</id>
+                <name>SCDiriFlag</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>0</localisation>
+                <informationLink></informationLink>
+                <value>1</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>SCDiriPot</string>
+              <DoubleCharacteristic>
+                <id>16</id>
+                <name>SCDiriPot</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[V]</unit>
+                  <standardUnit>V</standardUnit>
+                </unit>
+                <localisation>0</localisation>
+                <informationLink></informationLink>
+                <value>0.0</value>
+              </DoubleCharacteristic>
+            </entry>
+            <entry>
+              <string>SCFourAlpha</string>
+              <DoubleCharacteristic>
+                <id>14</id>
+                <name>SCFourAlpha</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[m-1]</unit>
+                  <standardUnit>m-1</standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>1.0</value>
+              </DoubleCharacteristic>
+            </entry>
+            <entry>
+              <string>SCFourValue</string>
+              <DoubleCharacteristic>
+                <id>15</id>
+                <name>SCFourValue</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[V/m]</unit>
+                  <standardUnit>V/m</standardUnit>
+                </unit>
+                <localisation>0</localisation>
+                <informationLink></informationLink>
+                <value>0.0</value>
+              </DoubleCharacteristic>
+            </entry>
+            <entry>
+              <string>SCDiriPotEdge</string>
+              <DoubleCharacteristic>
+                <id>19</id>
+                <name>SCDiriPotEdge</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[V]</unit>
+                  <standardUnit>V</standardUnit>
+                </unit>
+                <localisation>1</localisation>
+                <informationLink></informationLink>
+                <value>0.0</value>
+              </DoubleCharacteristic>
+            </entry>
+            <entry>
+              <string>SCDiriPotSurf</string>
+              <DoubleCharacteristic>
+                <id>18</id>
+                <name>SCDiriPotSurf</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[V]</unit>
+                  <standardUnit>V</standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>0.0</value>
+              </DoubleCharacteristic>
+            </entry>
+            <entry>
+              <string>SCFourFlag</string>
+              <IntegerCharacteristic>
+                <id>17</id>
+                <name>SCFourFlag</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>0</value>
+              </IntegerCharacteristic>
+            </entry>
+          </characteristicList>
+          <isCompound>false</isCompound>
+          <type>S/C electric field BC</type>
+        </Property>
+        <Property>
+          <id>0</id>
+          <name>Macroscopic Characteristics - Spacecraft default</name>
+          <description>Default SC settings: 0 Dirichlet potential</description>
+          <characteristicList>
+            <entry>
+              <string>Temperature</string>
+              <DoubleCharacteristic>
+                <id>4</id>
+                <name>Temperature</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[K]</unit>
+                  <standardUnit>K</standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>300.0</value>
+              </DoubleCharacteristic>
+            </entry>
+            <entry>
+              <string>MatThickness</string>
+              <DoubleCharacteristic>
+                <id>5</id>
+                <name>MatThickness</name>
+                <description></description>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[m]</unit>
+                  <standardUnit>m</standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>5.0E-5</value>
+              </DoubleCharacteristic>
+            </entry>
+          </characteristicList>
+          <isCompound>false</isCompound>
+          <type>S/C macroscopic characteristics</type>
+        </Property>
+        <Property>
+          <id>0</id>
+          <name>Default - No thin elements</name>
+          <description>Default SC settings: no thin element</description>
+          <characteristicList>
+            <entry>
+              <string>SurfThicknessS</string>
+              <DoubleCharacteristic>
+                <id>72</id>
+                <name>SurfThicknessS</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[m]</unit>
+                  <standardUnit>m</standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>0.0</value>
+              </DoubleCharacteristic>
+            </entry>
+            <entry>
+              <string>EdgeRadiusS</string>
+              <DoubleCharacteristic>
+                <id>71</id>
+                <name>EdgeRadiusS</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[m]</unit>
+                  <standardUnit>m</standardUnit>
+                </unit>
+                <localisation>1</localisation>
+                <informationLink></informationLink>
+                <value>0.0</value>
+              </DoubleCharacteristic>
+            </entry>
+          </characteristicList>
+          <isCompound>false</isCompound>
+          <type>S/C thin elements</type>
+        </Property>
+        <Property>
+          <id>0</id>
+          <name>No source - Spacecraft default</name>
+          <description>Default SC settings: no source</description>
+          <characteristicList>
+            <entry>
+              <string>SourceMachOnWire</string>
+              <DoubleCharacteristic>
+                <id>63</id>
+                <name>SourceMachOnWire</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[-]</unit>
+                  <standardUnit>-</standardUnit>
+                </unit>
+                <localisation>1</localisation>
+                <informationLink></informationLink>
+                <value>0.0</value>
+              </DoubleCharacteristic>
+            </entry>
+            <entry>
+              <string>SourceCurrent</string>
+              <DoubleCharacteristic>
+                <id>67</id>
+                <name>SourceCurrent</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[A/m2]</unit>
+                  <standardUnit>A/m2</standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>600.0</value>
+              </DoubleCharacteristic>
+            </entry>
+            <entry>
+              <string>SourceCurrentOnWire</string>
+              <DoubleCharacteristic>
+                <id>70</id>
+                <name>SourceCurrentOnWire</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[A/m2]</unit>
+                  <standardUnit>A/m2</standardUnit>
+                </unit>
+                <localisation>1</localisation>
+                <informationLink></informationLink>
+                <value>600.0</value>
+              </DoubleCharacteristic>
+            </entry>
+            <entry>
+              <string>SourceId</string>
+              <IntegerCharacteristic>
+                <id>68</id>
+                <name>SourceId</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>0</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>SourceTempOnWire</string>
+              <DoubleCharacteristic>
+                <id>69</id>
+                <name>SourceTempOnWire</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[eV]</unit>
+                  <standardUnit>eV</standardUnit>
+                </unit>
+                <localisation>1</localisation>
+                <informationLink></informationLink>
+                <value>30.0</value>
+              </DoubleCharacteristic>
+            </entry>
+            <entry>
+              <string>SourceMach</string>
+              <DoubleCharacteristic>
+                <id>65</id>
+                <name>SourceMach</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[-]</unit>
+                  <standardUnit>-</standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>0.0</value>
+              </DoubleCharacteristic>
+            </entry>
+            <entry>
+              <string>SourceIdOnWire</string>
+              <IntegerCharacteristic>
+                <id>64</id>
+                <name>SourceIdOnWire</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>1</localisation>
+                <informationLink></informationLink>
+                <value>0</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>SourceTemp</string>
+              <DoubleCharacteristic>
+                <id>66</id>
+                <name>SourceTemp</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[eV]</unit>
+                  <standardUnit>eV</standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>30.0</value>
+              </DoubleCharacteristic>
+            </entry>
+          </characteristicList>
+          <isCompound>false</isCompound>
+          <type>S/C sources and interactors</type>
+        </Property>
+        <Property>
+          <id>48</id>
+          <name>Lunar dust material properties</name>
+          <description>Material properties loaded during the initilization of SPIS group editor</description>
+          <characteristicList>
+            <entry>
+              <string>MatModelId</string>
+              <IntegerCharacteristic>
+                <id>73</id>
+                <name>MatModelId</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[-]</unit>
+                  <standardUnit>-</standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>0</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>MatModelIdOnEdge</string>
+              <IntegerCharacteristic>
+                <id>74</id>
+                <name>MatModelIdOnEdge</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[-]</unit>
+                  <standardUnit>-</standardUnit>
+                </unit>
+                <localisation>1</localisation>
+                <informationLink></informationLink>
+                <value>0</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>MatTypeId</string>
+              <IntegerCharacteristic>
+                <id>21</id>
+                <name>MatTypeId</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[-]</unit>
+                  <standardUnit>-</standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>49</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>MatTypeIdOnEdge</string>
+              <IntegerCharacteristic>
+                <id>75</id>
+                <name>MatTypeIdOnEdge</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[-]</unit>
+                  <standardUnit>-</standardUnit>
+                </unit>
+                <localisation>1</localisation>
+                <informationLink></informationLink>
+                <value>49</value>
+              </IntegerCharacteristic>
+            </entry>
+          </characteristicList>
+          <subPropertiesList>
+            <entry>
+              <string>Lunar dust material properties</string>
+              <Property>
+                <id>49</id>
+                <name>Lunar dust material properties</name>
+                <description>SPIS default material properties of lunar dust from Lunar source book (Cambridge Univ. Press 1991): 71501-1 Mare for dust radius DF </description>
+                <characteristicList>
+                  <entry>
+                    <string>MPD</string>
+                    <DoubleCharacteristic>
+                      <id>15</id>
+                      <name>MPD</name>
+                      <description>[param:15] Maximum potential difference between surface and underlying conductor before a discharge occurs.</description>
+                      <parentProperty class="Property" reference="../../../.."/>
+                      <unit class="SimpleStringUnit">
+                        <unit>[V]</unit>
+                        <standardUnit>V</standardUnit>
+                      </unit>
+                      <localisation>-1</localisation>
+                      <informationLink></informationLink>
+                      <value>2000.0</value>
+                    </DoubleCharacteristic>
+                  </entry>
+                  <entry>
+                    <string>RPN2</string>
+                    <DoubleCharacteristic>
+                      <id>9</id>
+                      <name>RPN2</name>
+                      <description>[param:9] Range parameter n2 [-].</description>
+                      <parentProperty class="Property" reference="../../../.."/>
+                      <unit class="SimpleStringUnit">
+                        <unit>[-]</unit>
+                        <standardUnit>-</standardUnit>
+                      </unit>
+                      <localisation>-1</localisation>
+                      <informationLink></informationLink>
+                      <value>1.75</value>
+                    </DoubleCharacteristic>
+                  </entry>
+                  <entry>
+                    <string>PEY</string>
+                    <DoubleCharacteristic>
+                      <id>12</id>
+                      <name>PEY</name>
+                      <description>[param:12] Photoelectron current for normally incident sunlight [A/m2 at 1 AU].</description>
+                      <parentProperty class="Property" reference="../../../.."/>
+                      <unit class="SimpleStringUnit">
+                        <unit>[A/m2]</unit>
+                        <standardUnit>A/m2</standardUnit>
+                      </unit>
+                      <localisation>-1</localisation>
+                      <informationLink></informationLink>
+                      <value>4.5E-6</value>
+                    </DoubleCharacteristic>
+                  </entry>
+                  <entry>
+                    <string>SEY</string>
+                    <DoubleCharacteristic>
+                      <id>10</id>
+                      <name>SEY</name>
+                      <description>[param:10] Secondary electron yield due to impact of 1 keV protons [-].</description>
+                      <parentProperty class="Property" reference="../../../.."/>
+                      <unit class="SimpleStringUnit">
+                        <unit>[-]</unit>
+                        <standardUnit>-</standardUnit>
+                      </unit>
+                      <localisation>-1</localisation>
+                      <informationLink></informationLink>
+                      <value>0.455</value>
+                    </DoubleCharacteristic>
+                  </entry>
+                  <entry>
+                    <string>SRE</string>
+                    <DoubleCharacteristic>
+                      <id>13</id>
+                      <name>SRE</name>
+                      <description>[param:13] Surface resistivity [ohm].</description>
+                      <parentProperty class="Property" reference="../../../.."/>
+                      <unit class="SimpleStringUnit">
+                        <unit>[ohm]</unit>
+                        <standardUnit>ohm</standardUnit>
+                      </unit>
+                      <localisation>-1</localisation>
+                      <informationLink></informationLink>
+                      <value>1.0E18</value>
+                    </DoubleCharacteristic>
+                  </entry>
+                  <entry>
+                    <string>RPN1</string>
+                    <DoubleCharacteristic>
+                      <id>7</id>
+                      <name>RPN1</name>
+                      <description>[param:7] Range parameter n1 [-].</description>
+                      <parentProperty class="Property" reference="../../../.."/>
+                      <unit class="SimpleStringUnit">
+                        <unit>[-]</unit>
+                        <standardUnit>-</standardUnit>
+                      </unit>
+                      <localisation>-1</localisation>
+                      <informationLink></informationLink>
+                      <value>0.6</value>
+                    </DoubleCharacteristic>
+                  </entry>
+                  <entry>
+                    <string>SEEYa</string>
+                    <DoubleCharacteristic>
+                      <id>-1</id>
+                      <name>dustSEEYa</name>
+                      <description></description>
+                      <parentProperty class="Property" reference="../../../.."/>
+                      <unit class="SimpleStringUnit">
+                        <unit></unit>
+                        <standardUnit></standardUnit>
+                      </unit>
+                      <localisation>-1</localisation>
+                      <informationLink></informationLink>
+                      <value>1.0E14</value>
+                    </DoubleCharacteristic>
+                  </entry>
+                  <entry>
+                    <string>DMT</string>
+                    <DoubleCharacteristic>
+                      <id>1</id>
+                      <name>DMT</name>
+                      <description>[param:1] UNUSED. Please use MatThickness characteristic in the &apos;Macroscopic Characteristics&apos; property in place of.</description>
+                      <parentProperty class="Property" reference="../../../.."/>
+                      <unit class="SimpleStringUnit">
+                        <unit>[m]</unit>
+                        <standardUnit>m</standardUnit>
+                      </unit>
+                      <localisation>-1</localisation>
+                      <informationLink></informationLink>
+                      <value>1.0E-4</value>
+                    </DoubleCharacteristic>
+                  </entry>
+                  <entry>
+                    <string>dustRadiusDF</string>
+                    <SeriesOfDoubleCharacteristic>
+                      <id>-1</id>
+                      <name>dustRadiusDF</name>
+                      <description></description>
+                      <parentProperty class="Property" reference="../../../.."/>
+                      <unit class="SimpleStringUnit">
+                        <unit>[m]</unit>
+                        <standardUnit>m</standardUnit>
+                      </unit>
+                      <localisation>-1</localisation>
+                      <informationLink></informationLink>
+                      <value>
+                        <double-array>
+                          <double>1.91E-9</double>
+                          <double>3.81E-9</double>
+                          <double>7.63E-9</double>
+                          <double>1.53E-8</double>
+                          <double>3.05E-8</double>
+                          <double>6.1E-8</double>
+                          <double>1.22E-7</double>
+                          <double>2.44E-7</double>
+                          <double>4.88E-7</double>
+                          <double>9.77E-7</double>
+                          <double>1.95E-6</double>
+                          <double>3.91E-6</double>
+                          <double>7.81E-6</double>
+                          <double>1.56E-5</double>
+                          <double>3.13E-5</double>
+                          <double>6.25E-5</double>
+                          <double>1.25E-4</double>
+                          <double>2.5E-4</double>
+                          <double>5.0E-4</double>
+                          <double>0.001</double>
+                          <double>0.002</double>
+                          <double>0.004</double>
+                          <double>0.008</double>
+                          <double>0.016</double>
+                          <double>0.032</double>
+                          <double>0.064</double>
+                        </double-array>
+                        <double-array>
+                          <double>5.11E-5</double>
+                          <double>2.05E-4</double>
+                          <double>8.18E-4</double>
+                          <double>0.00327</double>
+                          <double>0.0131</double>
+                          <double>0.0523</double>
+                          <double>0.209</double>
+                          <double>0.835</double>
+                          <double>3.31</double>
+                          <double>12.8</double>
+                          <double>44.3</double>
+                          <double>70.6</double>
+                          <double>84.7</double>
+                          <double>100.0</double>
+                          <double>73.5</double>
+                          <double>41.2</double>
+                          <double>19.9</double>
+                          <double>7.35</double>
+                          <double>2.21</double>
+                          <double>0.643</double>
+                          <double>0.23</double>
+                          <double>0.0689</double>
+                          <double>0.0253</double>
+                          <double>0.0115</double>
+                          <double>0.0023</double>
+                          <double>0.0</double>
+                        </double-array>
+                      </value>
+                      <xSerie reference="../value/double-array"/>
+                      <seriesAbscissa>
+                        <null/>
+                        <double>1.0</double>
+                        <double>2.0</double>
+                      </seriesAbscissa>
+                      <ySeriesLabel>
+                        <string>X series</string>
+                        <string>Series1</string>
+                      </ySeriesLabel>
+                      <seriesUnit>
+                        <SimpleStringUnit>
+                          <unit>[m]</unit>
+                          <standardUnit>m</standardUnit>
+                        </SimpleStringUnit>
+                        <SimpleStringUnit>
+                          <unit>[-]</unit>
+                          <standardUnit>-</standardUnit>
+                        </SimpleStringUnit>
+                      </seriesUnit>
+                      <size>26</size>
+                    </SeriesOfDoubleCharacteristic>
+                  </entry>
+                  <entry>
+                    <string>SEEYAlpha</string>
+                    <DoubleCharacteristic>
+                      <id>-1</id>
+                      <name>dustSEEYAlpha</name>
+                      <description></description>
+                      <parentProperty class="Property" reference="../../../.."/>
+                      <unit class="SimpleStringUnit">
+                        <unit></unit>
+                        <standardUnit></standardUnit>
+                      </unit>
+                      <localisation>-1</localisation>
+                      <informationLink></informationLink>
+                      <value>1.0E8</value>
+                    </DoubleCharacteristic>
+                  </entry>
+                  <entry>
+                    <string>RDC</string>
+                    <DoubleCharacteristic>
+                      <id>0</id>
+                      <name>RDC</name>
+                      <description>[param:0] Relative dielectric constant [-] (keep it positive even though irrelevant for a conductor).</description>
+                      <parentProperty class="Property" reference="../../../.."/>
+                      <unit class="SimpleStringUnit">
+                        <unit>[-]</unit>
+                        <standardUnit>-</standardUnit>
+                      </unit>
+                      <localisation>-1</localisation>
+                      <informationLink></informationLink>
+                      <value>3.0</value>
+                    </DoubleCharacteristic>
+                  </entry>
+                  <entry>
+                    <string>BUC</string>
+                    <DoubleCharacteristic>
+                      <id>2</id>
+                      <name>BUC</name>
+                      <description>[param:2] Bulk conductivity [ohm-1.m-1], must be set negative if a conductor (in place of infinite for a perfect conductor).</description>
+                      <parentProperty class="Property" reference="../../../.."/>
+                      <unit class="SimpleStringUnit">
+                        <unit>[ohm-1.m-1]</unit>
+                        <standardUnit>ohm-1.m-1</standardUnit>
+                      </unit>
+                      <localisation>-1</localisation>
+                      <informationLink></informationLink>
+                      <value>1.0E-14</value>
+                    </DoubleCharacteristic>
+                  </entry>
+                  <entry>
+                    <string>MAD</string>
+                    <DoubleCharacteristic>
+                      <id>18</id>
+                      <name>MAD</name>
+                      <description>[param:18] Material density [kg/m3]</description>
+                      <parentProperty class="Property" reference="../../../.."/>
+                      <unit class="SimpleStringUnit">
+                        <unit>[kg/m3]</unit>
+                        <standardUnit>kg/m3</standardUnit>
+                      </unit>
+                      <localisation>-1</localisation>
+                      <informationLink></informationLink>
+                      <value>1000.0</value>
+                    </DoubleCharacteristic>
+                  </entry>
+                  <entry>
+                    <string>PEE</string>
+                    <DoubleCharacteristic>
+                      <id>5</id>
+                      <name>PEE</name>
+                      <description>[param:5] Primary electron energy that produces maximum (SEE) yield [keV].</description>
+                      <parentProperty class="Property" reference="../../../.."/>
+                      <unit class="SimpleStringUnit">
+                        <unit>[keV]</unit>
+                        <standardUnit>keV</standardUnit>
+                      </unit>
+                      <localisation>-1</localisation>
+                      <informationLink></informationLink>
+                      <value>0.2</value>
+                    </DoubleCharacteristic>
+                  </entry>
+                  <entry>
+                    <string>RCC</string>
+                    <DoubleCharacteristic>
+                      <id>16</id>
+                      <name>RCC</name>
+                      <description>[param:16] Radiation induced conductivity coefficient K [ohm-1.m-1] in the law K*(rate/rate0)^D, with rate0 = 1 Rad/s (TBC), (or equivalently with no rate0 coefficient and rate expressed in Rad/s).</description>
+                      <parentProperty class="Property" reference="../../../.."/>
+                      <unit class="SimpleStringUnit">
+                        <unit>[ohm-1.m-1]</unit>
+                        <standardUnit>ohm-1.m-1</standardUnit>
+                      </unit>
+                      <localisation>-1</localisation>
+                      <informationLink></informationLink>
+                      <value>1.0E-13</value>
+                    </DoubleCharacteristic>
+                  </entry>
+                  <entry>
+                    <string>SEEYK</string>
+                    <DoubleCharacteristic>
+                      <id>-1</id>
+                      <name>dustSEEYK</name>
+                      <description></description>
+                      <parentProperty class="Property" reference="../../../.."/>
+                      <unit class="SimpleStringUnit">
+                        <unit></unit>
+                        <standardUnit></standardUnit>
+                      </unit>
+                      <localisation>-1</localisation>
+                      <informationLink></informationLink>
+                      <value>0.01</value>
+                    </DoubleCharacteristic>
+                  </entry>
+                  <entry>
+                    <string>dustMassDensity</string>
+                    <DoubleCharacteristic>
+                      <id>-1</id>
+                      <name>dustMassDensity</name>
+                      <description></description>
+                      <parentProperty class="Property" reference="../../../.."/>
+                      <unit class="SimpleStringUnit">
+                        <unit>[kg/m3]</unit>
+                        <standardUnit>kg/m3</standardUnit>
+                      </unit>
+                      <localisation>-1</localisation>
+                      <informationLink></informationLink>
+                      <value>3000.0</value>
+                    </DoubleCharacteristic>
+                  </entry>
+                  <entry>
+                    <string>RPR2</string>
+                    <DoubleCharacteristic>
+                      <id>8</id>
+                      <name>RPR2</name>
+                      <description>[param:8] Range parameter r2 [Angstrom].</description>
+                      <parentProperty class="Property" reference="../../../.."/>
+                      <unit class="SimpleStringUnit">
+                        <unit>[Angstrom]</unit>
+                        <standardUnit>Angstrom</standardUnit>
+                      </unit>
+                      <localisation>-1</localisation>
+                      <informationLink></informationLink>
+                      <value>300.0</value>
+                    </DoubleCharacteristic>
+                  </entry>
+                  <entry>
+                    <string>RPR1</string>
+                    <DoubleCharacteristic>
+                      <id>6</id>
+                      <name>RPR1</name>
+                      <description>[param:6] Range parameter r1 [Angstrom] in the range expression r1 (E/E0)^n1 + r2 (E/E0)^n2, with E0 = 1 kEv (or equivalently with no E0 coefficient and E expressed in keV).</description>
+                      <parentProperty class="Property" reference="../../../.."/>
+                      <unit class="SimpleStringUnit">
+                        <unit>[Angstrom]</unit>
+                        <standardUnit>Angstrom</standardUnit>
+                      </unit>
+                      <localisation>-1</localisation>
+                      <informationLink></informationLink>
+                      <value>70.0</value>
+                    </DoubleCharacteristic>
+                  </entry>
+                  <entry>
+                    <string>ATN</string>
+                    <DoubleCharacteristic>
+                      <id>3</id>
+                      <name>ATN</name>
+                      <description>[param:3] Atomic number [-].</description>
+                      <parentProperty class="Property" reference="../../../.."/>
+                      <unit class="SimpleStringUnit">
+                        <unit>[-]</unit>
+                        <standardUnit>-</standardUnit>
+                      </unit>
+                      <localisation>-1</localisation>
+                      <informationLink></informationLink>
+                      <value>5.0</value>
+                    </DoubleCharacteristic>
+                  </entry>
+                  <entry>
+                    <string>MAP</string>
+                    <DoubleCharacteristic>
+                      <id>14</id>
+                      <name>MAP</name>
+                      <description>[param:14] Maximum (absolute) potential attainable before a discharge occurs.</description>
+                      <parentProperty class="Property" reference="../../../.."/>
+                      <unit class="SimpleStringUnit">
+                        <unit>[V]</unit>
+                        <standardUnit>V</standardUnit>
+                      </unit>
+                      <localisation>-1</localisation>
+                      <informationLink></informationLink>
+                      <value>10000.0</value>
+                    </DoubleCharacteristic>
+                  </entry>
+                  <entry>
+                    <string>MSEY</string>
+                    <DoubleCharacteristic>
+                      <id>4</id>
+                      <name>MSEY</name>
+                      <description>[param:4] Maximum secondary electron emission (SEE) yield for electron impact [-].</description>
+                      <parentProperty class="Property" reference="../../../.."/>
+                      <unit class="SimpleStringUnit">
+                        <unit>[-]</unit>
+                        <standardUnit>-</standardUnit>
+                      </unit>
+                      <localisation>-1</localisation>
+                      <informationLink></informationLink>
+                      <value>1.9</value>
+                    </DoubleCharacteristic>
+                  </entry>
+                  <entry>
+                    <string>RCP</string>
+                    <DoubleCharacteristic>
+                      <id>17</id>
+                      <name>RCP</name>
+                      <description>[param:17] Radiation induced conductivity power (D) [-].</description>
+                      <parentProperty class="Property" reference="../../../.."/>
+                      <unit class="SimpleStringUnit">
+                        <unit>[-]</unit>
+                        <standardUnit>-</standardUnit>
+                      </unit>
+                      <localisation>-1</localisation>
+                      <informationLink></informationLink>
+                      <value>1.0</value>
+                    </DoubleCharacteristic>
+                  </entry>
+                  <entry>
+                    <string>IPE</string>
+                    <DoubleCharacteristic>
+                      <id>11</id>
+                      <name>IPE</name>
+                      <description>[param:11] Incident proton energy that produces maximum secondaryelectron yield [keV].</description>
+                      <parentProperty class="Property" reference="../../../.."/>
+                      <unit class="SimpleStringUnit">
+                        <unit>[keV]</unit>
+                        <standardUnit>keV</standardUnit>
+                      </unit>
+                      <localisation>-1</localisation>
+                      <informationLink></informationLink>
+                      <value>140.0</value>
+                    </DoubleCharacteristic>
+                  </entry>
+                </characteristicList>
+                <isCompound>false</isCompound>
+                <type>Material properties</type>
+              </Property>
+            </entry>
+          </subPropertiesList>
+          <isCompound>true</isCompound>
+          <type>S/C material</type>
+        </Property>
+        <Property>
+          <id>8</id>
+          <name>Mesh Model - Spacecraft default</name>
+          <description>Default SC settings: 0 Dirichlet potential</description>
+          <characteristicList>
+            <entry>
+              <string>XyzS</string>
+              <TupleOfIntegerCharacteristic>
+                <id>58</id>
+                <name>XyzS</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[m]</unit>
+                  <standardUnit>m</standardUnit>
+                </unit>
+                <localisation>0</localisation>
+                <informationLink></informationLink>
+                <value>
+                  <int>0</int>
+                  <int>0</int>
+                  <int>0</int>
+                </value>
+              </TupleOfIntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>SurfFlag</string>
+              <IntegerCharacteristic>
+                <id>55</id>
+                <name>SurfFlag</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>1</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>NodeFlagS</string>
+              <IntegerCharacteristic>
+                <id>57</id>
+                <name>NodeFlagS</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>0</localisation>
+                <informationLink></informationLink>
+                <value>0</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>EdgeFlagS</string>
+              <IntegerCharacteristic>
+                <id>56</id>
+                <name>EdgeFlagS</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>1</localisation>
+                <informationLink></informationLink>
+                <value>0</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>Xyz</string>
+              <TupleOfIntegerCharacteristic>
+                <id>52</id>
+                <name>Xyz</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[m]</unit>
+                  <standardUnit>m</standardUnit>
+                </unit>
+                <localisation>0</localisation>
+                <informationLink></informationLink>
+                <value>
+                  <int>0</int>
+                  <int>0</int>
+                  <int>0</int>
+                </value>
+              </TupleOfIntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>SurfFlagS</string>
+              <IntegerCharacteristic>
+                <id>59</id>
+                <name>SurfFlagS</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>0</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>NodeFlag</string>
+              <IntegerCharacteristic>
+                <id>51</id>
+                <name>NodeFlag</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>0</localisation>
+                <informationLink></informationLink>
+                <value>1</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>EdgeFlag</string>
+              <IntegerCharacteristic>
+                <id>53</id>
+                <name>EdgeFlag</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>1</localisation>
+                <informationLink></informationLink>
+                <value>1</value>
+              </IntegerCharacteristic>
+            </entry>
+          </characteristicList>
+          <isCompound>false</isCompound>
+          <type>S/C mesh properties</type>
+        </Property>
+        <Property>
+          <id>0</id>
+          <name>No Actual Instrument Support</name>
+          <description>No instrument support for thi S/C surface.</description>
+          <characteristicList>
+            <entry>
+              <string>InstrumentSupport</string>
+              <IntegerCharacteristic>
+                <id>20</id>
+                <name>InstrumentSupport</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>0</value>
+              </IntegerCharacteristic>
+            </entry>
+          </characteristicList>
+          <isCompound>false</isCompound>
+          <type>S/C instrument support</type>
+        </Property>
+      </propertiesList>
+      <subGroupsList/>
+      <linkedMeshMaskIds>
+        <int>3200</int>
+      </linkedMeshMaskIds>
+      <type>Spacecraft surface group</type>
+    </com.artenum.frida.group.DefaultIBCGroup>
+    <com.artenum.frida.group.DefaultIBCGroup>
+      <name>FaceGroup</name>
+      <id>3300</id>
+      <description></description>
+      <priorityLevel>2</priorityLevel>
+      <allowSubGroup>false</allowSubGroup>
+      <mandatoryTypesList/>
+      <allowedTypesList/>
+      <propertiesList>
+        <Property>
+          <id>0</id>
+          <name>Plasma population BC: Boundary, default</name>
+          <description>Default boundary settings: particle injection on, outgoing particle to a sink</description>
+          <characteristicList>
+            <entry>
+              <string>IncomPart</string>
+              <IntegerCharacteristic>
+                <id>23</id>
+                <name>IncomPart</name>
+                <description></description>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>0</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>OutgoPart</string>
+              <IntegerCharacteristic>
+                <id>22</id>
+                <name>OutgoPart</name>
+                <description></description>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>1</value>
+              </IntegerCharacteristic>
+            </entry>
+          </characteristicList>
+          <isCompound>false</isCompound>
+          <type>Ext. Bound. Plasma Population BC</type>
+        </Property>
+        <Property>
+          <id>1</id>
+          <name>Electric field BC: Boundary, default</name>
+          <description>Default boundary settings: Fourier (alpha=1)</description>
+          <characteristicList>
+            <entry>
+              <string>BdDiriFlag</string>
+              <IntegerCharacteristic>
+                <id>12</id>
+                <name>BdDiriFlag</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>0</localisation>
+                <informationLink></informationLink>
+                <value>0</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>BdFourAlpha</string>
+              <DoubleCharacteristic>
+                <id>10</id>
+                <name>BdFourAlpha</name>
+                <description></description>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[m-1]</unit>
+                  <standardUnit>m-1</standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>0.0</value>
+              </DoubleCharacteristic>
+            </entry>
+            <entry>
+              <string>BdDiriPot</string>
+              <DoubleCharacteristic>
+                <id>11</id>
+                <name>BdDiriPot</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[V]</unit>
+                  <standardUnit>V</standardUnit>
+                </unit>
+                <localisation>0</localisation>
+                <informationLink></informationLink>
+                <value>0.0</value>
+              </DoubleCharacteristic>
+            </entry>
+            <entry>
+              <string>BdFourValue</string>
+              <DoubleCharacteristic>
+                <id>8</id>
+                <name>BdFourValue</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[V/m]</unit>
+                  <standardUnit>V/m</standardUnit>
+                </unit>
+                <localisation>0</localisation>
+                <informationLink></informationLink>
+                <value>0.0</value>
+              </DoubleCharacteristic>
+            </entry>
+            <entry>
+              <string>NodeFlagBd</string>
+              <IntegerCharacteristic>
+                <id>7</id>
+                <name>NodeFlagBd</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>0</localisation>
+                <informationLink></informationLink>
+                <value>0</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>BdFourFlag</string>
+              <IntegerCharacteristic>
+                <id>9</id>
+                <name>BdFourFlag</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>1</value>
+              </IntegerCharacteristic>
+            </entry>
+          </characteristicList>
+          <isCompound>false</isCompound>
+          <type>Ext. Bound. Electric field BC</type>
+        </Property>
+        <Property>
+          <id>0</id>
+          <name>Mesh Model Boundary, default</name>
+          <description>Default boundary settings</description>
+          <characteristicList>
+            <entry>
+              <string>EdgeFlagBd</string>
+              <IntegerCharacteristic>
+                <id>54</id>
+                <name>EdgeFlagBd</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>1</localisation>
+                <informationLink></informationLink>
+                <value>0</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>SurfFlag</string>
+              <IntegerCharacteristic>
+                <id>55</id>
+                <name>SurfFlag</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>8</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>Xyz</string>
+              <TupleOfIntegerCharacteristic>
+                <id>52</id>
+                <name>Xyz</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[m]</unit>
+                  <standardUnit>m</standardUnit>
+                </unit>
+                <localisation>0</localisation>
+                <informationLink></informationLink>
+                <value>
+                  <int>0</int>
+                  <int>0</int>
+                  <int>0</int>
+                </value>
+              </TupleOfIntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>NodeFlagBd</string>
+              <IntegerCharacteristic>
+                <id>7</id>
+                <name>NodeFlagBd</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>0</localisation>
+                <informationLink></informationLink>
+                <value>0</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>NodeFlag</string>
+              <IntegerCharacteristic>
+                <id>51</id>
+                <name>NodeFlag</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>0</localisation>
+                <informationLink></informationLink>
+                <value>8</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>XyzBd</string>
+              <TupleOfIntegerCharacteristic>
+                <id>50</id>
+                <name>XyzBd</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>0</localisation>
+                <informationLink></informationLink>
+                <value>
+                  <int>0</int>
+                  <int>0</int>
+                  <int>0</int>
+                </value>
+              </TupleOfIntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>BdFourFlag</string>
+              <IntegerCharacteristic>
+                <id>-1</id>
+                <name>BdFourFlag</name>
+                <description></description>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>-1</localisation>
+                <informationLink></informationLink>
+                <value>1</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>EdgeFlag</string>
+              <IntegerCharacteristic>
+                <id>53</id>
+                <name>EdgeFlag</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>1</localisation>
+                <informationLink></informationLink>
+                <value>8</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>SurfFlagBd</string>
+              <IntegerCharacteristic>
+                <id>49</id>
+                <name>SurfFlagBd</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>0</value>
+              </IntegerCharacteristic>
+            </entry>
+          </characteristicList>
+          <isCompound>false</isCompound>
+          <type>Ext. Bound. mesh properties</type>
+        </Property>
+      </propertiesList>
+      <subGroupsList/>
+      <linkedMeshMaskIds>
+        <int>3300</int>
+      </linkedMeshMaskIds>
+      <type>External boundary group</type>
+    </com.artenum.frida.group.DefaultIBCGroup>
+    <com.artenum.frida.group.DefaultIBCGroup>
+      <name>FaceGroup</name>
+      <id>3301</id>
+      <description></description>
+      <priorityLevel>3</priorityLevel>
+      <allowSubGroup>false</allowSubGroup>
+      <mandatoryTypesList/>
+      <allowedTypesList/>
+      <propertiesList>
+        <Property>
+          <id>0</id>
+          <name>Plasma population BC: Boundary, default</name>
+          <description>Default boundary settings: particle injection on, outgoing particle to a sink</description>
+          <characteristicList>
+            <entry>
+              <string>IncomPart</string>
+              <IntegerCharacteristic>
+                <id>23</id>
+                <name>IncomPart</name>
+                <description></description>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>0</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>OutgoPart</string>
+              <IntegerCharacteristic>
+                <id>22</id>
+                <name>OutgoPart</name>
+                <description></description>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>2</value>
+              </IntegerCharacteristic>
+            </entry>
+          </characteristicList>
+          <isCompound>false</isCompound>
+          <type>Ext. Bound. Plasma Population BC</type>
+        </Property>
+        <Property>
+          <id>1</id>
+          <name>Electric field BC: Boundary, default</name>
+          <description>Default boundary settings: Fourier (alpha=1)</description>
+          <characteristicList>
+            <entry>
+              <string>BdDiriFlag</string>
+              <IntegerCharacteristic>
+                <id>12</id>
+                <name>BdDiriFlag</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>0</localisation>
+                <informationLink></informationLink>
+                <value>0</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>BdFourAlpha</string>
+              <DoubleCharacteristic>
+                <id>10</id>
+                <name>BdFourAlpha</name>
+                <description></description>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[m-1]</unit>
+                  <standardUnit>m-1</standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>0.0</value>
+              </DoubleCharacteristic>
+            </entry>
+            <entry>
+              <string>BdDiriPot</string>
+              <DoubleCharacteristic>
+                <id>11</id>
+                <name>BdDiriPot</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[V]</unit>
+                  <standardUnit>V</standardUnit>
+                </unit>
+                <localisation>0</localisation>
+                <informationLink></informationLink>
+                <value>0.0</value>
+              </DoubleCharacteristic>
+            </entry>
+            <entry>
+              <string>BdFourValue</string>
+              <DoubleCharacteristic>
+                <id>8</id>
+                <name>BdFourValue</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[V/m]</unit>
+                  <standardUnit>V/m</standardUnit>
+                </unit>
+                <localisation>0</localisation>
+                <informationLink></informationLink>
+                <value>0.0</value>
+              </DoubleCharacteristic>
+            </entry>
+            <entry>
+              <string>NodeFlagBd</string>
+              <IntegerCharacteristic>
+                <id>7</id>
+                <name>NodeFlagBd</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>0</localisation>
+                <informationLink></informationLink>
+                <value>0</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>BdFourFlag</string>
+              <IntegerCharacteristic>
+                <id>9</id>
+                <name>BdFourFlag</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>1</value>
+              </IntegerCharacteristic>
+            </entry>
+          </characteristicList>
+          <isCompound>false</isCompound>
+          <type>Ext. Bound. Electric field BC</type>
+        </Property>
+        <Property>
+          <id>0</id>
+          <name>Mesh Model Boundary, default</name>
+          <description>Default boundary settings</description>
+          <characteristicList>
+            <entry>
+              <string>EdgeFlagBd</string>
+              <IntegerCharacteristic>
+                <id>54</id>
+                <name>EdgeFlagBd</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>1</localisation>
+                <informationLink></informationLink>
+                <value>0</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>SurfFlag</string>
+              <IntegerCharacteristic>
+                <id>55</id>
+                <name>SurfFlag</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>8</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>Xyz</string>
+              <TupleOfIntegerCharacteristic>
+                <id>52</id>
+                <name>Xyz</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[m]</unit>
+                  <standardUnit>m</standardUnit>
+                </unit>
+                <localisation>0</localisation>
+                <informationLink></informationLink>
+                <value reference="../../../../../../../com.artenum.frida.group.DefaultIBCGroup[3]/propertiesList/Property[3]/characteristicList/entry[3]/TupleOfIntegerCharacteristic/value"/>
+              </TupleOfIntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>NodeFlagBd</string>
+              <IntegerCharacteristic>
+                <id>7</id>
+                <name>NodeFlagBd</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>0</localisation>
+                <informationLink></informationLink>
+                <value>0</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>NodeFlag</string>
+              <IntegerCharacteristic>
+                <id>51</id>
+                <name>NodeFlag</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>0</localisation>
+                <informationLink></informationLink>
+                <value>8</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>XyzBd</string>
+              <TupleOfIntegerCharacteristic>
+                <id>50</id>
+                <name>XyzBd</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>0</localisation>
+                <informationLink></informationLink>
+                <value reference="../../../../../../../com.artenum.frida.group.DefaultIBCGroup[3]/propertiesList/Property[3]/characteristicList/entry[6]/TupleOfIntegerCharacteristic/value"/>
+              </TupleOfIntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>BdFourFlag</string>
+              <IntegerCharacteristic>
+                <id>-1</id>
+                <name>BdFourFlag</name>
+                <description></description>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>-1</localisation>
+                <informationLink></informationLink>
+                <value>1</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>EdgeFlag</string>
+              <IntegerCharacteristic>
+                <id>53</id>
+                <name>EdgeFlag</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>1</localisation>
+                <informationLink></informationLink>
+                <value>8</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>SurfFlagBd</string>
+              <IntegerCharacteristic>
+                <id>49</id>
+                <name>SurfFlagBd</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>0</value>
+              </IntegerCharacteristic>
+            </entry>
+          </characteristicList>
+          <isCompound>false</isCompound>
+          <type>Ext. Bound. mesh properties</type>
+        </Property>
+      </propertiesList>
+      <subGroupsList/>
+      <linkedMeshMaskIds>
+        <int>3301</int>
+      </linkedMeshMaskIds>
+      <type>External boundary group</type>
+    </com.artenum.frida.group.DefaultIBCGroup>
+    <com.artenum.frida.group.DefaultIBCGroup>
+      <name>FaceGroup</name>
+      <id>3400</id>
+      <description></description>
+      <priorityLevel>4</priorityLevel>
+      <allowSubGroup>false</allowSubGroup>
+      <mandatoryTypesList/>
+      <allowedTypesList/>
+      <propertiesList>
+        <Property>
+          <id>0</id>
+          <name>Plasma population BC: Boundary, default</name>
+          <description>Default boundary settings: particle injection on, outgoing particle to a sink</description>
+          <characteristicList>
+            <entry>
+              <string>IncomPart</string>
+              <IntegerCharacteristic>
+                <id>23</id>
+                <name>IncomPart</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>1</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>OutgoPart</string>
+              <IntegerCharacteristic>
+                <id>22</id>
+                <name>OutgoPart</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>0</value>
+              </IntegerCharacteristic>
+            </entry>
+          </characteristicList>
+          <isCompound>false</isCompound>
+          <type>Ext. Bound. Plasma Population BC</type>
+        </Property>
+        <Property>
+          <id>1</id>
+          <name>Electric field BC: Boundary, default</name>
+          <description>Default boundary settings: Fourier (alpha=1)</description>
+          <characteristicList>
+            <entry>
+              <string>BdDiriFlag</string>
+              <IntegerCharacteristic>
+                <id>12</id>
+                <name>BdDiriFlag</name>
+                <description></description>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>0</localisation>
+                <informationLink></informationLink>
+                <value>1</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>BdFourAlpha</string>
+              <DoubleCharacteristic>
+                <id>10</id>
+                <name>BdFourAlpha</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[m-1]</unit>
+                  <standardUnit>m-1</standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>1.0</value>
+              </DoubleCharacteristic>
+            </entry>
+            <entry>
+              <string>BdDiriPot</string>
+              <DoubleCharacteristic>
+                <id>11</id>
+                <name>BdDiriPot</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[V]</unit>
+                  <standardUnit>V</standardUnit>
+                </unit>
+                <localisation>0</localisation>
+                <informationLink></informationLink>
+                <value>0.0</value>
+              </DoubleCharacteristic>
+            </entry>
+            <entry>
+              <string>BdFourValue</string>
+              <DoubleCharacteristic>
+                <id>8</id>
+                <name>BdFourValue</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[V/m]</unit>
+                  <standardUnit>V/m</standardUnit>
+                </unit>
+                <localisation>0</localisation>
+                <informationLink></informationLink>
+                <value>0.0</value>
+              </DoubleCharacteristic>
+            </entry>
+            <entry>
+              <string>NodeFlagBd</string>
+              <IntegerCharacteristic>
+                <id>7</id>
+                <name>NodeFlagBd</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>0</localisation>
+                <informationLink></informationLink>
+                <value>0</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>BdFourFlag</string>
+              <IntegerCharacteristic>
+                <id>9</id>
+                <name>BdFourFlag</name>
+                <description></description>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>0</value>
+              </IntegerCharacteristic>
+            </entry>
+          </characteristicList>
+          <isCompound>false</isCompound>
+          <type>Ext. Bound. Electric field BC</type>
+        </Property>
+        <Property>
+          <id>0</id>
+          <name>Mesh Model Boundary, default</name>
+          <description>Default boundary settings</description>
+          <characteristicList>
+            <entry>
+              <string>EdgeFlagBd</string>
+              <IntegerCharacteristic>
+                <id>54</id>
+                <name>EdgeFlagBd</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>1</localisation>
+                <informationLink></informationLink>
+                <value>0</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>SurfFlag</string>
+              <IntegerCharacteristic>
+                <id>55</id>
+                <name>SurfFlag</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>8</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>Xyz</string>
+              <TupleOfIntegerCharacteristic>
+                <id>52</id>
+                <name>Xyz</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[m]</unit>
+                  <standardUnit>m</standardUnit>
+                </unit>
+                <localisation>0</localisation>
+                <informationLink></informationLink>
+                <value reference="../../../../../../../com.artenum.frida.group.DefaultIBCGroup[3]/propertiesList/Property[3]/characteristicList/entry[3]/TupleOfIntegerCharacteristic/value"/>
+              </TupleOfIntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>NodeFlagBd</string>
+              <IntegerCharacteristic>
+                <id>7</id>
+                <name>NodeFlagBd</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>0</localisation>
+                <informationLink></informationLink>
+                <value>0</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>NodeFlag</string>
+              <IntegerCharacteristic>
+                <id>51</id>
+                <name>NodeFlag</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>0</localisation>
+                <informationLink></informationLink>
+                <value>8</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>XyzBd</string>
+              <TupleOfIntegerCharacteristic>
+                <id>50</id>
+                <name>XyzBd</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>0</localisation>
+                <informationLink></informationLink>
+                <value reference="../../../../../../../com.artenum.frida.group.DefaultIBCGroup[3]/propertiesList/Property[3]/characteristicList/entry[6]/TupleOfIntegerCharacteristic/value"/>
+              </TupleOfIntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>BdFourFlag</string>
+              <IntegerCharacteristic>
+                <id>-1</id>
+                <name>BdFourFlag</name>
+                <description></description>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[]</unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>1</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>EdgeFlag</string>
+              <IntegerCharacteristic>
+                <id>53</id>
+                <name>EdgeFlag</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>1</localisation>
+                <informationLink></informationLink>
+                <value>8</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>SurfFlagBd</string>
+              <IntegerCharacteristic>
+                <id>49</id>
+                <name>SurfFlagBd</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>0</value>
+              </IntegerCharacteristic>
+            </entry>
+          </characteristicList>
+          <isCompound>false</isCompound>
+          <type>Ext. Bound. mesh properties</type>
+        </Property>
+      </propertiesList>
+      <subGroupsList/>
+      <linkedMeshMaskIds>
+        <int>3400</int>
+      </linkedMeshMaskIds>
+      <type>External boundary group</type>
+    </com.artenum.frida.group.DefaultIBCGroup>
+    <com.artenum.frida.group.DefaultIBCGroup>
+      <name>VolumeGroup</name>
+      <id>3500</id>
+      <description></description>
+      <priorityLevel>5</priorityLevel>
+      <allowSubGroup>false</allowSubGroup>
+      <mandatoryTypesList/>
+      <allowedTypesList/>
+      <propertiesList>
+        <Property>
+          <id>5</id>
+          <name>Plasma Model in Volume, default</name>
+          <description>Default volume settings: no volume interaction nor background density</description>
+          <characteristicList>
+            <entry>
+              <string>BackGroundDens</string>
+              <DoubleCharacteristic>
+                <id>45</id>
+                <name>BackGroundDens</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[m-3]</unit>
+                  <standardUnit>m-3</standardUnit>
+                </unit>
+                <localisation>3</localisation>
+                <informationLink></informationLink>
+                <value>0.0</value>
+              </DoubleCharacteristic>
+            </entry>
+            <entry>
+              <string>VolInteracFlag</string>
+              <IntegerCharacteristic>
+                <id>44</id>
+                <name>VolInteracFlag</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>3</localisation>
+                <informationLink></informationLink>
+                <value>0</value>
+              </IntegerCharacteristic>
+            </entry>
+          </characteristicList>
+          <isCompound>false</isCompound>
+          <type>Volume plasma model</type>
+        </Property>
+        <Property>
+          <id>4</id>
+          <name>Mesh Model Volume, default</name>
+          <description>Default mesh volume settings</description>
+          <characteristicList>
+            <entry>
+              <string>SurfFlag</string>
+              <IntegerCharacteristic>
+                <id>55</id>
+                <name>SurfFlag</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>2</localisation>
+                <informationLink></informationLink>
+                <value>0</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>Xyz</string>
+              <TupleOfIntegerCharacteristic>
+                <id>52</id>
+                <name>Xyz</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit>[m]</unit>
+                  <standardUnit>m</standardUnit>
+                </unit>
+                <localisation>0</localisation>
+                <informationLink></informationLink>
+                <value>
+                  <int>0</int>
+                  <int>0</int>
+                  <int>0</int>
+                </value>
+              </TupleOfIntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>NodeFlag</string>
+              <IntegerCharacteristic>
+                <id>51</id>
+                <name>NodeFlag</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>0</localisation>
+                <informationLink></informationLink>
+                <value>0</value>
+              </IntegerCharacteristic>
+            </entry>
+            <entry>
+              <string>EdgeFlag</string>
+              <IntegerCharacteristic>
+                <id>53</id>
+                <name>EdgeFlag</name>
+                <parentProperty class="Property" reference="../../../.."/>
+                <unit class="SimpleStringUnit">
+                  <unit></unit>
+                  <standardUnit></standardUnit>
+                </unit>
+                <localisation>1</localisation>
+                <informationLink></informationLink>
+                <value>0</value>
+              </IntegerCharacteristic>
+            </entry>
+          </characteristicList>
+          <isCompound>false</isCompound>
+          <type>Volume mesh properties</type>
+        </Property>
+      </propertiesList>
+      <subGroupsList/>
+      <linkedMeshMaskIds>
+        <int>3500</int>
+      </linkedMeshMaskIds>
+      <type>Computational volume group</type>
+    </com.artenum.frida.group.DefaultIBCGroup>
+  </groupList>
+</com.artenum.frida.group.OrderedGroupList>

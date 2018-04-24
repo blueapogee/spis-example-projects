@@ -1,0 +1,2 @@
+Time s, total number of superparticles-
+1.8067176, 0.0

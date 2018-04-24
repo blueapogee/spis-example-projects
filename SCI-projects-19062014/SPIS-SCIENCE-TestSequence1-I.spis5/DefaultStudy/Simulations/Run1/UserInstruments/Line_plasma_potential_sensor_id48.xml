@@ -1,0 +1,128 @@
+<org.keridwen.modelling.global.parameters.GlobalParametersList>
+  <id>-1</id>
+  <name></name>
+  <description></description>
+  <category></category>
+  <list>
+    <GlobalParameter>
+      <keyName>instrumentSamplePeriod</keyName>
+      <category>Mandatory parameters</category>
+      <typeAString>float</typeAString>
+      <valueAsFloat>2.5E-4</valueAsFloat>
+      <valueAsDouble>0.0</valueAsDouble>
+      <valueAsInt>0</valueAsInt>
+      <valueAsBoolean>false</valueAsBoolean>
+      <unit>[s]</unit>
+      <description>sampling period</description>
+      <verbosityLevel>LOW</verbosityLevel>
+    </GlobalParameter>
+    <GlobalParameter>
+      <keyName>instrumentOutputLevel</keyName>
+      <category>Mandatory parameters</category>
+      <typeAString>int</typeAString>
+      <valueAsFloat>0.0</valueAsFloat>
+      <valueAsDouble>0.0</valueAsDouble>
+      <valueAsInt>0</valueAsInt>
+      <valueAsBoolean>false</valueAsBoolean>
+      <unit>[-]</unit>
+      <description>level of outputs (0 = nominal; 1 = extra ASCII files</description>
+      <verbosityLevel>LOW</verbosityLevel>
+    </GlobalParameter>
+    <GlobalParameter>
+      <keyName>instrumentObservationDuration</keyName>
+      <category>Mandatory parameters</category>
+      <typeAString>float</typeAString>
+      <valueAsFloat>2.5E-4</valueAsFloat>
+      <valueAsDouble>0.0</valueAsDouble>
+      <valueAsInt>0</valueAsInt>
+      <valueAsBoolean>false</valueAsBoolean>
+      <unit>[s]</unit>
+      <description>observation duration</description>
+      <verbosityLevel>LOW</verbosityLevel>
+    </GlobalParameter>
+    <GlobalParameter>
+      <keyName>instrumentX1</keyName>
+      <category>Mandatory parameters</category>
+      <typeAString>float</typeAString>
+      <valueAsFloat>0.0</valueAsFloat>
+      <valueAsDouble>0.0</valueAsDouble>
+      <valueAsInt>0</valueAsInt>
+      <valueAsBoolean>false</valueAsBoolean>
+      <unit>[m]</unit>
+      <description>x coordinate point 1 of a line sensor</description>
+      <verbosityLevel>LOW</verbosityLevel>
+    </GlobalParameter>
+    <GlobalParameter>
+      <keyName>instrumentY1</keyName>
+      <category>Mandatory parameters</category>
+      <typeAString>float</typeAString>
+      <valueAsFloat>0.0</valueAsFloat>
+      <valueAsDouble>0.0</valueAsDouble>
+      <valueAsInt>0</valueAsInt>
+      <valueAsBoolean>false</valueAsBoolean>
+      <unit>[m]</unit>
+      <description>y coordinate point 1 of a line sensor</description>
+      <verbosityLevel>LOW</verbosityLevel>
+    </GlobalParameter>
+    <GlobalParameter>
+      <keyName>instrumentZ1</keyName>
+      <category>Mandatory parameters</category>
+      <typeAString>float</typeAString>
+      <valueAsFloat>-1.1</valueAsFloat>
+      <valueAsDouble>0.0</valueAsDouble>
+      <valueAsInt>0</valueAsInt>
+      <valueAsBoolean>false</valueAsBoolean>
+      <unit>[m]</unit>
+      <description>z coordinate point 1 of a line sensor</description>
+      <verbosityLevel>LOW</verbosityLevel>
+    </GlobalParameter>
+    <GlobalParameter>
+      <keyName>instrumentX2</keyName>
+      <category>Mandatory parameters</category>
+      <typeAString>float</typeAString>
+      <valueAsFloat>0.0</valueAsFloat>
+      <valueAsDouble>0.0</valueAsDouble>
+      <valueAsInt>0</valueAsInt>
+      <valueAsBoolean>false</valueAsBoolean>
+      <unit>[m]</unit>
+      <description>x coordinate point 2 of a line sensor</description>
+      <verbosityLevel>LOW</verbosityLevel>
+    </GlobalParameter>
+    <GlobalParameter>
+      <keyName>instrumentY2</keyName>
+      <category>Mandatory parameters</category>
+      <typeAString>float</typeAString>
+      <valueAsFloat>0.0</valueAsFloat>
+      <valueAsDouble>0.0</valueAsDouble>
+      <valueAsInt>0</valueAsInt>
+      <valueAsBoolean>false</valueAsBoolean>
+      <unit>[m]</unit>
+      <description>y coordinate point 2 of a line sensor</description>
+      <verbosityLevel>LOW</verbosityLevel>
+    </GlobalParameter>
+    <GlobalParameter>
+      <keyName>instrumentZ2</keyName>
+      <category>Mandatory parameters</category>
+      <typeAString>float</typeAString>
+      <valueAsFloat>-9.9</valueAsFloat>
+      <valueAsDouble>0.0</valueAsDouble>
+      <valueAsInt>0</valueAsInt>
+      <valueAsBoolean>false</valueAsBoolean>
+      <unit>[m]</unit>
+      <description>z coordinate point 2 of a line sensor</description>
+      <verbosityLevel>LOW</verbosityLevel>
+    </GlobalParameter>
+    <GlobalParameter>
+      <keyName>instrumentPointNbr</keyName>
+      <category>Mandatory parameters</category>
+      <typeAString>int</typeAString>
+      <valueAsFloat>0.0</valueAsFloat>
+      <valueAsDouble>0.0</valueAsDouble>
+      <valueAsInt>20</valueAsInt>
+      <valueAsBoolean>false</valueAsBoolean>
+      <unit>[-]</unit>
+      <description>number of points of a line sensor</description>
+      <verbosityLevel>LOW</verbosityLevel>
+    </GlobalParameter>
+  </list>
+</org.keridwen.modelling.global.parameters.GlobalParametersList>
